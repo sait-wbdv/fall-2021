@@ -1,5 +1,16 @@
+{% set week = 1 %}
+{% set prevDay = 0 %}
+<h3>Week {{ week }} </h3>
 <ul>
   {% for lesson in lessonlist %}
-    <li><strong><a href="{{ lesson.url | url }}">{{ lesson.data.title }}</a></strong> - <span>{{ lesson.data.description }}</span></li>
+    {% if lesson.date.getDay() < prevDay %}
+      {% set week = week + 1 %}
+      </ul>
+    <h3>Week {{ week }}</h3>
+      <ul>
+    {% endif %}
+    <li><h4>{{ lesson.date | readablePostDate }}: <a href="{{ lesson.url | url }}">{{ lesson.data.title }}</a></h4></li>
+    {% set prevDay = lesson.date.getDay() %}
   {% endfor %}
+  </ul>
 </ul>
