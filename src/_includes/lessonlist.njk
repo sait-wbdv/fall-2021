@@ -1,0 +1,5 @@
+<ul>
+  {% for lesson in lessonlist %}
+    <li><strong><a href="{{ lesson.url | url }}">{{ lesson.data.title }}</a></strong> - <span>{{ lesson.data.description }}</span></li>
+  {% endfor %}
+</ul>

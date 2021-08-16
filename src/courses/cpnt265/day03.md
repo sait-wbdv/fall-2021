@@ -1,8 +1,8 @@
 ---
 layout: layouts/day.njk
-title: CPNT 201 Day 2
+title: CPNT 265 Day 3
 description: This is a description
-date: 2021-09-15
+date: 2021-12-03
 ---
 
 A lesson plan!

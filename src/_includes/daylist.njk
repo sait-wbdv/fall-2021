@@ -1,5 +1,5 @@
 <ul>
   {% for day in daylist %}
-    <li><strong><a href="{{ day.url | url }}">{{ day.data.title }}</a></strong> - <span>{{ day.data.description }}</span></li>
+    <li><strong><a href="{{ day.url | url }}">{{ day.data.title }}</a></strong> - <span>{{ day.data.description }}</span> - {{ day.data.tags }}</li>
   {% endfor %}
 </ul>
