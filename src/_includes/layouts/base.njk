@@ -2,15 +2,32 @@
 <html>
 <head>
   <title>{{ page.title }}</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="{{ "/assets/css/reset.css" | url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/utilities.css" | url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | url }}">
+  <link rel="stylesheet" href="{{ "/assets/fonts/raleway-light_open-sans-light.css" | url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | url }}">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
 </head>
 <body>
+<div class="wrapper">
   <header class="page-header">
-    <a href="/winter-2021"><img class="sait-logo" src={{ "/images/sait-logo.png" | url }} alt="SAIT Logo"></a>
+    <a href="/winter-2021"><img class="sait-logo" src={{ "/assets/images/sait-logo.png" | url }} alt="SAIT Logo"></a>
     <div>
       <p class="site-name">SAIT WBDV</p>
       <p class="tagline">Web Developer Fast Track - Winter 2021</p>
     </div>
-    <nav>
+    <nav class="primary">
       <ul>
         <li><a href="{{ "/" | url }}">Home</a></li>
         <li><a href="{{ "/courses" | url }}">Courses</a></li>
@@ -22,7 +39,8 @@
     {{ content | safe }}
   </main>
   <footer>
-    &copy; 2021 Tony Grimes. MIT License.
-  </footer>  
+    &copy; 2021 MIT License.
+  </footer>
+</div>
 </body>
 </html>

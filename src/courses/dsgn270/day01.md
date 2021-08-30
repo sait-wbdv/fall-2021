@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
 title: DSGN 270 Day 1 - Visual hierarchy in design
-description: Find an 
+description: 
 date: 2021-09-08
 ---
 

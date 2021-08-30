@@ -1,14 +1,18 @@
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy('src/images');
-  eleventyConfig.addPassthroughCopy('src/css');
-  eleventyConfig.addPassthroughCopy('src/js');
+  eleventyConfig.addPassthroughCopy('src/assets');
   
-  eleventyConfig.addFilter("readablePostDate", (dateObj) => {
+  eleventyConfig.addFilter("shortDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
         zone: "Europe/Amsterdam",
     }).setLocale('en').toFormat('LLL d');
+  });
+
+  eleventyConfig.addFilter("longDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+        zone: "Europe/Amsterdam",
+    }).setLocale('en').toFormat('ccc, LLLL d');
   });
 
   return {
