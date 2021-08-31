@@ -20,6 +20,7 @@ module.exports = function(eleventyConfig) {
       output: "docs",
       input: "src"
     },
+    pathPrefix: "/fall-2021/",
     templateFormats: [
       "md",
       "njk",
