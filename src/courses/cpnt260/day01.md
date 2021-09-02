@@ -4,123 +4,148 @@ title: CPNT 260 Day 1
 description: Understanding the browser and languages of the web
 date: 2021-09-16
 ---
-## Goal of the day
+## Trophy of the day: A wiki page
 [img here]
-Create an html page on a topic of your choice. Examples:
-- current interest
-- yourself
-- your kids
+- Create an html wiki page on a topic of your choice.
+- Examples:
+  - A current interest
+  - A group or organization
+  - A concept or theory
+  - A game or sport
 
-### Requirements
-Must be 
-- semantic
-  - `nav, header, main, footer, article, section, div...`
-  - `h1`, `h2`
-  - lists
-- responsive
-  - `max-width`
-  - `margin: auto`
-  - `ch`, `vw`
-  - selectors
-- ???
+## Assignment 1: FreeCodeCamp HTML and CSS
+- **Due: Monday September 20**
+- [Assignment Link]()
+- Complete:
+  - Responsive Web Design: Basic HTML and HTML5 (28 questions)
+  - Responsive Web Design: Basic CSS (44 questions)
+  - [FreeCodeCamp Course Link](https://www.freecodecamp.org/learn/responsive-web-design/)
 
 ---
 
+## Overview **ADD ANCHORS**
+1. Plan it out
+  - Overview of HTML, CSS, JavaScript
+  - Exploring web page code
+  - Questions
+2. Brute force
+    - Site Layout and Semantic HTML
+        - continued from 270 day 2
+    - Style using CSS
+        - continued from 270 Day 4
+3. Walkthrough
+    - Code review
+      - add comments
+      - check for errors
+4. Optimize/Test
+    - Improve code
+    - Show and Tell
+
+---
+## Topic 1: HTML, CSS, and JavaScript
+
+### Key Terms
+HTML (HyperText Markup Language)
+  : The standard language for documents that will be displayed on the web. It uses tags to structure and describe types of information. **The content**
+CSS (Cascading Style Sheets)
+  : A stylesheet languaged that is used to design how web content will be displayed. It includes colour, layout, fonts etc. Separates the design rules from the content for maintainable code. **How content looks**
+JS (JavaScript)
+  : A multi-paradigm scripting/programming language that enables websites with advanced interactive features. Originally a frontend browser focused language, it has now been extended to be a backend language. **content interactivity**
+DOM (Document Object Model)
+  : A programming interface for web documents. It creates a representation of a web page that can be manipulated by scripting languages (such as javascript or php).
+
+### Tool Time
+[Firefox devtools](https://developer.mozilla.org/en-US/docs/Tools)
+  : browser based devtools for firefox. Especially good for examining css styling.
+
+### Notes
+
+---
+## Topic 2: Site Layout and Semantic HTML
+_Creating the content of the web_
+
+### Key Terms
+Body
+  : The part of the HTML document where your content goes
+Elements
+  : The building blog of html content. Each element is defined by an opening and closing tag.
+Head
+  : The part of the HTML document where your metadata, links to stylesheets, and javascript links go
+Nesting
+  : The parent - child relationship between elements. Placing content elements such as images and text inside containing elements such as articles and sections.
+Tags
+  : These describe how to format content as elements.
+Semantic HTML
+  : Semantic HTML is markup that describes meaning as well as presentation.
+
+### Tool Time
+[Codepen](https://codepen.io)
+  : A browser based frontend development environment for publically creating and sharing design ideas.
+[Lorem Ipsum](https://loremipsum.io/generator/)
+  : A generator for placeholder text.
+[Lorem Picsum](https://picsum.photos/)
+  : A random image generator for placeholder images.
+
+### Notes
+ 
+---
+### Activity Morning: Create a wiki page
+#### Requirements
+- It must be semantic
+  - `nav, header, main, footer, article, section, div...`
+  - `h1`, `h2`, `p`...
+
+---
+## Topic 3: Style with CSS
+_Stylizing the web_
+
+### Key Terms
+Selectors
+  : Define elements that css rules are applied to. [Review the 5 types of selectors here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+Declarations
+  : These are the rules used to stylize elements. They consist of a property and a value. [More information can be found here](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
+
+---
+## Activity 2: Stylize your wiki page
+
+#### Requirements
+- It must be responsive
+  - `max-width`
+  - `margin: auto`
+  - `ch`, `vw`
+- Set the font family
+
+---
+## Homework for next class
+- Finish Assignment 1
+- Watch [Modern Layouts: Getting Out of Our Ruts](https://www.youtube.com/watch?v=jreccgYLfx8)
+
+---
+{{ comment }}
 ## Overview
 1. Plan it out
+  - **HTML, CSS, JS**
+  - Questions
+  - Theory
+  - Visual/Code Examples
+  - Pseudo code
 2. Brute force
-    - Semantic HTML
+    - **Site Layout and Semantic HTML**
         - continued from 270 day 2
-    - Responsive CSS
+    - **Style using CSS**
         - continued from 270 Day 4
     - Activity
 3. Walkthrough
     - discussion
     - guiding question
+    - walkthrough: add comments to code
+    - recap learning objectives
 4. Optimize/Test
-    - Stretch (padlet)
-    - Polish
-    - Validation
+    - Code Validation
+    - Show and Tell
+    - Mentor pit
+    - Dailies
     - Deploy
 
----
-## Topic 1
-- Terminology
-- Reference
 
----
-## Activity 1
-- Materials
-
----
-## Topic 2
-
----
-## Afternoon
-
----
-## Homework for tomorrow
-
-
-# CPNT-260 Day 1 Websites, Browsers, Coding, and You
-__
-
-## Goals
-
-
-## Learning Objectives
-* Difference between HTML, CSS, and JavaScript
-* Semantic HTML
-  * `nav, header, main, footer, article, section, div...`
-* Typography, fallbacks
-  * `link rel="" href=""`
-* max-width
-    * `max-width`
-* pixels (px) and font-size
-  * `font-size, clamp(), px...`
-* the img tag
-  * `img src="" alt="".`
-
-## Tools
-* Browser Dev Tools
-  * Firefox
-  * Chrome
-* Codepen
-* Google Fonts
-  
-## Basic Layout and Semantic HTML
-* Demo turning a wireframe into a hierarchy of semantic containers with some text content
-
-## Site Content
-* Text Content Basics
-  * Font size types
-    * headings, paragraphs, lists, links
-      * word-spacing
-      * letter-spacing
-      * line-height
-      * width
-     * Adding google fonts
-  * Long form text
-* Adding Images
-  * img tag and alt text
-  * figure and figcaption
-  
-## Developer Workflow
-* Outline Problem
-* Plan code
-* bruteforce write code
-* take a break
-* review code
-* optimize code
- 
-### Pair Coding
-* Pair Coding Video
-* Purpose of pair coding
-
-## Dailies
-* Wiki Page Pair Code exercise
-
-## Homework
-* FreeCodeCamp Responsive Design Course
-  * Basic HTML
-  * Basic CSS
+{{ comment }}
