@@ -1,16 +1,72 @@
 ---
 layout: layouts/day.njk
 title: CPNT 260 Day 1
-description: This is a description
+description: Understanding the browser and languages of the web
 date: 2021-09-16
 ---
+## Goal of the day
+[img here]
+Create an html page on a topic of your choice. Examples:
+- current interest
+- yourself
+- your kids
+
+### Requirements
+Must be 
+- semantic
+  - `nav, header, main, footer, article, section, div...`
+  - `h1`, `h2`
+  - lists
+- responsive
+  - `max-width`
+  - `margin: auto`
+  - `ch`, `vw`
+  - selectors
+- ???
+
+---
+
+## Overview
+1. Plan it out
+2. Brute force
+    - Semantic HTML
+        - continued from 270 day 2
+    - Responsive CSS
+        - continued from 270 Day 4
+    - Activity
+3. Walkthrough
+    - discussion
+    - guiding question
+4. Optimize/Test
+    - Stretch (padlet)
+    - Polish
+    - Validation
+    - Deploy
+
+---
+## Topic 1
+- Terminology
+- Reference
+
+---
+## Activity 1
+- Materials
+
+---
+## Topic 2
+
+---
+## Afternoon
+
+---
+## Homework for tomorrow
+
 
 # CPNT-260 Day 1 Websites, Browsers, Coding, and You
-_Understanding the environment and languages of the web_
+__
 
 ## Goals
-* Create html pages with good visual hierarchy
-* Create responsive long form text
+
 
 ## Learning Objectives
 * Difference between HTML, CSS, and JavaScript
