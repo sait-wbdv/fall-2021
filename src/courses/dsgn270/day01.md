@@ -1,15 +1,65 @@
 ---
 layout: layouts/day.njk
-title: DSGN 270 Day 1 - Visual hierarchy in design
+title: DSGN 270 Day 1 - Web usability and convention
 description: 
 date: 2021-09-08
 ---
 
-## Homework
-1. Tool time
-    - Read: [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-        - Markdown will be used to write your GitHub README files (the file nerds use to document their projects). Github converts your markdown into HTML.
-2. Mental Models
-    - Watch: [UX Design Basics - Mental Models](https://www.youtube.com/watch?v=9gM8K4ooavY) by Jamal Nichols
-    - Find an example of good/bad/vital product design (a handy tool, piece of equipment, etc) in your immediate(ish) area (home, office, vehicle, etc). You will be discussing your find in a group of 3 or 4 tomorrow.
+## Trophy of the day
 
+## [Plan it out]
+
+## [Brute force]
+
+## [Walk-Through]
+
+## [Optimize]
+
+---
+
+## Trophy of the day
+- railed for mild
+- options for medium
+- inspired for spicy
+
+## Prep
+- readings
+- watchings
+- doings
+
+## Materials
+- sample code
+- reference
+- key takeaways
+- formats
+    - padlets
+    - eleventy
+    - gists
+    - citadel
+
+## Terminology
+
+## Overview
+1. Plan it out
+    - questions
+    - theory and examples
+    - pseudo-code
+2. Brute force
+    - demos
+    - activity
+    - formats
+        - pair
+        - pair plus
+        - treasure hunt
+3. Walk-through/reflect
+    - guiding question
+    - recap learning objectives
+    - tie back to trophy
+    - formats
+        - summary of findings
+        - show-and-tell
+4. Optimize/test/stretch
+    - show-and-tell
+    - review
+    - mentor pit
+    - dailies

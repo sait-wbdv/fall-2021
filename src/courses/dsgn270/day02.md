@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: DSGN 270 Day 2
+title: DSGN 270 Day 2 - Visual hierarchy for developers
 description: This is some Day 2!
 date: 2021-09-09
 ---
@@ -12,3 +12,6 @@ date: 2021-09-09
 2. Accessibility
     - Read: [What is accessibility?](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
     - Watch: [JAWS Screen Reader Demo](https://youtu.be/2PMuBQ7LyOw) by [Blind Inspirationcast](https://www.youtube.com/channel/UCKHMrCSX3thkIsb3oDD_aJw)
+
+## Visual hierarchy
+- [Bad hierarchy example](https://www.evolvemarketingteam.com/blog/web-design/what-is-a-wireframe-and-why-is-it-important/)
