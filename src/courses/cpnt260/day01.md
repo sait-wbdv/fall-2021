@@ -12,6 +12,7 @@ date: 2021-09-16
   - A group or organization
   - A concept or theory
   - A game or sport
+- [Wiki pages in the wild](https://aelieve.com/rankings/websites/category/reference/best-wiki-sites/)
 
 ## Assignment 1: FreeCodeCamp HTML and CSS
 - **Due: Monday September 20**
@@ -22,7 +23,6 @@ date: 2021-09-16
   - [FreeCodeCamp Course Link](https://www.freecodecamp.org/learn/responsive-web-design/)
 
 ---
-
 ## Overview **ADD ANCHORS**
 1. Plan it out
   - Overview of HTML, CSS, JavaScript
@@ -39,7 +39,6 @@ date: 2021-09-16
       - check for errors
 4. Optimize/Test
     - Improve code
-    - Show and Tell
 
 ---
 ## Topic 1: HTML, CSS, and JavaScript
@@ -89,7 +88,7 @@ Semantic HTML
 ### Notes
  
 ---
-### Activity Morning: Create a wiki page
+### Activity 1: Create a wiki page
 #### Requirements
 - It must be semantic
   - `nav, header, main, footer, article, section, div...`
@@ -108,7 +107,7 @@ Declarations
 ### Notes
 
 ---
-## Activity 2: Stylize your wiki page
+### Activity 2: Stylize your wiki page
 
 #### Requirements
 - It must be responsive
@@ -118,14 +117,14 @@ Declarations
 - Set the font family
 
 ---
-## Topic 4: Walkthrough
+## Walkthrough
 - Code review
 - Bug Hunting
 - Discussion
 - Comment and plan code changes
 
 ---
-## Activity 3: Optimize
+## Optimize
 _End of Day Activity_
 - Implement changes noted in comments
 - Validate Code
