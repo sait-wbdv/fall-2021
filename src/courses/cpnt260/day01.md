@@ -105,6 +105,8 @@ Selectors
 Declarations
   : These are the rules used to stylize elements. They consist of a property and a value. [More information can be found here](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
 
+### Notes
+
 ---
 ## Activity 2: Stylize your wiki page
 
@@ -116,36 +118,22 @@ Declarations
 - Set the font family
 
 ---
+## Topic 4: Walkthrough
+- Code review
+- Bug Hunting
+- Discussion
+- Comment and plan code changes
+
+---
+## Activity 3: Optimize
+_End of Day Activity_
+- Implement changes noted in comments
+- Validate Code
+- Deploy and Submit
+
+---
 ## Homework for next class
 - Finish Assignment 1
 - Watch [Modern Layouts: Getting Out of Our Ruts](https://www.youtube.com/watch?v=jreccgYLfx8)
 
 ---
-{{ comment }}
-## Overview
-1. Plan it out
-  - **HTML, CSS, JS**
-  - Questions
-  - Theory
-  - Visual/Code Examples
-  - Pseudo code
-2. Brute force
-    - **Site Layout and Semantic HTML**
-        - continued from 270 day 2
-    - **Style using CSS**
-        - continued from 270 Day 4
-    - Activity
-3. Walkthrough
-    - discussion
-    - guiding question
-    - walkthrough: add comments to code
-    - recap learning objectives
-4. Optimize/Test
-    - Code Validation
-    - Show and Tell
-    - Mentor pit
-    - Dailies
-    - Deploy
-
-
-{{ comment }}
