@@ -1,16 +1,17 @@
 ---
 layout: layouts/day.njk
 title: CPNT 260 Day 2
-description: Make things look good
+description: Make things look good and work across devices
 date: 2021-09-20
 ---
 
 ## Trophy of the day: Responsive Page Design
 [img here]
+- Create a Page with a Site Navigation
 
 ## Review
-- Last Class Trophy Show and Tell
-- Go over questions form previous day
+- Trophies from last class
+- Go over questions from last day
 
 ---
 ## Overview
@@ -20,7 +21,6 @@ date: 2021-09-20
 2. Brute force
   - Responsive Fonts
   - Site Navigation
-    - _related to Jen Simmons video and dsn_
 3. Walkthrough
   - Code review
     - add comments
@@ -37,9 +37,9 @@ _Using different types of content_
 ### Notes
 
 ---
-### Activity 1: Create a 404 Page
+## Activity 1: Create a 404 Page
 
-#### Requirements
+### Requirements
 - It must have a 3+ colour pallette
 - It must have some sort of image
 - It must have a themed concept. 
@@ -66,27 +66,33 @@ _The basics of guiding user flow_
 ### Notes
 
 ---
-### Activity 2: A Web Page with a Nav Menu
+## Activity 2: A Web Page with a Nav Menu
 
-#### Requirements
+### Requirements
 - It must have a site navigation that uses the `nav` tag
 - It must have use semantic elements
 - It must have at least 3 images
 - It must have at least 2 different sizes of text elements
 
 ---
-### Walkthrough
+## Walkthrough
 - Code review
 - Bug Hunting
 - Discussion
 - Comment and plan code changes
 
 ---
-### Optimize
+## Optimize
 _End of Day Activity_
 - Implement changes noted in comments
 - Validate Code
 - Deploy and Submit
+
+---
+## Homework for next day
+- Read through this [Mdn Article on Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- Play [Flexbox Froggy](https://flexboxfroggy.com/)
+- Watch [Flexbox Patterns You Can Use](https://www.youtube.com/watch?v=vQAvjof1oe4)
 
 ---
 {{ comment }}
