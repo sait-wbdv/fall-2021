@@ -47,8 +47,8 @@ _Using media queries and icons to distinct mobile and desktop layouts_
 ### Notes
 
 ---
-## Topic 3: Smooth User Interaction
-_Enhance user experience_
+## Topic 3: Flexbox card layouts
+_Responsive cards_
 
 ### Key Terms
 
@@ -81,6 +81,7 @@ _End of Day Activity_
 - Read [Mdn CSS Grid](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
 - Play [CSS Grid Garden](https://cssgridgarden.com/)
 - Watch [Easy Layouts with CSS Grid](https://www.youtube.com/watch?v=tFKrK4eAiUQ)
+- Watch Jen Simmons on [The basics of grid](https://www.youtube.com/watch?v=FEnRpy9Xfes)
 - Watch Jen Simmons on [Using Flexbox and CSS Grid together](https://youtu.be/dQHtT47eH0M)
 ---
 

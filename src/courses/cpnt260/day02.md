@@ -13,6 +13,9 @@ date: 2021-09-20
 - Trophies from last class
 - Go over questions from last day
 
+## Tool Time
+- Text Editors
+  - Vscode
 ---
 ## Overview
 1. Plan it out

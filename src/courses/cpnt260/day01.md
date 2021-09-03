@@ -133,6 +133,7 @@ _End of Day Activity_
 ---
 ## Homework for next class
 - Finish Assignment 1
+- Read [Mdn article on page structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
 - Watch [Modern Layouts: Getting Out of Our Ruts](https://www.youtube.com/watch?v=jreccgYLfx8)
 
 ---
