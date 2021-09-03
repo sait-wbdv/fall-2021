@@ -17,6 +17,8 @@ date: 2021-09-22
 1. Plan it out
   - Mobile First Design and Breakpoints
 2. Brute force
+  - Add icons and a hamburger menu
+  - Smooth user interaction
 3. Walkthrough
 4. Optimize/Test
 
@@ -76,8 +78,8 @@ _End of Day Activity_
 
 ---
 ## Homework for next day
+- Read [Mdn CSS Grid](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
 - Play [CSS Grid Garden](https://cssgridgarden.com/)
-- Read Over [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - Watch [Easy Layouts with CSS Grid](https://www.youtube.com/watch?v=tFKrK4eAiUQ)
 - Watch Jen Simmons on [Using Flexbox and CSS Grid together](https://youtu.be/dQHtT47eH0M)
 ---

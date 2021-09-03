@@ -74,7 +74,7 @@ _End of Day Activity_
 - Deploy and Submit
 
 ---
-## Homework for next day
+## Prep for next day
 - Read [Mdn Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 - Read [Mdn Media Queries and Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/rwd_skills)
 - Watch Jen Simmons on [Progressive Enhancement](https://www.youtube.com/watch?v=u00FY9vADfQ)
