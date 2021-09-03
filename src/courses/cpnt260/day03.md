@@ -4,12 +4,12 @@ title: CPNT 260 Day 3
 description: Flexbox magic for modern websites 
 date: 2021-09-21
 ---
-## Trophy of the day: 
+## Trophy of the day: A flexible design that includes user input
 [img here]
 
 ## Review
 - Trophies from last class
-- Go over questions from last day 
+- Question time
 
 ---
 ## Overview
@@ -23,17 +23,11 @@ date: 2021-09-21
 
 ---
 ## Topic 1: Solving Design Problems with Flexbox
+_Truly dynamic and responsive site design_
 
 ### Key Terms
 
 ### Notes
-
----
-## Activity: Make a Page Layout with Flexbox
-_Truly dynamic and responsive site design_
-### Requirements
-- Use one of [these 7 patterns](https://www.freecodecamp.org/news/here-are-5-layouts-that-you-can-make-with-flexbox-6ca1e941f33d/) for your layout
-- Use placeholder text
 
 ---
 ## Topic 2: Position Elements in Flex Containers
@@ -41,6 +35,12 @@ _Arrange a site's content_
 ### Key Terms
 
 ### Notes
+
+---
+## Activity: Make a Page Layout with Flexbox
+### Requirements
+- Use one of [these 7 patterns](https://www.freecodecamp.org/news/here-are-5-layouts-that-you-can-make-with-flexbox-6ca1e941f33d/) for your layout
+- Use placeholder text
 
 ---
 ### Topic 3: Nesting Flexbox Containers and Flex Items
@@ -82,6 +82,8 @@ _End of Day Activity_
 
 ---
 
+{{ comment }}
+
 ## Goal
 * Create and set up a flexbox container
 * Pseudo-Selectors
@@ -98,3 +100,5 @@ _End of Day Activity_
 
 ## Stretch
 * add transitions to hover state for navlinks
+
+ {{ comment }}
