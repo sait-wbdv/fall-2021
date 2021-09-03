@@ -15,10 +15,12 @@ date: 2021-09-20
 ---
 ## Overview
 1. Plan it out
-  - Topic 1
+  - Importing and Styling Elements
+    - _Connect to dsn_
 2. Brute force
-  - Topic 2
-  - Topic 3
+  - Responsive Fonts
+  - Site Navigation
+    - _related to Jen Simmons video and dsn_
 3. Walkthrough
   - Code review
     - add comments
@@ -27,30 +29,50 @@ date: 2021-09-20
   - Improve code
 
 ---
-## Topic 1:
+## Topic 1: Importing and Styling Elements
+_Using different types of content_
 
 ### Key Terms
 
 ### Notes
 
 ---
-### Activity 1: A 404 Page
+### Activity 1: Create a 404 Page
+
 #### Requirements
+- It must have a 3+ colour pallette
+- It must have some sort of image
+- It must have a themed concept. 
+  -Examples:
+    - Based off of an intest
+    - Based off a character, movie, video game..
+    - Can be abstract and weird
+    - As long as it has something to communicate identity
+
 ---
-## Topic 2:
+## Topic 2: Responsive Fonts and Elements
+_Make site content look got on all devices_
+
 ### Key Terms
 
 ### Notes
 
 ---
-## Topic 3:
+## Topic 3: Site Navigation
+_The basics of guiding user flow_
+
 ### Key Terms
 
 ### Notes
 
 ---
-### Activity 2: A Page with a Nav Menu
+### Activity 2: A Web Page with a Nav Menu
+
 #### Requirements
+- It must have a site navigation that uses the `nav` tag
+- It must have use semantic elements
+- It must have at least 3 images
+- It must have at least 2 different sizes of text elements
 
 ---
 ### Walkthrough
@@ -67,6 +89,8 @@ _End of Day Activity_
 - Deploy and Submit
 
 ---
+{{ comment }}
+
 ## Brute Force
 - Create a contact page
   - signup form
@@ -89,3 +113,4 @@ _End of Day Activity_
 - What are the parts of a url
 - local vs remote links
 
+{{ comment }}
