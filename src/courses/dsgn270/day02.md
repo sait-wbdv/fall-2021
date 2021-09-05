@@ -36,7 +36,6 @@ date: 2021-09-09
         3. Search Has Higher Interaction Cost than Browsing
         4. Site Search Often Works Poorly
         5. Users Have Poor Search Skills and Don’t Know How Search Works
-    - [Footers](https://www.nngroup.com/articles/footers/)
     - [Breadcrumbs: 11 Design Guidelines for Desktop and Mobile](https://www.nngroup.com/articles/breadcrumbs/)
         1. Breadcrumbs should not replace the global navigation bar or the local navigation within a section.
         2. Breadcrumbs should display the current location in the site’s hierarchical structure, not the session history.
