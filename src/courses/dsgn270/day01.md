@@ -7,6 +7,13 @@ date: 2021-09-08
 
 ## Trophy of the day
 
+## Terminology
+- screens
+- wireframes
+- mockups
+- prototypes
+- UX vs UI
+
 ## [Plan it out]
 
 ## [Brute force]
@@ -29,6 +36,7 @@ date: 2021-09-08
 
 ## Materials
 - sample code
+- background/review
 - reference
 - key takeaways
 - formats
@@ -41,10 +49,13 @@ date: 2021-09-08
 
 ## Overview
 1. Plan it out
+    - Goal (learning outcome) definition for the Trophy
     - questions
-    - theory and examples
+    - theory
+    - visual/code examples
     - pseudo-code
 2. Brute force
+    - forgive shitty code
     - demos
     - activity
     - formats
@@ -55,11 +66,12 @@ date: 2021-09-08
     - guiding question
     - recap learning objectives
     - tie back to trophy
+    - walk-through: code comments
     - formats
         - summary of findings
         - show-and-tell
 4. Optimize/test/stretch
     - show-and-tell
-    - review
+    - content review
     - mentor pit
     - dailies
