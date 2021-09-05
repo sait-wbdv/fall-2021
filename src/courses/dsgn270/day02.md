@@ -28,8 +28,7 @@ date: 2021-09-09
         - [Grid systems & alignment](https://www.youtube.com/watch?v=9QRIjnMEXw8)
         - [Space in design](https://www.youtube.com/watch?v=3dESVj7-XzI)
         - [Typography](https://www.youtube.com/watch?v=yom0nogFN3k)
-    - Article: [Scrolling and Attention](https://www.nngroup.com/articles/scrolling-and-attention/)
-        - Video: [The Fold Manifesto: How to Encourage Scrolling](https://www.nngroup.com/videos/fold-manifesto/)
+
 - Navigation
     - [Search Is Not Enough: Synergy Between Navigation and Search](https://www.nngroup.com/articles/search-not-enough/)
         1. Search Requires Knowledge of the Search Space

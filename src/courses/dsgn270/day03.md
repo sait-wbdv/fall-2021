@@ -18,6 +18,7 @@ date: 2021-09-14
 - [Marking Required Fields in Forms](https://www.nngroup.com/articles/required-fields/)
 - [Website Forms Usability: Top 10 Recommendations](https://www.nngroup.com/articles/web-form-design/)
 - [Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/)
+- [Checkboxes vs radio buttons](https://www.nngroup.com/articles/checkboxes-vs-radio-buttons/)
 - [Top 10 Enduring Web-Design Mistakes](https://www.nngroup.com/articles/top-10-enduring/)
     1. Unexpected Locations for Content
     2. Competing Links and Categories
