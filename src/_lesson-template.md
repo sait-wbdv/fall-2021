@@ -1,12 +1,12 @@
----
-layout: layouts/day.njk
-title: CPNT 200 Day 1
-description: This is a description
-date: 2021-11-16
----
+## Trophy of the day
+- railed for mild
+- options for medium
+- inspired for spicy
 
 ## Prep
-- Article: [Flirting with Eleventy (11ty)](https://ryan.thaut.me/blog/2020/04/25/flirting-with-eleventy-11ty/)
+- readings
+- watchings
+- doings
 
 ## Materials
 - sample code
