@@ -1,0 +1,7 @@
+- Visual Hierarchy
+    - Videos: Parts 12-16 of [The Freelancer's Journey](https://www.youtube.com/playlist?list=PLPmnoMVpkxfjW_j5sjGSkNUtjRQl9E8vl) (43 Parts)
+        - [Visual hierarchy](https://www.youtube.com/watch?v=qZWDJqY27bw)
+        - [Repetition](https://www.youtube.com/watch?v=8zhhc5pzE9Y)
+        - [Grid systems & alignment](https://www.youtube.com/watch?v=9QRIjnMEXw8)
+        - [Space in design](https://www.youtube.com/watch?v=3dESVj7-XzI)
+        - [Typography](https://www.youtube.com/watch?v=yom0nogFN3k)
