@@ -12,7 +12,9 @@ Wireframes of a multi-page website
 1. UX for developers
 2. Activity: [Wireframing]({{ '/activities/design/wireframing/' | url }})
 
-## Prep
+:::: row
+::: col
+## Prep {.style-me}
 - Content
     - Article: [Inverted Pyramid: Writing for Comprehension](https://www.nngroup.com/articles/inverted-pyramid/)
     - Article: [Plain Language Is for Everyone, Even Experts](https://www.nngroup.com/articles/plain-language-experts/)
@@ -50,9 +52,3 @@ Wireframes of a multi-page website
     - Article: ["Get Started" Stops Users](https://www.nngroup.com/articles/get-started/)
     - Article: [“Learn More” Links: You Can Do Better](https://www.nngroup.com/articles/learn-more-links/)
 
-
-```css
-.some-css {
-  margin: auto;
-}
-```

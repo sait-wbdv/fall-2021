@@ -10,7 +10,25 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets');
   
-  eleventyConfig.setLibrary('md', md);
+  eleventyConfig.setLibrary('md', md
+  .use(require('markdown-it-attrs', {
+    // optional, these are default options
+    leftDelimiter: '{',
+    rightDelimiter: '}',
+    allowedAttributes: []  // empty array = all attributes are allowed
+  }))
+  .use(require('markdown-it-container'), '', {
+      validate: () => true,
+      render: (tokens, idx) => {
+          if (tokens[idx].nesting === 1) {
+              const classList = tokens[idx].info.trim()
+              return `<div ${classList && `class="${classList}"`}>`;
+          } else {
+              return `</div>`;
+          }
+      }
+    })
+  );
   eleventyConfig.addFilter('markdownify', str => md.render(str));
 
   eleventyConfig.addFilter('jsonify', variable => JSON.stringify(variable));
