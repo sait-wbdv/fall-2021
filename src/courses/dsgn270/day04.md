@@ -9,10 +9,12 @@ date: 2021-09-15
 - [Avoid hamburger icons](https://www.nngroup.com/videos/hamburger-menus/). If you have to hide the navigation, use a button labelled "menu".
 
 ## Prep
+- Article: [Mobile Navigation: Image Grids or Text Lists?](https://www.nngroup.com/articles/image-vs-list-mobile-navigation/)
 - Article: [Mobile Subnavigation](https://www.nngroup.com/articles/mobile-subnavigation/)
 - Video: [Hamburger Menus Hurt UX Metrics](https://www.nngroup.com/videos/hamburger-menus/)
     - Study: [Hamburger Menus and Hidden Navigation Hurt UX Metrics](https://www.nngroup.com/articles/hamburger-menus/)
-- Article: [Mobile Navigation: Image Grids or Text Lists?](https://www.nngroup.com/articles/image-vs-list-mobile-navigation/)
+- Article: [Mobile First Is NOT Mobile Only](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
+- Study: [Reading Content on Mobile Devices](https://www.nngroup.com/articles/mobile-content/)
 - Article: [A Checklist for Registration and Login Forms on Mobile](https://www.nngroup.com/articles/checklist-registration-login/)
     1. For most apps/websites, login or registration should be optional and as many features as possible should be available without logging in.
     2. Explain the benefits of registration. What do people get by creating an account?
@@ -28,5 +30,4 @@ date: 2021-09-15
     11. Allow people to use fingerprint authentication (such as TouchID) to log in.  This method will remove most pain from the login process.
     12. Offer the option of showing passwords in clear. However, unmasking does not need to be the default for login. Although we advocated for this practice for a long time, only recently sites and apps have started adopting it, and some users can feel unsecure when seeing the password characters in clear. That is why, at this stage, we recommend masking the password by default and presenting users with a Show password checkbox that allows them to unmask it.
     13. Include a Forgot password? link. Rarely used passwords are forgotten, and recovering them should be available on any device.
-- Article: [Mobile First Is NOT Mobile Only](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
     - "Different devices have different capabilities of interaction and different screen sizes." IOW, don't use a hamburger menu on desktop.
