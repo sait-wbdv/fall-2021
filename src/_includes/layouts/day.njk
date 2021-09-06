@@ -5,17 +5,17 @@ layout: layouts/base.njk
 <nav>
     <ul>
         <li>
-            {% if siblings.prev.url %}
+            {% if siblings.prev.url and siblings.prev.data.released %}
             <a href="{{ siblings.prev.url | url }}" title="{{ siblings.prev.data.title }}">Previous</a>
             {% else %}
             <span>Previous</span>
             {% endif %}
         </li>
         <li>
-            {% if siblings.next.url %}
+            {% if siblings.next.url and siblings.next.data.released %}
             <a href="{{ siblings.next.url | url }}" title="{{ siblings.next.data.title }}">Next</a>
             {% else %}
-            <span>>Next</span>
+            <span>Next</span>
             {% endif %}
         </li>
     </ul>
@@ -37,17 +37,17 @@ layout: layouts/base.njk
 <nav>
     <ul>
         <li>
-            {% if siblings.prev.url %}
+            {% if siblings.prev.url and siblings.prev.data.released %}
             <a href="{{ siblings.prev.url | url }}" title="{{ siblings.prev.data.title }}">Previous</a>
             {% else %}
             <span>Previous</span>
             {% endif %}
         </li>
         <li>
-            {% if siblings.next.url %}
+            {% if siblings.next.url and siblings.next.data.released %}
             <a href="{{ siblings.next.url | url }}" title="{{ siblings.next.data.title }}">Next</a>
             {% else %}
-            <span>>Next</span>
+            <span>Next</span>
             {% endif %}
         </li>
     </ul>

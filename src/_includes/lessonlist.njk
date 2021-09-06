@@ -9,7 +9,13 @@
     <h3>Week {{ week }}</h3>
       <ul>
     {% endif %}
-    <li><h4>{{ lesson.date | shortDate }}: <a href="{{ lesson.url | url }}">{{ lesson.data.title }}</a></h4></li>
+    <li><h4>{{ lesson.date | shortDate }}: 
+      {% if lesson.data.released %}
+      <a href="{{ lesson.url | url }}">{{ lesson.data.title }}</a>
+      {% else %}
+      {{ lesson.data.title }}
+      {% endif %}
+      </h4></li>
     {% set prevDay = lesson.date.getDay() %}
   {% endfor %}
   </ul>
