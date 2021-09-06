@@ -25,8 +25,12 @@ layout: layouts/base.njk
 <article class="post">
   <time>{{ page.date | longDate }}</time>
   <h2>{{ title }}</h2>
-  <p>{{ description}}</p>
-  {{ content | safe }}
+  {# <p>{{ description}}</p> #}
+  {% if released %}
+        {{ content | safe }}
+  {% else %}
+        <h3>Sorry, this lesson hasn't been released.</h3>  
+  {% endif %}
 </article>
 
 {% if siblings.prev.url or siblings.next.url %}

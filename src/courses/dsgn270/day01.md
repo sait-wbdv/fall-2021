@@ -1,20 +1,22 @@
 ---
 layout: layouts/day.njk
 title: DSGN 270 Day 1 - UX for developers
-description: 
+description: this
 date: 2021-09-08
 ---
+## Prep
 
 ## Trophy of the day
 Wireframes of a multi-page website
 
 ## Topics
 1. UX for developers
-2. Activity: [Wireframing]({{ '/activities/design/wireframing/' | url }})
+2. Web conventions
+3. Activity: [Wireframing]({{ '/activities/design/wireframing/' | url }})
+4. 
 
-:::: row
-::: col
-## Prep {.style-me}
+{% comment %}
+## Prep
 - Content
     - Article: [Inverted Pyramid: Writing for Comprehension](https://www.nngroup.com/articles/inverted-pyramid/)
     - Article: [Plain Language Is for Everyone, Even Experts](https://www.nngroup.com/articles/plain-language-experts/)
@@ -52,3 +54,4 @@ Wireframes of a multi-page website
     - Article: ["Get Started" Stops Users](https://www.nngroup.com/articles/get-started/)
     - Article: [“Learn More” Links: You Can Do Better](https://www.nngroup.com/articles/learn-more-links/)
 
+{% endcomment %}
