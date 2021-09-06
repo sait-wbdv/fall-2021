@@ -41,6 +41,19 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(syntaxHighlight);
   
+  // For Next/Previous navigation
+  eleventyConfig.addCollection('lesson', collection => collection
+    .getFilteredByTag('lesson')
+    // ... (do things like filter and/or reverse here if you want)
+    .map((cur, i, all) => {
+        cur.data['siblings'] = {
+            'next': all[i + 1],
+            'prev': all[i - 1],
+        };
+        return cur;
+    })
+  );
+
   eleventyConfig.addFilter("shortDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
         zone: "Europe/Amsterdam",

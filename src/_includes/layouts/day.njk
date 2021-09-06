@@ -1,9 +1,51 @@
 ---
 layout: layouts/base.njk
 ---
+{% if siblings.prev.url or siblings.next.url %}
+<nav>
+    <ul>
+        <li>
+            {% if siblings.prev.url %}
+            <a href="{{ siblings.prev.url | url }}" title="{{ siblings.prev.data.title }}">Previous</a>
+            {% else %}
+            <span>Previous</span>
+            {% endif %}
+        </li>
+        <li>
+            {% if siblings.next.url %}
+            <a href="{{ siblings.next.url | url }}" title="{{ siblings.next.data.title }}">Next</a>
+            {% else %}
+            <span>>Next</span>
+            {% endif %}
+        </li>
+    </ul>
+</nav>
+{% endif %}
+
 <article class="post">
   <time>{{ page.date | longDate }}</time>
   <h2>{{ title }}</h2>
   <p>{{ description}}</p>
   {{ content | safe }}
 </article>
+
+{% if siblings.prev.url or siblings.next.url %}
+<nav>
+    <ul>
+        <li>
+            {% if siblings.prev.url %}
+            <a href="{{ siblings.prev.url | url }}" title="{{ siblings.prev.data.title }}">Previous</a>
+            {% else %}
+            <span>Previous</span>
+            {% endif %}
+        </li>
+        <li>
+            {% if siblings.next.url %}
+            <a href="{{ siblings.next.url | url }}" title="{{ siblings.next.data.title }}">Next</a>
+            {% else %}
+            <span>>Next</span>
+            {% endif %}
+        </li>
+    </ul>
+</nav>
+{% endif %}
