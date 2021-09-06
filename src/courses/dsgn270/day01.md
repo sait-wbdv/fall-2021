@@ -51,3 +51,8 @@ Wireframes of a multi-page website
     - Article: [“Learn More” Links: You Can Do Better](https://www.nngroup.com/articles/learn-more-links/)
 
 
+```css
+.some-css {
+  margin: auto;
+}
+```
