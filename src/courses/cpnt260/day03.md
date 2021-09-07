@@ -38,9 +38,6 @@ _Arrange a site's content_
 
 ---
 ## Activity: Make a Page Layout with Flexbox
-### Requirements
-- Use one of [these 7 patterns](https://www.freecodecamp.org/news/here-are-5-layouts-that-you-can-make-with-flexbox-6ca1e941f33d/) for your layout
-- Use placeholder text
 
 ---
 ### Topic 3: Nesting Flexbox Containers and Flex Items
@@ -51,14 +48,8 @@ _Mobile first designs and user input_
 ### Notes
 
 ___
-## Activity 2: Designing Flexible Elements
+## Activity 2: Designing a Signup page with flexbox
 
-### Requirements
-- it must have a flexible nav menu
-- it must have an input element
-  - can be a `text`, `checkbox`, `radio`, or `select` type input
-- Input must have a label
-- Input must be easy to use at desktop and mobile screen sizes
 ---
 ## Walkthrough
 - Code review

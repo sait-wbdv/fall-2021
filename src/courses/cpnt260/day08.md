@@ -70,6 +70,7 @@ _End of Day Activity_
 ---
 ## Prep for next day
 - Read [Mdn on Custom properties/variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- Read [CSS Transition Examples](https://www.freecodecamp.org/news/css-transition-examples/)
 
 # CPNT-260 Day 8: Positions, Transitions, and Visibility
 

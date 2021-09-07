@@ -22,7 +22,7 @@ SAIT Web Developer Fast Track
 
 ### Slack best practices
 - `@mention` someone if it's important or a direct reply to someone's message. Don't over use it, though.
-- Can your question be answered by a classmate? Consider posting it in `#winter-2021` instead of DMing your instructor. The answer will probably be of use to the rest of the group (don't forget to work the problem yourself, first).
+- Can your question be answered by a classmate? Consider posting it in `#fall-2021` instead of DMing your instructor. The answer will probably be of use to the rest of the group (don't forget to work the problem yourself, first).
 - Don't wait for someone to be online before asking them a question. Just ask the question and give the person some time to respond.
     - Examples of flawed Slack messages:
         - "Hi @tony"
