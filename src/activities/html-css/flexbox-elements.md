@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Flexbox Elements: A signup page
+title: Flexbox Elements - A signup page
 description: Create responsive and interesting page elements using flexbox.
 image:
 ---

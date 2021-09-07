@@ -5,3 +5,6 @@ description:
 date: 2021-09-14
 ---
 
+## Prep
+### Forms
+- [Website Forms Usability: Top 10 Recommendations](https://www.nngroup.com/articles/web-form-design/)
