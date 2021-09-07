@@ -72,12 +72,6 @@ _The basics of guiding user flow_
 ---
 ## Activity 2: A Web Page with a Nav Menu
 
-### Requirements
-- It must have a site navigation that uses the `nav` tag
-- It must have use semantic elements
-- It must have at least 3 images
-- It must have at least 2 different sizes of text elements
-
 ---
 ## Walkthrough
 - Code review
