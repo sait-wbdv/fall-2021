@@ -5,9 +5,9 @@ description: Top level site navigation, Vertical to horizontal nav
 image:
 ---
 ## Instructions
-* Create a navigation on a web page in code pen
-* Establish good visual distinction of nav from the rest of the content
-* Use the navigation to move around the page with anchor tags
+- Create a navigation on a web page in code pen
+- Establish good visual distinction of nav from the rest of the content
+- Use the navigation to move around the page with anchor tags
 
 
 ## Requirements
