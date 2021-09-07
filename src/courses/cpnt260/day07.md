@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 7
-description: Hero Sections and Page Backgrounds
+title: CPNT 260 Day 7 - Hero Sections and Page Backgrounds
+description: Hero Sections are a very popular and useful web convention that we will be learning how to build today. This will include setting up CTAs(call to action), setting element heights, and how to use background-images
 date: 2021-09-27
 ---
 ## Trophy of the Day: A Hero section with a CTA
@@ -74,25 +74,3 @@ _End of Day Activity_
 - Hands on learning [FreeCodeCamp Accessibility](https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design) (note this one is not for marks)
 
 ---
-
-{{ comment }}
-# CPNT-260 Day 7: Grid, Flex, and Hero Sections
-
-## Goals
-* Create eye catching responsive hero sections
-* How to use backgrounds
-* Centering
-* Setting heights
-
-## Learning Objectives
-* `background-image`, `background-size`
-* viewport units `vw`, and `vh`
-* `min-height`
-* `filter()`, and blend modes
-## Bruteforce
-* Create a hero section
-
-## Stretch
-* Pseudo classes to make filter only effect the background content
-
-{{ comment }}

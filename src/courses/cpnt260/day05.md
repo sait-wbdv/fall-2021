@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 5
-description: 
+title: CPNT 260 Day 5 - Introduction to CSS Grid
+description: Today we will be covering the newer technology css grid. We will implement basic grid designs. We will also be practicing debugging strategies for CSS that will also be useful when coding in JS and other languages.
 date: 2021-09-23
 ---
 ## Trophy of the day: Use CSS Grid to create a site layout
@@ -34,10 +34,7 @@ date: 2021-09-23
 ### Notes
 
 ---
-## Activity: Grid By Example
-- Experiment with patterns from Rachel Andrews' site [Grid by Example](https://gridbyexample.com/)
-  - Use one of the site layout patterns
-  - Use one of the grid examples
+## Activity: Create a Grid Layout
 
 --- 
 ## Topic 3: Debugging CSS
@@ -46,6 +43,8 @@ _Quickly figure out what's wrong with your css_
 ### Key Terms
 
 ### Notes
+---
+## Activity: Bug Hunting
 ---
 ## Walkthrough
 - Code review
@@ -66,24 +65,3 @@ _End of Day Activity_
 - Watch Jen Simmons on using [flexbox and grid together](https://www.youtube.com/watch?v=dQHtT47eH0M)
 - Explore Jen Simmons [Experimental Layout Lab](https://labs.jensimmons.com/)
 ---
-
-{{ comment }}
-# CPNT-260 Day 5 Advanced Flexbox and Content Design
-
-## Goals
-* Be able to recreate advanced site layouts
-* Be able to analyze, critique, and refactor code on a web page
-* Understand the basics of material design principles
-
-## Learning Objectives
-* Create content galleries
-* Stylize form content
-* Tables
-* What are svgs and when is it a good time to use them
-## Bruteforce
-* Rebuild a webpage's gallery content
-
-## Stretch
-* Apply material design principles to site content
-
- {{ comment }}

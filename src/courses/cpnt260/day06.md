@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 6
-description: Progressive enhancement and creative designs
+title: CPNT 260 Day 6 - Progressive Enhancement and Creative Designs
+description: We will learn how to use feature queries to provide maximum browser support for different layouts. Along with this, we will continue learning about CSS Grid and look at how it can be used with Flexbox.
 date: 2021-09-24
 ---
 
@@ -34,7 +34,7 @@ _Use feature queries to provide a good web experience to all users_
 ### Notes
 
 ---
-## Activity: Add progressive enhancement to a design from yesterday
+## Activity: Add progressive enhancement to a design
 - Use feature queries
 - Take inspiration from Rachel Andrews [grid by example](https://gridbyexample.com)
 
@@ -69,23 +69,3 @@ _End of Day Activity_
 - Read [Css-tricks article on height and hero components](https://css-tricks.com/fun-tip-use-calc-to-change-the-height-of-a-hero-component/)
 - Read [Mdn Article on viewport height](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts)
 ---
-
-
-# CPNT-260 Day 6 CSS Grid and Flexbox Together or Apart
-
-## Goals
-* Be able to use CSS grid
-* How to use grid and flexbox together
-* Quickly figure out how to fix a broken design
-
-## Learning Objectives
-* `display grid` and setting `grid-template-columns`
-* the `fr` unit and `minmax()` sizes
-* Debugging with Dev Tools: strategies and practices
-* Revisiting how to wireframe then implement and test a design
-
-## Bruteforce
-* Design a Calculator
-
-## Stretch
-* Recreate a poster
