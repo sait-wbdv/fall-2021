@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
 title: CPNT 262 Day 17
-description: This is a description
+description: 
 date: 2021-11-02
 ---
 

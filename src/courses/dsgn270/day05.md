@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: DSGN 270 Day 5
-description: This is a description
+title: DSGN 270 Day 5 - Social Tools
+description: 
 date: 2021-11-25
 ---
 

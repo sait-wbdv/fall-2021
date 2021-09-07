@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 201 Day 5
-description: This is a description
+title: CPNT 201 Day 5 - Scalable Vector Graphics
+description: 
 date: 2021-10-05
 ---
 
