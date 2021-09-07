@@ -1,0 +1,9 @@
+- [The Need for Speed, 23 Years Later](https://www.nngroup.com/articles/the-need-for-speed/)
+    - 2009: Google and Bing both reported that even half-second delays in load time resulted in measurably lower conversion metrics (number of searches and revenue per user).
+    - 2010: A Mozilla experiment which found that reducing the page load time by 2 seconds led to 15% higher conversion.
+    - 2011: Gomez reported on 150M pageviews across 150 sites and found that pages that took 6 seconds to load were 25% more likely to be abandoned than pages which loaded in 2 seconds.
+    - 2016: Google found that increasing the load time of its SERPs by half a second resulted in a 20% higher bounce rate.
+    - 2016: Google found 53% of mobile visits ended if a page took longer than 3 seconds to load.
+    - 2017: Akamai aggregated data from 17 retailers (7 billion pageviews) and found that conversion rates were highest for pages that loaded in less than 2 seconds; longer load times correlated with 50% drops in conversion rates and increased bounce rates, especially for mobile visitors.
+    - 2018: BBC found that for every extra second of page load time, 10% of users will leave.
+    - 2024: just kidding, but we’re sure there will be many more compelling data points to add to this list in the future, because this problem won’t go away.

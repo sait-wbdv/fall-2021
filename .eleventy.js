@@ -28,6 +28,7 @@ module.exports = function(eleventyConfig) {
           }
       }
     })
+    .use(require('markdown-it-deflist'))
   );
   eleventyConfig.addFilter('markdownify', str => md.render(str));
 
