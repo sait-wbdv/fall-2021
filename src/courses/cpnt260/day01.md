@@ -89,10 +89,6 @@ Semantic HTML
  
 ---
 ### Activity 1: Create a wiki page
-#### Requirements
-- It must be semantic
-  - `nav, header, main, footer, article, section, div...`
-  - `h1`, `h2`, `p`...
 
 ---
 ## Topic 3: Style with CSS
@@ -108,13 +104,6 @@ Declarations
 
 ---
 ### Activity 2: Stylize your wiki page
-
-#### Requirements
-- It must be responsive
-  - `max-width`
-  - `margin: auto`
-  - `ch`, `vw`
-- Set the font family
 
 ---
 ## Walkthrough

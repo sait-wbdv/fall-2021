@@ -16,6 +16,7 @@ date: 2021-09-20
 ## Tool Time
 - Text Editors
   - Vscode
+  - Vscodium
 ---
 ## Overview
 1. Plan it out
