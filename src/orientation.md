@@ -16,7 +16,9 @@ Methods of contacting Tony Grimes, in order of general preference:
 ---
 
 ## Housekeeping
-- Poll: Are you using Mac, PC or linux?
+- Polls: 
+    - Are you using Mac, PC or linux?
+    - Is your phone iOS or Android? Blackberry!?!
 
 ---
 

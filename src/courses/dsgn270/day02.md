@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: DSGN 270 Day 2 - UI (User Interface) for developers
+title: DSGN 270 Day 2 - UI (user interface design) for developers
 description: Like UX, UI is a large field that focuses on the look and feel of a website or app interface. We'll cover the fundamentals that will form the basis for the rest of the program.
 date: 2021-09-09
 released: true
@@ -22,8 +22,8 @@ released: true
 - [Cards](https://www.nngroup.com/articles/cards-component/)
 
 ### Treasure hunt
-Based on the materil covered thus far, find 3-5 websites that:
-1. Are well designed, esthetically pleasing and useful, OR;
+Based on the material covered thus far, find 3-5 websites that:
+1. Are well designed, aesthetically pleasing and useful, OR;
 2. Aren't.
 
 We'll be discussing these and other examples in breakout discussions.

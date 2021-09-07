@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 1
+title: CPNT 260 Day 1 - Web design fundamentals (HTML/CSS)
 description: Understanding the browser and languages of the web
 date: 2021-09-16
 ---
