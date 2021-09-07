@@ -1,3 +1,10 @@
+---
+layout: layouts/page.njk
+title: Mobile design
+description: 
+image: 
+---
+
 - Article: [Mobile Navigation: Image Grids or Text Lists?](https://www.nngroup.com/articles/image-vs-list-mobile-navigation/)
 - Article: [Mobile Subnavigation](https://www.nngroup.com/articles/mobile-subnavigation/)
 - Video: [Hamburger Menus Hurt UX Metrics](https://www.nngroup.com/videos/hamburger-menus/)

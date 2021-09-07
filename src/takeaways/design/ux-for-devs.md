@@ -2,12 +2,15 @@
 layout: layouts/page.njk
 title: UX for Devs
 description: 
-image: wireframe.jpg
+image: 
 ---
 
 ## Terminology
 Usability
 : A *quality attribute* that assesses how easy user interfaces are to use. The word "usability" also refers to methods for improving ease-of-use during the design process.
+
+Information Hierarchy
+: A discipline that focuses on organizing, structuring, and labeling content in an effective and sustainable way.
 
 Satisfice
 : When a user chooses the _first reasonable option_ instead of the best option. 
