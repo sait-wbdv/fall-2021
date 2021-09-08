@@ -21,12 +21,17 @@ released: true
 - [Making Clickable Elements Recognizable](https://www.nngroup.com/articles/clickable-elements/)
 - [Cards](https://www.nngroup.com/articles/cards-component/)
 
+### Wireframes
+- [How to Draw a Wireframe (Even if You Can’t Draw)](https://www.nngroup.com/articles/draw-wireframe-even-if-you-cant-draw/)
+    - Related Video: [How to Sketch a UI for Non-Designers](https://www.youtube.com/watch?v=X2CbeBojKVM)
+    - [How to Get Stakeholders to Sketch: A Magic Formula](https://www.nngroup.com/articles/how-to-get-stakeholders-to-sketch/)
+
 ### Treasure hunt
 Based on the material covered thus far, find 3-5 websites that:
 1. Are well designed, aesthetically pleasing and useful, OR;
 2. Aren't.
 
-We'll be discussing these and other examples in breakout discussions.
+We'll be discussing these and other examples in breakout activities.
 
 {% comment %}
 
