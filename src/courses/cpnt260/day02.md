@@ -17,6 +17,14 @@ date: 2021-09-20
 - Text Editors
   - Vscode
   - Vscodium
+
+## Assignment 1 - About Page and Simple Nav
+- **Due: September 22 11:59pm**
+- [Assignment Link]()
+- Complete:
+  - Create an About page that has text, images, and styling
+  - Create a site navigation. Note this will be improved on throughout the following assignments.
+
 ---
 ## Overview
 1. Plan it out

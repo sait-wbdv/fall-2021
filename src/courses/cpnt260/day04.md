@@ -12,8 +12,15 @@ date: 2021-09-22
 - Trophies from last class
 - Question time
 
+
+## Assignment 2: Services, Info, Team Members, or Product Page
+- **Due: September 24 11:59pm**
+- [Assignment Link]()
+- Complete:
+  - Create a page that uses card layout and other design ideas to inform users about your product/service/team etc.
+  - Add flexbox to your site navigation
 ---
-## Overiew
+## Overview
 1. Plan it out
   - Mobile First Design and Breakpoints
 2. Brute force

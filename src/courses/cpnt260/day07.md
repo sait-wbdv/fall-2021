@@ -9,6 +9,16 @@ date: 2021-09-27
 ## Review
 - Trophies from last class
 - Question time
+
+## Assignment 4: Landing Page + Hero Section
+- **Due: September 30 11:59pm**
+- Complete:
+  - A landing page
+  - Landing page needs to have a hero section with a call to action
+  - CTA (call to action) should link to an accessible user form
+  - Navigation should be responsive
+    - a hamburger icon with hideable menu on mobile
+    - a horizontal nav on desktop
 ---
 ## Overview
 1. Plan it out

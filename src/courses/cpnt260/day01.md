@@ -14,8 +14,8 @@ date: 2021-09-16
   - A game or sport
 - [Wiki pages in the wild](https://aelieve.com/rankings/websites/category/reference/best-wiki-sites/)
 
-## Assignment 1: FreeCodeCamp HTML and CSS
-- **Due: Monday September 20**
+## Assignment: FreeCodeCamp HTML and CSS
+- **Due: September 19 11:59pm**
 - [Assignment Link]()
 - Complete:
   - Responsive Web Design: Basic HTML and HTML5 (28 questions)

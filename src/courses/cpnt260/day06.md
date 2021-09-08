@@ -15,6 +15,13 @@ date: 2021-09-24
 - Trophies from last class
 - Question time
 
+## Assignment 3: Image Gallery and Icons 
+- **Due: September 27 11:59pm**
+- [Assignment Link]()
+- Complete:
+  - Create a responsive gallery
+  - Gallery items should be figures
+  - Add social media icons and static reaction icons to your page
 ---
 ## Overview
 1. Plan it out
