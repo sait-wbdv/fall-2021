@@ -71,12 +71,21 @@ _Make site content look got on all devices_
 ### Key Terms
 `clamp()`
   : Use clamp to set minimum and maximum font size and the range that they increase and decrease by. ie: `font-size: clamp(1.2rem, 2.5vw, 1.4rem)`
-
+`text-align`
+  : align text left, center, right, or justified. [Mdn article](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align).
+`max-width` and `min-width`
+  : Both of these will override the `width` property. And `min-width` will override `max-width`.
 ### Notes
 
 ---
 ## Topic 3: Site Navigation
-_The basics of guiding user flow_
+_The basics of guiding user your users_
+
+### Key Terms
+Target Attribute
+  : When setting a link with `a href=""`, you can make links open in new tabs by setting the `target` attribute to `target="_blank"` in the opening `a` tag.
+    - To prevent a type of phishing, also add `rel="noreferrer noopener"` to the `a` link whenever you use `target="_blank"`
+    - Read this [FreeCodeCamp article](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/) to learn more about this.
 
 ### Notes
 

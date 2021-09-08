@@ -26,7 +26,14 @@ date: 2021-09-21
 _Truly dynamic and responsive site design_
 
 ### Key Terms
-
+`display`
+  : This property is used to set the layout of an element and its children. Read more in [this Mdn article](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+main-axis
+  : This is defined by the `flex-direction`. If your flex-direction is set to row _(this is the default)_, then the main axis is horizontal. If your flex-direction is set to column, then the main axis is vertical.
+    - items are set along this axis by using `justify-content`
+cross-axis
+  : This is the other axis of a flex layout. It changes depending on your flex-direction
+    - Items are positioned along this axis by using `align-items`
 ### Notes
 
 ---
