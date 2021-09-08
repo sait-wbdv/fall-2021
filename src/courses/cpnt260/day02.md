@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 2
-description: Make things look good and work across devices
+title: CPNT 260 Day 2 - Navigation and Responsive Page Design
+description: Today we will start working in the text editor Vscode. Topics include creating page navigation, using colour, typography, and white space.
 date: 2021-09-20
 ---
 
@@ -93,28 +93,3 @@ _End of Day Activity_
 - Watch [Flexbox Patterns You Can Use](https://www.youtube.com/watch?v=vQAvjof1oe4)
 
 ---
-{{ comment }}
-
-## Brute Force
-- Create a contact page
-  - signup form
-  - informational section with signup form
-  - responsive and accessible elements
-  - contrasting panels
-
-## Stretch
-- tab index
-- change system level form styling
-  - `-webkit-appearance: none; appearance-none;`
-- styling checkboxes and radio buttons
-  - `input[type="checkbox"] {...}`
-
-## Learning Objectives
-- size units: `%, vw/vw, rem, em`
-- colour units: `hex, rgb(), hsla()`
-- css classes, id's, and inheritence
-- Intro to forms
-- What are the parts of a url
-- local vs remote links
-
-{{ comment }}

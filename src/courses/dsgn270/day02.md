@@ -30,6 +30,16 @@ We'll be discussing these and other examples in breakout discussions.
 
 {% comment %}
 
+## 3. Activity: Point and Crit
+In groups of 3 or 4, select a website to roast (or praise).
+- What types of navigation does the website use?
+- What does the site do well?
+- What does the site not do well?
+- What audience does this site cater to?
+- What value does this site provide to its users?
+
+Select a member of your group to summarize and report your findings to the rest of the class.
+
 ## Activity: Add structure to a block of paragraphs
 - [Bad hierarchy example](https://www.evolvemarketingteam.com/blog/web-design/what-is-a-wireframe-and-why-is-it-important/)
 

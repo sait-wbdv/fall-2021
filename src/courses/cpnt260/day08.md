@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 8
-description: User Input and User Experience
+title: CPNT 260 Day 8 - User Input and Accessible User Experience
+description: Today we will continue learning about forms and user input. Along with learning form syntax and practicing design strategies that were covered in DSGN-270, we will also learn how to make our forms readable by screen readers.
 date: 2021-09-28
 ---
 ## Trophy of the Day: A sign up form
@@ -28,7 +28,7 @@ date: 2021-09-28
 ### Notes
 
 ---
-## Activity: Create a simple signup form
+## Activity: Create a simple and accessible signup form
 - It must use labels
 - It must use the form tag
 - It must use fieldset and legend appropriately
@@ -72,25 +72,4 @@ _End of Day Activity_
 - Read [Mdn on Custom properties/variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - Read [CSS Transition Examples](https://www.freecodecamp.org/news/css-transition-examples/)
 
-# CPNT-260 Day 8: Positions, Transitions, and Visibility
-
-## Goal
-* How to animate elements with transitions and keyframes
-* How to hide different types of elements
-* How to position elements differently in the flow of the document
-* Custom variables in CSS
- 
-## Learning Objectives
-* Correct uses of `position` values such as `absolute`, and `relative`
-* when to use `display`, `visibility`, and `opacity` to effect visiblity
-* use of `transition` to make elements interactive
-* `keyframes` and how to use them differently from `transitions`
-
-## Bruteforce
-* Set up a UI interaction hierarchy with page content using `transitions`
-* Uses of visibility in responsive design
-* Apply a color scheme
-
-## Stretch
-* Use of cubic-bezier to effect flow of interactive elements
-* keyframe design for advanced animation
+---
