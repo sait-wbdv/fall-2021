@@ -44,36 +44,39 @@ date: 2021-09-20
 ## Topic 1: Importing and Styling Elements
 _Using different types of content_
 
-### Key Terms
-
+### Key Terms and Syntax
+Cdn
+  :  Content Delivery Network. Allows for fast transfer of assets needed to load web content.
+Box Model
+  : Everything in CSS has a box around it. These boxes are either block or inline elements. [Read more here](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+`background-color`
+  : set a background color with this tag. Keep in mind what element you are setting background color to.
+`color`
+  : Used to set items color
+`hsla()`
+  : [HSLA](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsla()) is notation to describe colors by 'hue', 'saturation', 'lightness', and 'alpha' (alpha is for transparency)
+`padding`
+  : Used to add space within an elements box
+Stylesheet
+  : Separate your css into stylesheets to keep your code more organized.
 ### Notes
 
 ---
 ## Activity 1: Create a 404 Page
-
-### Requirements
-- It must have a 3+ colour pallette
-- It must have some sort of image
-- It must have a themed concept. 
-  -Examples:
-    - Based off of an intest
-    - Based off a character, movie, video game..
-    - Can be abstract and weird
-    - As long as it has something to communicate identity
 
 ---
 ## Topic 2: Responsive Fonts and Elements
 _Make site content look got on all devices_
 
 ### Key Terms
+`clamp()`
+  : Use clamp to set minimum and maximum font size and the range that they increase and decrease by. ie: `font-size: clamp(1.2rem, 2.5vw, 1.4rem)`
 
 ### Notes
 
 ---
 ## Topic 3: Site Navigation
 _The basics of guiding user flow_
-
-### Key Terms
 
 ### Notes
 
