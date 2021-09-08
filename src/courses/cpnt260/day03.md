@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 3
-description: Flexbox magic for modern websites 
+title: CPNT 260 Day 3 Intro to Flexbox
+description: Learn how to use flexbox to create flexible and visually complex webite layouts. For html we will introduce forms for user input.
 date: 2021-09-21
 ---
 ## Trophy of the day: A flexible design that includes user input
@@ -72,24 +72,3 @@ _End of Day Activity_
 - Watch this video on [Can I Use](https://www.youtube.com/watch?v=WM_cKHH7bZ0)
 
 ---
-
-{{ comment }}
-
-## Goal
-* Create and set up a flexbox container
-* Pseudo-Selectors
-* Create and stylize links
-
-## Lesson Objectives
-* Use `display: flex`, `justify-content`, and `align-items`
-* `flex-direction;` and how that affects alignment
-* Review and apply FreeCodeCamp Responsive Web Content
-
-## Bruteforce
-* Create a responsive navbar
-* Stylize wiki pages and contact forms OR create a new informational page layout
-
-## Stretch
-* add transitions to hover state for navlinks
-
- {{ comment }}

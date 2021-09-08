@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: DSGN 270 Day 1 - UX (User Experience) for developers
+title: DSGN 270 Day 1 - UX (user experience design) for developers
 description: User Experience design is a huge field and this is not a design course. But, as budding web developers (devs), it's useful to know the best practices that ux offers us.
 date: 2021-09-08
 released: true

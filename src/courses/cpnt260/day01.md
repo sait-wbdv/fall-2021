@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 1
-description: Understanding the browser and languages of the web
+title: CPNT 260 Day 1 - Web design fundamentals (HTML/CSS)
+description: Today we will cover the basic technologies of the web and how they work together. We will also start out with the basics of writing html and css.
 date: 2021-09-16
 ---
 ## Trophy of the day: A wiki page
@@ -23,7 +23,7 @@ date: 2021-09-16
   - [FreeCodeCamp Course Link](https://www.freecodecamp.org/learn/responsive-web-design/)
 
 ---
-## Overview **ADD ANCHORS**
+## Overview 
 1. Plan it out
   - Overview of HTML, CSS, JavaScript
   - Exploring web page code

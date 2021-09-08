@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 10
-description: Creating a Design System
+title: CPNT 260 Day 10 - How to use a Design System
+description: Today we will apply ideas from design systems such as Material.io to our html and css. This class will be a summarization of the code we have learned over the past 9 days. We will have fun revamping old and outdated web designs found on the waybackmachine.
 date: 2021-09-30
 ---
 ## Trophy of the Day: Revamp an old webpage
@@ -38,7 +38,7 @@ _Using google's material.io as an example_
 ### Notes
 
 ---
-## Activity 1: Find an old site to revamp
+## Activity 1: Find and audit an old site to revamp
 
 ---
 ## Topic 3: Revamping an old website
@@ -69,30 +69,3 @@ _What a lot of jobs entail_
 - Deploy and Submit
 
 ---
-
-{{ comment }}
-# CPNT-260 Day 10: Applied Design paradigms
-
-## Goals
-* Applied Experiments of:
-  * Mobile First Design
-  * User Centered Design
-  * Material Design
-  * Human Interface Design
-* Set up styling defaults
-
-## Learning Outcomes
-* Be able to select a design paradigm and write code that reflects it
-* Use a stylesheet or design paradigm to write presets
-
-## Bruteforce
-* Set up a design theme's defaults to a simple web page
- 
-## Stretch
-* update an old website design found on the waybackmachine (before 2010)
-  _Choose one or more of these_
-  * can focus on colour and typography
-  * can focus on layout and positioning of content
-  * can focus on interactive elements
-
-{{ comment }}

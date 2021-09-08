@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: Flexbox Layouts
 description: Create different flexbox layouts in groups of 4
-date: 2021-09-21
+image:
 ---
 
 ## Instructions

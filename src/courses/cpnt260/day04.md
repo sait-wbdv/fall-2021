@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 4
-description: Mobile First Design
+title: CPNT 260 Day 4 - Mobile First Design, Flexbox, and Breakpoints
+description: Modern web crawlers search for that follow mobile first best practices. Today we will continue learning flexbox and also use media queries to create distinct mobile - desktop layouts.
 date: 2021-09-22
 ---
 
@@ -84,27 +84,3 @@ _End of Day Activity_
 - Watch Jen Simmons on [The basics of grid](https://www.youtube.com/watch?v=FEnRpy9Xfes)
 - Watch Jen Simmons on [Using Flexbox and CSS Grid together](https://youtu.be/dQHtT47eH0M)
 ---
-
-{{ comment }}
-
-# CPNT-260 Day 4 Flexbox Patterns and Media Queries
-
-## Goals
-* Create responsive site layouts
-* Create cards and other patterns
-  *- Bug Hunting
- galleries, tag clouds, thumbnails...
-* Add and use icons to a website 
-## Learning Objectives
-* Flexbox `flex-grow` `flex-shrink`
-* Mobile first and desktop first design strategies using media queries
-* `min-width`, `max-width` and other flexible size units
-* what are anchors and how to use them
- 
-## Bruteforce
-* A mobile first webpage concept
-
-## Stretch
-* use a hamburger menu on mobile 
-
-{{ comment }}
