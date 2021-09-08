@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/assignment.njk
 title: DSGN 270 Assignment 1 - Website Critique
 ---
 Select a public, multi-page website of your choice. Write a review and critique evaluating this website, based on the terminology and concepts you've learned in this course.

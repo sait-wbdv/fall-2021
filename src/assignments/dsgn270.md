@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/assignment.njk
 title: DSGN 270 Assignments
 ---
 
