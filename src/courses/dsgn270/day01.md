@@ -5,6 +5,40 @@ description: User Experience design is a huge field and this is not a design cou
 date: 2021-09-08
 released: true
 ---
+## [Today's Padlet](https://padlet.com/acidtone/fall_2021)
+
+## Housekeeping
+- Reminder for Tony: Hit record!
+- Assignment 1: [Website Critque]({{ '/assignments/dsgn270/design/assignment-1/' | url }})
+    - Due: Wednesday, September 15 @ 11:59pm
+    - 25% of final course mark
+- Brightspace tour
+- Dailies and Assignments
+- Slack Docs
+
+---
+
+## Trophy of the Day: Roster card info
+Submit the following for today's Daily Submission:
+- Display name
+- Github account home page
+
+## 1. Breakout introductions
+In groups of 3 or 4 do a round-robin introduction of yourself:
+- What I'd like to get out of this program.
+- Cats or dogs? Other?
+- Favourite [game|netflix show|child|etc].
+
+Tony will be asking for volunteers to recall something about one of their group members so try to be memorable!
+
+## 2. Usability and web conventions
+1. [UX for developers]({{ '/takeaways/design/ux-for-devs/' | url }})
+2. [Web conventions]({{ '/takeaways/design/conventions/' | url }})
+
+## 3. Tooltime: Screencaps and annotation
+Group discussion and demos of your favourite image annotation tool things.
+
+---
 
 ## Prep
 ### UX fundamentals
@@ -29,13 +63,6 @@ Complete the tasks covered during Orientation:
 
 {% comment %}
 
-## Trophy of the day
-Wireframes of a multi-page website
 
-## Topics
-1. [UX for developers]({{ '/takeaways/design/ux-for-devs/' | url }})
-2. [Web conventions]({{ '/takeaways/design/conventions/' | url }})
-3. Activity: [Wireframing]({{ '/activities/design/wireframing/' | url }})
-4. 
 
 {% endcomment %}

@@ -14,8 +14,8 @@ Web conventions are popular design patterns that evolve over time as the user be
 2. How things work. Example: the shopping cart metaphor.
 3. How things look. Example: errors are red and like buttons are blue. 
 
-### Common conventions with usability in mind
-- [Content and Layout]({{ '/takeaways/design/content/' | url }})
+### Web usability conventions 
 - [Navigation]({{ '/takeaways/design/navigation/' | url }})
-- [Forms]({{ '/takeaways/design/forms/' | url }})
-- [Mobile]({{ '/takeaways/design/mobile/' | url }})
+- Content and Layout
+- Forms
+- Mobile
