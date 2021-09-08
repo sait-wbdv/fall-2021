@@ -27,7 +27,7 @@ Complete the tasks covered during Orientation:
 3. Optional
     - Sign up for GitHub Classroom to get your [Student Developer Pack](https://education.github.com/pack) (handy free stuff)!
 
-{% comment %}
+---
 
 ## Trophy of the day
 Wireframes of a multi-page website
@@ -36,6 +36,10 @@ Wireframes of a multi-page website
 1. [UX for developers]({{ '/takeaways/design/ux-for-devs/' | url }})
 2. [Web conventions]({{ '/takeaways/design/conventions/' | url }})
 3. Activity: [Wireframing]({{ '/activities/design/wireframing/' | url }})
-4. 
+4. Open Lab
+
+{% comment %}
+
+
 
 {% endcomment %}
