@@ -17,6 +17,13 @@ Select a public, multi-page website of your choice. Write a review and critique 
     - Include additional screencaps to support your statements.
     - Support your critque with references to material covered in class.
 
+### Screencap tools
+- Native OS screencaps
+    - [Screenshots in Windows 10](https://www.howtogeek.com/226280/how-to-take-screenshots-in-windows-10/)
+    - [Screenshots on Mac OS](https://support.apple.com/en-ca/HT201361)
+    - [Screenshots in Linux](https://itsfoss.com/take-screenshot-linux/)
+
+
 ---
 
 ## Marking Criteria

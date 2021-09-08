@@ -15,6 +15,7 @@ released: true
 - Brightspace tour
 - Dailies and Assignments
 - Slack Docs
+- Padlet
 
 ---
 
