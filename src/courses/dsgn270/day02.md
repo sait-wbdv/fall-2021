@@ -32,16 +32,11 @@ Submit the following for today's Daily Submission:
 
 ## 3. Activity: Point and Crit
 In groups of 3 or 4, select a website to roast (or praise). You may decide to critique this program website. If you do, [submit an Issue](https://github.com/sait-wbdv/fall-2021/issues) and your instructors will work on them this Saturday.
-- What types of navigation does the website use?
-- What layout patterns do you see?
-    - List entries?
-    - Cards?
-    - How do they use the footer?
-- How do they handle content? Do they have an effective visual hierarchy?
-    - Headings?
-    - Links?
-    - Images?
-    - Icons?
+- How does the site use visual hierarchy to promote prominence of content?
+    - Size
+    - Color
+    - Space (proximity)
+    - Typography
 
 Select a member of your group to summarize and report your findings to the rest of the class.
 
