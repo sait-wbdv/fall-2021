@@ -37,6 +37,7 @@ In groups of 3 or 4, select a website to roast (or praise). You may decide to cr
     - Color
     - Space (proximity)
     - Typography
+- How does it succeed, how does it fail at visual hierarchy?
 
 Select a member of your group to summarize and report your findings to the rest of the class.
 
