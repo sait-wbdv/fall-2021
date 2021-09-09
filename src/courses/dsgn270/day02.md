@@ -10,6 +10,7 @@ released: true
 
 ## Housekeeping
 - Reminder for Tony: Hit record!
+- Recordings post set up in Slack
 
 ## Trophy of the Day: Image assets and design examples
 Submit the following for today's Daily Submission:
