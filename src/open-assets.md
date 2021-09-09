@@ -3,6 +3,13 @@ layout: layouts/page.njk
 permalink: /open-assets/
 ---
 # Open Source Assets
+## Open source licenses
+- [Understanding The Copyright License](https://www.smashingmagazine.com/2011/06/understanding-copyright-and-licenses/)
+- Common open licenses
+    - [Creative Commons Licenses](https://creativecommons.org/about/cclicenses/) for content
+    - [MIT License](https://opensource.org/licenses/MIT) for software
+    - [Which License Should I Use? MIT vs. Apache vs. GPL](https://exygy.com/blog/which-license-should-i-use-mit-vs-apache-vs-gpl/)
+
 ## Images and Icons
 - [Lorem Picsum](http://picsum.photos/) [[license](https://github.com/DMarby/picsum-photos/blob/main/lICENSE.md)]
 - [Unsplash](https://unsplash.com/) [[license](https://unsplash.com/license)]
