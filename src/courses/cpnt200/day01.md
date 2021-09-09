@@ -1,8 +1,15 @@
 ---
 layout: layouts/day.njk
 title: CPNT 200 Day 1 - Content Management Systems
-description: This is a description
+description: In this lesson, we will discuss what a CMS is and some of the basic concepts that you will need to make informed choices for setting up a CMS project.
 date: 2021-11-16
+---
+
+## Topics
+- Static Site Generator (SSG), Server-side Rendering (SSR), and Client-side Rendering (CSR)
+- Static vs Dynamic Content
+- Getting started with Eleventy
+
 ---
 
 ## Prep

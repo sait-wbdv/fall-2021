@@ -22,8 +22,8 @@ date: 2021-09-21
 4. Optimize/Test
 
 ---
-## Topic 1: Solving Design Problems with Flexbox
-_Truly dynamic and responsive site design_
+## Topic 1: Introduction to Flexbox
+_Create responsive and interesting designs with flexbox_
 
 ### Key Terms
 `display`
@@ -39,22 +39,24 @@ cross-axis
 ---
 ## Topic 2: Position Elements in Flex Containers
 _Arrange a site's content_
+
 ### Key Terms
+flex container
+  : The parent element of flex items. A flex container can also be a flex item. Use properties such as `flex-wrap`, `flex-flow` etc to customize how the items in the container will be positioned and respond to one another.
+flex item
+  : Children of flex containers. Use properties such as `flex-grow`, `flex-shrink`, `align-self` to customize how flex items look and function
 
 ### Notes
 
----
+
 ## Activity: Make a Page Layout with Flexbox
 
 ---
 ### Topic 3: Nesting Flexbox Containers and Flex Items
 _Mobile first designs and user input_
 
-### Key Terms
-
 ### Notes
 
-___
 ## Activity 2: Designing a Signup page with flexbox
 
 ---
