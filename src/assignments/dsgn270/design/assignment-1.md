@@ -57,6 +57,6 @@ Points will be deducted for lack of scannability:
 You will be writing this assignment as a PDF document:
 1. You may use a publishing tool of your choice (i.e. Google Docs, Word, etc).
 2. Export your file as a PDF with the name `dsgn270-a1.pdf`.
-3. Zip your file and upload it to the dropbox on Brightspace. Include a link to your repo as comment on your upload.
+3. Zip your file and upload it to the dropbox on Brightspace. 
 
 Marks will be deducted for incorrect submissions.
