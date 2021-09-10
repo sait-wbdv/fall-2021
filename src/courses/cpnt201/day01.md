@@ -11,7 +11,7 @@ released: true
 ## Housekeeping
 - Reminder for Tony: Hit record!
 - [Program assignments page]({{ '/assignments/' | url }})
-- Assignment 1: [Website Critque]({{ '/assignments/cpnt201/assignment-1/' | url }})
+- Assignment 1: [Three Deployed GitHub Pages Templates]({{ '/assignments/cpnt201/assignment-1/' | url }})
     - Due: Friday, September 17 @ 11:59pm
     - 25% of final course mark
 
