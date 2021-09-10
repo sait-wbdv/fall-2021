@@ -25,7 +25,7 @@ Submit the following for today's Daily Submission:
 ---
 ## Agenda
 ### 1. Quality of Life Tips
-- Web developement is just fancy typing.
+- Web development is just fancy typing.
     - Take a typing course.
     - Keep your hands on the "home row"
         - left index finger on `F`
