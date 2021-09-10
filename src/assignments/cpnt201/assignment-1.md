@@ -1,4 +1,7 @@
-# Assignment 1 - Three Deployed GitHub Pages Templates
+---
+layout: layouts/assignment.njk
+title: CPNT 201 Assignment 1 - Three Deployed GitHub Pages Templates
+---
 ## Details
 In this assignment, you will deploy three _distinct_ static website templates that could be customized for a fictitious business of your choice. 
 
