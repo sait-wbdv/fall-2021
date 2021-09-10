@@ -38,10 +38,10 @@ Submit the following for today's Daily Submission:
     - Key Goal: don't take your hands off the keyboard
     - Keyboard shortcuts can usually be found to the right of an application's menu options.
     - Use your system shortcuts to switch applications
-        - Windows: `Alt` + `F4`
+        - Windows: `Alt` + `Tab`
         - Mac: `Command` + `Tab`
 - Use keyboard shortcuts to open applications
-    - Windows: ???
+    - Windows: `Windows` key
     - Mac: `Command` + `spacebar` and begin typing the name of the application.
 - Install a window manager such as [Divvy Window Manager](https://mizage.com/windivvy/)!
 
