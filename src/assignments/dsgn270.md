@@ -9,7 +9,7 @@ title: DSGN 270 Assignments
 - Weight: 25% of Final Course Mark
 
 ### Assignment 2: Website Wireframes
-- Due: Sunday, September 19
+- Due: Monday, September 20
 - Weight: 25% of Final Course Mark
 
 ## Social Tools
