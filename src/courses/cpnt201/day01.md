@@ -46,7 +46,7 @@ Submit the following for today's Daily Submission:
 - Install a window manager such as [Divvy Window Manager](https://mizage.com/windivvy/)!
 
 ### 2. VS Code extensions
-Padlet: [Popular VS Code Extensions](https://padlet.com/acidtone/vscodeextensions)
+- Padlet: [Popular VS Code Extensions](https://padlet.com/acidtone/vscodeextensions)
 
 Recommended extensions for this program
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
