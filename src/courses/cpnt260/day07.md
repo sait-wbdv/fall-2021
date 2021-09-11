@@ -35,7 +35,10 @@ _The fundamentals of eye catching hero sections_
 ### Key Terms
 
 ### Notes
-
+- Assess the design and code of the following pages
+  - [AirBnb Hero Section](https://airbnd.ca)
+  - [Air Canada Flight Search](https://flightsearchdirect.com)
+  - [Sandman Hotels](https://www.sandmanhotels.com/)
 ---
 ## Activity: Find Hero Examples
 - Screenshot different hero sections
