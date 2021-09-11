@@ -8,6 +8,7 @@ image:
 - Create a simple signup form
 - Set up the layout with flexbox
 - Include a nav menu implemented in flexbox
+- You can submit either a codepen link or zipped html and css files to Brightspace
 
 ### Requirements
 - it must have a flexible nav menu
