@@ -53,17 +53,21 @@ Break apart this page into columns.
 - [HTML Tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables)
 
 <section>
+
 ### CSS
   <section>
     <article>
+
 - [CSS First Steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
   - [What is CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
   - [Getting started with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
   - [How CSS is structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
   - [How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
   - [Using your new knowledge](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge)
+
     </article>
     <article>
+
 - [CSS Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
   - [Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
   - [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
@@ -80,15 +84,19 @@ Break apart this page into columns.
   - [Images, media and form elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements)
   - [Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS)
   - [Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing)
+
     </article>
     <article>
+
 - [Styling text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text)
   - [Fundamental font and text styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
   - [Styling lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists)
   - [Styling links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links)
   - [Web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
+
     </article>
     <article>
+
 - [CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
   - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
   - [Normal Flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)
@@ -100,9 +108,11 @@ Break apart this page into columns.
   - [Beginner's guide to media queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries)
   - [Legacy layout methods](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods)
   - [Supporting older browsers](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers)
+
     </article>
   </section>
 </section>
+
 ### Javascript
 
 - [Getting Started with Javascript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Javascript_basics)
