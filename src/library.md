@@ -21,8 +21,8 @@ Break apart this page into columns.
 2. Move lists into each respective card.
 3. Make it minimally pretty
 
-
 ## Parking Lot
+
 - [Add Issue to markdown-it GH](https://github.com/markdown-it/markdown-it/issues)
 
 {% endcomment %}
@@ -43,3 +43,23 @@ Break apart this page into columns.
 ---
 
 ## Program Textbook: Mozilla Developer Network
+
+<section>
+
+  <article>
+    <h3>HTML</h3>
+
+[HTML](/library/html/)
+![html5 logo]({{ '/assets/images/html5-logo.svg' | url }})
+
+  </article>
+
+  <article>
+    <a href="{{ '/library/css/' | url }}">CSS</a>
+  </article>
+
+  <article>
+    <a href="{{ '/library/javascript/' | url }}">JavaScript</a>
+  </article>
+
+</section>
