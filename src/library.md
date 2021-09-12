@@ -44,7 +44,7 @@ Break apart this page into columns.
 
 ## Program Textbook: Mozilla Developer Network
 
-<section>
+<section class="container">
 
   <a href="{{ '/library/html/' | url }}">
     <article>
