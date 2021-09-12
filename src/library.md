@@ -46,20 +46,24 @@ Break apart this page into columns.
 
 <section>
 
-  <article>
-    <h3>HTML</h3>
+  <a href="{{ '/library/html/' | url }}">
+    <article>
+      <h3>HTML</h3>
+      <img src="{{ '/assets/images/html5.svg' | url }}" alt="HTML logo">
+    </article>
+  </a>
+  <a href="{{ '/library/css/' | url }}">
+    <article>
+      <h3>CSS</h3>
+      <img src="{{ '/assets/images/css3-alt.svg' | url }}" alt="CSS logo">
+    </article>
+  </a>
 
-[HTML](/library/html/)
-![html5 logo]({{ '/assets/images/html5-logo.svg' | url }})
-
-  </article>
-
-  <article>
-    <a href="{{ '/library/css/' | url }}">CSS</a>
-  </article>
-
-  <article>
-    <a href="{{ '/library/javascript/' | url }}">JavaScript</a>
-  </article>
+  <a href="{{ '/library/javascript/' | url }}">
+    <article>
+      <h3>Javascript</h3>
+      <img src="{{ '/assets/images/js.svg' | url }}" alt="Javascript logo">
+    </article>
+  </a>
 
 </section>
