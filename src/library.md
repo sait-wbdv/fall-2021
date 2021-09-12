@@ -4,30 +4,34 @@ permalink: /library/
 ---
 
 {% comment %}
-Paired coding session to fix this issue: 
+Paired coding session to fix this issue:
 https://github.com/sait-wbdv/fall-2021/issues/3
 
 ## Session Goal
+
 Break apart this page into columns.
+
 - Still a single page
 
 ## Plan it out
+
 1. Break each HTML/CSS/JS category into its own Flexbox
-    - container -> section
-    - item -> article 
+   - container -> section
+   - item -> article
 2. Move lists into each respective card.
 3. Make it minimally pretty
 
 {% endcomment %}
 
 ## Recommended Courses
+
 - Free Code Camp
   - [Introduction to Basic HTML & HTML5](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
   - [Introduction to CSS](https://www.freecodecamp.org/learn/responsive-web-design/basic-css/)
   - [Introduction to JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
-      - [ES6 Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/)
-      - [Debugging Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/)
-      - [Basic Data Structure Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/)
+    - [ES6 Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/)
+    - [Debugging Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/)
+    - [Basic Data Structure Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/)
 - Advanced
   - [Javascript: the Weird Parts](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
     - This is the first 3.5 hours of a 12 hour Udemy course by Tony Alicea. It's and oldie but a goodie.
@@ -37,6 +41,7 @@ Break apart this page into columns.
 ## Program Textbook: Mozilla Developer Network
 
 ### HTML
+
 - [Structuring the web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 - [What's in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
@@ -47,13 +52,18 @@ Break apart this page into columns.
 - [Adding vector graphics to the web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web)
 - [HTML Tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables)
 
+<section>
 ### CSS
+  <section>
+    <article>
 - [CSS First Steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
   - [What is CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
   - [Getting started with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
   - [How CSS is structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
   - [How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
   - [Using your new knowledge](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge)
+    </article>
+    <article>
 - [CSS Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
   - [Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
   - [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
@@ -70,11 +80,15 @@ Break apart this page into columns.
   - [Images, media and form elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements)
   - [Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS)
   - [Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing)
+    </article>
+    <article>
 - [Styling text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text)
   - [Fundamental font and text styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
   - [Styling lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists)
   - [Styling links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links)
   - [Web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
+    </article>
+    <article>
 - [CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
   - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
   - [Normal Flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)
@@ -86,8 +100,11 @@ Break apart this page into columns.
   - [Beginner's guide to media queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries)
   - [Legacy layout methods](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods)
   - [Supporting older browsers](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers)
-
+    </article>
+  </section>
+</section>
 ### Javascript
+
 - [Getting Started with Javascript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Javascript_basics)
 - [Javascript - Dynamic client-side scripting](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
   - [Javascript first steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
