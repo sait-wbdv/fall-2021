@@ -3,6 +3,23 @@ layout: layouts/page.njk
 permalink: /library/
 ---
 
+{% comment %}
+Paired coding session to fix this issue: 
+https://github.com/sait-wbdv/fall-2021/issues/3
+
+## Session Goal
+Break apart this page into columns.
+- Still a single page
+
+## Plan it out
+1. Break each HTML/CSS/JS category into its own Flexbox
+    - container -> section
+    - item -> article 
+2. Move lists into each respective card.
+3. Make it minimally pretty
+
+{% endcomment %}
+
 ## Recommended Courses
 - Free Code Camp
   - [Introduction to Basic HTML & HTML5](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
