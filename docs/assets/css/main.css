@@ -11,12 +11,12 @@ nav.primary li {
 }
 nav.primary a {
   display: block;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 
   text-decoration: none;
   color: indigo;
 
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 
   text-align: center;
   font-variant: small-caps;
@@ -36,11 +36,10 @@ nav.primary a:active {
 /* Header */
 /**********/
 
-
 .page-header {
   display: flex;
   align-items: center;
-  
+
   padding: 1em;
   margin-bottom: 2em;
   border-bottom: 1px solid #aaa;
@@ -95,58 +94,58 @@ hr {
 }
 
 .notice i {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 /* yellow warning box */
-.notice--warning  {
+.notice--warning {
   background-color: hsl(60deg, 50%, 95%);
   border-color: hsl(50deg, 100%, 50%);
   color: hsl(60deg, 100%, 10%);
 }
 
 .notice--warning::before {
-  content: url('https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/exclamation-triangle.svg');
+  content: url("https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/exclamation-triangle.svg");
   display: inline-block;
-  
+
   width: 1.2em;
   margin-right: 0.4rem;
 }
 
 /* green warning box */
-.notice--info  {
+.notice--info {
   background-color: hsl(90deg, 30%, 95%);
   border-color: hsl(90deg, 100%, 50%);
   color: hsl(90deg, 100%, 10%);
 }
 
 .notice--info::before {
-  content: url('https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/question.svg');
+  content: url("https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/question.svg");
   display: inline-block;
   width: 0.8em;
   margin-right: 0.4rem;
 }
 
 /* indigo pro-tip box */
-.notice--pro-tip  {
+.notice--pro-tip {
   background-color: hsl(270deg, 50%, 95%);
   border-color: hsl(270deg, 100%, 50%);
   color: hsl(270deg, 100%, 10%);
 }
 .notice--pro-tip::before {
-  content: url('https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/trophy.svg');
+  content: url("https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/trophy.svg");
   display: inline-block;
   width: 1.2em;
   margin-right: 0.4rem;
 }
 /* indigo pro-tip box */
-.notice--danger  {
+.notice--danger {
   background-color: hsl(0deg, 50%, 95%);
   border-color: hsl(0deg, 100%, 50%);
   color: hsl(0deg, 100%, 10%);
 }
 .notice--danger::before {
-  content: url('https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/skull-crossbones.svg');
+  content: url("https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/skull-crossbones.svg");
   display: inline-block;
   width: 0.9em;
   margin-right: 0.4rem;
@@ -176,4 +175,46 @@ footer {
   border-top: 1px solid grey;
   padding: 2rem;
   text-align: center;
+}
+
+/*****************/
+/* Gallery Cards */
+/*****************/
+
+.gallery {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery > * {
+  width: 25ch;
+  margin: 1rem;
+  text-align: center;
+
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 0;
+}
+.gallery > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.gallery > a:hover.html {
+  background-color: hsl(5, 100%, 95%);
+}
+.gallery > a:hover.css {
+  background-color: hsl(203, 100%, 95%);
+}
+.gallery > a:hover.js {
+ background-color: hsl(52, 100%, 95%);
 }
