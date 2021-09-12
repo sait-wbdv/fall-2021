@@ -13,7 +13,7 @@ description: Create a user form that is easy to use for everyone.
     - Work through the form from top to bottom, pair coding in timed intervals as you go
       - This method is especially good if nobody has any strong opinions of what part of the page they want to work on.
     - Divide based on html and css
-  - In the end, everyone should get to be driver and navigator
+  - In the end, everyone should get to be driver and navigator at least once
 
 ## Task Instructions
 - Create a form
