@@ -67,7 +67,7 @@ Now that we can commit changes to a local repo, we need to be able to "push" the
 
 Unfortunately, we need to jump through some hoops so we can connect with SSH. Luckily, GitHub has great step-by-step instructions in their documentation:
 1. [About SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh) 
-2. [Check for existing SSH keys](https://docs.github.com/zn/articles/checking-for-existing-ssh-keys)
+2. [Check for existing SSH keys](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
 3. [Generate a new SSH key and add it to the ssh-agent](https://docs.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 4. [Add your SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 5. [Test your connection](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection)
