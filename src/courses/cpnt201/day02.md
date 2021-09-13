@@ -74,7 +74,7 @@ Once you can connect to GitHub with SSH, we can finally "push" and "pull" code t
 1. [Link a local repo to a remote repo](https://gist.github.com/acidtone/f754c4c37d1014b73d061d09eea6b13c)
 
 ## 7. Activity: Commit Catch
-*Goal*: pass committed changes to a partner and back again.
+*Goal*: pass committed changes to a partner and back again. See: [Pair programming process with Fiona and Semira](https://gist.github.com/acidtone/caa20b2520814a94240043c40301024a)
 1. Your instructor will randomly put you into pairs.
 2. Choose one person to create a GitHub repo (or use an existing one) and [invite the other as a collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
 3. Both partners should pull the GitHub repo to their local machines.
