@@ -36,7 +36,7 @@ In today's Daily in Brightspace, post a link to:
     - *Deployment*: In industry, we use Git to sync our project code with a server to make it live.
 - How does it work?
     - At the end of the day, Git keeps track of *each line of code* in your project, including:
-        - who created it
+        - who created it.
         - every change made to it
         - who made each of those changes
 
