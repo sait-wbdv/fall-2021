@@ -21,8 +21,13 @@ Break apart this page into columns.
 2. Move lists into each respective card.
 3. Make it minimally pretty
 
-## Parking Lot
+## Brute force
+Completed on Sept 12, 2021
 
+## Walk-through
+To do during next session.
+
+## Parking Lot
 - [Add Issue to markdown-it GH](https://github.com/markdown-it/markdown-it/issues)
 
 {% endcomment %}
@@ -44,22 +49,22 @@ Break apart this page into columns.
 
 ## Program Textbook: Mozilla Developer Network
 
-<section class="container">
+<section class="gallery">
 
-  <a href="{{ '/library/html/' | url }}">
+  <a class="html" href="{{ '/library/html/' | url }}">
     <article>
       <h3>HTML</h3>
       <img src="{{ '/assets/images/html5.svg' | url }}" alt="HTML logo">
     </article>
   </a>
-  <a href="{{ '/library/css/' | url }}">
+  <a class="css" href="{{ '/library/css/' | url }}">
     <article>
       <h3>CSS</h3>
       <img src="{{ '/assets/images/css3-alt.svg' | url }}" alt="CSS logo">
     </article>
   </a>
 
-  <a href="{{ '/library/javascript/' | url }}">
+  <a class="js" href="{{ '/library/javascript/' | url }}">
     <article>
       <h3>Javascript</h3>
       <img src="{{ '/assets/images/js.svg' | url }}" alt="Javascript logo">

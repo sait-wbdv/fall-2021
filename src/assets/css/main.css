@@ -181,27 +181,40 @@ footer {
 /* Gallery Cards */
 /*****************/
 
-.container {
+.gallery {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.container > * {
-  width: 30ch;
-  margin: 2rem;
+.gallery > * {
+  width: 25ch;
+  margin: 1rem;
   text-align: center;
 
   border: 3px solid black;
   border-radius: 10px;
   padding: 2rem;
+
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-h3 {
+
+.gallery h3 {
   font-size: 3rem;
   margin: 0;
 }
-.container > a {
+.gallery > a {
   text-decoration: none;
   color: inherit;
+}
+
+.gallery > a:hover.html {
+  background-color: hsl(5, 100%, 95%);
+}
+.gallery > a:hover.css {
+  background-color: hsl(203, 100%, 95%);
+}
+.gallery > a:hover.js {
+ background-color: hsl(52, 100%, 95%);
 }

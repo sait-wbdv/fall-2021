@@ -4,7 +4,6 @@ title: Layout
 description: 
 image: navigation.png
 ---
-# Layout
 ## List entries (example: gallery)
 List entry
 : Sometimes called "category pages" (when they contain items belonging to a specific product category), "directory pages" (when they list locations or people), or "gallery pages" (when they contain graphics or images).

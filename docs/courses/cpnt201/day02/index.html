@@ -45,12 +45,12 @@
     <ul>
         <li>
             
-            <a href="/fall-2021/courses/cpnt201/day01/" title="CPNT 201 Day 1 - Pro tips for devs">Previous</a>
+            <span>Previous</span>
             
         </li>
         <li>
             
-            <span>Next</span>
+            <a href="/fall-2021/courses/dsgn270/day03/" title="DSGN 270 Day 3 - User stories, user flows and wireframes">Next</a>
             
         </li>
     </ul>
@@ -62,7 +62,120 @@
   <h2>CPNT 201 Day 2 - Git and GitHub</h2>
   
   
-        <h2>Prep</h2>
+        <h2>Housekeeping</h2>
+<ul>
+<li>Reminder for Tony: Hit record!</li>
+<li><a href="https://padlet.com/acidtone/fall_2021">Today's Padlet</a></li>
+<li><a href="https://github.com/sait-wbdv/fall-2021/issues/3">One website Issue fixed</a>!</li>
+<li>Code Warrior leader board:
+<ul>
+<li>Belchi (3), David (3), Fesal (3), Lucas (3), Mysia (3), Icah (3), Jessica (3), Chris (2), Hayden (2), Evan (2), Jean-Marc (2), JP (2), Sharron (2), James (2),  Devon (2),  Jesse (2), Filora (2), Byung (1)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Trophy of the Day: Deployed GitHub Pages website</h2>
+<p>Today's activities will show you how to use Git to push a static website to GitHub and deploy that site with GitHub Pages.</p>
+<p>In today's Daily in Brightspace, post a link to:</p>
+<ul>
+<li>your GitHub repo</li>
+<li>your published GH Pages website</li>
+</ul>
+<hr>
+<h2>1. Git Overview</h2>
+<ul>
+<li><a href="https://www.google.com/search?q=what+is+git">What is Git?</a>
+<ul>
+<li>Git is version control software that help a software team manage changes to source code over time.</li>
+<li>See: <a href="/fall-2021/takeaways/git/terminology/">Git Terminology</a></li>
+</ul>
+</li>
+<li>Why do we use it?
+<ul>
+<li><em>To download projects</em> to our systems. See: <a href="https://gist.github.com/acidtone/aeea8025550587db9e557e3b9a5bd982">Clone a read-only repo</a></li>
+<li><em>Code backups</em>: Git allows you to take snapshots of a directory (commits) which we can rollback to in case we royally screw up.</li>
+<li><em>Syncing code</em>: If you work on two machings, like a home laptop and office system, you can use Git to sync your projects.</li>
+<li><em>Collaboration with teammates</em>: Git allows multiple developers to work on the same file at the same time. Conflicts will happen but Git helps resolve them.</li>
+<li><em>Deployment</em>: In industry, we use Git to sync our project code with a server to make it live.</li>
+</ul>
+</li>
+<li>How does it work?
+<ul>
+<li>At the end of the day, Git keeps track of <em>each line of code</em> in your project, including:
+<ul>
+<li>who created it</li>
+<li>every change made to it</li>
+<li>who made each of those changes</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>2. First-time setup</h2>
+<p>If this is your first time using Git with your current system, you will need to <a href="https://gist.github.com/acidtone/6ca4c62d88570732d3760904ef965e4d">follow these steps</a> to set your username, email and excludes file.</p>
+<h2>3. Plan your file structure</h2>
+<ul>
+<li><a href="https://gist.github.com/acidtone/d77059ec1851eff266339a3df70f6984">Files, directories and naming conventions</a>
+<ul>
+<li>Scroll to the bottom to find common directory structures</li>
+</ul>
+</li>
+</ul>
+<h2>4. Initialize your first repo</h2>
+<p>Now that you've got Git setup, we can get to work and initialize our first repository.</p>
+<ul>
+<li>Gist: <a href="https://gist.github.com/acidtone/34be4eeb841087ea6cf4a29fb83aecdc">Initialize a new local Git repo</a></li>
+</ul>
+<h2>5. Dev Life: Committing changes to a repo</h2>
+<p>As a developer, you will be commiting code on a daily basis. This is done in 4 steps:</p>
+<ol>
+<li>Generate some code. In other words, make changes to your project.</li>
+<li>Add these changes to the staging area.</li>
+<li>Commit the changes in the staging area.</li>
+<li>Go to Step one and repeat or take a well deserved break.</li>
+</ol>
+<p>See <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Using_Github_pages">Add changes and commit them to a repo</a></p>
+<h2>6. First-time Setup: Connecting to GitHub using SSH</h2>
+<p>Now that we can commit changes to a local repo, we need to be able to &quot;push&quot; these changes to GitHub so we can collaborate, sync laptops or deploy code.</p>
+<p>Unfortunately, we need to jump through some hoops so we can connect with SSH. Luckily, GitHub has great step-by-step instructions in their documentation:</p>
+<ol>
+<li><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh">About SSH</a></li>
+<li><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys">Check for existing SSH keys</a></li>
+<li><a href="https://docs.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generate a new SSH key and add it to the ssh-agent</a></li>
+<li><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">Add your SSH key to your GitHub account</a></li>
+<li><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection">Test your connection</a></li>
+</ol>
+<h2>7. Pushing changes to a GitHub repo</h2>
+<p>Once you can connect to GitHub with SSH, we can finally &quot;push&quot; and &quot;pull&quot; code to and from a remote repository.</p>
+<ol>
+<li><a href="https://gist.github.com/acidtone/f754c4c37d1014b73d061d09eea6b13c">Link a local repo to a remote repo</a></li>
+</ol>
+<h2>8. Activity: Commit Catch</h2>
+<p><em>Goal</em>: pass committed changes to a partner and back again. See: <a href="https://gist.github.com/acidtone/caa20b2520814a94240043c40301024a">Pair programming process with Fiona and Semira</a></p>
+<ol>
+<li>Your instructor will randomly put you into pairs.</li>
+<li>Choose one person to create a GitHub repo (or use an existing one) and <a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository">invite the other as a collaborator</a>.</li>
+<li>Both partners should pull the GitHub repo to their local machines.</li>
+<li>Pick a Driver. They will:
+<ol>
+<li>Make a local change;</li>
+<li>Add and commit the change;</li>
+<li>Push the commit to the GitHub repo.</li>
+</ol>
+</li>
+<li>Switch Drivers. The new Driver will:
+<ol>
+<li><a href="https://gist.github.com/acidtone/bfbf0d50baf834e7ffaf210cece78a69">Pull the new changes from GitHub</a> with <code>git pull</code>.</li>
+<li>Make a local change;</li>
+<li>Add and commit the change;</li>
+<li>Push the commit to the GitHub repo.</li>
+</ol>
+</li>
+<li>Switch Drivers and repeat until you get the hang of committing and pushing changes (or until 2:30pm).</li>
+</ol>
+<h2>9. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site">Deploy a static site with GitHub Pages</a>.</h2>
+<hr>
+<h2>Prep</h2>
 <h3>Git and GitHub</h3>
 <ul>
 <li>Padlet: <a href="https://padlet.com/acidtone/git_github">Git Pit</a></li>
@@ -76,12 +189,12 @@
     <ul>
         <li>
             
-            <a href="/fall-2021/courses/cpnt201/day01/" title="CPNT 201 Day 1 - Pro tips for devs">Previous</a>
+            <span>Previous</span>
             
         </li>
         <li>
             
-            <span>Next</span>
+            <a href="/fall-2021/courses/dsgn270/day03/" title="DSGN 270 Day 3 - User stories, user flows and wireframes">Next</a>
             
         </li>
     </ul>
