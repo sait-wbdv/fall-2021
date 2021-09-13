@@ -8,13 +8,12 @@ released: true
 
 ## Housekeeping
 - Reminder for Tony: Hit record!
+- [Today's Padlet](https://padlet.com/acidtone/fall_2021)
 - [One website Issue fixed](https://github.com/sait-wbdv/fall-2021/issues/3)!
 - Code Warrior leader board:
     - Belchi (3), David (3), Fesal (3), Lucas (3), Mysia (3), Icah (3), Jessica (3), Chris (2), Hayden (2), Evan (2), Jean-Marc (2), JP (2), Sharron (2), James (2),  Devon (2),  Jesse (2), Filora (2), Byung (1)
 
 ---
-
-## [Today's Padlet](https://padlet.com/acidtone/fall_2021)
 
 ## Trophy of the Day: Deployed GitHub Pages website
 Today's activities will show you how to use Git to push a static website to GitHub and deploy that site with GitHub Pages. 
