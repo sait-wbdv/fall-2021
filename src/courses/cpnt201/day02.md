@@ -27,7 +27,7 @@ In today's Daily in Brightspace, post a link to:
 ## 1. Git Overview
 - [What is Git?](https://www.google.com/search?q=what+is+git)
     - Git is version control software that help a software team manage changes to source code over time.
-    - See: [Git Terminology]({{/takeaways/git/terminology/}})
+    - See: [Git Terminology]({{ /takeaways/git/terminology/ }})
 - Why do we use it?
     - *To download projects* to our systems. See: [Clone a read-only repo](https://gist.github.com/acidtone/aeea8025550587db9e557e3b9a5bd982)
     - *Code backups*: Git allows you to take snapshots of a directory (commits) which we can rollback to in case we royally screw up.
