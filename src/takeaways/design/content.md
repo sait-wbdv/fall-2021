@@ -4,7 +4,6 @@ title: Content
 description: 
 image: navigation.png
 ---
-# Content
 ## Headings
 Heading
 : The headline that acts as a title of a section of text.
