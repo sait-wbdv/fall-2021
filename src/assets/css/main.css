@@ -21,6 +21,8 @@ nav.primary a {
   text-align: center;
   font-variant: small-caps;
   font-family: sans-serif;
+
+  transition: background-color 0.3s ease-in-out;
 }
 
 nav.primary a:hover {
@@ -201,12 +203,13 @@ footer {
 }
 
 .gallery h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 0;
 }
 .gallery > a {
   text-decoration: none;
   color: inherit;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .gallery > a:hover.html {
@@ -216,5 +219,5 @@ footer {
   background-color: hsl(203, 100%, 95%);
 }
 .gallery > a:hover.js {
- background-color: hsl(52, 100%, 95%);
+  background-color: hsl(52, 100%, 95%);
 }
