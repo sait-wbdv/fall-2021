@@ -21,7 +21,7 @@ released: true
 ## Trophy of the Day: README Stories
 The project README file is the developer's message to future devs (including you) who will be interacting with the project.
 - Create a new [Gist](https://gist.github.com/) with a description of your choice.
-- Add a README.md file to this Gist containing a list of your favourite user stories, user flows and/or task flows from today's activities.
+- Add a README file to this Gist containing a list of your favourite user stories, user flows and/or task flows from today's activities.
 - Include headings, paragraphs ordered and unordered lists. 
 
 Submit your repo link (and GH Pages link, if desired) to today's Daily in Brightspace.
@@ -29,7 +29,7 @@ Submit your repo link (and GH Pages link, if desired) to today's Daily in Bright
 ---
 
 ## Tooltime: Markdown
-- Search: "_[GitHub Flavoured Markdown](https://www.google.com/search?q=github+flavoured+markdown)_"
+- Docs: "[GitHub Flavoured Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)"
 
 ---
 
@@ -49,11 +49,29 @@ Task Flow
 User flow
 : A visual representation, either written out or made digitally, of the many avenues (i.e. Task Flows) that can be taken when using an app or website.
 
+{% comment %}
+
+Instructor notes:
+- Demo: User Story example of an existing website
+    - [F21 Finished Stories and Task Flow](https://gist.github.com/acidtone/fcf0d89ae9554e915e21b7b2e50393c4)
+
+{% endcomment %}
+
+
 ### Activity: Snake oil user stories
-In groups of three to four, create 3 or more User Stories based on a [fictitious](https://acidtone.github.io/namor/) product or service.
-1. Who is the user? Try to be more detailed than "registered user". A good user description is short (2-3 words) but conveys empathy.
-2. What action would they like to complete? Can it be accomplished with web software?
-3. Why do they want it? What pain does it kill?
+In groups of three to four, create a User Story: 
+- Option 1: based on a [fictitious](https://acidtone.github.io/namor/) product or service.
+- Option 2: based on an existing website or app.
+
+#### Instructions
+1. Round-robin: each group member decides on a product/service/website/app;
+2. As a group create a User Story for that product/service/website/app;
+    - **Who** is the user? Try to be more detailed than "registered user". A good user description is short (2-3 words) but conveys empathy.
+    - **What** action would they like to complete? Can it be accomplished with web software?
+    - **Why** do they want it? What pain does it kill?
+3. Move to the next member's product/service/website/app.
+
+Record your Stories in a Gist, doc, file so you can display them during the discussion afterwords.
 
 ---
 

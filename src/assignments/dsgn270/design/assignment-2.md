@@ -3,7 +3,7 @@ layout: layouts/assignment.njk
 title: DSGN 270 Assignment 2 - Agile UX Breakdown
 ---
 ## Scenario
-You are the only UX/UI savvy dev on your team development team for a mobile app. After an initial requirements meeting, you realize a little UX will help the team visualize their work.
+You are the only UX/UI savvy dev on your development team for a mobile app. After an initial requirements meeting, you realize a little UX will help the team visualize their work.
 
 You decide to create a small proof of concept document to hopefully get buy-in from your teammates.
 
@@ -11,7 +11,7 @@ You decide to create a small proof of concept document to hopefully get buy-in f
 1. Select a mobile website of your choice or make one up. 
 2. In 50 words or less, summarize the purpose of the website to provide context for the rest of this assignment.
 3. Create 3 User Stories related to the website in one unordered list.
-4. For one of the User Stories, create one 5-step (at least) User Flow as a numbered list.
+4. For one of the User Stories, create one 5-step (at least) Task Flow as a numbered list.
 5. Create at least 3 mobile wireframe screens to support the chosen user flow.
 
 ---
@@ -26,7 +26,8 @@ This assignment will be marked out of 25 points, which will be given for each of
 - Stories should be presented as an unordered markdown list.
 
 ### Task flow: 5 points
-The task flow should: 
+The task flow should:
+- should reference which Story you've chosen.
 - have the same starting point for all users;
 - be 5 tasks or more;
 - show only one path and not show branches;
@@ -61,7 +62,7 @@ Points will be deducted for lack of scannability:
 ---
 
 ## Submission Instructions
-You will be writing this assignment in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet):
+You will be writing this assignment in [markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax):
 1. Write your  in a text file using valid markdown syntax.
 2. Create a [Gist](https://gist.github.com/) with a description of `DSGN 270 - Assignment 2` and upload your assignment as a `README.md` document in this Gist.
 3. Separately, save your file with the name `dsgn270-a2.md` and ZIP it.
