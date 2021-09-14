@@ -22,7 +22,7 @@ nav.primary a {
   font-variant: small-caps;
   font-family: sans-serif;
 
-  transition: background-color 300ms ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 nav.primary a:hover {
@@ -209,7 +209,7 @@ footer {
 .gallery > a {
   text-decoration: none;
   color: inherit;
-  transition: background-color 300ms ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .gallery > a:hover.html {
