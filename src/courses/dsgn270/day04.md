@@ -17,3 +17,17 @@ released: true
 ### Mobile UX
     - Watch: The first 7 minutes of [Beyond Media Queries](https://vimeo.com/235428198) by Michael Riethmuller (you can stop at Fluid Typography)
     - Read: [Applying a Card-Based Design to User Interfaces: Best Practices](https://rubygarage.org/blog/card-based-design-best-practices)
+
+### Wireframes
+- [User Flows vs. Wireframes: What’s the Difference?](https://careerfoundry.com/en/blog/ux-design/user-flows-vs-wireframes/)
+- [How to Draw a Wireframe (Even if You Can’t Draw)](https://www.nngroup.com/articles/draw-wireframe-even-if-you-cant-draw/)
+    - Related Video: [How to Sketch a UI for Non-Designers](https://www.youtube.com/watch?v=X2CbeBojKVM)
+    
+{% comment %}
+
+## Wireframes
+- qr code -> mobile
+    - at least 3 screens of one user flow
+- one image of screens
+
+{% endcomment %}

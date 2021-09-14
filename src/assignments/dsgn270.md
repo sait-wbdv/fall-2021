@@ -8,8 +8,8 @@ title: DSGN 270 Assignments
 - Due: Wednesday, September 15 @ 11:59pm
 - Weight: 25% of Final Course Mark
 
-### Assignment 2: Website Wireframes
-- Due: Monday, September 20
+### Assignment 2: [Agile UX Breakdown]({{ '/assignments/dsgn270/design/assignment-2/' | url }})
+- Due: Monday, September 20 @ 11:59pm
 - Weight: 25% of Final Course Mark
 
 ## Social Tools
