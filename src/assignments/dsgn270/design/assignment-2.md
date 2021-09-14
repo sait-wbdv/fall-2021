@@ -40,7 +40,7 @@ Each task should be:
     - For example: "user submits form" instead of "user enters username..."
 
 ### Wireframe: 5 points
-- Screens should be low-fidelity
+- Screens should be low-fidelity.
 - Annotate your wireframes with Task Flow step numbers and arrows.
 - All wireframe screens should be included in the markdown file as a single image no larger than an 8"x10" printed page (can be either portrait or landscape) and embedded as a markdown image.
 
@@ -63,6 +63,8 @@ Points will be deducted for lack of scannability:
 ## Submission Instructions
 You will be writing this assignment in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet):
 1. Write your  in a text file using valid markdown syntax.
-2. Save your file with the name `dsgn270-a2.md`.
-3. Create a repo called `dsgn270-a2` and upload your assignment as a `README.md` document in this repo.
-4. Zip your file and upload it to the dropbox on Brightspace. Include a link to your repo as comment on your upload.
+2. Create a [Gist](https://gist.github.com/) with a description of `DSGN 270 - Assignment 2` and upload your assignment as a `README.md` document in this Gist.
+3. Separately, save your file with the name `dsgn270-a2.md` and ZIP it.
+4. Upload your ZIP to the dropbox on Brightspace. Include a link to your Gist as comment on your submission.
+
+Marks will be deducted for improperly submitted assignments

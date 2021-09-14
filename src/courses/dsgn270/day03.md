@@ -20,8 +20,8 @@ released: true
 
 ## Trophy of the Day: README Stories
 The project README file is the developer's message to future devs (including you) who will be interacting with the project.
-- Create a new repo with a title and subject of your choice.
-- Push a README.md file to this repo containing a list of your favourite user stories, user flows and/or task flows from today's activities.
+- Create a new [Gist](https://gist.github.com/) with a description of your choice.
+- Add a README.md file to this Gist containing a list of your favourite user stories, user flows and/or task flows from today's activities.
 - Include headings, paragraphs ordered and unordered lists. 
 
 Submit your repo link (and GH Pages link, if desired) to today's Daily in Brightspace.
