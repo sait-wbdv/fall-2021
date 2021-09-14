@@ -23,7 +23,9 @@ This assignment will be marked out of 25 points, which will be given for each of
 - Stories should the following grammatical format (or similar): 
     > As a [type of user], I want [an action] so that [a benefit/a value].
 - Each story should fit the INVEST set of criteria.
+- Stories should be 20-30 words.
 - Stories should be presented as an unordered markdown list.
+- Each Story action (What) and benefit/value (Why) should be distinct from the other two.
 
 ### Task flow: 5 points
 The task flow should:
