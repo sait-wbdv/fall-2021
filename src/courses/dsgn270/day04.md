@@ -8,6 +8,9 @@ released: true
 
 ## Housekeeping
 - Reminder for Tony: Hit record!
+- Code Warrior leader board:
+    - Icah (5), Fesal (5), Jessica (5), Lucas (5), David (4), Mysia (4), Chris (4), Evan (4), JP (4), James (4),  Devon (4), Hayden (3), Jean-Marc (3), Filora (3), Sharron (2), Jesse (2), Byung (2)
+- Plug for Tony: [Friday Night Pints](https://www.meetup.com/pxandpints/events/280245328)
 
 ---
 
@@ -37,7 +40,10 @@ Upload a photo(s) of your sketches and wireframes from the activity today.
 
 ---
 
-## [Mobile Statistics]({{ '/takeaways/design/mobile-statistics/' | url }})
+## [A brief history of layout](https://youtu.be/E005mjqpZ9Y) 
+by [Layout Land](https://www.youtube.com/c/LayoutLand/)
+
+### [Mobile Statistics]({{ '/takeaways/design/mobile-statistics/' | url }})
 - About 60% of web traffic is on mobile
 - About 88% of mobile screen time is spent using mobile apps, 12% is spent using mobile websites.
 - Google's top page rank indicators
