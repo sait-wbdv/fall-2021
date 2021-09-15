@@ -19,8 +19,6 @@ Upload a photo(s) of your sketches and wireframes from the activity today.
 
 ### [Today's Padlet Question](https://padlet.com/acidtone/fall_2021): How is mobile web browsing different than on desktop?
 
-{% comment %}
-
 - landscape vs portrait
 - screen size -> hamburger menu
 - no cursor -> no hover
@@ -35,7 +33,7 @@ Upload a photo(s) of your sketches and wireframes from the activity today.
 - Biometric authentication
 - File storage
 - Hardware accelerated augmented reality
-
+{% comment %}
 {% endcomment %}
 
 ---
