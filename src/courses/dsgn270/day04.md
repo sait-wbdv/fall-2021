@@ -31,7 +31,9 @@ Upload a photo(s) of your sketches and wireframes from the activity today.
 - accelerometer
 - RFID
 - Biometric authentication
+- Facial recognition
 - File storage
+- Water resistance
 - Hardware accelerated augmented reality
 {% comment %}
 {% endcomment %}
