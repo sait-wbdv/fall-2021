@@ -5,25 +5,73 @@ description:
 image: 
 ---
 
-- Article: [Mobile Navigation: Image Grids or Text Lists?](https://www.nngroup.com/articles/image-vs-list-mobile-navigation/)
-- Article: [Mobile Subnavigation](https://www.nngroup.com/articles/mobile-subnavigation/)
+## Terminology
+Responsive Web
+: A Web development concept focusing on making sites look and behave optimally on all devices, from desktop to mobile, using the same served web files.
+
+Adaptive Web
+: An outdated method of serving specialized content files to a browser based on the device it's running on.
+
+Content Parity
+: A measure of content consistency between mobile and desktop versions of the same website.
+
+Viewport
+: The viewable area of a website within the browser window.
+
+Media Queries
+: A feature of CSS that enables webpage content to adapt to different [screen sizes](https://codepen.io/browsertherapy/pen/mdPaZdW), [orientations](https://codepen.io/acidtone/pen/QWLZxRx), aspect ratios and mediums (e.g. print vs screen). It does this with conditional code blocks (i.e. `if` statements for CSS).
+
+Breakpoint
+: Points in responsive design where website presentation obviously changes due to changing viewport characteristics (width, orientation, etc).
+
+Hamburger Menu
+: A button in websites and apps that typically opens up into a vertical menu or navigation drawer.
+
+Card Pattern
+: A convenient means of displaying content composed of different types of objects. They are also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length
+
+---
+
+## Key Takeaways
+There are many things to consider when designing for both mobile and desktop screens but here are the key constraints we will be focusing on in this program:
+- Layout
+    - Navigation and content would never "overflow" the screen, creating a horizontal scroll bar. At narrow screen widths, navigation is often [replaced with a Hamburger toggle](https://codepen.io/acidtone/pen/xxqmWXb).
+    - Content will often be displayed using the [card pattern](https://rubygarage.org/blog/card-based-design-best-practices). On mobile, these cards will display in a single column. See: ["Gridish" flexbox in this Codepen](https://codepen.io/acidtone/pen/ZEpgMGL).
+    - In general, content should not touch the edge of the screen on mobile. There should be a visible "scroll track" letting the user know where to scroll with their finger.
+    - When/if content reaches its maximum page width on desktop screens, the content should be centered. This website is an example.
+- [Web Typography]({{ '/takeaways/design/web-typography/' | url }})
+    - Body text line length should not be longer than 95 characters or shorter than 25ch (unless it's a heading).
+    - Font size should be smaller on mobile than on desktop. This is called fluid typography.
+    - See: [Responsive Text: Max Line Length with Fluid Typography](https://codepen.io/browsertherapy/pen/RwaJmbx)
+
+---
+
+## Responsive layout is all about width
+Horizontal scroll bars should be avoided in most circumstances. Since screen widths will vary from `400px` to at least `2000px`, this constraint leads to a number of common design patterns:
+
+### Text Line length
+Text is most readable at line lengths between 30 and 90 characters long. **This should be a priority** when planning out a design (also see [the typography triad]({{ '/takeaways/design/web-typography/' | url }})).
+- Font-size should be smaller on mobile screens to ensure a line length of at least 30 characters.
+- Text boxes should have a maximum width set, in order to prevent line lengths of more than 90 characters.
+- Given their larger `font-size`, multi-line headings are often readable at lengths shorter than 25 characters.
+
+### Layout
+Responsive content often follows the [card pattern](https://www.google.com/search?q=ux+card+pattern) in order to simplify the layouts required for varying screen widths.
+- An image will often scale to fit the width of its parent container (which could be a card or an entire column on a page).
+- When a row of multiple cards or images are too wide for the screen, they will wrap and create more rows.
+- In general, layouts and galleries will be a single column on mobile and multiple columns at larger screen widths.
+- To accommodate very large screen widths, (`2000px` or larger) page of content will often reach a maximum width and distribute extra negative space equally on either side of the page.
+
+### Navigation
+It's imperative that page navigation is not compromised at any screen width. When a screen is too narrow for a horizontal navigation menu, it will usually either:
+- become a vertical navigation menu, or
+- be replaced by a hamburger menu that will toggle a vertical navigation menu.
+
+## Further Reading
+- [Mobile Navigation: Image Grids or Text Lists?](https://www.nngroup.com/articles/image-vs-list-mobile-navigation/)
+- [Mobile Sub-navigation](https://www.nngroup.com/articles/mobile-subnavigation/)
 - Video: [Hamburger Menus Hurt UX Metrics](https://www.nngroup.com/videos/hamburger-menus/)
     - Study: [Hamburger Menus and Hidden Navigation Hurt UX Metrics](https://www.nngroup.com/articles/hamburger-menus/)
-- Article: [Mobile First Is NOT Mobile Only](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
-- Study: [Reading Content on Mobile Devices](https://www.nngroup.com/articles/mobile-content/)
-- Article: [A Checklist for Registration and Login Forms on Mobile](https://www.nngroup.com/articles/checklist-registration-login/)
-    1. For most apps/websites, login or registration should be optional and as many features as possible should be available without logging in.
-    2. Explain the benefits of registration. What do people get by creating an account?
-    3. Offer alternative methods of registration such social login or Google login. Not everyone will use these, but those who are willing to do so will be able to register more quickly and, because they will use a much-rehearsed password, will be more likely to remember it and less likely to make mistakes while typing it.
-    4. Ask only for the minimum amount of information in the registration form. Ideally, email and password should be enough. Avoid asking for date of birth or other information that is not absolutely essential. If users want to get more benefits by providing additional information, they should be able to do so by editing their profile.
-    5. Make the password visible. When people can see what passwords they type, they make fewer mistakes and they can review their password once entered.
-    6. Disclose password constraints upfront. Nothing is more annoying than having to guess what the site’s password requirements might be, and later discovering that you guessed wrong.
-    7. Display a strength meter. It will give people real-time feedback about the passwords they choose and prompt them to create stronger passwords.
-    Do not repeat fields (e.g., two password fields, two email fields).
-    8. Typing passwords is painful enough; typing them twice is twice as painful. Instead, allow people to see passwords (and emails) in clear to check for errors. And, at the end of the registration process, you can show a confirmation page presenting both the email they selected and the password they typed.
-    9. Do not ask users to confirm their registration through email.
-    10. Switching applications can disorient users and can raise roadblocks that ultimately may prevent them from attaining their original goal (which is never to register on your site). If you must confirm credentials, do so by sending users a code in a text message instead of a link through email, because that code will be easier to type without switching contexts, just by glancing at the notification displayed at the top of the screen.
-    11. Allow people to use fingerprint authentication (such as TouchID) to log in.  This method will remove most pain from the login process.
-    12. Offer the option of showing passwords in clear. However, unmasking does not need to be the default for login. Although we advocated for this practice for a long time, only recently sites and apps have started adopting it, and some users can feel unsecure when seeing the password characters in clear. That is why, at this stage, we recommend masking the password by default and presenting users with a Show password checkbox that allows them to unmask it.
-    13. Include a Forgot password? link. Rarely used passwords are forgotten, and recovering them should be available on any device.
-    - "Different devices have different capabilities of interaction and different screen sizes." IOW, don't use a hamburger menu on desktop.
+- [Mobile First Is NOT Mobile Only](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
+- [Reading Content on Mobile Devices](https://www.nngroup.com/articles/mobile-content/)
+- [A Checklist for Registration and Login Forms on Mobile](https://www.nngroup.com/articles/checklist-registration-login/)
