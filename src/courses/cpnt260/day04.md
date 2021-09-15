@@ -93,7 +93,6 @@ _Hamburger menus and many more_
 
 ## Activity: [Add Icons and create a hamburger menu]({{ '/activities/html-css/' | url }})
 - [Ash's Example](https://codepen.io/ashlyn-knox/pen/LYLWPBy)
-
 ---
 ## Walkthrough
 - Code review
