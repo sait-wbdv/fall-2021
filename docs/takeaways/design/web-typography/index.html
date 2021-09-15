@@ -40,20 +40,34 @@
     </nav>
   </header>
   <main>
-    <h1></h1>
-<h3>HTML</h3>
+    <h1>Web Typography</h1>
+<h2>Typography Triad</h2>
+<p>Readable text is a balance of the following fundamental characteristics of typography:</p>
+<h3>1. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">Font size</a></h3>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">Structuring the web with HTML</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">Introduction to HTML</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML">What's in the head? Metadata in HTML</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals">HTML text fundamentals</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">Creating hyperlinks</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Document and Website structure</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Images in HTML</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web">Adding vector graphics to the web</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables">HTML Tables</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms">HTML Forms Overview</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Elements Overview</a></li>
+<li>The base font size is often declared in <code>px</code> units on the parent <code>body</code> element.</li>
+<li>Derivative font sizes (such as for headings, navigation, etc) are usually declared on their respective elements (<code>h1</code>, <code>nav</code>, etc) in either <code>em</code> or <code>rem</code> units.</li>
+<li>The default font size in most browsers is <code>16px</code>.</li>
+</ul>
+<h3>2. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height">Line height</a></h3>
+<p><code>line height</code> is generally defined as a ratio of <code>font-size</code>. For example, if <code>line-height</code> is 1.5 and <code>font-size</code> is 16px, the actual calculated line height will be <code>24px</code> and <code>4px</code> of spacing will be added above and below the line.</p>
+<ul>
+<li>&quot;Proper&quot; line height greatly depends on a lot of factors such as:
+<ul>
+<li>The font family being used;</li>
+<li>Font size and line length;</li>
+<li>The contrast ratio of the text to its background.</li>
+</ul>
+</li>
+<li>The default for most browsers is 1.2, which is too small in most cases.</li>
+<li>In general, aim for a line length between 1.5 and 2.</li>
+</ul>
+<h3>3. Line length</h3>
+<p>Line length</p>
+<ul>
+<li>Max line length for print: 95 <a href="https://css-tricks.com/the-lengths-of-css/#ch">characters</a></li>
+<li>Max line length for web: 75-85 characters</li>
+<li>Min (multi)line length for web: ~25-30 characters</li>
 </ul>
 
   </main>
