@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 8 - User Input and Accessible User Experience
 description: Today we will continue learning about forms and user input. Along with learning form syntax and practicing design strategies that were covered in DSGN-270, we will also learn how to make our forms readable by screen readers.
-date: 2021-09-28
+date: 2021-09-27
 ---
 ## Trophy of the Day: A sign up form
 
@@ -10,6 +10,16 @@ date: 2021-09-28
 - Trophies from last class
 - Questions
 
+## Assignment 4: Landing Page + Hero Section
+- [Assignment Link]({{ '/assignments/cpnt260/assignment-4.md' | url }})
+- **Due: September 30 11:59pm**
+- Complete:
+  - A landing page
+  - Landing page needs to have a hero section with a call to action
+  - CTA (call to action) should link to an accessible user form
+  - Navigation should be responsive
+    - a hamburger icon with hideable menu on mobile
+    - a horizontal nav on desktop
 ---
 ## Overview
 1. Plan it out
@@ -28,7 +38,7 @@ date: 2021-09-28
 ### Notes
 
 ---
-## Activity: Create a simple and accessible signup form
+## Activity: Create an Accessible Form
 - It must use labels
 - It must use the form tag
 - It must use fieldset and legend appropriately

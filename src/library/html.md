@@ -13,3 +13,5 @@ layout: layouts/page.njk
 - [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
 - [Adding vector graphics to the web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web)
 - [HTML Tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables)
+- [HTML Forms Overview](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+- [HTML Elements Overview](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)

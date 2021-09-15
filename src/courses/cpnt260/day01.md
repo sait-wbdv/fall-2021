@@ -16,7 +16,7 @@ date: 2021-09-16
 
 ## Assignment: FreeCodeCamp HTML and CSS
 - **Due: September 19 11:59pm**
-- [Assignment Link]()
+- [Assignment Link]({{ '/assignments/cpnt260/freecodecamp-assignment.md' | url }})
 - Complete:
   - Responsive Web Design: Basic HTML and HTML5 (28 questions)
   - Responsive Web Design: Basic CSS (44 questions)
@@ -88,22 +88,36 @@ Semantic HTML
 ### Notes
  
 ---
-### Activity 1: Create a wiki page
+### Activity 1: [Create a wiki page: Part 1]({{ '/activities/html-css/wiki-page.md' | url}})
 
 ---
 ## Topic 3: Style with CSS
 _Stylizing the web_
 
-### Key Terms
+### Terminology
 Selectors
   : Define elements that css rules are applied to. [Review the 5 types of selectors here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 Declarations
   : These are the rules used to stylize elements. They consist of a property and a value. [More information can be found here](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
 
 ### Notes
+- A lot of bugs are causes by style inheritence, when your layouts/designs are breaking, walk through where each element is getting it's styling from
+- setting classes is a good default strategy. 
+  - Tend towards using `id` for overriding styles, form fields, and javascript manipulation.
+  - be careful when styling elements directly. Depending on how many pages are using a given css file, this can lead to unpredictable results 
+- Use whitespace and clear naming conventions that will make sense in the future. 
+  -When you're doing your walkthrough, it can be a good practice to consider "Is this the best name for this label?"
+    - consider if you were to look at it in 2 months, would it still make sense, take note on inconsistencies in your labeling methodology and perfect a consistent system in your optimize state
+- Use comments to section off your code
+  - also, if you have very long css files, it can be worthwhile to throw a small overview with line numbers at the top for quick editing later.
+    - use multiline comment titles like this to give yourself some buffer room for line number changes from edits. 
+    - This example would give you 5 lines of wiggle room where nothing else is going on. so if you search for the line number noted in your overview and it's changed by a couple lines because of other edits and not updating, it won't be as much of a hassle
+    `/*********/
+     /* title */
+     /*********/`
 
 ---
-### Activity 2: Stylize your wiki page
+### Activity 2: [Stylize your wiki page: Part 2]({{ '/activities/html-css/wiki-page.md' | url}})
 
 ---
 ## Walkthrough
@@ -116,13 +130,14 @@ Declarations
 ## Optimize
 _End of Day Activity_
 - Implement changes noted in comments
+- Do any extra challenges
 - Validate Code
 - Deploy and Submit
 
 ---
-## Homework for next class
-- Finish Assignment 1
+## Prep for next class
 - Read [Mdn article on page structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+- Read [Why, How, and When to Use Semantic HTML and ARIA](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/)
 - Watch [Modern Layouts: Getting Out of Our Ruts](https://www.youtube.com/watch?v=jreccgYLfx8)
-
+  - This video gets into some higher level theory and history about web dev and site design. We will be covering some of the syntax she addresses midway through CPNT260.
 ---

@@ -1,13 +1,15 @@
 ---
 layout: layouts/day.njk
 title: Mobile first Breakpoints
-description: Create different flexbox layouts in groups of 4
+description: Add breakpoints to a webpage with media queries
 date: 2021-09-21
 ---
 
 ## Instructions
-- Find an example where a page makes good use of breakpoints
-- Find a site that does not effectively use breakpoints for mobile and desktop experience
-- Draw a simple wireframe that shows the two different layouts based on the breakpoint
-  - Can done by hand or with software
-  - Use whatever tool feels comfortable
+- Take one of the pages that you have previously made and refactor it to use media queries
+- choose mobile first or desktop first approach
+- make a design that has a distinct layout between mobile and desktop screen sizes
+  - at mobile:
+    -things should be in a single column
+    - navigation should be vertical
+    - there shouldn't be any horizontal scroll

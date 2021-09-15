@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 10 - How to use a Design System
 description: Today we will apply ideas from design systems such as Material.io to our html and css. This class will be a summarization of the code we have learned over the past 9 days. We will have fun revamping old and outdated web designs found on the waybackmachine.
-date: 2021-09-30
+date: 2021-09-29
 ---
 ## Trophy of the Day: Revamp an old webpage
 - Use the [Wayback Machine](https://web.archive.org/) to find an old and dated website, modernize it's site content

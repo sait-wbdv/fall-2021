@@ -14,7 +14,7 @@ released: true
 
 ## Trophy of the Day: Image assets and design examples
 Submit the following for today's Daily Submission:
-- Pick some favourite [open-source image assets]({{ '/open-assets/' | url }}) for future projects.
+- Pick some favourite [open-source image assets]( '/open-assets/' | url }}) for future projects.
 - Create some screen caps of some inspirational designs that you can use for future projects. Try searching [best card designs of 2020](https://www.google.com/search?q=best+card+designs+of+2020) or similar.
 
 ## 1. Figma tour
@@ -27,8 +27,8 @@ Submit the following for today's Daily Submission:
 - [5 of your favorite Illustrator tools in Figma](https://medium.com/@saintasia/5-of-your-favorite-illustrator-tools-in-figma-a7c2aaa45d59)
 
 ## 2. Usability and web conventions
-1. [Layout conventions]({{ '/takeaways/design/layout/' | url }})
-2. [Content conventions]({{ '/takeaways/design/content/' | url }})
+1. [Layout conventions]( '/takeaways/design/layout/' | url }})
+2. [Content conventions]( '/takeaways/design/content/' | url }})
 
 ## 3. Activity: Point and Crit
 In groups of 3 or 4, select a website to roast (or praise). You may decide to critique this program website. If you do, [submit an Issue](https://github.com/sait-wbdv/fall-2021/issues) and your instructors will work on them this Saturday.
@@ -42,7 +42,7 @@ In groups of 3 or 4, select a website to roast (or praise). You may decide to cr
 Select a member of your group to summarize and report your findings to the rest of the class.
 
 ## 4. Lab: Open-source Assets
-- [Open Asset Treasure Hunt]({{ '/activities/design/open-asset-hunt/' | url }})
+- [Open Asset Treasure Hunt]( '/activities/design/open-asset-hunt/' | url }})
 
 ---
 
