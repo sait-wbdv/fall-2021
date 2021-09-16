@@ -48,7 +48,7 @@ released: true
 HTML (HyperText Markup Language)
   : The standard language for documents that will be displayed on the web. It uses tags to structure and describe types of information. **The content**
 CSS (Cascading Style Sheets)
-  : A stylesheet languaged that is used to design how web content will be displayed. It includes colour, layout, fonts etc. Separates the design rules from the content for maintainable code. **How content looks**
+  : A stylesheet language that is used to design how web content will be displayed. It includes colour, layout, fonts etc. Separates the design rules from the content for maintainable code. **How content looks**
 JS (JavaScript)
   : A multi-paradigm scripting/programming language that enables websites with advanced interactive features. Originally a frontend browser focused language, it has now been extended to be a backend language. **content interactivity**
 DOM (Document Object Model)
@@ -60,8 +60,8 @@ DOM (Document Object Model)
 
 ### Notes
 - A good workflow is to create your content (html) -> Then style it (css) -> Then make it interactive (js)
-  - While some initial styling can be helpful, a design can end up really messy if you don't see how the content is unstylized first
-  - This approach also helps write sane css. Naming conventions and container hierarchy can become chaotic when doing both at the same time
+  - While some initial styling can be helpful, a design can end up really messy if you don't start with unstyled content first
+  - This approach also helps write readable css. Naming conventions and container hierarchy can become chaotic when doing both at the same time
 
 ---
 ## Topic 2: Site Layout and Semantic HTML
@@ -71,9 +71,9 @@ _Creating the content of the web_
 Body
   : The part of the HTML document where your content goes
 Elements
-  : The building blog of html content. Each element is defined by an opening and closing tag.
+  : The building block of html content. Each element is defined by an opening and closing tag.
 Head
-  : The part of the HTML document where your metadata, links to stylesheets, and javascript links go
+  : The metadata of a document including links to stylesheets and javascript
 Nesting
   : The parent - child relationship between elements. Placing content elements such as images and text inside containing elements such as articles and sections.
 Tags
@@ -83,7 +83,7 @@ Semantic HTML
 
 ### Tool Time
 [Codepen](https://codepen.io)
-  : A browser based frontend development environment for publically creating and sharing design ideas.
+  : A browser based frontend development environment for publicly creating and sharing design ideas.
 [Lorem Ipsum](https://loremipsum.io/generator/)
   : A generator for placeholder text.
 [Lorem Picsum](https://picsum.photos/)
@@ -95,7 +95,7 @@ Semantic HTML
     - most common depth of headings
   - `p` paragraph text
   - `a` links
-  - `strong`, `em` bold and italice (do not use `b` for bold)
+  - `strong`, `em` bold and italics (do not use `b` for bold)
   - `ul` and `ol` for lists 
 
 ---
@@ -155,6 +155,6 @@ _End of Day Activity_
 - Read [Mdn article on page structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
 - Read [Why, How, and When to Use Semantic HTML and ARIA](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/)
 - Watch [Modern Layouts: Getting Out of Our Ruts](https://www.youtube.com/watch?v=jreccgYLfx8)
-  - This video gets into some higher level theory and history about web dev and site design. We will be covering some of the syntax she addresses midway through CPNT260.
-- Read [Mdn article on color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+  - This video gets into some higher level theory and history about web dev and site design. We will be covering some of the syntax she addresses midway through CPNT 260.
+- Read [MDN article on color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
 ---
