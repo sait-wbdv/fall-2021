@@ -2,7 +2,7 @@
 layout: layouts/assignment.njk
 title: Free Code Camp HTML + CSS Exercises
 description: Complete the HTML5 and Basic CSS modules of the FreeCodeCamp Responsive Web Design course. These exercises will provide a good foundation of the syntax used to build web pages.
-image:
+released: true
 ---
 # CPNT-260 FreeCodeCamp Exercises
 _20% of Final Grade | Due September 19 @ 11:59pm 2021_
@@ -22,5 +22,3 @@ _20% of Final Grade | Due September 19 @ 11:59pm 2021_
 These exercises will be marked out of 20 points. Your mark will be proportional to the number of exercises you complete. For example, if you complete half the exercises, your mark will be 20 points x 50% = 10 points.
 
 **Suggested Strategy**: To maximize your mark, complete the easiest of the exercises first and go back later to complete the more difficult ones.
-
-###### tags: graded 

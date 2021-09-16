@@ -3,6 +3,7 @@ layout: layouts/day.njk
 title: CPNT 260 Day 1 - Web design fundamentals (HTML/CSS)
 description: Today we will cover the basic technologies of the web and how they work together. We will also start out with the basics of writing html and css.
 date: 2021-09-16
+released: true
 ---
 ## Trophy of the day: A wiki page
 [img here]
@@ -58,12 +59,15 @@ DOM (Document Object Model)
   : browser based devtools for firefox. Especially good for examining css styling.
 
 ### Notes
+- A good workflow is to create your content (html) -> Then style it (css) -> Then make it interactive (js)
+  - While some initial styling can be helpful, a design can end up really messy if you don't see how the content is unstylized first
+  - This approach also helps write sane css. Naming conventions and container hierarchy can become chaotic when doing both at the same time
 
 ---
 ## Topic 2: Site Layout and Semantic HTML
 _Creating the content of the web_
 
-### Key Terms
+### Terminology
 Body
   : The part of the HTML document where your content goes
 Elements
@@ -86,7 +90,14 @@ Semantic HTML
   : A random image generator for placeholder images.
 
 ### Notes
- 
+- Important HTML content tags
+  - `h1-h3` headings
+    - most common depth of headings
+  - `p` paragraph text
+  - `a` links
+  - `strong`, `em` bold and italice (do not use `b` for bold)
+  - `ul` and `ol` for lists 
+
 ---
 ### Activity 1: [Create a wiki page: Part 1]({{ '/activities/html-css/wiki-page.md' | url}})
 
@@ -116,7 +127,12 @@ Declarations
      /* title */
      /*********/`
 
----
+#### Selectors
+- Elements are the html tags themselves, this is the easiest level to override
+- Classes are added to html elements to give style, these styles override element defaults and custom settings
+- Ids are more specific than classes, an id will override a class
+- Anything with the `!important` tag will override all previous stylings. Try to avoid using this
+
 ### Activity 2: [Stylize your wiki page: Part 2]({{ '/activities/html-css/wiki-page.md' | url}})
 
 ---
@@ -140,4 +156,5 @@ _End of Day Activity_
 - Read [Why, How, and When to Use Semantic HTML and ARIA](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/)
 - Watch [Modern Layouts: Getting Out of Our Ruts](https://www.youtube.com/watch?v=jreccgYLfx8)
   - This video gets into some higher level theory and history about web dev and site design. We will be covering some of the syntax she addresses midway through CPNT260.
+- Read [Mdn article on color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
 ---

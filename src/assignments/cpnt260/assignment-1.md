@@ -8,9 +8,11 @@ _20% of Final Grade | Due September 22 11:59pm 2021_
 
 ## Marking Rubric
 Each of the following will be marked out of 4 points (for a total of 20 points), based on the requirements below:
+
 ### 1. Page Header and Footer
 * Copyright information in footer
-* Header used to indicate which page this is
+* Header used to indicate the page that the user is on
+
 ### 2. Basic Navigation
 * uses nav tag
 * links set to href="#" (except about page)
@@ -21,6 +23,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
 * logo is an img
 * menu links indicated on hover
 * nav is horizontal menu using flexbox or grid
+
 ### 3. Page Content
 * At least 1 img in relation to about content
   * spans 100% of its container
@@ -33,6 +36,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
   * A reader should have a good idea about the client's identity from scanning (should not have to read over multiple times)
   * A reader should be able to infer the client's values
   * Good grammer and no spelling errors
+
 ### 4. General Requirements
 * Page is marked up with proper semantic elements
   * header, nav, main, footer
@@ -42,6 +46,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
   * overflow off the viewport
   * have contrast ratio below AA for text size
   * Image must have proper alt definitions
+
 ### 5. Project Documentation and Code Quality
 * Include a README markdown file in your project that includes the following information
   * Course Title
@@ -59,6 +64,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
   * Attribution for code or assets that are not your own
 * Use Best Practices with file/directory names, commenting, indentation
   * 2 spaces per indent
+
 ## Submission Requirements
 
 * Push this assignment to a repo named cpnt260-a1.

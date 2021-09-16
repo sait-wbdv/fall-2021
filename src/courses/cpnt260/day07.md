@@ -10,7 +10,6 @@ date: 2021-09-24
 - Trophies from last class
 - Question time
 
-
 ---
 ## Overview
 1. Plan it out
@@ -24,7 +23,6 @@ date: 2021-09-24
 ---
 ## Topic 1: Section height and background images
 _The fundamentals of eye catching hero sections_
-### Key Terms
 
 ### Notes
 - Assess the design and code of the following pages
@@ -32,7 +30,7 @@ _The fundamentals of eye catching hero sections_
   - [Air Canada Flight Search](https://flightsearchdirect.com)
   - [Sandman Hotels](https://www.sandmanhotels.com/)
 ---
-## Activity: Find Hero Examples
+## Activity: [Find Hero Examples]({{ '/activities/html-css/hero-hunt.md' | url }})
 - Screenshot different hero sections
   - look for:
     - different positions of hero content
@@ -45,15 +43,31 @@ _The fundamentals of eye catching hero sections_
     - Is it intended to make you stop and think or does it direct you along?
 
 ---
-## Topic 2: Hero header section
+## Topic 2: Hero Section
 _Hero Layouts_
 
-### Key Terms
+### Terminology
+Hero Section
+  : A section of the website that is the first thing a user sees, it's generally really big, eye catching, and seeks to convey the identity and goal of a site. Hero sections also generally have a call to action.
+  - when creating a hero section, ask yourself: If a user does 1 thing on this site, what do you want them to do?
+  - This question is useful for guiding hero section creation.
+Call to Action (CTA)
+  : Guides the user to the next step of going to your site. Depending on the type and goal of the site, this can be many different things.
+  - Examples:
+    - Subscribe
+    - Free Trial
+    - Sign Up
+    - Download
+    - Find Out More
+    - Our Work
+    - Get a Quote
 
 ### Notes
+- Make sure that your text is very clear. `filter()` can be a helpful way to change how items in a hero section (or how the background of the hero section) appear.
+- `header` tag is suitable for hero sections
+- your `nav` can be inside the `header` tag or outside of it. If it's on the outside, absolute positioning can be used on the nav to make them still overlap
 
----
-## Activity: Build a Hero Section with a Call to Action
+## Activity: [Build a Hero Section with a Call to Action]({{ 'activities/html-css/hero-section.md' | url}})
 - Hero section must take up the majority of the screen height
 - Hero section must use a background-image
 - Hero section must have a call to action

@@ -4,7 +4,7 @@ title: CPNT 260 Day 9 - Maintainable CSS, Themes, and Transitions
 description: We will work on creating more maintainable and organized css code, using custom variables to create well organized themes, and tweak pseudo classes using transitions for stylized user interaction.
 date: 2021-09-28
 ---
-## Trophy of the Day: A dynamic and themed web design
+## Trophy of the Day: A responsive and themed web design
 
 ## Review
 - Trophies from last class
@@ -20,11 +20,15 @@ date: 2021-09-28
 4. Optimize/Test
 
 ---
-## Topic 1: Setting default colors and sizes with custom variables
+## Topic 1: Setting defauls with custom variables
 
-### Key Terms
 
 ### Notes
+- Custom properties are set with `--propname: value;`
+  - You can then use these over and over again
+  - They are great for specific colors, opacity values, cubic bezier curves, and 
+  anything else that you only want to have to edit in one place
+ - A well organized set of custom variables can save a lot of dev time and make your layouts look much more professional.
 
 ---
 ## Activity: Analyze an inspirational web design
@@ -38,13 +42,31 @@ date: 2021-09-28
 ## Topic 2: Transitions and Keyframes
 _Interactions that don't need JavaScript_
 
-### Key Terms
-
+### Terminology
+`transition`
+  : A shorthand property that encompasses: `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`. Note that these can all be used separately as well
+ `keyframe`
+  : A syntax used for complex animations. You can string together multiple moving pieces with keyframes.
 ### Notes
+- Transition syntax example: `transition: background-color 0.5s ease-in-out;
+ - [Mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+ - Generally better to use than keyframes as they are more performant, but they are also a bit simpler. Note that if you wanted to use a `cubic-bezier(0)`, you would replace `ease-in-out` with it.
 
-----
-## Activity: Create a Themed Design
+- Keyframes:
+  - To use keyframes, you set an `animation-name` property in the relevant element declaration
+  - Then you code your keyframe like so:
+  -`@keyframes identifier {
+    from {
+      /* stuff happens */
+    }
+    to {
+      /* stuff happens */
+    }`
+    - These can be declared using percentage values as well.
+      - [Mdn Article](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
 
+      ----
+## Activity: [Create a Themed Design]({{  '/activities/html-css/theme-builder.md' | url }})
 
 ---
 ## Walkthrough
