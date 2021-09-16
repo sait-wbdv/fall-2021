@@ -24,7 +24,7 @@ image:
 - Add colour using `background-color` and `color` declarations
 
 ## Extra Challenges
-- Review [Mdn Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) for more style ideas to try
+- Review [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) for more style ideas to try
 - Add an `aside` for extra content
 - Add a vertical side navigation and put anchor tags to link to all of your headings (don't use `aside` for this, use `nav`)
   - use `id` for the anchors
