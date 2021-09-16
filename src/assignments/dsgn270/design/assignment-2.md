@@ -56,7 +56,7 @@ Points will be deducted for lack of scannability:
 ---
 
 ## Submission Instructions
-You will be submitting this assignment as a PDF or GitHub README.md:
+You will be submitting this assignment as a PDF:
 1. Use an authoring tool of your choice (Google Doc, Indesign, markdown, etc).
-2. Export as a letter format PDF file named `dsgn270-a2.pdf` or save to a README.md file as a GH repo or Gist.
-4. Upload your PDF or README.md to Brightspace as a ZIP. Include a link to you repo/gist, if applicable.
+2. Export as a letter format PDF file named `dsgn270-a2.pdf`.
+4. ZIP your PDF and submit to Brightspace. Include a link to your repo/gist as a comment, if applicable.
