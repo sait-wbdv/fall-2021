@@ -24,17 +24,17 @@ This assignment will be marked out of 25 points, which will be given for each of
     > As a [type of user], I want [an action] so that [a benefit/a value].
 - Each story should fit the INVEST set of criteria.
 - Stories should be 20-30 words.
-- Stories should be presented as an unordered markdown list.
+- Stories should be presented as an unordered list.
 - Each Story action (What) and benefit/value (Why) should be distinct from the other two.
 
 ### Task flow: 5 points
 The task flow should:
-- should reference which Story you've chosen.
+- reference which Story you've chosen.
 - have the same starting point for all users;
 - be 5 tasks or more;
 - show only one path and not show branches;
 - end in success;
-- be presented as a numbered markdown list.
+- be presented as a numbered list.
 
 Each task should be:
 - short and concise;
@@ -43,19 +43,11 @@ Each task should be:
     - For example: "user submits form" instead of "user enters username..."
 
 ### Wireframe: 5 points
-- Screens should be low-fidelity.
-- Annotate your wireframes with Task Flow step numbers and arrows.
-- All wireframe screens should be included in the markdown file as a single image no larger than an 8"x10" printed page (can be either portrait or landscape) and embedded as a markdown image.
+- Screens should be low-fidelity but contain the major page elements.
+- Annotate your wireframes with Task Flow step numbers. Add arrows, if necessary, to better communicate the task.
+- All wireframe screens should be included in your document as a single image no larger than an 8"x10" page when printed (can be either portrait or landscape) and be embedded in your document.
 
-### Markdown: 5 points
-- Use correct markdown syntax.
-- Do not use HTML.
-- Presentational markdown should be limited to horizontal rules.
-- Tables should be semantic and be limited to tabular data (don't use tables for layout).
-
----
-
-## General Criteria
+### General: 5 points
 Points will be deducted for lack of scannability:
 - Text is concise and legible.
 - The composition of page elements (headings, lists, body text, images, etc) supports visual hierarchy.
@@ -64,10 +56,7 @@ Points will be deducted for lack of scannability:
 ---
 
 ## Submission Instructions
-You will be writing this assignment in [markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax):
-1. Write your  in a text file using valid markdown syntax.
-2. Create a [Gist](https://gist.github.com/) with a description of `DSGN 270 - Assignment 2` and upload your assignment as a `README.md` document in this Gist.
-3. Separately, save your file with the name `dsgn270-a2.md` and ZIP it.
-4. Upload your ZIP to the dropbox on Brightspace. Include a link to your Gist as comment on your submission.
-
-Marks will be deducted for improperly submitted assignments
+You will be submitting this assignment as a PDF or GitHub README.md:
+1. Use an authoring tool of your choice (Google Doc, Indesign, markdown, etc).
+2. Export as a letter format PDF file named `dsgn270-a2.pdf` or save to a README.md file as a GH repo or Gist.
+4. Upload your PDF or README.md to Brightspace as a ZIP. Include a link to you repo/gist, if applicable.
