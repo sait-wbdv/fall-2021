@@ -17,7 +17,7 @@ released: true
 
 ## Assignment: FreeCodeCamp HTML and CSS
 - **Due: September 19 11:59pm**
-- [Assignment Link]({{ '/assignments/cpnt260/freecodecamp-assignment.md' | url }})
+- [Assignment Link]({{ '/assignments/cpnt260/freecodecamp-assignment/' | url }})
 - Complete:
   - Responsive Web Design: Basic HTML and HTML5 (28 questions)
   - Responsive Web Design: Basic CSS (44 questions)
@@ -99,7 +99,7 @@ Semantic HTML
   - `ul` and `ol` for lists 
 
 ---
-### Activity 1: [Create a wiki page: Part 1]({{ '/activities/html-css/wiki-page.md' | url}})
+### Activity 1: [Create a wiki page: Part 1]({{ '/activities/html-css/wiki-page/' | url }})
 
 ---
 ## Topic 3: Style with CSS
@@ -133,7 +133,7 @@ Declarations
 - Ids are more specific than classes, an id will override a class
 - Anything with the `!important` tag will override all previous stylings. Try to avoid using this
 
-### Activity 2: [Stylize your wiki page: Part 2]({{ '/activities/html-css/wiki-page.md' | url}})
+### Activity 2: [Stylize your wiki page: Part 2]({{ '/activities/html-css/wiki-page/' | url}})
 
 ---
 ## Walkthrough
