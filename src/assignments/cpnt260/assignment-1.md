@@ -2,7 +2,7 @@
 layout: layouts/assignment.njk
 title: Assignment 1 - About Page and Simple Nav
 description: Create an about page that includes long form text and images. Your page will also need a navigation bar that will be used for future assignments.
-image:
+released: true
 ---
 _20% of Final Grade | Due September 22 11:59pm 2021_
 

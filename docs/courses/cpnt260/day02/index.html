@@ -62,7 +62,233 @@
   <h2>CPNT 260 Day 2 - Navigation and Responsive Page Design</h2>
   
   
-        <h3>Sorry, this lesson hasn't been released.</h3>  
+        <h2>Trophy of the day: Page Design</h2>
+<ul>
+<li>Create a Page with a Site Navigation</li>
+</ul>
+<h2>Review</h2>
+<ul>
+<li>Trophies from last class</li>
+<li>Go over questions from last day</li>
+</ul>
+<h2>Tool Time (Some extra terminal things)</h2>
+<ul>
+<li>Text Editors
+<ul>
+<li>Vscode/vscodium
+<ul>
+<li>plugins</li>
+</ul>
+</li>
+<li>Vim/neovim</li>
+</ul>
+</li>
+<li>zsh
+<ul>
+<li><a href="https://travis.media/top-10-oh-my-zsh-plugins-for-productive-developers/">zsh plugins</a></li>
+</ul>
+</li>
+<li>tmux
+<ul>
+<li><a href="https://macappstore.org/tmux/">install on mac</a></li>
+<li><a href="https://gist.github.com/DeanPDX/acff533cff0cfbda2761d1e62e8cb1a7">install on windows</a></li>
+<li><a href="github">Ashlyn's tmux config</a></li>
+</ul>
+</li>
+<li><a href="https://taskwarrior.org/">taskwarrior</a></li>
+<li><a href="https://github.com/lilyx13/dotfiles">Ash's Dotfiles</a>
+<ul>
+<li>especially for using tmux. these keybindings are a lifesaver when your deep in code</li>
+</ul>
+</li>
+</ul>
+<h2>Assignment 1 - About Page and Simple Nav</h2>
+<ul>
+<li><strong>Due: September 22 11:59pm</strong></li>
+<li><a href="/fall-2021/assignments/cpnt260/assignment-1/">Assignment Link</a></li>
+<li>Complete:
+<ul>
+<li>Create an About page that has text, images, and styling</li>
+<li>Create a site navigation. Note this will be improved on throughout the following assignments.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Overview</h2>
+<ol>
+<li>Plan it out</li>
+</ol>
+<ul>
+<li>Importing and Styling Elements</li>
+</ul>
+<ol start="2">
+<li>Brute force</li>
+</ol>
+<ul>
+<li>Responsive Fonts</li>
+<li>Site Navigation</li>
+</ul>
+<ol start="3">
+<li>Walkthrough</li>
+</ol>
+<ul>
+<li>Code review
+<ul>
+<li>add comments</li>
+<li>check for errors</li>
+</ul>
+</li>
+</ul>
+<ol start="4">
+<li>Optimize/Test</li>
+</ol>
+<ul>
+<li>Improve code</li>
+</ul>
+<hr>
+<h2>Topic 1: Importing and Styling Elements</h2>
+<p><em>Using different types of content</em></p>
+<h3>Key Terms and Syntax</h3>
+<dl>
+<dt>Cdn</dt>
+<dd>Content Delivery Network. Allows for fast transfer of assets needed to load web content.<br>
+Box Model</dd>
+<dd>Everything in CSS has a box around it. These boxes are either block or inline elements. <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">Read more here</a><br>
+<code>background-color</code></dd>
+<dd>set a background color with this tag. Keep in mind what element you are setting background color to.<br>
+<code>color</code></dd>
+<dd>Used to set items color<br>
+<code>hsla()</code></dd>
+<dd><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsla()">HSLA</a> is notation to describe colors by 'hue', 'saturation', 'lightness', and 'alpha' (alpha is for transparency)<br>
+<code>padding</code></dd>
+<dd>Used to add space within an elements box<br>
+Stylesheet</dd>
+<dd>Separate your css into stylesheets to keep your code more organized.</dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li><code>hsla()</code> is better for screen readers and gives you better control over your colors (especially for setting custom variables etc)
+<ul>
+<li>However it can be a struggle to work with at first.
+<ul>
+<li>I often draft with hex colors, and then when I get detailed, convert to hsla() values.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Padding and margin are your friend. A common newbie mistake is having elements too tightly clustered together.
+<ul>
+<li>however when adding them, be aware of how they're creating space and what happens at different screen sizes.</li>
+<li>Remember:
+<ul>
+<li>Padding is space within an elements box</li>
+<li>Margin is space around an elements box</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Linking Fonts</h3>
+<ul>
+<li><code>@import</code> is slower <code>link</code> is faster</li>
+<li>use <code>preconnect</code> to improve font loading times</li>
+<li>A good solid approach to loading fonts</li>
+<li><code>&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin /&gt;</code></li>
+</ul>
+<h4>Terms</h4>
+<dl>
+<dt>preload</dt>
+<dd>fonts and absolutely necessary assets that you will be using<br>
+preconnect</dd>
+<dd>CDN or resource for loading from another domain. <strong>this is the most commonly used code for linking fonts</strong><br>
+prefetch</dd>
+<dd>content that <em>may</em> be needed for user interaction. It gets stuff prepped that we anticipate the user going to next</dd>
+</dl>
+<h4>Sources</h4>
+<ul>
+<li>
+<h2>This is a nuanced topic. Here are a couple articles that get into the details:</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org/news/web-fonts-in-2018-f191a48367e8/">Optimize web fonts</a></li>
+<li><a href="https://george.mand.is/2019/11/whats-the-difference-between-link-preload-preconnect-and-prefetch/">comparing preload, preconnect, and prefetch</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Topic 2: Responsive Fonts and Elements</h2>
+<p><em>Make site content look got on all devices</em></p>
+<h3>Terminology</h3>
+<dl>
+<dt><code>clamp()</code></dt>
+<dd>Use clamp to set minimum and maximum font size and the range that they increase and decrease by. ie: <code>font-size: clamp(1.2rem, 2.5vw, 1.4rem)</code><br>
+<code>text-align</code></dd>
+<dd>align text left, center, right, or justified. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">Mdn article</a>.<br>
+<code>max-width</code> and <code>min-width</code></dd>
+<dd>Both of these will override the <code>width</code> property. And <code>min-width</code> will override <code>max-width</code>.</dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li>When setting responsive sizes, make sure to do a lot of testing as you go. It's one thing to fix an unexpected bug from something you just did, it's another to be a bunch of lines of code later and then realize that something broke and now you have to find what's broken.</li>
+<li>Read <a href="https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/">This css tricks article</a> on using clamp based off viewport units</li>
+</ul>
+<hr>
+<h2>Topic 3: Site Navigation</h2>
+<p><em>The basics of guiding user your users</em></p>
+<h3>Terminology</h3>
+<dl>
+<dt>Target Attribute</dt>
+<dd>When setting a link with <code>a href=&quot;&quot;</code>, you can make links open in new tabs by setting the <code>target</code> attribute to <code>target=&quot;_blank&quot;</code> in the opening <code>a</code> tag.
+<ul>
+<li>To prevent a type of phishing, also add <code>rel=&quot;noreferrer noopener&quot;</code> to the <code>a</code> link whenever you use <code>target=&quot;_blank&quot;</code></li>
+<li>Read this <a href="https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/">FreeCodeCamp article</a> to learn more about this.</li>
+</ul>
+</dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li>Having a list inside a nav element is somewhat debated <a href="https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/">as is noted in this article</a>
+<ul>
+<li>however it is common convention</li>
+</ul>
+</li>
+<li>A footer navigation does not necessarily need a nav element: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">mdn article</a></li>
+<li>a document may have several <code>nav</code> elements
+<ul>
+<li>such as a site nav and then a page nav</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Activity 2: <a href="/fall-2021/activities/html-css/nav-menu/">A Web Page with a Nav Menu</a></h2>
+<h2>Extra Activity: <a href="/fall-2021/activities/html-css/404-page/">Create a 404 Page</a></h2>
+<ul>
+<li>This was originally the first activity of the day but since we will just have the afternoon, this one will be for fun</li>
+</ul>
+<hr>
+<h2>Walkthrough</h2>
+<ul>
+<li>Code review</li>
+<li>Bug Hunting</li>
+<li>Discussion</li>
+<li>Comment and plan code changes</li>
+</ul>
+<hr>
+<h2>Optimize</h2>
+<p><em>End of Day Activity</em></p>
+<ul>
+<li>Implement changes noted in comments</li>
+<li>Validate Code</li>
+<li>Deploy and Submit</li>
+</ul>
+<hr>
+<h2>Prep for next class</h2>
+<ul>
+<li>Read through this <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Mdn Article on Flexbox</a></li>
+<li>Play <a href="https://flexboxfroggy.com/">Flexbox Froggy</a></li>
+<li>Watch <a href="https://www.youtube.com/watch?v=vQAvjof1oe4">Flexbox Patterns You Can Use</a></li>
+</ul>
+<hr>
+
   
 </article>
 
