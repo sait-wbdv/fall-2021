@@ -1,6 +1,6 @@
 ---
 layout: layouts/assignment.njk
-title: Assignment 4 - Landing Page + Hero Section
+title: Assignment 4 - Landing Page with a Hero Section
 description: Create a landing page that features a hero section. Your landing page will also need to integrate a third party service (such as google maps) and your hero section must include a call to action that links to a signup or survey form.
 image:
 ---

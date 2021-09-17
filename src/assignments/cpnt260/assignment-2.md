@@ -11,6 +11,18 @@ _20% of Final Grade | Due September 24 11:59pm 2021_
 ## Marking Rubric
 Each of the following will be marked out of 4 points (for a total of 20 points), based on the requirements below:
 
+### Code Quality
+* Page is marked up with proper semantic structural elements
+  * `header`, `nav`, `main`, `article`, `footer` 
+* Accessibility best practices
+  * contrast ratio below AA for text size
+  * images have proper alt text
+* Use best practices with file/directory names, commenting, and indentation 
+  * 2 spaces per indent
+  * no spaces in file names, use dashes or underscores instead
+  * In general, use lower case characters except for README file name and DOCTYPES
+  * Filenames should be short but descriptive (< 25 characters) 
+ 
  
 ### 1. Site Content
 * It must include a responsive 3 card layout
@@ -43,8 +55,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
 * Can use media queries, flexbox, or css grid to achieve responsiveness
 * Nav has no more than 7 links max
  
-### 5. Project Documentation and Code Quality
-#### Documentation
+### 5. Project Documentation
 * Include a `README.md` in your project that contains:
   * Course Title:
   * Author Name:
@@ -56,18 +67,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
     * How did you fix it?
     * What benefits/limits came out of your solution beyond the immediate goal
     
-#### Code Quality
-* Page is marked up with proper semantic structural elements
-  * `header`, `nav`, `main`, `article`, `footer` 
-* Accessibility best practices
-  * contrast ratio below AA for text size
-  * images have proper alt text
-* Use best practices with file/directory names, commenting, and indentation 
-  * 2 spaces per indent
-  * no spaces in file names, use dashes or underscores instead
-  * In general, use lower case characters except for README file name and DOCTYPES
-  * Filenames should be short but descriptive (< 25 characters) 
- 
+
 ## Submission Requirements
 * Push this assignment to a repo named cpnt260-a2.
 * ZIP all files required for the site to operate and upload to Brightspace.

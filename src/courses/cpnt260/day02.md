@@ -3,17 +3,17 @@ layout: layouts/day.njk
 title: CPNT 260 Day 2 - Navigation and Responsive Page Design
 description: Today we will start working in the text editor Vscode. Topics include creating page navigation, using colour, typography, and white space.
 date: 2021-09-17
+released: true
 ---
 
-## Trophy of the day: Responsive Page Design
-[img here]
+## Trophy of the day: Page Design
 - Create a Page with a Site Navigation
 
 ## Review
 - Trophies from last class
 - Go over questions from last day
 
-## Tool Time
+## Tool Time (Some extra terminal things)
 - Text Editors
   - Vscode/vscodium
     - plugins
@@ -30,7 +30,7 @@ date: 2021-09-17
 
 ## Assignment 1 - About Page and Simple Nav
 - **Due: September 22 11:59pm**
-- [Assignment Link]({{ 'assignments/cpnt260/assignment1' | url }})
+- [Assignment Link]({{ '/assignments/cpnt260/assignment-1/' | url }})
 - Complete:
   - Create an About page that has text, images, and styling
   - Create a site navigation. Note this will be improved on throughout the following assignments.
@@ -90,7 +90,7 @@ Stylesheet
 preload
   : fonts and absolutely necessary assets that you will be using
 preconnect
-  : CDN or resource for loading from another domain
+  : CDN or resource for loading from another domain. **this is the most commonly used code for linking fonts**
 prefetch
   : content that _may_ be needed for user interaction. It gets stuff prepped that we anticipate the user going to next
 
@@ -134,9 +134,9 @@ Target Attribute
   - such as a site nav and then a page nav
 
 ---
-## Activity 2: [A Web Page with a Nav Menu]({{ 'activities/html-css/nav-menu.md' | url }})
+## Activity 2: [A Web Page with a Nav Menu]({{ '/activities/html-css/nav-menu/' | url }})
 
-## Extra Activity: [Create a 404 Page]({{ '/activities/html-css/404-page.md' | url }})
+## Extra Activity: [Create a 404 Page]({{ '/activities/html-css/404-page/' | url }})
   - This was originally the first activity of the day but since we will just have the afternoon, this one will be for fun
 ---
 ## Walkthrough

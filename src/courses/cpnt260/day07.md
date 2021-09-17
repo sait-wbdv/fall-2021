@@ -10,6 +10,16 @@ date: 2021-09-24
 - Trophies from last class
 - Question time
 
+## Assignment 4: Landing Page + Hero Section
+- [Assignment Link]({{ '/assignments/cpnt260/assignment-4/' | url }})
+- **Due: October 1st 11:59pm**
+- Complete:
+  - A landing page
+  - Landing page needs to have a hero section with a call to action
+  - CTA (call to action) should link to an accessible user form
+  - Navigation should be responsive
+    - a hamburger icon with hideable menu on mobile
+    - a horizontal nav on desktop
 ---
 ## Overview
 1. Plan it out
@@ -30,7 +40,7 @@ _The fundamentals of eye catching hero sections_
   - [Air Canada Flight Search](https://flightsearchdirect.com)
   - [Sandman Hotels](https://www.sandmanhotels.com/)
 ---
-## Activity: [Find Hero Examples]({{ '/activities/html-css/hero-hunt.md' | url }})
+## Activity: [Find Hero Examples]({{ '/activities/html-css/hero-hunt/' | url }})
 - Screenshot different hero sections
   - look for:
     - different positions of hero content
@@ -67,7 +77,7 @@ Call to Action (CTA)
 - `header` tag is suitable for hero sections
 - your `nav` can be inside the `header` tag or outside of it. If it's on the outside, absolute positioning can be used on the nav to make them still overlap
 
-## Activity: [Build a Hero Section with a Call to Action]({{ 'activities/html-css/hero-section.md' | url}})
+## Activity: [Build a Hero Section with a Call to Action]({{ 'activities/html-css/hero-section/' | url}})
 - Hero section must take up the majority of the screen height
 - Hero section must use a background-image
 - Hero section must have a call to action
