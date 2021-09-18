@@ -4,7 +4,9 @@ title: Flexbox Elements
 description: Create responsive page elements using flexbox.
 image:
 ---
+
 ## Instructions
+
 - Create at least one page element with flexbox
   - examples:
     - card

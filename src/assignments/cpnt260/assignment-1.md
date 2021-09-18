@@ -4,12 +4,15 @@ title: Assignment 1 - About Page and Simple Nav
 description: Create an about page that includes long form text and images. Your page will also need a navigation bar that will be used for future assignments.
 released: true
 ---
-_20% of Final Grade | Due September 22 11:59pm 2021_
+
+- 20% of Final Grade | Due September 22 11:59pm 2021
 
 ## Marking Rubric
+
 Each of the following will be marked out of 5 points (for a total of 20 points), based on the requirements below:
 
 ### 1. Site UI Setup
+
 - Header
   - Indicates current page with an h1
 - Footer
@@ -24,6 +27,7 @@ Each of the following will be marked out of 5 points (for a total of 20 points),
   - nav is responsive
 
 ### 2. Page Content
+
 - At least 1 img in relation to about content
   - spans 100% of its container
 - h1, h2, and h3 headings
@@ -35,6 +39,7 @@ Each of the following will be marked out of 5 points (for a total of 20 points),
   - Follow long form text guidelines discussing in dsgn270
 
 ### 3. General Requirements
+
 - Page is marked up with proper semantic elements
   - header, nav, main, footer
 - Page text is readable at screen width 400px and **does not**:
@@ -47,6 +52,7 @@ Each of the following will be marked out of 5 points (for a total of 20 points),
   - 2 spaces per indent
 
 ### 4. Project Documentation
+
 - Include a README markdown file in your project that includes the following information:
   - Course Title
   - Author name
@@ -56,9 +62,9 @@ Each of the following will be marked out of 5 points (for a total of 20 points),
   - Client information
     - Who is your client
     - What do they do
-   - Reflection
-     - Note 1 technical issue you had while creating this
-       - How did you approach solving it
+  - Reflection
+    - Note 1 technical issue you had while creating this
+      - How did you approach solving it
   - Attributions for code or assets that are not your own
 
 ## Submission Requirements

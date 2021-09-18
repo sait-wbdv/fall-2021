@@ -5,6 +5,7 @@ description: Create a user form that is easy to use for everyone.
 ---
 
 ## Pair Code Instructions
+
 - Work together in a team of 4
   - Use a pair coding format where 2 people are in driver-navigator roles.
   - You can do this in a few different ways:
@@ -16,6 +17,7 @@ description: Create a user form that is easy to use for everyone.
   - In the end, everyone should get to be driver and navigator at least once
 
 ## Task Instructions
+
 - Create a form
 - It should include
   - text input

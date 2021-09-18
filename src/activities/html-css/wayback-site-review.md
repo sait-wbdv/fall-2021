@@ -6,6 +6,7 @@ image:
 ---
 
 ## Instructions
+
 - In a group of 4, find between 2-4 outdated website designs using the [Wayback Machine](https://web.archive.org/)
 - Preferably pick sites that are still being used but that have been modernized already
 - Use devtools to inspect the html and css

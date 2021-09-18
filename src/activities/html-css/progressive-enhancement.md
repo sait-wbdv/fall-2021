@@ -6,6 +6,7 @@ image:
 ---
 
 ## Instructions
+
 - Select a design that you've previously created that uses css grid
 - use feature query `@supports` for the more advanced layout
 - Temporarily comment out the grid layout
@@ -15,6 +16,6 @@ image:
 - uncomment your grid layout code
 - Submit either a link to the codepen or zipped html and css files to Brightspace
 
-
 ## Extra challenge
-- Use 
+
+- Use

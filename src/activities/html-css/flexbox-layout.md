@@ -6,6 +6,7 @@ image:
 ---
 
 ## Instructions
+
 - In groups of 4 pick different parts of a page to code in flexbox
 - Put each other's code together to create a cohesive page
 - Each person should create one of [these patterns](https://www.freecodecamp.org/news/here-are-5-layouts-that-you-can-make-with-flexbox-6ca1e941f33d/) or something like it.

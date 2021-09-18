@@ -6,6 +6,7 @@ image:
 ---
 
 ## Instructions
+
 - Use hero sections found in the hero hunt activity as inspiration, but build with new assets and text
 - Your hero section should take up the majority or all of the screen before the fold
 - The text should be very clear ontop of the background image

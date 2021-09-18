@@ -6,6 +6,7 @@ image:
 ---
 
 ## Instructions
+
 - Create a sliding nav menu using a css checkbox hack or supplied javascript
 - For this exercise, it does not need to change to a desktop layout (however this will be necessary for assignments)
 - There should be no horizontal scroll
@@ -13,6 +14,7 @@ image:
 - Use transitions for smooth animation
 
 ## Resources
+
 - [CSS Tricks Checkbox Hack](https://css-tricks.com/the-checkbox-hack/)
 - [Ashlyn's checkbox hack notes](https://github.com/lilyx13/sait-course-notes/blob/main/checkbox-hack.md)
 - [Sliding Nav Instructions](https://www.w3schools.com/howto/howto_js_sidenav.asp)

@@ -6,6 +6,7 @@ image:
 ---
 
 ## Instructions
+
 - In your same team of 4, pick 1 of the sites that you analyzed in the Wayback Site Review
 - Modernize a page from the site that you chose
   - Colors

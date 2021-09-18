@@ -5,6 +5,7 @@ description: Flexbox and grid solve design problems differently. Use them togeth
 ---
 
 ## Instructions
+
 - Create something that incorporates both flexbox and grid
 - Card layouts are good for this sort of thing. However, with these two systems, you have amazing power to work with. For different ideas:
   - Reflect on design conventions discussed in DSGN-270
