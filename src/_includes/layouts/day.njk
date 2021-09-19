@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 {% if siblings.prev.url or siblings.next.url %}
-<nav>
+<nav class="secondary">
     <ul>
         <li>
             {% if siblings.prev.url and siblings.prev.data.released %}
@@ -34,7 +34,7 @@ layout: layouts/base.njk
 </article>
 
 {% if siblings.prev.url or siblings.next.url %}
-<nav>
+<nav class="secondary">
     <ul>
         <li>
             {% if siblings.prev.url and siblings.prev.data.released %}

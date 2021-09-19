@@ -1,39 +1,55 @@
 /**************/
 /* Navigation */
 /**************/
-
-nav.primary ul {
+nav.primary ul, nav.secondary ul {
   display: flex;
 }
 
-nav.primary li {
-  flex: auto;
-}
-nav.primary a {
-  display: block;
-  padding: 0.5rem 1rem;
-
-  text-decoration: none;
-  color: indigo;
-
+nav.primary a, nav.secondary a {
   border-radius: 0.3rem;
-
   text-align: center;
-  font-variant: small-caps;
-  font-family: sans-serif;
-
-  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
 }
-
-nav.primary a:hover {
-  background-color: papayawhip;
-}
-
-nav.primary a:active {
-  background-color: indigo;
+nav.primary a:hover, nav.secondary a:hover {
+  background-color: #0063a7;
   color: white;
 }
 
+nav.primary a:active, nav.secondary a:active {
+
+  background-color: #e02727;
+  color: white;
+}
+
+nav.primary a, nav.secondary a {
+  transition: background-color 400ms ease-in-out;
+}
+
+/* Individual Nav Styles */
+nav.primary ul {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+nav.primary a {
+  margin: 10px;
+  color: #0063a7;
+
+  font-variant: small-caps;
+}
+
+nav.secondary header {
+  display: none;
+}
+nav.secondary ul {
+  justify-content: space-between;
+}
+nav.secondary a {
+  background-color: #0896db;
+  color: white; 
+  
+  padding: 10px 25px;
+}
 /**********/
 /* Header */
 /**********/
@@ -41,7 +57,7 @@ nav.primary a:active {
 .page-header {
   display: flex;
   align-items: center;
-
+  width: 100%;
   padding: 1em;
   margin-bottom: 2em;
   border-bottom: 1px solid #aaa;
