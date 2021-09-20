@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 3 Intro to Flexbox
 description: Learn how to use flexbox to create flexible and visually complex webite layouts. For html we will introduce user input.
-date: 2021-09-20
+date: 2021-09-21
 ---
 
 ## Trophy of the day: A flexible design that includes user input

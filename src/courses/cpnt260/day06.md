@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 6 - Progressive Enhancement and Creative Designs
 description: We will learn how to use feature queries to provide maximum browser support for different layouts. Along with this, we will continue learning about CSS Grid and look at how it can be used with Flexbox.
-date: 2021-09-23
+date: 2021-09-24
 ---
 
 ## Trophy of the Day: A gallery layout

@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 8 - User Input and Accessible User Experience
 description: Today we will continue learning about forms and user input. Along with learning form syntax and practicing design strategies that were covered in DSGN-270, we will also learn how to make our forms readable by screen readers.
-date: 2021-09-27
+date: 2021-09-28
 ---
 
 ## Trophy of the Day: A sign up form

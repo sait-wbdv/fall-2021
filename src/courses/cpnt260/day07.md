@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 7 - Hero Sections and Page Backgrounds
 description: Hero Sections are a very popular and useful web convention that we will be learning how to build today. This will include setting up CTAs(call to action), setting element heights, and how to use background-images
-date: 2021-09-24
+date: 2021-09-25
 ---
 
 ## Trophy of the Day: A Hero section with a CTA

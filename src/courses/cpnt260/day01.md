@@ -4,6 +4,7 @@ title: CPNT 260 Day 1 - Web design fundamentals (HTML/CSS)
 description: Today we will cover the basic technologies of the web and how they work together. We will also start out with the basics of writing html and css.
 date: 2021-09-16
 released: true
+
 ---
 
 ## Trophy of the day: A wiki page
@@ -38,14 +39,17 @@ released: true
 - Questions
 
 2. Brute force
-   - Site Layout and Semantic HTML
-     - continued from 270 day 2
-   - Style using CSS
-     - continued from 270 Day 4
+
+- Site Layout and Semantic HTML
+  - Style using CSS
+  - continued from 270 Day 4
+
 3. Walkthrough
-   - Code review
-     - add comments
-     - check for errors
+
+- Code review
+  - add comments
+  - check for errors
+
 4. Optimize/Test
    - Improve code
 
@@ -79,7 +83,7 @@ DOM (Document Object Model)
 
 ## Topic 2: Site Layout and Semantic HTML
 
-_Creating the content of the web_
+-Creating the content of the web
 
 ### Terminology
 

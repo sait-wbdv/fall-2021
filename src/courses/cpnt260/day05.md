@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 5 - Introduction to CSS Grid
 description: Today we will be covering the newer technology css grid. We will implement basic grid designs. We will also be practicing debugging strategies for CSS that will also be useful when coding in JS and other languages.
-date: 2021-09-22
+date: 2021-09-23
 ---
 
 ## Trophy of the day: Use CSS Grid to create a site layout

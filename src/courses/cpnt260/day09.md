@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 9 - Maintainable CSS, Themes, and Transitions
 description: We will work on creating more maintainable and organized css code, using custom variables to create well organized themes, and tweak pseudo classes using transitions for stylized user interaction.
-date: 2021-09-28
+date: 2021-09-29
 ---
 
 ## Trophy of the Day: A responsive and themed web design
