@@ -7,14 +7,10 @@ date: 2021-09-21
 
 ## Trophy of the day: A flexible design that includes user input
 
-[img here]
-
 ## Review
 
 - Trophies from last class
 - Questions
-
-## FreeCodeCamp Assignment Due]({{ 'assignments/cpnt260/freecodecamp.md' | url }})
 
 ---
 

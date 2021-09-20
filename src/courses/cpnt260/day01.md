@@ -9,8 +9,6 @@ released: true
 
 ## Trophy of the day: A wiki page
 
-[img here]
-
 - Create an html wiki page on a topic of your choice.
 - Examples:
   - A current interest
