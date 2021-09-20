@@ -5,6 +5,7 @@ title: DSGN 270 Assignment 1 - Website Critique
 Select a public, multi-page website of your choice. Write a review and critique evaluating this website, based on the terminology and concepts you've learned in this course.
 
 ## Instructions
+
 1. Select a public, multi-page website that covers a topic of interest for you (or not). Include the title and url at the top of your assignment.
 2. In 50 words or less, define the target audience that this website caters to. What value does this website provide to its users?
 3. Site navigation: Using screencaps and an annotation tool of your choice, find and label an example of the each following:

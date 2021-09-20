@@ -1,9 +1,10 @@
 ---
 layout: layouts/day.njk
 title: CPNT 260 Day 2 - Navigation and Responsive Page Design
-description: Today we will start working in the text editor Vscode. Topics include creating page navigation, using colour, typography, and white space.
+description: Today we will start working in the text editor Vscode. Topics include creating code optimization, site navigation, and color.
 date: 2021-09-20
 released: true
+
 ---
 
 ## Trophy of the day: 404 page with a site navigation
@@ -37,7 +38,7 @@ released: true
      - [Colour in CSS](#color)
      - Code review
 4. Optimize/Test
-
+- [Next Day Prep](#prep)
 ---
 
 ## <a id="vscode"></a> Tool Time
@@ -129,7 +130,7 @@ These css properties and values are especially useful for setting responsive fon
 - You can use your 404 page as body content for this
 ---
 
-## Prep for next class
+## <a id="prep"></a> Prep for next class
 
 - Read through this [Mdn Article on Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 - Play [Flexbox Froggy](https://flexboxfroggy.com/)
