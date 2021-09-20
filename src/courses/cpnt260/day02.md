@@ -4,7 +4,6 @@ title: CPNT 260 Day 2 - Navigation and Responsive Page Design
 description: Today we will start working in the text editor Vscode. Topics include creating code optimization, site navigation, and color.
 date: 2021-09-20
 released: true
-
 ---
 
 ## Trophy of the day: 404 page with a site navigation

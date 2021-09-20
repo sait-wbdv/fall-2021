@@ -4,7 +4,6 @@ title: CPNT 260 Day 1 - Web design fundamentals (HTML/CSS)
 description: Today we will cover the basic technologies of the web and how they work together. We will also start out with the basics of writing html and css.
 date: 2021-09-16
 released: true
-
 ---
 
 ## Trophy of the day: A wiki page
