@@ -5,7 +5,7 @@ description: Create a landing page that features a hero section. Your landing pa
 image:
 ---
 
-- 20% of Final Grade | Due September 30 11:59pm 2021
+- 20% of Final Grade | Due October 1 11:59pm 2021
 
 ## Client User Stories
 
