@@ -30,11 +30,12 @@ nav.primary ul {
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-
+nav.primary li {
+  margin: 12px;
+}
 nav.primary a {
-  margin: 10px;
   color: #0063a7;
-
+  padding: 10px;
   font-variant: small-caps;
 }
 
