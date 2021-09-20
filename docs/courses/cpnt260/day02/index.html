@@ -35,13 +35,13 @@
         <li><a href="/fall-2021/schedule">Schedule</a></li>
         <li><a href="/fall-2021/assignments">Assignments</a></li>
         <li><a href="/fall-2021/library">Library</a></li>
-        <li><a href="https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/6049417797">Zoom</a></li>
       </ul>
     </nav>
   </header>
   <main>
     
-<nav>
+<nav class="secondary">
     <ul>
         <li>
             
@@ -58,49 +58,15 @@
 
 
 <article class="post">
-  <time>Fri, September 17</time>
+  <time>Mon, September 20</time>
   <h2>CPNT 260 Day 2 - Navigation and Responsive Page Design</h2>
   
   
-        <h2>Trophy of the day: Page Design</h2>
-<ul>
-<li>Create a Page with a Site Navigation</li>
-</ul>
+        <h2>Trophy of the day: 404 page with a site navigation</h2>
 <h2>Review</h2>
 <ul>
 <li>Trophies from last class</li>
-<li>Go over questions from last day</li>
-</ul>
-<h2>Tool Time (Some extra terminal things)</h2>
-<ul>
-<li>Text Editors
-<ul>
-<li>Vscode/vscodium
-<ul>
-<li>plugins</li>
-</ul>
-</li>
-<li>Vim/neovim</li>
-</ul>
-</li>
-<li>zsh
-<ul>
-<li><a href="https://travis.media/top-10-oh-my-zsh-plugins-for-productive-developers/">zsh plugins</a></li>
-</ul>
-</li>
-<li>tmux
-<ul>
-<li><a href="https://macappstore.org/tmux/">install on mac</a></li>
-<li><a href="https://gist.github.com/DeanPDX/acff533cff0cfbda2761d1e62e8cb1a7">install on windows</a></li>
-<li><a href="github">Ashlyn's tmux config</a></li>
-</ul>
-</li>
-<li><a href="https://taskwarrior.org/">taskwarrior</a></li>
-<li><a href="https://github.com/lilyx13/dotfiles">Ash's Dotfiles</a>
-<ul>
-<li>especially for using tmux. these keybindings are a lifesaver when your deep in code</li>
-</ul>
-</li>
+<li>Code debief</li>
 </ul>
 <h2>Assignment 1 - About Page and Simple Nav</h2>
 <ul>
@@ -116,169 +82,151 @@
 <hr>
 <h2>Overview</h2>
 <ol>
-<li>Plan it out</li>
-</ol>
+<li>Plan it out
 <ul>
-<li>Importing and Styling Elements</li>
-</ul>
-<ol start="2">
-<li>Brute force</li>
-</ol>
-<ul>
-<li>Responsive Fonts</li>
-<li>Site Navigation</li>
-</ul>
-<ol start="3">
-<li>Walkthrough</li>
-</ol>
-<ul>
-<li>Code review
-<ul>
-<li>add comments</li>
-<li>check for errors</li>
+<li><a href="#vscode">Codepen to Vscode</a></li>
+<li><a href="#topic-1">Code Indentation and CSS Selector Nesting</a></li>
+<li><a href="#topic-2">Importing and Using Fonts</a></li>
+<li><a href="#activity-1">Activity 1</a></li>
 </ul>
 </li>
+<li>Brute force
+<ul>
+<li><a href="#topic-3">Site Navigation</a></li>
+<li><a href="#activity-2">Activity 2</a></li>
 </ul>
-<ol start="4">
+</li>
+<li>Walkthrough
+<ul>
+<li><a href="#color">Colour in CSS</a></li>
+<li>Code review</li>
+</ul>
+</li>
 <li>Optimize/Test</li>
 </ol>
+<hr>
+<h2><a id="vscode"></a> Tool Time</h2>
 <ul>
-<li>Improve code</li>
+<li>Switching from codepen to vscode</li>
+<li>Using <code>head</code> tag in html</li>
+<li>Emmet plugin and autocompletion</li>
 </ul>
 <hr>
-<h2>Topic 1: Importing and Styling Elements</h2>
-<p><em>Using different types of content</em></p>
-<h3>Key Terms and Syntax</h3>
-<dl>
-<dt>Cdn</dt>
-<dd>Content Delivery Network. Allows for fast transfer of assets needed to load web content.<br>
-Box Model</dd>
-<dd>Everything in CSS has a box around it. These boxes are either block or inline elements. <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">Read more here</a><br>
-<code>background-color</code></dd>
-<dd>set a background color with this tag. Keep in mind what element you are setting background color to.<br>
-<code>color</code></dd>
-<dd>Used to set items color<br>
-<code>hsla()</code></dd>
-<dd><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsla()">HSLA</a> is notation to describe colors by 'hue', 'saturation', 'lightness', and 'alpha' (alpha is for transparency)<br>
-<code>padding</code></dd>
-<dd>Used to add space within an elements box<br>
-Stylesheet</dd>
-<dd>Separate your css into stylesheets to keep your code more organized.</dd>
-</dl>
-<h3>Notes</h3>
+<h2><a id="topic-1"></a> Topic 1: Code Indentation and CSS Selector Nesting</h2>
+<h3>Code Indentation</h3>
 <ul>
-<li><code>hsla()</code> is better for screen readers and gives you better control over your colors (especially for setting custom variables etc)
+<li>Indentation is very important, in some languages it's necessary for code to run</li>
+<li>Any HTML elements that are <em>within</em> a container element must be nested inside using indents
 <ul>
-<li>However it can be a struggle to work with at first.
-<ul>
-<li>I often draft with hex colors, and then when I get detailed, convert to hsla() values.</li>
+<li>You can use hotkeys to auto indent your code. This saves a lot of time</li>
 </ul>
 </li>
 </ul>
-</li>
-<li>Padding and margin are your friend. A common newbie mistake is having elements too tightly clustered together.
+<h3>CSS Selector nesting</h3>
 <ul>
-<li>however when adding them, be aware of how they're creating space and what happens at different screen sizes.</li>
-<li>Remember:
+<li>In bruteforce mode, it's normaly to add classes directly to elements</li>
+<li>After everything works like you want, your optimization process should include removing redundent code</li>
+<li>A good practice is to add a class to a parent element and then use nested selectors on it's children
 <ul>
-<li>Padding is space within an elements box</li>
-<li>Margin is space around an elements box</li>
-</ul>
-</li>
+<li><code>nav.parent-class a {/* link styles */}</code></li>
 </ul>
 </li>
 </ul>
-<h3>Linking Fonts</h3>
-<ul>
-<li><code>@import</code> is slower <code>link</code> is faster</li>
-<li>use <code>preconnect</code> to improve font loading times</li>
-<li>A good solid approach to loading fonts</li>
-<li><code>&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin /&gt;</code></li>
-</ul>
-<h4>Terms</h4>
-<dl>
-<dt>preload</dt>
-<dd>fonts and absolutely necessary assets that you will be using<br>
-preconnect</dd>
-<dd>CDN or resource for loading from another domain. <strong>this is the most commonly used code for linking fonts</strong><br>
-prefetch</dd>
-<dd>content that <em>may</em> be needed for user interaction. It gets stuff prepped that we anticipate the user going to next</dd>
-</dl>
-<h4>Sources</h4>
+<hr>
+<h2><a id="topic-2"></a> Responsive Fonts</h2>
+<h3>Terminology</h3>
+<p>These css properties and values are especially useful for setting responsive fonts.</p>
 <ul>
 <li>
-<h2>This is a nuanced topic. Here are a couple articles that get into the details:</h2>
-<ul>
-<li><a href="https://www.freecodecamp.org/news/web-fonts-in-2018-f191a48367e8/">Optimize web fonts</a></li>
-<li><a href="https://george.mand.is/2019/11/whats-the-difference-between-link-preload-preconnect-and-prefetch/">comparing preload, preconnect, and prefetch</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>Topic 2: Responsive Fonts and Elements</h2>
-<p><em>Make site content look got on all devices</em></p>
-<h3>Terminology</h3>
 <dl>
 <dt><code>clamp()</code></dt>
-<dd>Use clamp to set minimum and maximum font size and the range that they increase and decrease by. ie: <code>font-size: clamp(1.2rem, 2.5vw, 1.4rem)</code><br>
-<code>text-align</code></dd>
-<dd>align text left, center, right, or justified. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">Mdn article</a>.<br>
-<code>max-width</code> and <code>min-width</code></dd>
+<dd>Use clamp to set minimum and maximum font size and the range that they increase and decrease by. ie: <code>font-size: clamp(1.2rem, 2.5vw, 1.4rem)</code></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><code>text-align</code></dt>
+<dd>align text left, center, right, or justified. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">Mdn article</a>.</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><code>max-width</code> and <code>min-width</code></dt>
 <dd>Both of these will override the <code>width</code> property. And <code>min-width</code> will override <code>max-width</code>.</dd>
 </dl>
-<h3>Notes</h3>
+</li>
+<li>
+<dl>
+<dt><code>rem</code></dt>
+<dd>rem units are equal to the font-size declared on a root element. 1 <code>rem</code> unit is equal to <code>16px</code>. A px is 10times bigger than a rem.</dd>
+</dl>
+</li>
+</ul>
+<h4>Font size readings</h4>
 <ul>
-<li>When setting responsive sizes, make sure to do a lot of testing as you go. It's one thing to fix an unexpected bug from something you just did, it's another to be a bunch of lines of code later and then realize that something broke and now you have to find what's broken.</li>
+<li>If you are wanting to get more detailed with font-size, read this <a href="https://css-tricks.com/rems-ems/">CSS-tricks article</a> which shows how to use px, em, and rem together effectively</li>
 <li>Read <a href="https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/">This css tricks article</a> on using clamp based off viewport units</li>
 </ul>
-<hr>
-<h2>Topic 3: Site Navigation</h2>
-<p><em>The basics of guiding user your users</em></p>
-<h3>Terminology</h3>
-<dl>
-<dt>Target Attribute</dt>
-<dd>When setting a link with <code>a href=&quot;&quot;</code>, you can make links open in new tabs by setting the <code>target</code> attribute to <code>target=&quot;_blank&quot;</code> in the opening <code>a</code> tag.
+<h4>Font optimization Notes and Readings</h4>
 <ul>
-<li>To prevent a type of phishing, also add <code>rel=&quot;noreferrer noopener&quot;</code> to the <code>a</code> link whenever you use <code>target=&quot;_blank&quot;</code></li>
-<li>Read this <a href="https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/">FreeCodeCamp article</a> to learn more about this.</li>
+<li><code>@import</code> in css is slower than using <code>link</code> in html</li>
+<li>use <code>preconnect</code> to improve font loading times</li>
+<li>Link example: <code>&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin /&gt;</code></li>
+<li><a href="https://www.freecodecamp.org/news/web-fonts-in-2018-f191a48367e8/">Optimize web fonts</a></li>
+<li><a href="https://george.mand.is/2019/11/whats-the-difference-between-link-preload-preconnect-and-prefetch/">comparing preload, preconnect, and prefetch</a>.</li>
 </ul>
-</dd>
-</dl>
-<h3>Notes</h3>
+<h2><a id="activity-1"></a> Activity 1: <a href="/fall-2021/activities/html-css/404-page/">Create a 404 Page</a></h2>
+<hr>
+<h2><a id="topic-3"></a>Topic 3: Site Navigation</h2>
 <ul>
-<li>Having a list inside a nav element is somewhat debated <a href="https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/">as is noted in this article</a>
+<li>Navigation should use a <code>nav</code> tag.</li>
+<li>You can have more than one nav</li>
+<li>It is conventional to put an unordered list inside your nav for links, but not essential</li>
+<li>To link to content on the same page, add an <code>id</code> tag to the link location and specify it in your link
 <ul>
-<li>however it is common convention</li>
+<li>nav link = <code>&lt;a href=&quot;#link-on-page&quot;&gt;Link&lt;/a&gt;</code>, then add the id to the element like: <code>&lt;h2 id=&quot;link-on-page&quot;&gt;Text&lt;/h2&gt;</code></li>
 </ul>
 </li>
-<li>A footer navigation does not necessarily need a nav element: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">mdn article</a></li>
-<li>a document may have several <code>nav</code> elements
-<ul>
-<li>such as a site nav and then a page nav</li>
+<li>To open the link in a new tab use <code>target=&quot;_blank&quot;</code> in your link tag</li>
+<li>A <code>nav</code> is often found inside a <code>header</code> or above a <code>header</code>. It depends on the site</li>
 </ul>
-</li>
-</ul>
-<hr>
-<h2>Activity 2: <a href="/fall-2021/activities/html-css/nav-menu/">A Web Page with a Nav Menu</a></h2>
-<h2>Extra Activity: <a href="/fall-2021/activities/html-css/404-page/">Create a 404 Page</a></h2>
+<h3>Extra Reading</h3>
 <ul>
-<li>This was originally the first activity of the day but since we will just have the afternoon, this one will be for fun</li>
+<li>To add a list to a nav or not is discussed in this <a href="https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/">css-tricks article</a>.</li>
+<li>A footer navigation does not necessarily need a nav element: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">mdn article</a>.</li>
 </ul>
 <hr>
 <h2>Walkthrough</h2>
 <ul>
-<li>Code review</li>
-<li>Bug Hunting</li>
-<li>Discussion</li>
-<li>Comment and plan code changes</li>
+<li>Check for syntax errors</li>
+<li>Fix HTML indentation</li>
+<li>Plan CSS declarations cleanup</li>
+</ul>
+<h3><a id="color"></a>Better Colour Codes</h3>
+<ul>
+<li>using color tags such as <code>red</code> and <code>rebeccapurple</code> are good for quick planning</li>
+<li>In production you will want to use hex codes or hsl()/hsla() for better color control</li>
+<li>Hex code colors follow RGB values but notate them in hexadecimal numbers
+<ul>
+<li>For Example: the lighter red in the SAIT logo is <code>#e12726</code> which means: red=e1 green=27 and blue=26</li>
+</ul>
+</li>
+<li>HSL() stands for Hue, Saturation, Lightness, add an A `hsla() to include opacity
+<ul>
+<li>This is a newer approach and gives better control of colors, plus browsers read them better for accessiblity</li>
+</ul>
+</li>
 </ul>
 <hr>
 <h2>Optimize</h2>
-<p><em>End of Day Activity</em></p>
 <ul>
-<li>Implement changes noted in comments</li>
+<li>Implement walkthrough changes</li>
 <li>Validate Code</li>
 <li>Deploy and Submit</li>
+</ul>
+<h3><a id="activity-2"></a>Activity 2: <a href="/fall-2021/activities/html-css/nav-menu/">A Web Page with a Nav Menu</a></h3>
+<ul>
+<li>You can use your 404 page as body content for this</li>
 </ul>
 <hr>
 <h2>Prep for next class</h2>
@@ -288,12 +236,43 @@ prefetch</dd>
 <li>Watch <a href="https://www.youtube.com/watch?v=vQAvjof1oe4">Flexbox Patterns You Can Use</a></li>
 </ul>
 <hr>
+<h2>Extra Goodies: Terminal Tool Time</h2>
+<p>Check out these links if you're interested in expanding your knowledge and usage of terminal applications. The following configurations have helped me streamline my own workflow extensively.</p>
+<ul>
+<li>Vim/neovim
+<ul>
+<li>Settings section on line 71 in <a href="https://github.com/lilyx13/dotfiles/blob/main/init.vim">this init.vim file</a>
+<ul>
+<li>Many of these make vim much nicer to use</li>
+</ul>
+</li>
+<li><a href="https://github.com/junegunn/vim-plug">Vim Plug</a> is a plugin manager for vim and neovim that allows your to extend your vim functionality</li>
+</ul>
+</li>
+<li>zsh
+<ul>
+<li><a href="https://travis.media/top-10-oh-my-zsh-plugins-for-productive-developers/">zsh plugins</a></li>
+</ul>
+</li>
+<li>tmux
+<ul>
+<li><a href="https://macappstore.org/tmux/">install on mac</a></li>
+<li><a href="https://gist.github.com/DeanPDX/acff533cff0cfbda2761d1e62e8cb1a7">install on windows</a></li>
+</ul>
+</li>
+<li><a href="https://taskwarrior.org/">taskwarrior</a></li>
+<li><a href="https://github.com/lilyx13/dotfiles">Ash's Dotfiles</a>
+<ul>
+<li>neovim, tmux, and zsh configurations</li>
+</ul>
+</li>
+</ul>
 
   
 </article>
 
 
-<nav>
+<nav class="secondary">
     <ul>
         <li>
             
