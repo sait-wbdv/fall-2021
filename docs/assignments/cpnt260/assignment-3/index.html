@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/6049417797">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Assignment 3 - Image gallery and Icons</h2>
+<ul>
+<li>20% of Final Grade | Due September 27 11:59pm 2021</li>
+</ul>
+<h2>Client User Stories</h2>
+<ul>
+<li>Create an image gallery for your client</li>
+<li>Galleries can be:
+<ul>
+<li>Portfolio gallery</li>
+<li>travel image gallery</li>
+<li>products</li>
+<li>hairstyles</li>
+<li>animals for adoption</li>
+</ul>
+</li>
+<li>Link social media accounts to their page
+<ul>
+<li>facebook, instagram, youtube, github...</li>
+</ul>
+</li>
+</ul>
+<h2>Marking Rubric</h2>
+<p>Each of the following will be marked out of 4 points (for a total of 20 points), based on the requirements below:</p>
+<h3>Code Quality</h3>
+<ul>
+<li>Page is marked up with proper semantic structural elements
+<ul>
+<li><code>header</code>, <code>nav</code>, <code>main</code>, <code>article</code>, <code>footer</code></li>
+</ul>
+</li>
+<li>Accessibility best practices
+<ul>
+<li>contrast ratio below AA for text size</li>
+<li>images have proper alt text</li>
+</ul>
+</li>
+<li>Use best practices with file/directory names, commenting, and indentation
+<ul>
+<li>2 spaces per indent</li>
+<li>no spaces in file names, use dashes or underscores instead</li>
+<li>In general, use lower case characters except for README file name and DOCTYPES</li>
+<li>Filenames should be short but descriptive (&lt; 25 characters)</li>
+</ul>
+</li>
+</ul>
+<h3>1. Figure Cards</h3>
+<ul>
+<li>Semantic images using figure and figcaption
+<ul>
+<li>figcaption should include title or image description and photo credit</li>
+<li>fig-caption should have a <code>min-width</code> to preserve line length</li>
+</ul>
+</li>
+<li>images should use <code>img</code> tag and have proper <code>alt</code> text
+<ul>
+<li>note, if you use any functional images (such as links), then the alt text should describe the function and not the picture</li>
+</ul>
+</li>
+<li>Preserve image aspect ratio</li>
+</ul>
+<h3>2. Responsive Gallery</h3>
+<ul>
+<li>Single column on mobile, 3+ columns on desktop</li>
+<li>gallery can be done in flex or grid</li>
+<li>Gallery should be centered in it's container</li>
+<li><strong>No</strong> media queries</li>
+</ul>
+<h3>3. Social Media Icon Links</h3>
+<ul>
+<li>social media icons should appear in the footer
+<ul>
+<li>vertical or horizontal distribution is fine</li>
+</ul>
+</li>
+<li>Also use a higher contrast and attention grabbing icons elsewhere on the page
+<ul>
+<li>can be the same social media icons</li>
+<li>can also be like thumb, dislike thumb, mail icon etc in your figures</li>
+</ul>
+</li>
+<li>They can link to random accounts or ones provided</li>
+<li>Icons can be linked with a method of your choice:
+<ul>
+<li>Icons using an icon font such as Font Awesome</li>
+<li>SVG icons</li>
+</ul>
+</li>
+<li>icons should be in an unordered list</li>
+</ul>
+<h3>4. Reactions</h3>
+<ul>
+<li>Figure cards should have reaction icons</li>
+<li>These icons should clearly indicate that they can be interacted with</li>
+<li>Purpose of the icons should be clear to the user
+<ul>
+<li>whom benefits from the reaction icon?</li>
+<li>why is the user interacting with this?</li>
+</ul>
+</li>
+</ul>
+<h3>5. Project Documentation</h3>
+<ul>
+<li>Include a <code>README.md</code> in your project that contains:
+<ul>
+<li>Course Title:</li>
+<li>Author Name:</li>
+<li>Links to
+<ul>
+<li>Github Repo</li>
+<li>Github Pages</li>
+</ul>
+</li>
+<li>Code Review (less than 500 words)
+<ul>
+<li>Outline a bug that you ran into</li>
+<li>How did you fix it?</li>
+<li>What benefits/limits came out of your solution beyond the immediate goal</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Submission Requirements</h2>
+<ul>
+<li>Push this assignment to a repo named cpnt260-a3.</li>
+<li>ZIP all files required for the site to operate and upload to Brightspace.</li>
+<li>Leave a link to the following as a comment in your Brightspace submission (this is duplicated in your readme but comes in handy sometimes):</li>
+<li>GH repo</li>
+<li>GH Pages site</li>
+</ul>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>
