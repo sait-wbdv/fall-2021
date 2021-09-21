@@ -9,8 +9,15 @@ date: 2021-09-21
 
 ## Review
 
-- Trophies from last class
-- Questions
+- links and pathnames
+- hierarchy
+  - ul and headings
+- image width
+- syntax padding and spacing bugs
+
+### Gist Notes for Review
+- [Flex Nav Bar](https://gist.github.com/lilyx13/f9bd12f1b00627601fbc3a32f4a6bf7b)
+- [Semantic Hierarchy](https://gist.github.com/lilyx13/be85b495d534d3482fd7e9b1680e282b)
 
 ---
 

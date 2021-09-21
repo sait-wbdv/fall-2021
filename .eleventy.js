@@ -28,6 +28,7 @@ module.exports = function(eleventyConfig) {
             }
         }
       })
+
     .use(require('markdown-it-deflist'))
   );
   eleventyConfig.addFilter('markdownify', str => md.render(str));
@@ -66,6 +67,14 @@ module.exports = function(eleventyConfig) {
         zone: "Europe/Amsterdam",
     }).setLocale('en').toFormat('ccc, LLLL d');
   });
+
+  // Codepen Embed
+  const embedCodePen = require("@manustays/eleventy-plugin-codepen-iframe");
+  module.exports = (eleventyConfig) => {
+	  eleventyConfig.addPlugin(embedCodePen, {
+		  tabs: "js,result"
+	});
+};
 
   return {
     dir: {

@@ -12,6 +12,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
+    "@manustays/eleventy-plugin-codepen-iframe": "^2.0.1",
     "markdown-it-attrs": "^4.0.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.1.0"
