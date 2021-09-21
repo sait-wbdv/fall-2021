@@ -7,13 +7,24 @@ date: 2021-09-22
 
 ## Tropy of the day: Mobile first webpage with hamburger menu
 
-[img here]
-
 ## Review
 
 - Trophies from last class
-- Question time
 
+### Tool Time
+- Command line zipping (Windows)
+  - [CLI 7-zip](https://nodogmablog.bryanhogan.net/2021/08/zipping-files-from-command-line-with-windows-10/)
+    - If you want to try zipping files from the command line, it can save a lot of time. You have to add 7zip to git bash
+    - the tutorial linked above describes how to do this
+  - NOTE: 7-zip also has a GUI (graphical user interface) version. Use if this is a preferred method.
+- Command line zipping (Mac, Linux)
+  - Unix systems have the zip command built in. This can be used for most situations.
+  - Check out instructions in [this tutorial](https://www.ezyzip.com/how-to-zip-files-mac.html)
+  - Basic Syntax: `zip archive.zip filename`
+    - archive.zip can be named anything, depends on what you want your zip folder to be called
+    - You can declare multiple files
+    - If you want to zip an entire directory, you need to use the recusive flag `-r`
+      - ex: `zip -r archive.zip directory/`
 ## Assignment 2: Services, Info, Team Members, or Product Page
 
 - **Due: September 24 11:59pm**

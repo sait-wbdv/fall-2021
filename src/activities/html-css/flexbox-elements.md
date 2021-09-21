@@ -2,7 +2,6 @@
 layout: layouts/page.njk
 title: Flexbox Elements
 description: Create responsive page elements using flexbox.
-image:
 ---
 
 ## Instructions

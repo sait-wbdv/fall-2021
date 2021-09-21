@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: Create a 404 Page 
 description: Create a stylized 404 page. These are great for playing around with color, images, and text ideas.
-image:
+
 ---
 
 ## Instructions
