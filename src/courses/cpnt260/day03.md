@@ -104,7 +104,7 @@ _Basics of creating forms_
 
 ---
 
-## Activity 2: [Designing a Signup page with flexbox]({{ 'activities/html-css/simple-signup.md | url }})
+## Activity 2: [Designing a Signup page with flexbox]({{ 'activities/html-css/simple-signup/ | url }})
 
 ---
 
