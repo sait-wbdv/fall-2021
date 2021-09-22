@@ -24,7 +24,7 @@ _quick note: don't use assignments for daily activities_
 ## Assignment 2: Services, Info, Team Members, or Product Page
 
 - **Due: September 24 11:59pm**
-- [Assignment Link]({{ 'assignments/cpnt260/assignment-2.md' | url }})
+- [Assignment Link]({{ 'assignments/cpnt260/assignment-2/' | url }})
 
 ---
 
