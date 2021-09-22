@@ -2,6 +2,7 @@
 layout: layouts/day.njk
 title: Mobile first Breakpoints
 description: Add breakpoints to a webpage with media queries
+
 ---
 
 ## Instructions
