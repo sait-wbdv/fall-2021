@@ -20,7 +20,7 @@ date: 2021-09-24
 ## Assignment 3: Image Gallery and Icons
 
 - **Due: September 27 11:59pm**
-- [Assignment Link]({{ '/assignments/cpnt260/assignment-3.md' | url}})
+- [Assignment Link]({{ '/assignments/cpnt260/assignment-3/' | url}})
 - Complete:
   - Create a responsive gallery
   - Gallery items should be figures
