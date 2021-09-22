@@ -23,7 +23,7 @@ _quick note: don't use assignments for daily activities_
 - nested space-between and space-around
 ## Assignment 2: Services, Info, Team Members, or Product Page
 
-- **Due: September 24 11:59pm**
+- **Due: September 26 11:59pm**
 - [Assignment Link]({{ '/assignments/cpnt260/assignment-2/' | url }})
 
 ---

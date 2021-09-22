@@ -4,7 +4,7 @@ title: Assignment 2 - Services, Info, Team Members, or Product Page
 description: Create a page that uses a card layout and other types of content to inform users about a primary topic. Services and product focused pages are great topics for this assignment.
 ---
 
-- 20% of Final Grade | Due September 24 11:59pm 2021
+- 20% of Final Grade | Due September 26 11:59pm 2021
 
 ## Client User Stories
 

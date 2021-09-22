@@ -4,7 +4,7 @@ title: Assignment 3 - Image gallery and Icons
 description: Create a responsive image gallery using flexbox and/or css grid. Your gallery page should also employ social media icons in the footer section, and reaction icons on the gallery figures.
 ---
 
-- 20% of Final Grade | Due September 27 11:59pm 2021
+- 20% of Final Grade | Due September 28 11:59pm 2021
 
 ## Client User Stories
 
