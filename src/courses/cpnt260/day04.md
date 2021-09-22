@@ -1,4 +1,4 @@
-{  ---
+---
 layout: layouts/day.njk
 title: CPNT 260 Day 4 - Mobile First Design, Flexbox, and Breakpoints
 description: Modern web crawlers search for that follow mobile first best practices. Today we will continue learning flexbox and also use media queries to create distinct mobile - desktop layouts.
