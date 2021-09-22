@@ -1,81 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-  <!-- Normalize -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-  <!-- Prism theme -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
-
-  <!-- Website Styles -->
-  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
-  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
-  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
-  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
-  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
-  
-  <!-- favicon -->
-  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
-</head>
-<body>
-<div class="wrapper">
-  <header class="page-header">
-    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
-    <div>
-      <p class="site-name">SAIT Web Developer</p>
-      <p class="tagline">Fast Track - Fall 2021</p>
-    </div>
-    <nav class="primary">
-      <ul>
-        <li><a href="/fall-2021/schedule">Schedule</a></li>
-        <li><a href="/fall-2021/assignments">Assignments</a></li>
-        <li><a href="/fall-2021/library">Library</a></li>
-        <li><a href="https://sait-ca.zoom.us/j/86712569106?pwd=VnRKWHBiOFIwNG5ocCtCWFAvcTZ5Zz09">Zoom</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    
-<nav class="secondary">
-    <ul>
-        <li>
-            
-            <a href="/fall-2021/courses/cpnt260/day03/" title="CPNT 260 Day 3 Intro to Flexbox">Previous</a>
-            
-        </li>
-        <li>
-            
-            <span>Next</span>
-            
-        </li>
-    </ul>
-</nav>
-
-
-<article class="post">
-  <time>Wed, September 22</time>
-  <h2>CPNT 260 Day 4 - Mobile First Design, Flexbox, and Breakpoints</h2>
-  
-  
-        <h2>Tropy of the day: Mobile first webpage with hamburger menu</h2>
+<hr>
+<p>layout: layouts/day.njk<br>
+title: CPNT 260 Day 4 - Mobile First Design, Flexbox, and Breakpoints<br>
+description: Modern web crawlers search for that follow mobile first best practices. Today we will continue learning flexbox and also use media queries to create distinct mobile - desktop layouts.<br>
+date: 2021-09-22<br>
+released: true</p>
+<hr>
+<h2>Tropy of the day: Mobile first webpage with hamburger menu</h2>
 <h2>Review</h2>
 <ul>
-<li>Flexbox Questions
-<ul>
+<li>Flexbox Questions</li>
 <li>debugging overflow (if you've had this issue on any of your activities, this will be a good time to go back to it and work on fixing it)</li>
-</ul>
-</li>
 <li>Apply starter flexbox and styling to <a href="https://codepen.io/ashlyn-knox/pen/ExXRrLY">today's codepen</a> as a class</li>
 <li>Form follow up: add <code>fieldset</code> to forms</li>
 <li>Look at the <a href="https://css-tricks.com/almanac/properties/f/flex/"><code>flex</code></a> proprty</li>
 </ul>
 <h3>Class Codepens</h3>
 <p><em>quick note: don't use assignments for daily activities</em></p>
+<ul>
+<li><a href="https://boostha.github.io/cpnt260-simple-nav/">David Ha Simple Nav</a></li>
+<li>nested space-between and space-around</li>
+</ul>
 <h2>Assignment 2: Services, Info, Team Members, or Product Page</h2>
 <ul>
 <li><strong>Due: September 24 11:59pm</strong></li>
@@ -89,14 +33,14 @@
 <ul>
 <li>Mobile First Design</li>
 </ul>
-<ol start="2">
+<ol>
 <li>Brute force</li>
 </ol>
 <ul>
 <li>Card Design</li>
 <li>Hamburger menu and icons</li>
 </ul>
-<ol start="3">
+<ol>
 <li>Walkthrough</li>
 <li>Optimize/Test</li>
 </ol>
@@ -113,12 +57,9 @@ media-query</dd>
 <h3>Notes</h3>
 <ul>
 <li>Use this <a href="https://mediag.com/blog/popular-screen-resolutions-designing-for-all/">guide on screen resolutions</a> to determine sensible breakpoints</li>
-<li>With modern layouts like flexbox and grid, media queries are less important for creating a responsive experience.
-<ul>
+<li>With modern layouts like flexbox and grid, media queries are less important for creating a responsive experience.</li>
 <li>Try to use them sparingly. Check out <a href="https://css-tricks.com/a-complete-guide-to-css-media-queries/">this guide from css-tricks</a> on tips for using mobile queries</li>
 <li>we will be focusing on using media queries in css</li>
-</ul>
-</li>
 </ul>
 <h4>Media Query Gists</h4>
 <ul>
@@ -130,16 +71,10 @@ media-query</dd>
 <h2>Activity: Add media queries to a page</h2>
 <ul>
 <li>Use one of your previously made pages or create a new one</li>
-<li>make the navigation and one other thing function differently at a mobile screen size
-<ul>
+<li>make the navigation and one other thing function differently at a mobile screen size</li>
 <li>the nav menu needs to completely change layout to vertical and not flex when resizing the screen</li>
-</ul>
-</li>
-<li>Other content to try to change could be:
-<ul>
+<li>Other content to try to change could be:</li>
 <li>how sections are positions around one another (do something that cannot be achieved with <code>flex-wrap</code>)</li>
-</ul>
-</li>
 </ul>
 <h2>Topic 2: Flexbox card layouts</h2>
 <p><em>How to make easy and responsive cards</em></p>
@@ -147,12 +82,9 @@ media-query</dd>
 <ul>
 <li>Check out <a href="https://codepen.io/ashlyn-knox/pen/MWmxxbR">Ash's Codepen</a> for a simple card layout</li>
 <li>Articles are a great tag for cards</li>
-<li>If you have clickable elements inside your cards, keep in mind how you want your interaction hierarchy to work.
-<ul>
+<li>If you have clickable elements inside your cards, keep in mind how you want your interaction hierarchy to work.</li>
 <li>Does the user click on the whole card? or button inside the card?</li>
 <li>If you use a hover state to indicate that the card can be clicked on a desktop, how will you replace this visual breadcrumb for mobile users?</li>
-</ul>
-</li>
 </ul>
 <h4>Code</h4>
 <ul>
@@ -168,11 +100,8 @@ media-query</dd>
 <p><em>Hamburger menus and many more</em></p>
 <h3>Notes</h3>
 <ul>
-<li>To access fontawesome icons, include this in the head of your html
-<ul>
+<li>To access fontawesome icons, include this in the head of your html</li>
 <li><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css&quot;&gt;</code></li>
-</ul>
-</li>
 <li>You can also download the icons and store them in your assets</li>
 <li>set icons with <code>&lt;i&gt;</code> tag</li>
 </ul>
@@ -183,15 +112,11 @@ media-query</dd>
 <hr>
 <h2>Walkthrough</h2>
 <ul>
-<li>Discuss file naming conventions
-<ul>
+<li>Discuss file naming conventions</li>
 <li>style.css</li>
 <li>index.html</li>
-</ul>
-</li>
 <li>Discuss Submission content for graded assignments</li>
-<li>Color theme practicing
-<ul>
+<li>Color theme practicing</li>
 <li>Apply a color theme that you like to your design
 <ul>
 <li>this can happen early or later depending on if you are starting with a clear brand/theme or are starting with quick placeholders</li>
@@ -207,8 +132,6 @@ media-query</dd>
 <li>Apply the theme to your design
 <ul>
 <li>use the dropper tool to find exact hexcodes or hsl() values.</li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -233,8 +156,7 @@ media-query</dd>
 <hr>
 <h2>Tool Time (For help with submissions)</h2>
 <ul>
-<li>Command line zipping (Windows)
-<ul>
+<li>Command line zipping (Windows)</li>
 <li><a href="https://nodogmablog.bryanhogan.net/2021/08/zipping-files-from-command-line-with-windows-10/">CLI 7-zip</a>
 <ul>
 <li>If you want to try zipping files from the command line, it can save a lot of time. You have to add 7zip to git bash</li>
@@ -242,10 +164,7 @@ media-query</dd>
 </ul>
 </li>
 <li>NOTE: 7-zip also has a GUI (graphical user interface) version. Use if this is a preferred method.</li>
-</ul>
-</li>
-<li>Command line zipping (Mac, Linux)
-<ul>
+<li>Command line zipping (Mac, Linux)</li>
 <li>Unix systems have the zip command built in. This can be used for most situations.</li>
 <li>Check out instructions in <a href="https://www.ezyzip.com/how-to-zip-files-mac.html">this tutorial</a></li>
 <li>Basic Syntax: <code>zip archive.zip filename</code>
@@ -260,32 +179,3 @@ media-query</dd>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-
-  
-</article>
-
-
-<nav class="secondary">
-    <ul>
-        <li>
-            
-            <a href="/fall-2021/courses/cpnt260/day03/" title="CPNT 260 Day 3 Intro to Flexbox">Previous</a>
-            
-        </li>
-        <li>
-            
-            <span>Next</span>
-            
-        </li>
-    </ul>
-</nav>
-
-  </main>
-  <footer>
-    &copy; 2021 MIT License.
-  </footer>
-</div>
-</body>
-</html>
