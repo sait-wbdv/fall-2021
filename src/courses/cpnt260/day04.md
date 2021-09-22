@@ -12,23 +12,17 @@ released: true
 ## Review
 
 - Flexbox Questions
+  - debugging overflow (if you've had this issue on any of your activities, this will be a good time to go back to it and work on fixing it)
 - Apply starter flexbox and styling to [today's codepen](https://codepen.io/ashlyn-knox/pen/ExXRrLY) as a class
+- Form follow up: add `fieldset` to forms
+- Look at the [`flex`](https://css-tricks.com/almanac/properties/f/flex/) proprty
 
-### Tool Time
-- Command line zipping (Windows)
-  - [CLI 7-zip](https://nodogmablog.bryanhogan.net/2021/08/zipping-files-from-command-line-with-windows-10/)
-    - If you want to try zipping files from the command line, it can save a lot of time. You have to add 7zip to git bash
-    - the tutorial linked above describes how to do this
-  - NOTE: 7-zip also has a GUI (graphical user interface) version. Use if this is a preferred method.
-- Command line zipping (Mac, Linux)
-  - Unix systems have the zip command built in. This can be used for most situations.
-  - Check out instructions in [this tutorial](https://www.ezyzip.com/how-to-zip-files-mac.html)
-  - Basic Syntax: `zip archive.zip filename`
-    - archive.zip can be named anything, depends on what you want your zip folder to be called
-    - You can declare multiple files
-    - If you want to zip an entire directory, you need to use the recusive flag `-r`
-      - ex: `zip -r archive.zip directory/`
-
+### Class Codepens
+_quick note: don't use assignments for daily activities_
+{% comment %}
+- [David Ha Simple Nav](https://boostha.github.io/cpnt260-simple-nav/)
+  - nested space-between and space-around
+{% endcomment %}
 ## Assignment 2: Services, Info, Team Members, or Product Page
 
 - **Due: September 24 11:59pm**
@@ -123,9 +117,21 @@ _Hamburger menus and many more_
 
 ## Walkthrough
 
-- Discussion
-- Stretch Activity
-  - Introduce checkbox hack
+- Discuss file naming conventions
+  - style.css
+  - index.html
+- Discuss Submission content for graded assignments
+- Color theme practicing
+  - Apply a color theme that you like to your design
+    - this can happen early or later depending on if you are starting with a clear brand/theme or are starting with quick placeholders
+    - take a color scheme that you like:
+      - could be from a game
+      - movie
+      - clothing line
+      - band
+      - Your house
+    - Apply the theme to your design
+      - use the dropper tool to find exact hexcodes or hsl() values.
 ---
 
 ## Lab Time
@@ -144,3 +150,17 @@ _Hamburger menus and many more_
 - Watch Jen Simmons on [Using Flexbox and CSS Grid together](https://youtu.be/dQHtT47eH0M)
 
 ---
+## Tool Time (For help with submissions)
+- Command line zipping (Windows)
+  - [CLI 7-zip](https://nodogmablog.bryanhogan.net/2021/08/zipping-files-from-command-line-with-windows-10/)
+    - If you want to try zipping files from the command line, it can save a lot of time. You have to add 7zip to git bash
+    - the tutorial linked above describes how to do this
+  - NOTE: 7-zip also has a GUI (graphical user interface) version. Use if this is a preferred method.
+- Command line zipping (Mac, Linux)
+  - Unix systems have the zip command built in. This can be used for most situations.
+  - Check out instructions in [this tutorial](https://www.ezyzip.com/how-to-zip-files-mac.html)
+  - Basic Syntax: `zip archive.zip filename`
+    - archive.zip can be named anything, depends on what you want your zip folder to be called
+    - You can declare multiple files
+    - If you want to zip an entire directory, you need to use the recusive flag `-r`
+      - ex: `zip -r archive.zip directory/`
