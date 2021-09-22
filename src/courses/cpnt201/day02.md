@@ -59,7 +59,7 @@ As a developer, you will be commiting code on a daily basis. This is done in 4 s
 3. Commit the changes in the staging area.
 4. Go to Step one and repeat or take a well deserved break.
 
-See [Add changes and commit them to a repo](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Using_Github_pages)
+See [Add changes and commit them to a repo](https://gist.github.com/acidtone/f30da2c06c90c775f1c52508e09e9793)
 
 
 ## 6. First-time Setup: Connecting to GitHub using SSH
