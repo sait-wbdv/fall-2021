@@ -3,13 +3,16 @@ layout: layouts/day.njk
 title: CPNT 260 Day 4 - Mobile First Design, Flexbox, and Breakpoints
 description: Modern web crawlers search for that follow mobile first best practices. Today we will continue learning flexbox and also use media queries to create distinct mobile - desktop layouts.
 date: 2021-09-22
+released: true
+
 ---
 
 ## Tropy of the day: Mobile first webpage with hamburger menu
 
 ## Review
 
-- Trophies from last class
+- Flexbox Questions
+- Apply starter flexbox and styling to [today's codepen](https://codepen.io/ashlyn-knox/pen/ExXRrLY) as a class
 
 ### Tool Time
 - Command line zipping (Windows)
@@ -25,6 +28,7 @@ date: 2021-09-22
     - You can declare multiple files
     - If you want to zip an entire directory, you need to use the recusive flag `-r`
       - ex: `zip -r archive.zip directory/`
+
 ## Assignment 2: Services, Info, Team Members, or Product Page
 
 - **Due: September 24 11:59pm**
@@ -60,40 +64,29 @@ media-query
 : Media queries are used to set major breakpoints. CSS declarations within a media query will only run under the conditions specified in the media query declaration. You can have multiple media-query declarations in a file.
 
 ### Notes
-
 - Use this [guide on screen resolutions](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/) to determine sensible breakpoints
 - With modern layouts like flexbox and grid, media queries are less important for creating a responsive experience.
   - Try to use them sparingly. Check out [this guide from css-tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/) on tips for using mobile queries
   - we will be focusing on using media queries in css
 
 #### Media Query Gists
-
+- [Media Query Mobile First](https://gist.github.com/lilyx13/fa4da2064d0173358bf0e7dd8b8dfa5d)
 - [Mobile First](https://gist.github.com/acidtone/8b22888818aa6f81653ab0858ad4c418)
 - [Desktop First](https://gist.github.com/acidtone/0f9c31e820f29511fc2671063fd71c58)
 - [Mobile First and Orientation](https://gist.github.com/acidtone/6aeb476a3c9bbc9788ce1ebc958b98d1)
 
 ## Activity: Add media queries to a page
-
 - Use one of your previously made pages or create a new one
 - make the navigation and one other thing function differently at a mobile screen size
   - the nav menu needs to completely change layout to vertical and not flex when resizing the screen
-- A good example to practice with is text over a background image
-  - This often is set to look great at a certain layout, but can become unreadable and awkward at a different layout, try using media-queries to
-
-### Requirements
-
-- Find an example where a page makes good use of breakpoints
-- Find a site that does not effectively use breakpoints for mobile and desktop experience
-- Draw a simple wireframe that shows the two different layouts based on the breakpoint
-  - Can done by hand or with software
-  - Use whatever tool feels comfortable
+- Other content to try to change could be:
+  - how sections are positions around one another (do something that cannot be achieved with `flex-wrap`)
 
 ## Topic 2: Flexbox card layouts
 
 _How to make easy and responsive cards_
 
 ### Notes
-
 - Check out [Ash's Codepen](https://codepen.io/ashlyn-knox/pen/MWmxxbR) for a simple card layout
 - Articles are a great tag for cards
 - If you have clickable elements inside your cards, keep in mind how you want your interaction hierarchy to work.
@@ -130,20 +123,15 @@ _Hamburger menus and many more_
 
 ## Walkthrough
 
-- Code review
-- Bug Hunting
 - Discussion
-- Comment and plan code changes
-
+- Stretch Activity
+  - Introduce checkbox hack
 ---
 
-## Optimize
-
-_End of Day Activity_
-
-- Implement changes noted in comments
-- Validate Code
-- Deploy and Submit
+## Lab Time
+- Explore media queries, font-awesome icons, and flexbox
+- Enhance previous designs
+- Create a card layout with flexbox
 
 ---
 
