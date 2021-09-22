@@ -107,7 +107,7 @@ _Hamburger menus and many more_
 - You can also download the icons and store them in your assets
 - set icons with `<i>` tag
 
-## Activity: [Add Icons and create a hamburger menu]({{ '/activities/html-css/' | url }})
+## Activity: [Add Icons and create a hamburger menu]({{ '/activities/html-css/media-query-breakpoints/' | url }})
 
 - [Ash's Example](https://codepen.io/ashlyn-knox/pen/LYLWPBy)
 
