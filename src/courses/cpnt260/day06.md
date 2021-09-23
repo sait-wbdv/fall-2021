@@ -1,12 +1,11 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 6 - Progressive Enhancement and Creative Designs
+title: CPNT 260 Day 6 - CSS Grid and Progressive Enhancement
 description: We will learn how to use feature queries to provide maximum browser support for different layouts. Along with this, we will continue learning about CSS Grid and look at how it can be used with Flexbox.
 date: 2021-09-24
 ---
 
-## Trophy of the Day: A gallery layout
-
+## Trophy of the Day: A Grid Gallery
 - Examples:
   - Image gallery
   - collage
@@ -15,11 +14,10 @@ date: 2021-09-24
 ## Review
 
 - Trophies from last class
-- Question time
 
 ## Assignment 3: Image Gallery and Icons
 
-- **Due: September 27 11:59pm**
+- **Due: September 28 11:59pm**
 - [Assignment Link]({{ '/assignments/cpnt260/assignment-3/' | url}})
 - Complete:
   - Create a responsive gallery
@@ -31,23 +29,17 @@ date: 2021-09-24
 ## Overview
 
 1. Plan it out
-
-- Progressive enhancement
-
+   - Learn about Progressive Enhancement and CSS Grid
 2. Brute force
-
-- Nesting flex and grid
+   - Using Grid and Flexbox Together 
+   - Progressive Enhancement
 
 3. Walkthrough
 
-- Galleries
-
-4. Optimize/test
 
 ---
 
 ## Topic 1: Progressive enhancement
-
 _Use feature queries to provide a good web experience to all users_
 
 ### Terminology
@@ -57,13 +49,12 @@ _Use feature queries to provide a good web experience to all users_
   - [Mdn Article](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement)
 
 ### Notes
-
 - Watch Jen Simmons on [Can I Use](https://www.youtube.com/watch?v=WM_cKHH7bZ0)
 - It is a good idea to keep some support for older browsers. Even if it's minimal support so the layout isn't broken.
-
+- Watch Jen Simmons on [CSS Grid Mistakes]
 ---
 
-## Activity: [Add progressive enhancement to a design]({{ 'activities/html-css/progressive-enhancement.md' | url}})
+## Activity: [Add progressive enhancement to a design]({{ 'activities/html-css/progressive-enhancement/' | url}})
 
 - Use feature queries
 - Take inspiration from Rachel Andrews [grid by example](https://gridbyexample.com)
@@ -80,7 +71,7 @@ _The best of both worlds_
 - A common method is to use css grid for a main layout, and then use flexbox inside grid items to control how html elements inside the grids are positioned.
 - You can also use grid inside flexbox, though this is less common, it can be useful if you have a small complex and percise design made in grid that is apart of a larger flexbox layout
 
-## Activity: [Create a grid of flexbox containers]({{ 'activities/html-css/flexb0x-grid-together.md' | url }})
+## Activity: [Create a grid of flexbox containers]({{ 'activities/html-css/flexb0x-grid-together/' | url }})
 
 - use a simple css grid layout
 - Design the layout of the grid items with flexbox
@@ -111,5 +102,5 @@ _End of Day Activity_
 - Read [Mdn article on backgrounds and border](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders)
 - Read [Css-tricks article on height and hero components](https://css-tricks.com/fun-tip-use-calc-to-change-the-height-of-a-hero-component/)
 - Read [Mdn Article on viewport height](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts)
-
+- Watch [Jen Simmons on Common Grid Mistakes](https://www.youtube.com/watch?v=0Gr1XSyxZy0&t=87s)
 ---
