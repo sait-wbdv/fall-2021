@@ -58,6 +58,9 @@ project-name/
 `less filename`
   : will print the contents of the file directly in the terminal for quick viewing
 
+`cp -r file newlocation/`
+  : will copy a file to a new location. The -r flag will copy a directory 
+
 ---
 ## <a id="bruteforce"></a> Morning Activity: VueJS Docsite Rebuild
 - We will try to recreate the VueJS documentation website using code we've learned so far
