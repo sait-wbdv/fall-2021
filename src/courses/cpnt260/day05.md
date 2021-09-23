@@ -90,7 +90,7 @@ project-name/
 
 ### Main Room: Ash Refactors and Optimizes the VueJS Website Clone
 
-### Activity: [Create a Grid Layout]({{ '/activities/html-css/grid-layouts/ | url }})
+### Activity: [Create a Grid Layout]({{ '/activities/html-css/grid-layouts/' | url }})
   - This activity must be started from scratch 
   - You are welcome to work in pairs and both submit the same project.
 
