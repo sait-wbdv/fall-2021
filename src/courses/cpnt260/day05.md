@@ -51,8 +51,10 @@ project-name/
 ### A few commands for quick directory management
 `mkdir -p dirname/dirname/`
   : Creates both the parent and child directory in 1 command
+
 `touch filename.ext`
   : will create the file name specified
+
 `less filename`
   : will print the contents of the file directly in the terminal for quick viewing
 
@@ -89,6 +91,8 @@ project-name/
 ## <a id="lab"> Lab Time
 
 ### Main Room: Ash Refactors and Optimizes the VueJS Website Clone
+  - CSS Grid Layout
+  - Spicy styling
 
 ### Activity: [Create a Grid Layout]({{ '/activities/html-css/grid-layouts/' | url }})
   - This activity must be started from scratch 
