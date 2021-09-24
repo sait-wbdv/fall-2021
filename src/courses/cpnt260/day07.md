@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 260 Day 7 - Hero Sections and Page Backgrounds
 description: Hero Sections are a very popular and useful web convention that we will be learning how to build today. This will include setting up CTAs(call to action), setting element heights, and how to use background-images
-date: 2021-09-25
+date: 2021-09-27
 ---
 
 ## Trophy of the Day: A Hero section with a CTA
@@ -12,19 +12,15 @@ date: 2021-09-25
 - Trophies from last class
 - Question time
 
-## Assignment 4: Landing Page + Hero Section
+## Assignment 3: Image Gallery and Icons
 
-- [Assignment Link]({{ '/assignments/cpnt260/assignment-4/' | url }})
-- **Due: October 1st 11:59pm**
+- **Due: September 30 11:59pm**
+- [Assignment Link]({{ '/assignments/cpnt260/assignment-3/' | url}})
 - Complete:
-  - A landing page
-  - Landing page needs to have a hero section with a call to action
-  - CTA (call to action) should link to an accessible user form
-  - Navigation should be responsive
-    - a hamburger icon with hideable menu on mobile
-    - a horizontal nav on desktop
+  - Create a responsive gallery
+  - Gallery items should be figures
+  - Add social media icons and static reaction icons to your page
 
----
 
 ## Overview
 
