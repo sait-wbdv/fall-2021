@@ -13,7 +13,7 @@ title: CPNT 260 Assignments
 - Weight: 20% of Final Course Mark
 
 ### Assignment 2: [Services/Info/Products Page]({{ '/assignments/cpnt260/assignment-2/' | url}})
-- Due Saturday, September 25, 2021
+- Due Saturday, September 26, 2021
 - Weight: 20% of Final Course Mark
 
 ### Assignment 3: [Image Gallery and Icons]({{ '/assignments/cpnt260/assignment-3/' | url}})
