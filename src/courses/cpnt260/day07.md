@@ -111,7 +111,7 @@ Hero Section
 There will be a daily activity to do, plus I'll be working on some css stuff in the main room
 ### Main Room: Advanced Topics in CSS
 
-### Activity: [Build a Hero Section with a Call to Action]({{ 'activities/html-css/hero-section/' | url}})
+### Activity: [Build a Hero Section with a Call to Action]({{ '/activities/html-css/hero-section/' | url }})
 
 - Hero section must take up the majority of the screen height
 - Hero section must use a background-image
