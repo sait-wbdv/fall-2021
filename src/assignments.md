@@ -15,3 +15,7 @@ _Note_: This listing does not include _CPNT 264: Career & Consulting Essentials_
 - CPNT 262: Web Client and Server Programming
 - CPNT 200: Content Management Systems
 - CPNT 265: The Business of the Web
+
+## Late Penalty
+- 10% off total grade per day late
+- Maximum of 3 days late

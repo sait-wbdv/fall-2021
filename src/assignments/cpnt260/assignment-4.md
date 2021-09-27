@@ -86,11 +86,11 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
     - Github Repo
     - Github Pages
   - Code Review (less than 500 words or point form)
-
     - Outline a bug that you ran into
     - How did you fix it?
     - What benefits/limits came out of your solution beyond the immediate goal
-
+  - Attributions
+  
 ## Submission Requirements
 
 - Push this assignment to a repo named cpnt260-a4
