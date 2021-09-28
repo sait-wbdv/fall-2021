@@ -135,5 +135,9 @@ released: true
 
 - Read [Mdn on Custom properties/variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - Read [CSS Transition Examples](https://www.freecodecamp.org/news/css-transition-examples/)
-
+- Read [CSS Transitions](https://css-tricks.com/almanac/properties/t/transition/)
+- Watch [Web Dev Simplified on Transitions](https://www.youtube.com/watch?v=YszONjKpgg4)
+- Read [CSS Position](https://css-tricks.com/almanac/properties/p/position/)
+- Watch [Kevin Powell on Position](https://www.youtube.com/watch?v=P6UgYq3J3Qs)
+- Try [CSS Mobile Nav Menu](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar)
 ---
