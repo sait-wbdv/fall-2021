@@ -122,7 +122,7 @@ released: true
 
 ## Lab Time
 
-### Activity: [Create a Form]({{ '/activities/html-css/form-builder/index.html' }})
+### Activity: [Create a Form]({{ '/activities/html-css/form-builder/' | url }})
 
 - It must use labels
 - It must use the form tag
