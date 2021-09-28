@@ -35,17 +35,28 @@ released: true
 ---
 ## Topic 1: Object-fit and images
 - [Mdn Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
-
+- `Object-fit` will specify how an img or object will deal with the available space.
+  - Common options include
+    - cover
+    - contain
+    - none
+    - fill
+- `Object-position` is similar like background-position but for foreground objects. 
+  - Use this with object-fit to specify what area of the image that will be focused on. Useful if your image has been adjusted to maintain it's aspect ratio but default displays in a suboptimal spot
+  -
 ## Topic 2: CSS Grid
 - Position items in a grid container with:
   - `justify-items:`
   - `align-items:`
+  - `place-items` is like declaring justify-items and align-items at the same time
 - Set the columns and rows of a grid item
   - `grid-column:`
     - Set the column that an item starts at
     - `1 / -1` syntax, `span 2` syntax, `2` syntax 
   - `grid-row`
     - Same as column but rows
+- Note that when it comes to images and images in containers in grid layouts, nesting is very important and how you set your widths and heights will effect how things display a lot. You will likely have to make different design choices to get things to look and operate in the best way **for the situation**
+
 ### Reading
 - [CSS Tricks The Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
   - Properties of Grid Items
@@ -75,7 +86,7 @@ released: true
 - This form should be a bit longer. Try to kep to best practices as dicussed, but also try to use as many types of data as you can.
 1. Wireframe a form
 2. Draft content text (questions and answers)
-3. Look up types of input syntax that you will possibly use for this, take note of all teh syntax
+3. Look up types of input syntax that you will possibly use for this, take note of all the syntax
    - If you want an extra challenge in the afternoon. Try to write out all the html code with only your notes and wireframe
 
 ### Terminology
@@ -89,14 +100,18 @@ released: true
   `input`
   : a field that users can interact with. There are [many types that can be learned about here](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)
 - The main ones you'll likely use are - `text` - `checkbox` - `radio` - `email` - `datetime`
-  `textarea`
+
+`textarea`
   : an input text box, this is like the text input but it provides the user a larger writing space than the single line that `text` provides
-  `fieldset`
-  : group multiple related inputs together. It will draw a box around the inputs
-  `legend`
+
+`fieldset`
+  : group multiple related inputs together. It will draw a box around the inputs by default
+
+`legend`
   : used to define a fieldset. This is especially important for screen readers.
-  `button`
-  : Forms and input types need a way to submit requests to the server. THis is normally done with a button tag
+
+`button`
+  : Forms and input types need a way to submit requests to the server. This is normally done with a button tag
 
 ### Accessiblity and Forms
 

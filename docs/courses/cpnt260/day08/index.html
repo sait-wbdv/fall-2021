@@ -103,6 +103,24 @@
 <h2>Topic 1: Object-fit and images</h2>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit">Mdn Documentation</a></li>
+<li><code>Object-fit</code> will specify how an img or object will deal with the available space.
+<ul>
+<li>Common options include
+<ul>
+<li>cover</li>
+<li>contain</li>
+<li>none</li>
+<li>fill</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>Object-position</code> is similar like background-position but for foreground objects.
+<ul>
+<li>Use this with object-fit to specify what area of the image that will be focused on. Useful if your image has been adjusted to maintain it's aspect ratio but default displays in a suboptimal spot</li>
+<li></li>
+</ul>
+</li>
 </ul>
 <h2>Topic 2: CSS Grid</h2>
 <ul>
@@ -110,6 +128,7 @@
 <ul>
 <li><code>justify-items:</code></li>
 <li><code>align-items:</code></li>
+<li><code>place-items</code> is like declaring justify-items and align-items at the same time</li>
 </ul>
 </li>
 <li>Set the columns and rows of a grid item
@@ -127,6 +146,7 @@
 </li>
 </ul>
 </li>
+<li>Note that when it comes to images and images in containers in grid layouts, nesting is very important and how you set your widths and heights will effect how things display a lot. You will likely have to make different design choices to get things to look and operate in the best way <strong>for the situation</strong></li>
 </ul>
 <h3>Reading</h3>
 <ul>
@@ -177,7 +197,7 @@
 <ol>
 <li>Wireframe a form</li>
 <li>Draft content text (questions and answers)</li>
-<li>Look up types of input syntax that you will possibly use for this, take note of all teh syntax
+<li>Look up types of input syntax that you will possibly use for this, take note of all the syntax
 <ul>
 <li>If you want an extra challenge in the afternoon. Try to write out all the html code with only your notes and wireframe</li>
 </ul>
@@ -194,16 +214,18 @@
 : every input needs a label to describe it.<br>
 <code>input</code><br>
 : a field that users can interact with. There are <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types">many types that can be learned about here</a></li>
-<li>The main ones you'll likely use are - <code>text</code> - <code>checkbox</code> - <code>radio</code> - <code>email</code> - <code>datetime</code><br>
-<code>textarea</code><br>
-: an input text box, this is like the text input but it provides the user a larger writing space than the single line that <code>text</code> provides<br>
-<code>fieldset</code><br>
-: group multiple related inputs together. It will draw a box around the inputs<br>
-<code>legend</code><br>
-: used to define a fieldset. This is especially important for screen readers.<br>
-<code>button</code><br>
-: Forms and input types need a way to submit requests to the server. THis is normally done with a button tag</li>
+<li>The main ones you'll likely use are - <code>text</code> - <code>checkbox</code> - <code>radio</code> - <code>email</code> - <code>datetime</code></li>
 </ul>
+<dl>
+<dt><code>textarea</code></dt>
+<dd>an input text box, this is like the text input but it provides the user a larger writing space than the single line that <code>text</code> provides</dd>
+<dt><code>fieldset</code></dt>
+<dd>group multiple related inputs together. It will draw a box around the inputs by default</dd>
+<dt><code>legend</code></dt>
+<dd>used to define a fieldset. This is especially important for screen readers.</dd>
+<dt><code>button</code></dt>
+<dd>Forms and input types need a way to submit requests to the server. This is normally done with a button tag</dd>
+</dl>
 <h3>Accessiblity and Forms</h3>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex"><code>tabindex</code></a>
