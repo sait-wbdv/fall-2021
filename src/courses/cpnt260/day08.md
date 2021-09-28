@@ -1,8 +1,9 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 8 - User Input and Accessible User Experience
+title: CPNT 260 Day 8 - Accessible Forms, Images, and CSS Grid II
 description: Today we will continue learning about forms and user input. Along with learning form syntax and practicing design strategies that were covered in DSGN-270, we will also learn how to make our forms readable by screen readers.
 date: 2021-09-28
+released: true
 ---
 
 ## Trophy of the Day: A sign up form
@@ -16,21 +17,66 @@ date: 2021-09-28
 
 ## Overview
 
-1. Plan it out
+- Morning Syntax Focus
+  - object-fit and img css
+  - CSS Grid
+- Morning Theory
+  - How to write user forms 
+- Morning activity
+  - Plan a user form in pairs to build and design
+- Afternoon Syntax
+  - Form syntax
+- Lab Time
+  - Github SSH password issues
+  - Activity: Create a web form
 
-- Create accessible, engaging, and inclusive web forms
 
-2. Brute force
-
-- Positions and Visibility
-- Transitions and user interaction
-
-3. Walkthrough
-4. Optimize/test
 
 ---
+## Topic 1: Object-fit and images
+- [Mdn Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 
-## Topic 1: Create Accessible, Inclusive, and Meaningful Web Forms
+## Topic 2: CSS Grid
+- Position items in a grid container with:
+  - `justify-items:`
+  - `align-items:`
+- Set the columns and rows of a grid item
+  - `grid-column:`
+    - Set the column that an item starts at
+    - `1 / -1` syntax, `span 2` syntax, `2` syntax 
+  - `grid-row`
+    - Same as column but rows
+### Reading
+- [CSS Tricks The Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+  - Properties of Grid Items
+- [CSS tricks on auto-fill vs auto-fit](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+
+
+## Topic 2: Create Accessible, Inclusive, and Meaningful Web Forms
+
+### Creating Good Forms - Some Guiding Questions
+
+- Forms are very intention specific, and more questions means more work for your user. Consider these questions when writing forms
+  - For whom's benefit is the form?
+    - ie: Optimizing a user's experience with tailored content, providng ways for users to express themself.
+    - ie: Gathering user data in order to conduct research for app improvement
+  - Is the data that your asking for necessary?
+    - ie: is it legally required? will it be used for password recovery?
+  - At what point will the user be filling this out?
+    - ie: Do they have to sign in in order to access the main content?
+    - ie: Is it going to be something they do at say checkout?
+    - Is it a user survey?
+  - What benefit is it to the user to do this?
+
+### Activity: Plan a User Form
+- Can be about anything
+- Try to use multiple select, radio buttons, text input, date input, and email input
+    - Dropdown select menus are good to try to use as well
+- This form should be a bit longer. Try to kep to best practices as dicussed, but also try to use as many types of data as you can.
+1. Wireframe a form
+2. Draft content text (questions and answers)
+3. Look up types of input syntax that you will possibly use for this, take note of all teh syntax
+   - If you want an extra challenge in the afternoon. Try to write out all the html code with only your notes and wireframe
 
 ### Terminology
 
@@ -72,88 +118,18 @@ date: 2021-09-28
 - nest multiple `option` tags within `select` tags. just like `li` within `ul`
 - don't forget a `label`
 
-### Creating Good Forms - Some Guiding Questions
-
-- Forms are very intention specific, and more questions means more work for your user. Consider these questions when writing forms
-  - For whom's benefit is the form?
-    - ie: Optimizing a user's experience with tailored content, providng ways for users to express themself.
-    - ie: Gathering user data in order to conduct research for app improvement
-  - Is the data that your asking for necessary?
-    - ie: is it legally required? will it be used for password recovery?
-  - At what point will the user be filling this out?
-    - ie: Do they have to sign in in order to access the main content?
-    - ie: Is it going to be something they do at say checkout?
-    - Is it a user survey?
-  - What benefit is it to the user to do this?
-
 ---
 
-## Activity: [Create a Form]({{ '/activities/html-css/ }})
+## Lab Time
+
+### Activity: [Create a Form]({{ '/activities/html-css/form-builder/index.html' }})
 
 - It must use labels
 - It must use the form tag
 - It must use fieldset and legend appropriately
 - It must have text, checkboxes, radio buttons, and a select menu
 
----
-
-## Topic 2: Position
-
-_For menus and different layouts_
-
-### A Few Types of Position Tags
-
-`absolute`
-: Element position is relative to its parent element
-`fixed`
-: Like absolute but instead the element ignores the document folow and is relative to the browser window
-`static`
-: The default position. Element is rendered in order of the document flow
-`sticky`
-: Element's position is based on the scroll position
-
----
-
-## Topic 3: Visiblity
-
-_Ways to make something disappear_
-
-### Notes
-
-`visibility`
-: An element can be `hidden`, `visible`, or `collapse`. The layout of the document does not change. If you use hidden, the space where it existed will be as if it was still there. If you are using a table, `collapse` will effectively 'collapse' rows and columns. Collapsed flex items will also remove the space the item takes up, but for all other elements, it will keep the space
-
-- Visibility set to `hidden` also remove an element from the accessibility treewhich can mess with screen readers.
-  `display`
-  : To remove an element from the document layout, set `display` to `none`
-
----
-
-## Activity 2: A Sliding Menu
-
-- Menu must be not visible to user at off state
-- Use color and opacity to focus user's gaze
-
----
-
-## Walkthrough
-
-- Code review
-- Discussion
-- Comment and plan code changes
-
----
-
-## Optimize/test
-
-_End of Day Activity_
-
-- Implement code changes
-- Validate Code
-- Deploy and Submit
-- **Extra: Form styling tutorial**
-
----
+### SSH Github Password Issue
 
 ## Prep for next day
 

@@ -25,17 +25,13 @@ date: 2021-09-29
     - a horizontal nav on desktop
 
 ---
----
 
 ## Overview
 
-1. Plan it out
+- Morning Syntax
+  - Custom Variables
+  - Transitions and User Interaction
 
-- Set up site defaults
-
-2. Brute force
-
-- Transitions and Keyframes for smooth interaction
 
 3. Walkthrough
 4. Optimize/Test
@@ -63,10 +59,45 @@ date: 2021-09-29
   - Take note because you will be using this as code inspiration for your own design
 
 ---
+## Topic 2: Position
 
-## Topic 2: Transitions and Keyframes
+_For menus and different layouts_
 
-_Interactions that don't need JavaScript_
+### A Few Types of Position Tags
+
+`absolute`
+: Element position is relative to its parent element
+`fixed`
+: Like absolute but instead the element ignores the document folow and is relative to the browser window
+`static`
+: The default position. Element is rendered in order of the document flow
+`sticky`
+: Element's position is based on the scroll position
+
+---
+
+## Topic 3: Visiblity
+
+_Ways to make something disappear_
+
+### Notes
+
+`visibility`
+: An element can be `hidden`, `visible`, or `collapse`. The layout of the document does not change. If you use hidden, the space where it existed will be as if it was still there. If you are using a table, `collapse` will effectively 'collapse' rows and columns. Collapsed flex items will also remove the space the item takes up, but for all other elements, it will keep the space
+
+- Visibility set to `hidden` also remove an element from the accessibility treewhich can mess with screen readers.
+  `display`
+  : To remove an element from the document layout, set `display` to `none`
+
+---
+
+## Activity 2: A Sliding Menu
+
+- Menu must be not visible to user at off state
+- Use color and opacity to focus user's gaze
+
+---
+## Topic 3: Transitions and Keyframes
 
 ### Terminology
 
@@ -81,18 +112,8 @@ _Interactions that don't need JavaScript_
 - [Mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - Generally better to use than keyframes as they are more performant, but they are also a bit simpler. Note that if you wanted to use a `cubic-bezier(0)`, you would replace `ease-in-out` with it.
 
-- Keyframes:
 
-  - To use keyframes, you set an `animation-name` property in the relevant element declaration
-  - Then you code your keyframe like so: -`@keyframes identifier { from { /* stuff happens */ } to { /* stuff happens */ }`
-
-    - These can be declared using percentage values as well.
-
-      - [Mdn Article](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
-
-      ***
-
-## Activity: [Create a Themed Design]({{  '/activities/html-css/theme-builder.md' | url }})
+## Activity: [Create a Themed Design]({{  '/activities/html-css/theme-builder/' | url }})
 
 ---
 
@@ -112,7 +133,6 @@ _End of Day Activity_
 - Implement code changes
 - Validate Code
 - Deploy and Submit
-- **Extra: Add progressive enhancement to your design**
 
 ---
 
