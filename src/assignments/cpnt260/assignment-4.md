@@ -44,7 +44,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
 - a heading using `h1` tag
 - a tagline using `p` tag
 - a call to action
-  - using a `a` or `button` element that connects to your form section
+  - using a `a` element stylized like a button that connects to your form section
 
 ### 3. Third Party Integration and Page Content
 
