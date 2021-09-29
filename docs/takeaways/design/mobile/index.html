@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86712569106?pwd=VnRKWHBiOFIwNG5ocCtCWFAvcTZ5Zz09">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Mobile design</h1>
+<h2>Terminology</h2>
+<dl>
+<dt>Responsive Web</dt>
+<dd>A Web development concept focusing on making sites look and behave optimally on all devices, from desktop to mobile, using the same served web files.</dd>
+<dt>Adaptive Web</dt>
+<dd>An outdated method of serving specialized content files to a browser based on the device it's running on.</dd>
+<dt>Content Parity</dt>
+<dd>A measure of content consistency between mobile and desktop versions of the same website.</dd>
+<dt>Viewport</dt>
+<dd>The viewable area of a website within the browser window.</dd>
+<dt>Media Queries</dt>
+<dd>A feature of CSS that enables webpage content to adapt to different <a href="https://codepen.io/browsertherapy/pen/mdPaZdW">screen sizes</a>, <a href="https://codepen.io/acidtone/pen/QWLZxRx">orientations</a>, aspect ratios and mediums (e.g. print vs screen). It does this with conditional code blocks (i.e. <code>if</code> statements for CSS).</dd>
+<dt>Breakpoint</dt>
+<dd>Points in responsive design where website presentation obviously changes due to changing viewport characteristics (width, orientation, etc).</dd>
+<dt>Hamburger Menu</dt>
+<dd>A button in websites and apps that typically opens up into a vertical menu or navigation drawer.</dd>
+<dt>Card Pattern</dt>
+<dd>A convenient means of displaying content composed of different types of objects. They are also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length</dd>
+</dl>
+<hr>
+<h2>Key Takeaways</h2>
+<p>There are many things to consider when designing for both mobile and desktop screens but here are the key constraints we will be focusing on in this program:</p>
+<ul>
+<li>Layout
+<ul>
+<li>Navigation and content would never &quot;overflow&quot; the screen, creating a horizontal scroll bar. At narrow screen widths, navigation is often <a href="https://codepen.io/acidtone/pen/xxqmWXb">replaced with a Hamburger toggle</a>.</li>
+<li>Content will often be displayed using the <a href="https://rubygarage.org/blog/card-based-design-best-practices">card pattern</a>. On mobile, these cards will display in a single column. See: <a href="https://codepen.io/acidtone/pen/ZEpgMGL">&quot;Gridish&quot; flexbox in this Codepen</a>.</li>
+<li>In general, content should not touch the edge of the screen on mobile. There should be a visible &quot;scroll track&quot; letting the user know where to scroll with their finger.</li>
+<li>When/if content reaches its maximum page width on desktop screens, the content should be centered. This website is an example.</li>
+</ul>
+</li>
+<li><a href="/fall-2021/takeaways/design/web-typography/">Web Typography</a>
+<ul>
+<li>Body text line length should not be longer than 95 characters or shorter than 25ch (unless it's a heading).</li>
+<li>Font size should be smaller on mobile than on desktop. This is called fluid typography.</li>
+<li>See: <a href="https://codepen.io/browsertherapy/pen/RwaJmbx">Responsive Text: Max Line Length with Fluid Typography</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Responsive layout is all about width</h2>
+<p>Horizontal scroll bars should be avoided in most circumstances. Since screen widths will vary from <code>400px</code> to at least <code>2000px</code>, this constraint leads to a number of common design patterns:</p>
+<h3>Text Line length</h3>
+<p>Text is most readable at line lengths between 30 and 90 characters long. <strong>This should be a priority</strong> when planning out a design (also see <a href="/fall-2021/takeaways/design/web-typography/">the typography triad</a>).</p>
+<ul>
+<li>Font-size should be smaller on mobile screens to ensure a line length of at least 30 characters.</li>
+<li>Text boxes should have a maximum width set, in order to prevent line lengths of more than 90 characters.</li>
+<li>Given their larger <code>font-size</code>, multi-line headings are often readable at lengths shorter than 25 characters.</li>
+</ul>
+<h3>Layout</h3>
+<p>Responsive content often follows the <a href="https://www.google.com/search?q=ux+card+pattern">card pattern</a> in order to simplify the layouts required for varying screen widths.</p>
+<ul>
+<li>An image will often scale to fit the width of its parent container (which could be a card or an entire column on a page).</li>
+<li>When a row of multiple cards or images are too wide for the screen, they will wrap and create more rows.</li>
+<li>In general, layouts and galleries will be a single column on mobile and multiple columns at larger screen widths.</li>
+<li>To accommodate very large screen widths, (<code>2000px</code> or larger) page of content will often reach a maximum width and distribute extra negative space equally on either side of the page.</li>
+</ul>
+<h3>Navigation</h3>
+<p>It's imperative that page navigation is not compromised at any screen width. When a screen is too narrow for a horizontal navigation menu, it will usually either:</p>
+<ul>
+<li>become a vertical navigation menu, or</li>
+<li>be replaced by a hamburger menu that will toggle a vertical navigation menu.</li>
+</ul>
+<h2>Further Reading</h2>
+<ul>
+<li><a href="https://www.nngroup.com/articles/image-vs-list-mobile-navigation/">Mobile Navigation: Image Grids or Text Lists?</a></li>
+<li><a href="https://www.nngroup.com/articles/mobile-subnavigation/">Mobile Sub-navigation</a></li>
+<li>Video: <a href="https://www.nngroup.com/videos/hamburger-menus/">Hamburger Menus Hurt UX Metrics</a>
+<ul>
+<li>Study: <a href="https://www.nngroup.com/articles/hamburger-menus/">Hamburger Menus and Hidden Navigation Hurt UX Metrics</a></li>
+</ul>
+</li>
+<li><a href="https://www.nngroup.com/articles/mobile-first-not-mobile-only/">Mobile First Is NOT Mobile Only</a></li>
+<li><a href="https://www.nngroup.com/articles/mobile-content/">Reading Content on Mobile Devices</a></li>
+<li><a href="https://www.nngroup.com/articles/checklist-registration-login/">A Checklist for Registration and Login Forms on Mobile</a></li>
+</ul>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>

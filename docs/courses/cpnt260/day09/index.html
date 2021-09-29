@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86712569106?pwd=VnRKWHBiOFIwNG5ocCtCWFAvcTZ5Zz09">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day08/" title="CPNT 260 Day 8 - Accessible Forms, Images, and CSS Grid II">Previous</a>
+            
+        </li>
+        <li>
+            
+            <span>Next</span>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Wed, September 29</time>
+  <h2>CPNT 260 Day 9 - Maintainable CSS, Themes, and Transitions</h2>
+  
+  
+        <h2>Trophy of the Day: A responsive and themed web design</h2>
+<h2>Review</h2>
+<ul>
+<li>Questions regarding assignments or last class</li>
+<li>Rules of the <a href="https://github.com/sait-wbdv/helpdesk">helpdesk</a>
+<ul>
+<li>For any and all code related issues</li>
+<li>Git related issues</li>
+<li>Filesystem, vscode, figma software type issues</li>
+</ul>
+</li>
+</ul>
+<h2>Assignment 4: Landing Page + Hero Section</h2>
+<ul>
+<li><a href="/fall-2021/assignments/cpnt260/assignment-4/">Assignment Link</a></li>
+<li><strong>Due: October 3rd 11:59pm</strong></li>
+<li>Complete:
+<ul>
+<li>A landing page</li>
+<li>Call to Action</li>
+<li>Form</li>
+<li>Google API (or other)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Overview</h2>
+<ul>
+<li>Morning Activity</li>
+<li>Custom Variables</li>
+<li>Position</li>
+<li>Visibility</li>
+<li>Lab Activity</li>
+<li><a href="#prep">Prep</a> for tomorrow</li>
+</ul>
+<h3>Activity: Form Review (30 Minutes)</h3>
+<ul>
+<li>You will be meeting in random groups</li>
+</ul>
+<ol>
+<li>Share and review one another's forms</li>
+</ol>
+<ul>
+<li>The reviewer will offer feedback based on how they experienced using the form
+<ul>
+<li>cannot give technical advice, only useage related advice</li>
+<li>Please keep in mind that all of these are <strong>Work in Progress</strong></li>
+<li>Clarify on details as best as possible</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>The developer needs to take note of 1-3 things that they can fix quickly to resolve any of the issues mentioned</li>
+</ol>
+<ul>
+<li>In either a README, a hackmd file, or in a comment in your codepen, make note of the feedback</li>
+</ul>
+<ol start="3">
+<li>Then make your 1-3 edits</li>
+</ol>
+<ul>
+<li>If you have specifc ideas on how to make a fix, but don't have time to code it, write a comment that would give future you enough information to quickly code the idea</li>
+</ul>
+<ol start="4">
+<li>Submit a codepen with edits and submit your review notes.
+<ul>
+<li>In either your Readme, Comments, or Hackmd, Please cite the reviewer</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><strong>Watch the time, you only have 30 minutes to review, document, and make any fixes</strong></li>
+</ul>
+<hr>
+<p><a id="top"></a></p>
+<h2>Topic 1: Setting defauls with custom variables</h2>
+<h3>Notes</h3>
+<ul>
+<li>Custom properties are set with <code>--propname: value;</code>
+<ul>
+<li>You can then use these over and over again</li>
+<li>They are great for specific colors, opacity values, cubic bezier curves, and<br>
+anything else that you only want to have to edit in one place</li>
+</ul>
+</li>
+<li>A well organized set of custom variables can save a lot of dev time and make your layouts look much more professional.</li>
+<li>access a custom property by using: <code>var(--variable-name)</code></li>
+</ul>
+<h3>In class activity</h3>
+<ul>
+<li>We will build a colour scheme using hsla values and custom variables</li>
+</ul>
+<hr>
+<h2>Topic 2: Position</h2>
+<p><em>For menus and different layouts</em></p>
+<h3>A Few Types of Position Tags</h3>
+<dl>
+<dt><code>absolute</code></dt>
+<dd>Element position is relative to its parent element<br>
+<code>fixed</code></dd>
+<dd>Like absolute but instead the element ignores the document folow and is relative to the browser window<br>
+<code>static</code></dd>
+<dd>The default position. Element is rendered in order of the document flow<br>
+<code>sticky</code></dd>
+<dd>Element's position is based on the scroll position</dd>
+</dl>
+<hr>
+<h2>Topic 3: Visiblity</h2>
+<p><em>Ways to make something disappear</em></p>
+<h3>Notes</h3>
+<dl>
+<dt><code>visibility</code></dt>
+<dd>An element can be <code>hidden</code>, <code>visible</code>, or <code>collapse</code>. The layout of the document does not change. If you use hidden, the space where it existed will be as if it was still there. If you are using a table, <code>collapse</code> will effectively 'collapse' rows and columns. Collapsed flex items will also remove the space the item takes up, but for all other elements, it will keep the space</dd>
+</dl>
+<ul>
+<li>Visibility set to <code>hidden</code> also remove an element from the accessibility tree which can mess with screen readers.</li>
+</ul>
+<dl>
+<dt><code>display</code></dt>
+<dd>To remove an element from the document layout, set <code>display</code> to <code>none</code></dd>
+</dl>
+<hr>
+<h2>Topic 3: Transitions and Keyframes</h2>
+<ul>
+<li>These are used to enhance how your users experience your web pages.</li>
+<li>While we see hover quite a bit, you can also effect active state as well</li>
+<li>Child selectors become really helpful when getting into transition
+<ul>
+<li><code>:nth-child(#)</code></li>
+</ul>
+</li>
+<li>We will be using these quite a bit when we get into vector images</li>
+<li>Try using <code>bezier-curve</code> on your transitions for greater control</li>
+</ul>
+<h3>Terminology</h3>
+<dl>
+<dt><code>transition</code></dt>
+<dd>A shorthand property that encompasses: <code>transition-property</code>, <code>transition-duration</code>, <code>transition-timing-function</code>, and <code>transition-delay</code>. Note that these can all be used separately as well<br>
+<code>keyframe</code></dd>
+<dd>A syntax used for complex animations. You can string together multiple moving pieces with keyframes.</dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li>Transition syntax example: `transition: background-color 0.5s ease-in-out;</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">Mdn docs</a></li>
+<li>Generally better to use than keyframes as they are more performant, but they are also a bit simpler. Note that if you wanted to use a <code>cubic-bezier(0)</code>, you would replace <code>ease-in-out</code> with it.</li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<h3>Activity: <a href="/fall-2021/activities/html-css/wayback-site-revamp/">Wayback Machine Website Redesign</a></h3>
+<hr>
+<h2><a id="prep"></a> Prep for next day</h2>
+<ul>
+<li>Watch <a href="https://www.youtube.com/watch?v=2QYpkrX2N48">Kevin Powel on srcset and sizes</a></li>
+<li>Read <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset">Mdn srcset</a></li>
+<li>Read <a href="https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/">Css Tricks srcset</a></li>
+<li>Watch <a href="https://www.youtube.com/watch?v=AActXSWxsRo">Kevin Powell on lazy loading</a></li>
+<li>Read <a href="https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading">Mdn Lazy loading</a></li>
+</ul>
+<h3><a href="#top">Back to Topic 1</a></h3>
+<hr>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day08/" title="CPNT 260 Day 8 - Accessible Forms, Images, and CSS Grid II">Previous</a>
+            
+        </li>
+        <li>
+            
+            <span>Next</span>
+            
+        </li>
+    </ul>
+</nav>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>
