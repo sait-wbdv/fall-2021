@@ -59,10 +59,10 @@
 
 <article class="post">
   <time>Wed, September 29</time>
-  <h2>CPNT 260 Day 9 - Maintainable CSS, Themes, and Transitions</h2>
+  <h2>CPNT 260 Day 9 - Maintainable CSS, Position, and Transitions</h2>
   
   
-        <h2>Trophy of the Day: A responsive and themed web design</h2>
+        <h2>Trophy of the Day: A responsive webpage rebuild</h2>
 <h2>Review</h2>
 <ul>
 <li>Questions regarding assignments or last class</li>
@@ -74,9 +74,8 @@
 </ul>
 </li>
 </ul>
-<h2>Assignment 4: Landing Page + Hero Section</h2>
+<h2><a href="/fall-2021/assignments/cpnt260/assignment-4/">Assignment 4 Landing Page and API's</a></h2>
 <ul>
-<li><a href="/fall-2021/assignments/cpnt260/assignment-4/">Assignment Link</a></li>
 <li><strong>Due: October 3rd 11:59pm</strong></li>
 <li>Complete:
 <ul>
@@ -137,6 +136,30 @@
 </ul>
 <hr>
 <p><a id="top"></a></p>
+<h2>CSS Reset Files</h2>
+<ul>
+<li>Watch <a href="https://www.youtube.com/watch?v=0GcTUor2ANw">Kevin Powell 5 minute video</a></li>
+<li>CSS Reset files are used to remove default browser styles</li>
+<li>You can have a range of depth to your reset, some basic styling regarding padding and margin can be really helpful</li>
+<li>There are lots online that you can experiment from</li>
+<li>The course reset file used looks like</li>
+<li>This file should be called <code>reset.css</code></li>
+<li>In your HTML, make it the first file declared in your list of css files</li>
+</ul>
+<pre><code>/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+</code></pre>
 <h2>Topic 1: Setting defauls with custom variables</h2>
 <h3>Notes</h3>
 <ul>
@@ -162,11 +185,11 @@ anything else that you only want to have to edit in one place</li>
 <dt><code>absolute</code></dt>
 <dd>Element position is relative to its parent element<br>
 <code>fixed</code></dd>
-<dd>Like absolute but instead the element ignores the document folow and is relative to the browser window<br>
+<dd>Like absolute but instead the element ignores the document flow and is relative to the browser window<br>
 <code>static</code></dd>
 <dd>The default position. Element is rendered in order of the document flow<br>
 <code>sticky</code></dd>
-<dd>Element's position is based on the scroll position</dd>
+<dd>Element's position is based on the scroll position. Note that this doesn't have 100% browser support</dd>
 </dl>
 <hr>
 <h2>Topic 3: Visiblity</h2>
@@ -199,15 +222,15 @@ anything else that you only want to have to edit in one place</li>
 <h3>Terminology</h3>
 <dl>
 <dt><code>transition</code></dt>
-<dd>A shorthand property that encompasses: <code>transition-property</code>, <code>transition-duration</code>, <code>transition-timing-function</code>, and <code>transition-delay</code>. Note that these can all be used separately as well<br>
-<code>keyframe</code></dd>
+<dd>A shorthand property that encompasses: <code>transition-property</code>, <code>transition-duration</code>, <code>transition-timing-function</code>, and <code>transition-delay</code>. Note that these can all be used separately as well</dd>
+<dt><code>keyframe</code></dt>
 <dd>A syntax used for complex animations. You can string together multiple moving pieces with keyframes.</dd>
 </dl>
 <h3>Notes</h3>
 <ul>
 <li>Transition syntax example: `transition: background-color 0.5s ease-in-out;</li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">Mdn docs</a></li>
-<li>Generally better to use than keyframes as they are more performant, but they are also a bit simpler. Note that if you wanted to use a <code>cubic-bezier(0)</code>, you would replace <code>ease-in-out</code> with it.</li>
+<li>Generally better to use than keyframes as they are more performant, but they are also a bit simpler. Note that if you wanted to use a <code>cubic-bezier()</code>, you would replace <code>ease-in-out</code> with it.</li>
 </ul>
 <hr>
 <h2>Lab Time</h2>

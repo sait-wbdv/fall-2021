@@ -1,13 +1,13 @@
 ---
 layout: layouts/day.njk
-title: CPNT 260 Day 9 - Maintainable CSS, Themes, and Transitions
-description: We will work on creating more maintainable and organized css code, using custom variables to create well organized themes, and tweak pseudo classes using transitions for stylized user interaction.
+title: CPNT 260 Day 9 - Maintainable CSS, Position, and Transitions
+description: We will be learning about css reset files, position, transition, and custom variables. 
 date: 2021-09-29
 released: true
 
 ---
 
-## Trophy of the Day: A responsive and themed web design
+## Trophy of the Day: A responsive webpage rebuild
 
 ## Review
 - Questions regarding assignments or last class
@@ -16,9 +16,7 @@ released: true
   - Git related issues
   - Filesystem, vscode, figma software type issues
   
-## Assignment 4: Landing Page + Hero Section
-
-- [Assignment Link]({{ '/assignments/cpnt260/assignment-4/' | url }})
+## [Assignment 4 Landing Page and API's]({{ '/assignments/cpnt260/assignment-4/' | url }})
 - **Due: October 3rd 11:59pm**
 - Complete:
   - A landing page
@@ -55,6 +53,31 @@ released: true
 ---
 <a id="top"></a>
 
+## CSS Reset Files
+- Watch [Kevin Powell 5 minute video](https://www.youtube.com/watch?v=0GcTUor2ANw)
+- CSS Reset files are used to remove default browser styles
+- You can have a range of depth to your reset, some basic styling regarding padding and margin can be really helpful
+- There are lots online that you can experiment from
+- The course reset file used looks like
+- This file should be called `reset.css`
+- In your HTML, make it the first file declared in your list of css files
+ 
+```
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+```
+
 ## Topic 1: Setting defauls with custom variables
 
 ### Notes
@@ -79,11 +102,11 @@ _For menus and different layouts_
 `absolute`
 : Element position is relative to its parent element
 `fixed`
-: Like absolute but instead the element ignores the document folow and is relative to the browser window
+: Like absolute but instead the element ignores the document flow and is relative to the browser window
 `static`
 : The default position. Element is rendered in order of the document flow
 `sticky`
-: Element's position is based on the scroll position
+: Element's position is based on the scroll position. Note that this doesn't have 100% browser support
 
 ---
 
@@ -113,8 +136,10 @@ _Ways to make something disappear_
 - Try using `bezier-curve` on your transitions for greater control
 
 ### Terminology
+
 `transition`
 : A shorthand property that encompasses: `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`. Note that these can all be used separately as well
+
 `keyframe`
 : A syntax used for complex animations. You can string together multiple moving pieces with keyframes.
 
@@ -122,7 +147,7 @@ _Ways to make something disappear_
 
 - Transition syntax example: `transition: background-color 0.5s ease-in-out;
 - [Mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
-- Generally better to use than keyframes as they are more performant, but they are also a bit simpler. Note that if you wanted to use a `cubic-bezier(0)`, you would replace `ease-in-out` with it.
+- Generally better to use than keyframes as they are more performant, but they are also a bit simpler. Note that if you wanted to use a `cubic-bezier()`, you would replace `ease-in-out` with it.
 
 ---
 

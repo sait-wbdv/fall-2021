@@ -93,10 +93,12 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
     - What benefits/limits came out of your solution beyond the immediate goal
   - Attributions
 
-#### Previous assignment Bonus Points Option (1 point per assignment)
-- If your Assignment 4 landing page has 0 html syntax errors, and all above noted content is present and responsive (no horizontal overflow or weird text sizes)
+### Previous assignment Bonus Points Option (1 point per assignment)
+- If your Assignment 4 landing page has 0 html syntax errors, and all above noted content is present.
 - Fix an issue on any previous assignment to regain points
-- Along with your Brightspace submission, send a link of the git commit(s) where you made the changes that fixed the issue. Please make a quick note on what issue this is meant to fix
+- Along with your Brightspace submission, send a link of the git commit(s) where you made the changes that fixed the issue. 
+  - Please make a quick note on what issue this is meant to fix
+- The html files being updated need to be in your a4 codebase
 
 ## Submission Requirements
 
@@ -105,3 +107,4 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
 - Leave a link to the following as a comment in your Brightspace submission (this is duplicated in your readme but comes in handy sometimes):
 - GH repo
 - GH Pages site
+- Commit links for past page updates
