@@ -48,11 +48,14 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
 
 ### 3. Third Party Integration and Page Content
 
+- There must be a section of any type of content between your hero section and the API integration content
+
 - Integrate a third party app onto your page
 
   - Google Maps, Youtube, Facebook, Twitter, TikTok...
+    - [Google map APIs](https://developers.google.com/maps/apis-by-platform) as example
   - this can't be a static image
-  - the content can be only loosly relevant to the site subject matter
+
 
 ### 2. Form Section
 
@@ -69,7 +72,6 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
 - Background images can be removed on mobile
 - `font-size` is smaller on mobile than on desktop
 - Navigation bar is usable on mobile screen
-- There is a scroll-track along the side on mobile
 - text is readable at all widths
 
 ### 4. Hamburger Menu
@@ -90,7 +92,12 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
     - How did you fix it?
     - What benefits/limits came out of your solution beyond the immediate goal
   - Attributions
-  
+
+#### Previous assignment Bonus Points Option (1 point per assignment)
+- If your Assignment 4 landing page has 0 html syntax errors, and all above noted content is present and responsive (no horizontal overflow or weird text sizes)
+- Fix an issue on any previous assignment to regain points
+- Along with your Brightspace submission, send a link of the git commit(s) where you made the changes that fixed the issue. Please make a quick note on what issue this is meant to fix
+
 ## Submission Requirements
 
 - Push this assignment to a repo named cpnt260-a4

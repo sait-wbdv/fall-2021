@@ -3,40 +3,57 @@ layout: layouts/day.njk
 title: CPNT 260 Day 9 - Maintainable CSS, Themes, and Transitions
 description: We will work on creating more maintainable and organized css code, using custom variables to create well organized themes, and tweak pseudo classes using transitions for stylized user interaction.
 date: 2021-09-29
+released: true
+
 ---
 
 ## Trophy of the Day: A responsive and themed web design
 
 ## Review
-
-- Trophies from last class
-- Questions
-
+- Questions regarding assignments or last class
+- Rules of the [helpdesk](https://github.com/sait-wbdv/helpdesk)
+  - For any and all code related issues
+  - Git related issues
+  - Filesystem, vscode, figma software type issues
+  
 ## Assignment 4: Landing Page + Hero Section
 
 - [Assignment Link]({{ '/assignments/cpnt260/assignment-4/' | url }})
 - **Due: October 3rd 11:59pm**
 - Complete:
   - A landing page
-  - Landing page needs to have a hero section with a call to action
-  - CTA (call to action) should link to an accessible user form
-  - Navigation should be responsive
-    - a hamburger icon with hideable menu on mobile
-    - a horizontal nav on desktop
+  - Call to Action
+  - Form
+  - Google API (or other)
 
 ---
 
 ## Overview
+- Morning Activity
+- Custom Variables
+- Position
+- Visibility
+- Lab Activity
+- [Prep](#prep) for tomorrow
 
-- Morning Syntax
-  - Custom Variables
-  - Transitions and User Interaction
 
-
-3. Walkthrough
-4. Optimize/Test
+### Activity: Form Review (30 Minutes)
+- You will be meeting in random groups
+1. Share and review one another's forms
+  - The reviewer will offer feedback based on how they experienced using the form
+    - cannot give technical advice, only useage related advice
+    - Please keep in mind that all of these are **Work in Progress**
+    - Clarify on details as best as possible
+2. The developer needs to take note of 1-3 things that they can fix quickly to resolve any of the issues mentioned
+  - In either a README, a hackmd file, or in a comment in your codepen, make note of the feedback
+3. Then make your 1-3 edits
+  - If you have specifc ideas on how to make a fix, but don't have time to code it, write a comment that would give future you enough information to quickly code the idea
+4. Submit a codepen with edits and submit your review notes.
+   - In either your Readme, Comments, or Hackmd, Please cite the reviewer
+- **Watch the time, you only have 30 minutes to review, document, and make any fixes**
 
 ---
+<a id="top"></a>
 
 ## Topic 1: Setting defauls with custom variables
 
@@ -47,16 +64,10 @@ date: 2021-09-29
   - They are great for specific colors, opacity values, cubic bezier curves, and
     anything else that you only want to have to edit in one place
 - A well organized set of custom variables can save a lot of dev time and make your layouts look much more professional.
+- access a custom property by using: `var(--variable-name)`
 
----
-
-## Activity: Analyze an inspirational web design
-
-- Find a design on the internet
-  - can be a layout, hero section, article etc
-  - If you're stuck [Jen Simmons Labs](https://labs.jensimmons.com/) is a great resource
-- Analyze the HTML and CSS
-  - Take note because you will be using this as code inspiration for your own design
+### In class activity
+- We will build a colour scheme using hsla values and custom variables
 
 ---
 ## Topic 2: Position
@@ -85,22 +96,23 @@ _Ways to make something disappear_
 `visibility`
 : An element can be `hidden`, `visible`, or `collapse`. The layout of the document does not change. If you use hidden, the space where it existed will be as if it was still there. If you are using a table, `collapse` will effectively 'collapse' rows and columns. Collapsed flex items will also remove the space the item takes up, but for all other elements, it will keep the space
 
-- Visibility set to `hidden` also remove an element from the accessibility treewhich can mess with screen readers.
-  `display`
+- Visibility set to `hidden` also remove an element from the accessibility tree which can mess with screen readers.
+
+`display`
   : To remove an element from the document layout, set `display` to `none`
 
----
-
-## Activity 2: A Sliding Menu
-
-- Menu must be not visible to user at off state
-- Use color and opacity to focus user's gaze
 
 ---
+
 ## Topic 3: Transitions and Keyframes
+- These are used to enhance how your users experience your web pages.
+- While we see hover quite a bit, you can also effect active state as well
+- Child selectors become really helpful when getting into transition
+  - `:nth-child(#)`
+- We will be using these quite a bit when we get into vector images
+- Try using `bezier-curve` on your transitions for greater control
 
 ### Terminology
-
 `transition`
 : A shorthand property that encompasses: `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`. Note that these can all be used separately as well
 `keyframe`
@@ -112,35 +124,21 @@ _Ways to make something disappear_
 - [Mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - Generally better to use than keyframes as they are more performant, but they are also a bit simpler. Note that if you wanted to use a `cubic-bezier(0)`, you would replace `ease-in-out` with it.
 
+---
 
-## Activity: [Create a Themed Design]({{  '/activities/html-css/theme-builder/' | url }})
+## Lab Time
+
+### Activity: [Wayback Machine Website Redesign]({{  '/activities/html-css/wayback-site-revamp/' | url }})
 
 ---
 
-## Walkthrough
+## <a id="prep"></a> Prep for next day
+- Watch [Kevin Powel on srcset and sizes](https://www.youtube.com/watch?v=2QYpkrX2N48)
+- Read [Mdn srcset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset)
+- Read [Css Tricks srcset](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/)
+- Watch [Kevin Powell on lazy loading](https://www.youtube.com/watch?v=AActXSWxsRo)
+- Read [Mdn Lazy loading](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading)
 
-- Code Review
-- Bug Hunting
-- Discussion
-- Comment and plan code changes
-
----
-
-## Optimize
-
-_End of Day Activity_
-
-- Implement code changes
-- Validate Code
-- Deploy and Submit
-
----
-
-## Prep for next day
-
-- Read [CSS-Tricks on building a design system](https://css-tricks.com/design-systems-building-future/)
-- Skim this [Medium article on creating a design system](https://medium.com/codyhouse/create-your-design-system-part-4-spacing-895c9213e2b9)
-  - note this is just the part on spacing, there are links that address typography etc
-- Add 1-3 things or vote on other people's things for topics to review for CPNT260
+### [Back to Topic 1](#top)
 
 ---
