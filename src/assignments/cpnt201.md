@@ -10,8 +10,8 @@ title: CPNT 201 Assignments
 - Weight: 25% of Final Course Mark
 
 ## Image Editing and Optimization
-### Assignment 2: TBA
-- Due: TBA
+### Assignment 2: [Raster Image Optimization](https://github.com/sait-wbdv/assessments/tree/master/cpnt201/assignment-2)
+- Due: October 5 2021 11:59pm
 - Weight: 25% of Final Course Mark
 
 ### Assignment 3: TBA
