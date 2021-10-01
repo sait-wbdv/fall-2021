@@ -1,13 +1,12 @@
 ---
 layout: layouts/day.njk
 title: CPNT 201 Day 3 - Raster Images
-description: Raster images can make a website look and feel beautiful, but if not at a proper resolution and file size, they can also make a site look ugly and feel sluggish. We will look at how to prepare images for a website correctly and effectively.
+description: Raster images can make a website look and feel beautiful, but if not at a proper resolution and file size, they can also make a site look ugly and feel sluggish. We will look at how to prepare images for a web development.
 date: 2021-10-01
+released: true
+
 ---
-## Prep for Today
-- 
----
-## Trophy of the Day: 
+
 
 ## Overview
 1. Plan it out
@@ -21,55 +20,67 @@ date: 2021-10-01
 4. Walkthrough
   - Discussion on process
 
+## [CPNT201 Assignment 2: Raster Image Optimization](https://github.com/sait-wbdv/assessments/tree/master/cpnt201/assignment-2)
+
 ---
+    
 ## Raster Image Editors
 - [Gimp](https://www.gimp.org/)
+  - [Youtube Video Tutorials](https://www.youtube.com/c/LogosByNick)
   - [Photogimp](https://github.com/Diolinux/PhotoGIMP)
     - Enhance gimp's functionality
+  - [BIMP](https://alessandrofrancesconi.it/projects/bimp/)
+    - A plugin for Batch Image Processing
 - [Pixlr](https://pixlr.com/)
+  - Web based raster editing
 - [Canva](https://www.canva.com/photo-editor/app/)
+  - Web and mobile based editing
 - [Photoshop](https://www.adobe.com/products/photoshop.html)
+  - Premium raster image editing program (Industry Standard)
+  - [Youtube Tutorial Videos](https://www.youtube.com/c/TerryWhite01)
+- I will be doing examples using GIMP with photogimp and bimp
 
-## Topic 1: Raster Images in Web Development
+## Raster Images in Web Development
 
 ### Terminology
 - [Terminology source](https://www.picmonkey.com/blog/photo-editing-terms-you-dont-know)
-- Aspect Ratio
+
+Aspect Ratio
   : proportional representation of width vs height
-- Clarity vs Sharpen
+
+Clarity vs Sharpen
   : sharpen is contrast between light and dark pixels, clarity is contrast between mid tones.
-- Exposure
+
+Exposure
   : How light or dark an image appears after capturing it
-- Histogram
+
+Histogram
   : Displays tones in your image ranging from 0-255
-- Compression
+
+Compression
   : decreasing an image fileze for faster loading. lossy or lossless
-- Lossy Compression
+
+Lossy Compression
   : Reduces file size by eliminating information. The image will not be exactly the same. Data that is lost when performing a lossy compression cannot be recovered.
-- Lossless Compression
+
+Lossless Compression
   : All the original information is kept. PNG is an example of loseless compression.
 
-### Image Size Approximate Reccomendations
-#### Large
-- 2500px wide
-  - for images that span the whole width of the browser
-- 1800px-2000px wide
-  - Images that take up most of the page
-- 1500px wide
-  - images that will be opened up in a fullscreen view. (can go up to 2000px)
+## Common Practices for Raster Image Editing
+- Color Selection
+  - Photoshop: healing brush 
+- Brightness, Colors, Levels, Exposure
+  - Gimp: Colors tab
+  - Photoshop: Image/Adjustments tabs
+- Touch up photos
+  - Healing Brush
+  - Gimp: Heal Selection
+  - Photoshop: Spot Healing
+- Cut a something out of a background
+    - photoshop: direct selection tool, refine edge, mask mode 
+    - gimp: 
 
-#### Medium
-- 800px wide
-  - Great for situations where you have a tall picture (like 800px by 1200px). 2:3 or 3:4 image ratios are good for portrait orientation images.
-- 800px - 1500px wide
-  - good general medium width size
-  - choose width depending on the aspect ratio and height
-
-#### Small
-- 500px - 750px wide
-  - small image size
-- 75px to 200px
-  - good thumbnail size
+### [Gist on image size ranges](https://gist.github.com/lilyx13/8aa5c8e4550652e37ce0fa8fa10c1983)
 
 ### Image size for Web extra Reading
 - [Flothemes article](https://flothemes.com/flothemes-image-sizes/)
@@ -77,16 +88,20 @@ date: 2021-10-01
 ### File Formats for web
 - PNG, JPG, WebP
 
-### Activity: Optimized Image Hunt
-- Inspect images in the web
-- use Lighthouse to check for image optimization
+### Activity: [Set up Directory Hierarchy]({{ 'activities/cpnt201/image-directory/' | url }})
 
 ---
-## Organizing and Serving Images
-- Directory Hierarchy
-- lazy loading
-- srcset
-
+## Lazy Loading
+- This is used to shorten the critical rendering path
+- items that are not required immediatly will be downloaded when the user gets to them
+- this is the opposite of `preload` which we use on our fonts to speed up the rendering of the page
+- for lazy loading, the image loads at render
+```
+<!-- image lazy loading -->
+<img src="image.jpg" alt="..." loading="lazy">
+<!-- iframe lazy loading -->
+<iframe src="video-player.html" title="..." loading="lazy"></iframe>
+```
 ---
 ## Optimization
 - Batch processing for resizing and file conversion using gimp
@@ -97,7 +112,7 @@ date: 2021-10-01
 - [BIMP](https://alessandrofrancesconi.it/projects/bimp/)
 - [svgomg](https://jakearchibald.github.io/svgomg)
 
-### Activity: Image Optimization
+### Activity: [Image Optimization]({{ 'activities/images/image-optimization' | url }})
 
 ---
 ## Prep for tomorrow

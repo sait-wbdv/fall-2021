@@ -10,6 +10,8 @@ date: 2021-10-04
 ## Overview
 - Plan it out
 
+**START WITH FINISHING RASTERS SRCSET**
+## Topic 1: Serving Images with `srcset`
 ---
 ## Topic 1: Vector Editors
 - Figma, Inkscape, Illustrator, Coreldraw, Penpot... So many options!
