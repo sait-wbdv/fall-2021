@@ -88,7 +88,7 @@ Lossless Compression
 ### File Formats for web
 - PNG, JPG, WebP
 
-### Activity: [Set up Directory Hierarchy]({{ '/activities/cpnt201/image-directory/' | url }})
+### Activity: [Set up Directory Hierarchy]({{ '/activities/images/image-directory/' | url }})
 
 ---
 ## Lazy Loading
