@@ -1,4 +1,9 @@
-# Assignment 2 - Raster Image Optimization
+---
+layout: layouts/assignment.njk
+title: CPNT 201 Assignment 2 - Raster Image Optimization
+---
+
+## Details
 
 In this assignment, you will:
 

@@ -26,7 +26,7 @@ released: true
 
 - Discussion on process
 
-## [CPNT201 Assignment 2: Raster Image Optimization]({{ '/assignments/cpnt201/assignment-2/' | url}})
+## [CPNT201 Assignment 2: Raster Image Optimization]({{ '/assignments/cpnt201/assignment-2/' | url }})
 
 - Due: Tuesday October 5th @ 11:59pm;
 
