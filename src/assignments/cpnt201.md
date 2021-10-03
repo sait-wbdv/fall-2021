@@ -14,7 +14,7 @@ title: CPNT 201 Assignments
 
 ## Image Editing and Optimization
 
-### Assignment 2: [Raster Image Optimization]({{ '/assignments/201/cpnt201/assignment-2' | url}})
+### Assignment 2: [Raster Image Optimization]({{ '/assignments/cpnt201/assignment-2/' | url }})
 
 - Due: October 5 2021 11:59pm
 - Weight: 25% of Final Course Mark
