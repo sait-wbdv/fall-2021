@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86712569106?pwd=VnRKWHBiOFIwNG5ocCtCWFAvcTZ5Zz09">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt201/day03/" title="CPNT 201 Day 3 - Raster Images">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt201/day05/" title="CPNT 201 Day 5 - Scalable Vector Graphics">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Mon, October 4</time>
+  <h2>CPNT 201 Day 4 - Optimized Rasters and Intro to Vector Design</h2>
+  
+  
+        <h2>Trophy of the Day: Build a Vector Logo</h2>
+<h2>Review</h2>
+<ul>
+<li>Questions about current assignment</li>
+<li>Follow up on raster image editing</li>
+<li>Assignment 3 Review</li>
+</ul>
+<hr>
+<h2>Topic 1: Serving Images with <code>srcset</code> and <code>sizes</code></h2>
+<ul>
+<li><code>srcset</code> is used to give the browser a more optimal sized image to display at a given viewport width</li>
+<li><code>sizes</code> is used to set breakpoints at different viewport sizes and will set a placeholder on load
+<ul>
+<li>This speeds up loading times</li>
+</ul>
+</li>
+</ul>
+<h3>How to optimize your images</h3>
+<ul>
+<li><a href="https://gist.github.com/lilyx13/fff897237bcd0427183c76eee9483404">Gist on srcset and sizes</a></li>
+<li><a href="https://github.com/lilyx13/srcset-demo-code">Ash's github repo on srcset and sizes</a></li>
+<li>We will use this codebase for todays demo.</li>
+<li>Please fork and follow along</li>
+<li>Use your fork to experiment with</li>
+<li><strong>IMPORTANT</strong> Readme in this repo contains essential instructions for doing this.</li>
+</ul>
+<h2>Morning Activity</h2>
+<ul>
+<li>Try modifying the code in your fork of <a href="https://github.com/lilyx13/srcset-demo-code">Ash's github repo</a>
+<ul>
+<li>edit sizes</li>
+<li>edit the images</li>
+<li>try adding css and markup around the images</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Topic 1: Vector Editors</h2>
+<ul>
+<li>Figma, Inkscape, Illustrator, Coreldraw, Penpot... So many options!</li>
+<li>Main tools and methods</li>
+</ul>
+<h3>Important vector design tools that most vector editors will have</h3>
+<ul>
+<li>selection tools</li>
+<li>shapes (ellipse, square...)</li>
+<li>pen tool</li>
+<li>path editor tools (use these with your shapes)
+<ul>
+<li>union</li>
+<li>subtract</li>
+<li>merge</li>
+<li>intersect</li>
+</ul>
+</li>
+<li>align tools</li>
+</ul>
+<hr>
+<h2>Vector Logo Design Intro</h2>
+<ul>
+<li>Basic usage of tools</li>
+<li>We will create a simple logo using the abovementioned tools in figma</li>
+<li>Today we will cover basic vector manipulation, tomorrow we will run through a more advanced design and then optimize + edit it with css.</li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li><a href="/fall-2021/activities/images/vector-build/">Build a Vector Logo</a></li>
+<li>These is a basic outline, feel free to get more advanced</li>
+</ul>
+<hr>
+<h2>Prep for tomorrow</h2>
+<ul>
+<li><a href="https://svgontheweb.com/">Svgs on the web</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG">Mdn Collection on SVGs</a></li>
+<li><a href="https://www.youtube.com/watch?v=hQCRU7hZldE">Kevin Powel Video: From design to code</a></li>
+<li><a href="https://css-tricks.com/using-svg/">Article: Using SVGs</a></li>
+<li><a href="https://css-tricks.com/understanding-and-manually-improving-svg-optimization/">Article: SVG Optimization</a></li>
+<li><a href="https://gist.github.com/acidtone/1180c12d207234f9a053eedda981ddf9">Tony Gist: Problem with Clipping the ViewBox</a></li>
+</ul>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt201/day03/" title="CPNT 201 Day 3 - Raster Images">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt201/day05/" title="CPNT 201 Day 5 - Scalable Vector Graphics">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>

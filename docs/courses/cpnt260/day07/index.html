@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86712569106?pwd=VnRKWHBiOFIwNG5ocCtCWFAvcTZ5Zz09">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day06/" title="CPNT 260 Day 6 - CSS Grid and Flex Together">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day08/" title="CPNT 260 Day 8 - Accessible Forms, Images, and CSS Grid II">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Mon, September 27</time>
+  <h2>CPNT 260 Day 7 - Hero Sections and Page Backgrounds</h2>
+  
+  
+        <h2>Trophy of the Day: A Hero section with a CTA</h2>
+<h2>Review</h2>
+<ul>
+<li>Assignment 1 Discussion</li>
+<li>Questions that came up over the weekend</li>
+<li>Check-in</li>
+</ul>
+<h3>James Atkinson Codepen</h3>
+<iframe class="codepen" height="400" style="width:100%;" scrolling="no" title="CodePen Embed" src="https://codepen.io/anon/embed/KKqxXRQ?height=400&theme-id=dark&default-tab=result" frameborder="0" loading="lazy" allowtransparency="true" allowfullscreen="true"><p><a href="https://codepen.io/Archangel767/pen/KKqxXRQ" target="_blank" rel="noopener">See the Pen</a></p></iframe>
+<h2>Assignment 3: Image Gallery and Icons</h2>
+<ul>
+<li><strong>Due: September 30 11:59pm</strong></li>
+<li><a href="/fall-2021/assignments/cpnt260/assignment-3/">Assignment Link</a></li>
+<li>Complete:
+<ul>
+<li>Create a responsive gallery</li>
+<li>Gallery items should use <code>figure</code> tag and <code>figcaption</code></li>
+<li>Add social media icons and static reaction icons to your page</li>
+</ul>
+</li>
+</ul>
+<h2>Overview</h2>
+<ul>
+<li>Setting background images</li>
+<li>Hero Section Introduction</li>
+<li>Hero Hunt Activity</li>
+<li>Groups present on hero sections they found</li>
+<li>Lab time
+<ul>
+<li>Activity: Build a Hero Section</li>
+<li>Main Room: Advanced CSS</li>
+</ul>
+</li>
+<li><a href="#prep">Prep for tomorrow</a></li>
+</ul>
+<hr>
+<h2>Topic 1: Figures</h2>
+<ul>
+<li><code>figure</code> and `figcaption tags
+<ul>
+<li>Use these for gallery cards</li>
+</ul>
+</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">Mdn Docs on Figures</a></li>
+</ul>
+<h2>Topic 2: Section height and background images</h2>
+<p><em>The fundamentals of eye catching hero sections</em></p>
+<h3>Notes</h3>
+<ul>
+<li>Use <code>header</code> tag for most hero sections</li>
+<li>set heights with <code>vh</code> units (remember to use <code>vw</code> for any widths)</li>
+<li><code>background-image: url('')</code> is used to add background images</li>
+<li><code>background-size: ;</code> is used to declare the size of the backround
+<ul>
+<li><code>cover</code> is a good property for a lot of heros</li>
+</ul>
+</li>
+<li><code>background-position: ;</code> is used to set the center point of the background image</li>
+</ul>
+<h3>Extra Things to look for</h3>
+<ul>
+<li>Make sure the text over the image is readable
+<ul>
+<li>you can add <code>filter()</code> or set a <code>background-color</code> to text content to make it stand out</li>
+</ul>
+</li>
+<li>Mak sure it still looks good at a mobile screen size</li>
+</ul>
+<hr>
+<h2>Topic 3: Hero Section</h2>
+<dl>
+<dt>Hero Section</dt>
+<dd>A section of the website that is the first thing a user sees, it's generally really big, eye catching, and seeks to convey the identity and goal of a site. Hero sections also generally have a call to action.</dd>
+</dl>
+<h3>Key Questions</h3>
+<ul>
+<li>when creating a hero section, ask yourself: If a user does 1 thing on this site, what do you want them to do?</li>
+<li>This question is useful for guiding hero section creation.<br>
+Call to Action (CTA)<br>
+: Guides the user to the next step of going to your site. Depending on the type and goal of the site, this can be many different things.</li>
+<li>Examples:
+<ul>
+<li>Subscribe</li>
+<li>Free Trial</li>
+<li>Sign Up</li>
+<li>Download</li>
+<li>Find Out More</li>
+<li>Our Work</li>
+<li>Get a Quote</li>
+</ul>
+</li>
+</ul>
+<h3>Example Analyses</h3>
+<ul>
+<li>Assess the design and code of the following pages
+<ul>
+<li><a href="https://airbnd.ca">AirBnb Hero Section</a></li>
+<li><a href="https://flightsearchdirect.com">Air Canada Flight Search</a></li>
+<li><a href="https://www.sandmanhotels.com/">Sandman Hotels</a></li>
+</ul>
+</li>
+</ul>
+<h2>Activity: <a href="/fall-2021/activities/html-css/hero-hunt/">Find Hero Examples</a></h2>
+<ul>
+<li>Screenshot different hero sections
+<ul>
+<li>look for:
+<ul>
+<li>different positions of hero content</li>
+<li>animations and user interaction</li>
+<li>types of CTA</li>
+</ul>
+</li>
+<li>Answer:
+<ul>
+<li>What does this hero say about the site's identity?</li>
+<li>What story does it tell?</li>
+<li>What kind of engagement it is directing the user to do?</li>
+<li>Is it intended to make you stop and think or does it direct you along?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Walkthrough</h2>
+<ul>
+<li>Group Discussion on hero sections that were found</li>
+<li>Each group will briefly examine one of their hero sections from the hero hunt for the class</li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<p>There will be a daily activity to do, plus I'll be working on some css stuff in the main room</p>
+<h3>Main Room: Advanced Topics in CSS</h3>
+<h3>Activity: <a href="/fall-2021/activities/html-css/hero-section/">Build a Hero Section with a Call to Action</a></h3>
+<ul>
+<li>Hero section must take up the majority of the screen height</li>
+<li>Hero section must use a background-image</li>
+<li>Hero section must have a call to action</li>
+<li>Hero section needs at least 1 text component</li>
+</ul>
+<h3>Background Images in Detail with Kevin Powell</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=3T_Jy1CqH9k">CSS Youtube Tutorial</a></li>
+</ul>
+<hr>
+<h2><a href="#prep"></a> Prep for next day</h2>
+<ul>
+<li>Read <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms">Mdn Forms</a></li>
+<li>Read <a href="https://css-tricks.com/tips-for-creating-great-web-forms/">Tips for making great user forms</a></li>
+<li>Hands on learning <a href="https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design">FreeCodeCamp Accessibility</a> (note this one is not for marks)</li>
+</ul>
+<hr>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day06/" title="CPNT 260 Day 6 - CSS Grid and Flex Together">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day08/" title="CPNT 260 Day 8 - Accessible Forms, Images, and CSS Grid II">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>

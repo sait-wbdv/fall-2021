@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86712569106?pwd=VnRKWHBiOFIwNG5ocCtCWFAvcTZ5Zz09">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>CPNT 201 Assignment 2 - Raster Image Optimization</h2>
+<h2>Details</h2>
+<p>In this assignment, you will:</p>
+<ul>
+<li>create three <code>small</code>, <code>medium</code> and <code>large</code> image sets;</li>
+<li>place the images in a responsive web page;</li>
+<li>optimize the image performance with <code>srcset</code>, <code>width</code>, <code>height</code> and <code>loading</code> image attributes.</li>
+</ul>
+<hr>
+<h2>Directory Structure</h2>
+<p>The following directory structure is expected for this assignment:</p>
+<pre><code>/assets
+  /css
+    /main.css
+  /images
+    /full
+      /img-1.jpg
+      /img-2.jpg
+      /img-3.jpg
+    /lg
+      /img-1.webp
+      /img-2.webp
+      /img-3.webp
+    /md
+      /img-1.webp
+      /img-2.webp
+      /img-3.webp
+    /sm
+      /img-1.webp
+      /img-2.webp
+      /img-3.webp
+/index.html
+</code></pre>
+<ul>
+<li>Change the image filenames and extensions to suit your needs, but they should be easily recognized within an image set.</li>
+<li>You may optionally add <code>sm</code>, <code>md</code> and <code>lg</code> labels to your file names.</li>
+<li><code>main.css</code> may be changed to <code>style.css</code> or similar.</li>
+</ul>
+<hr>
+<h2>Instructions</h2>
+<h3>1. Processed Images</h3>
+<ol>
+<li>Choose 3 openly licensed (or your own) <strong>high-frequency</strong> images (<strong>that weren't images given to you in class</strong>) to use in this project. Source images should be at least 2000px wide.</li>
+<li>For each image, create the following image set with a <em>2:1 aspect ratio</em>(ish) and <em>max <code>100k</code> file size</em>:
+<ul>
+<li>small: <code>500px</code> wide;</li>
+<li>medium: <code>1024px</code> wide;</li>
+<li>large: <code>1920px</code> wide;</li>
+</ul>
+</li>
+<li>Images should be organized according to the Directory Structure listed above. Place your original source image in <code>assets/images/full</code>.</li>
+<li>You may use WebP, JPEG or PNG encoders to reach the required file size limit.</li>
+<li>Each size of a given image should have the same aspect ratio.</li>
+<li>For testing and marking, each image set (<code>sm</code>/<code>md</code>/<code>lg</code>) should be visually distinct across sizes. You may use an image editing method of your choice to accomplish this. For example, you may use different colour correction, filters, etc.</li>
+</ol>
+<ul>
+<li>Make these distinctions in your raster image editor
+<ul>
+<li>also do this before you optimize but after you resize</li>
+</ul>
+</li>
+</ul>
+<h2>2. HTML/CSS Implementation</h2>
+<ol>
+<li>
+<p>Using the following HTML template (optional), display <code>img-1</code>, <code>img-2</code> and <code>img-3</code> in a valid html page:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>assets/images/md/img-1.webp<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Image 1<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>assets/images/md/img-2.webp<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Image 2<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>assets/images/md/img-3.webp<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Image 3<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<ul>
+<li>Change the alt text to something more descriptive based on the content of the image.</li>
+</ul>
+</li>
+<li>
+<p>Make the container and images responsive by linking the following CSS in an external file:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span><br>  <span class="token property">width</span><span class="token punctuation">:</span> 90vw<span class="token punctuation">;</span><br>  <span class="token property">max-width</span><span class="token punctuation">:</span> 1920px<span class="token punctuation">;</span><br>  <span class="token property">margin</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br><span class="token selector">img</span> <span class="token punctuation">{</span><br>  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span><br>  <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span><br>  <span class="token property">margin</span><span class="token punctuation">:</span> 3rem auto<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<ul>
+<li>You may add your own CSS for aesthetics but the page and images must remain responsive and <code>90vw</code> width until the maximum is reached (the images should then be centered in the viewport).</li>
+<li>Images should be hosted locally in the directory structure listed above. Follow file and directory naming convensions.</li>
+</ul>
+</li>
+<li>
+<p>Add appropriate <code>srcset</code> image attributes to each <code>img</code> element (note that the fallback will be the <code>md</code> image). Images should visually change as the browser chooses the optimum image as the viewport width changes.</p>
+</li>
+<li>
+<p>Add <code>width</code> and <code>height</code> <em>attributes</em> to each <code>img</code> element, corresponding to <code>src</code> image. Use CSS to preserve aspect ratio.</p>
+</li>
+<li>
+<p>Add the appropriate <code>loading</code> attribute to the <code>img</code> element to allow for lazy loading.</p>
+</li>
+</ol>
+<h3>3. Documentation and code quality</h3>
+<ul>
+<li>Include a <code>README.md</code> in your project that contains the following information:
+<ul>
+<li>Course title;</li>
+<li>Author name;</li>
+<li>Links to:
+<ul>
+<li>GH repo;</li>
+<li>GH Pages site</li>
+</ul>
+</li>
+<li>Attributions for any code or assets that are not your own.</li>
+</ul>
+</li>
+<li>The above directory structure and naming conventions should be followed.</li>
+<li>All code must validate and be properly indented, organized and commented.</li>
+</ul>
+<hr>
+<h2>Marking Rubric</h2>
+<p>This assignment will be marked out of 25 points for the following, based on the requirements above:</p>
+<ol>
+<li>Processed Images: 5 points for each image set (<strong>15 points</strong> total), focusing on:
+<ul>
+<li>2 points: file size (and whether or not they are high-frequency);</li>
+<li>2 points: image width and aspect ratio;</li>
+<li>1 point: visual distinctiveness across image sizes.</li>
+</ul>
+</li>
+<li>HTML/CSS Implementation: <strong>5 points</strong>:
+<ul>
+<li>3 points: three image sizes are used at two breakpoints (defined by the browser);</li>
+<li>2 points: <code>width</code>, <code>height</code>, and <code>loading</code> attributes are properly implemented.</li>
+</ul>
+</li>
+<li>Documentation and code quality: <strong>5 points</strong>.</li>
+</ol>
+<hr>
+<h2>Submission Requirements</h2>
+<ul>
+<li>Push this assignment to a repo named <code>cpnt201-a2</code>.</li>
+<li>ZIP all files required for the site to operate and upload to Brightspace.</li>
+<li>Leave a link to the following as a comment in your Brightspace submission (this is duplicated in your readme but comes in handy sometimes):
+<ul>
+<li>GH repo</li>
+<li>GH Pages site</li>
+</ul>
+</li>
+</ul>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>

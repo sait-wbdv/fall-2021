@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86712569106?pwd=VnRKWHBiOFIwNG5ocCtCWFAvcTZ5Zz09">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/dsgn270/day04/" title="DSGN 270 Day 4 - Responsive design">Previous</a>
+            
+        </li>
+        <li>
+            
+            <span>Next</span>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Thu, September 16</time>
+  <h2>CPNT 260 Day 1 - Web design fundamentals (HTML/CSS)</h2>
+  
+  
+        <h2>Trophy of the day: A wiki page</h2>
+<ul>
+<li>Create an html wiki page on a topic of your choice.</li>
+<li>Examples:
+<ul>
+<li>A current interest</li>
+<li>A group or organization</li>
+<li>A concept or theory</li>
+<li>A game or sport</li>
+</ul>
+</li>
+<li><a href="https://aelieve.com/rankings/websites/category/reference/best-wiki-sites/">Wiki pages in the wild</a></li>
+</ul>
+<h2>Assignment: FreeCodeCamp HTML and CSS</h2>
+<ul>
+<li><strong>Due: September 19 11:59pm</strong></li>
+<li><a href="/fall-2021/assignments/cpnt260/freecodecamp-assignment/">Assignment Link</a></li>
+<li>Complete:
+<ul>
+<li>Responsive Web Design: Basic HTML and HTML5 (28 questions)</li>
+<li>Responsive Web Design: Basic CSS (44 questions)</li>
+<li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">FreeCodeCamp Course Link</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Overview</h2>
+<ol>
+<li>Plan it out</li>
+</ol>
+<ul>
+<li>Overview of HTML, CSS, JavaScript</li>
+<li>Exploring web page code</li>
+<li>Questions</li>
+</ul>
+<ol start="2">
+<li>Brute force</li>
+</ol>
+<ul>
+<li>Site Layout and Semantic HTML
+<ul>
+<li>Style using CSS</li>
+<li>continued from 270 Day 4</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>Walkthrough</li>
+</ol>
+<ul>
+<li>Code review
+<ul>
+<li>add comments</li>
+<li>check for errors</li>
+</ul>
+</li>
+</ul>
+<ol start="4">
+<li>Optimize/Test
+<ul>
+<li>Improve code</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>Topic 1: HTML, CSS, and JavaScript</h2>
+<h3>Key Terms</h3>
+<dl>
+<dt>HTML (HyperText Markup Language)</dt>
+<dd>The standard language for documents that will be displayed on the web. It uses tags to structure and describe types of information. <strong>The content</strong><br>
+CSS (Cascading Style Sheets)</dd>
+<dd>A stylesheet language that is used to design how web content will be displayed. It includes colour, layout, fonts etc. Separates the design rules from the content for maintainable code. <strong>How content looks</strong><br>
+JS (JavaScript)</dd>
+<dd>A multi-paradigm scripting/programming language that enables websites with advanced interactive features. Originally a frontend browser focused language, it has now been extended to be a backend language. <strong>content interactivity</strong><br>
+DOM (Document Object Model)</dd>
+<dd>A programming interface for web documents. It creates a representation of a web page that can be manipulated by scripting languages (such as javascript or php).</dd>
+</dl>
+<h3>Tool Time</h3>
+<dl>
+<dt><a href="https://developer.mozilla.org/en-US/docs/Tools">Firefox devtools</a></dt>
+<dd>browser based devtools for firefox. Especially good for examining css styling.</dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li>A good workflow is to create your content (html) -&gt; Then style it (css) -&gt; Then make it interactive (js)
+<ul>
+<li>While some initial styling can be helpful, a design can end up really messy if you don't start with unstyled content first</li>
+<li>This approach also helps write readable css. Naming conventions and container hierarchy can become chaotic when doing both at the same time</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Topic 2: Site Layout and Semantic HTML</h2>
+<p>-Creating the content of the web</p>
+<h3>Terminology</h3>
+<dl>
+<dt>Body</dt>
+<dd>The part of the HTML document where your content goes<br>
+Elements</dd>
+<dd>The building block of html content. Each element is defined by an opening and closing tag.<br>
+Head</dd>
+<dd>The metadata of a document including links to stylesheets and javascript<br>
+Nesting</dd>
+<dd>The parent - child relationship between elements. Placing content elements such as images and text inside containing elements such as articles and sections.<br>
+Tags</dd>
+<dd>These describe how to format content as elements.<br>
+Semantic HTML</dd>
+<dd>Semantic HTML is markup that describes meaning as well as presentation.</dd>
+</dl>
+<h3>Tool Time</h3>
+<dl>
+<dt><a href="https://codepen.io">Codepen</a></dt>
+<dd>A browser based frontend development environment for publicly creating and sharing design ideas.<br>
+<a href="https://loremipsum.io/generator/">Lorem Ipsum</a></dd>
+<dd>A generator for placeholder text.<br>
+<a href="https://picsum.photos/">Lorem Picsum</a></dd>
+<dd>A random image generator for placeholder images.</dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li>Important HTML content tags
+<ul>
+<li><code>h1-h3</code> headings
+<ul>
+<li>most common depth of headings</li>
+</ul>
+</li>
+<li><code>p</code> paragraph text</li>
+<li><code>a</code> links</li>
+<li><code>strong</code>, <code>em</code> bold and italics (do not use <code>b</code> for bold)</li>
+<li><code>ul</code> and <code>ol</code> for lists</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3>Activity 1: <a href="/fall-2021/activities/html-css/wiki-page/">Create a wiki page: Part 1</a></h3>
+<hr>
+<h2>Topic 3: Style with CSS</h2>
+<p><em>Stylizing the web</em></p>
+<h3>Terminology</h3>
+<dl>
+<dt>Selectors</dt>
+<dd>Define elements that css rules are applied to. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Review the 5 types of selectors here</a><br>
+Declarations</dd>
+<dd>These are the rules used to stylize elements. They consist of a property and a value. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax">More information can be found here</a></dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li>A lot of bugs are causes by style inheritence, when your layouts/designs are breaking, walk through where each element is getting it's styling from</li>
+<li>setting classes is a good default strategy.
+<ul>
+<li>Tend towards using <code>id</code> for overriding styles, form fields, and javascript manipulation.</li>
+<li>be careful when styling elements directly. Depending on how many pages are using a given css file, this can lead to unpredictable results</li>
+</ul>
+</li>
+<li>Use whitespace and clear naming conventions that will make sense in the future.<br>
+-When you're doing your walkthrough, it can be a good practice to consider &quot;Is this the best name for this label?&quot;
+<ul>
+<li>consider if you were to look at it in 2 months, would it still make sense, take note on inconsistencies in your labeling methodology and perfect a consistent system in your optimize state</li>
+</ul>
+</li>
+<li>Use comments to section off your code
+<ul>
+<li>also, if you have very long css files, it can be worthwhile to throw a small overview with line numbers at the top for quick editing later.
+<ul>
+<li>use multiline comment titles like this to give yourself some buffer room for line number changes from edits.</li>
+<li>This example would give you 5 lines of wiggle room where nothing else is going on. so if you search for the line number noted in your overview and it's changed by a couple lines because of other edits and not updating, it won't be as much of a hassle<br>
+<code>/*********/ /* title */ /*********/</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Selectors</h4>
+<ul>
+<li>Elements are the html tags themselves, this is the easiest level to override</li>
+<li>Classes are added to html elements to give style, these styles override element defaults and custom settings</li>
+<li>Ids are more specific than classes, an id will override a class</li>
+<li>Anything with the <code>!important</code> tag will override all previous stylings. Try to avoid using this</li>
+</ul>
+<h3>Activity 2: <a href="/fall-2021/activities/html-css/wiki-page/">Stylize your wiki page: Part 2</a></h3>
+<hr>
+<h2>Walkthrough</h2>
+<ul>
+<li>Code review</li>
+<li>Bug Hunting</li>
+<li>Discussion</li>
+<li>Comment and plan code changes</li>
+</ul>
+<hr>
+<h2>Optimize</h2>
+<p><em>End of Day Activity</em></p>
+<ul>
+<li>Implement changes noted in comments</li>
+<li>Do any extra challenges</li>
+<li>Validate Code</li>
+<li>Deploy and Submit</li>
+</ul>
+<hr>
+<h2>Prep for next class</h2>
+<ul>
+<li>Read <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Mdn article on page structure</a></li>
+<li>Read <a href="https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/">Why, How, and When to Use Semantic HTML and ARIA</a></li>
+<li>Watch <a href="https://www.youtube.com/watch?v=jreccgYLfx8">Modern Layouts: Getting Out of Our Ruts</a>
+<ul>
+<li>This video gets into some higher level theory and history about web dev and site design. We will be covering some of the syntax she addresses midway through CPNT 260.</li>
+</ul>
+</li>
+<li>Read <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color">MDN article on color</a></li>
+</ul>
+<hr>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/dsgn270/day04/" title="DSGN 270 Day 4 - Responsive design">Previous</a>
+            
+        </li>
+        <li>
+            
+            <span>Next</span>
+            
+        </li>
+    </ul>
+</nav>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>

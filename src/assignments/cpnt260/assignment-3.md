@@ -50,6 +50,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
 - gallery can be done in flex or grid
 - Gallery should be centered in it's container
 - **No** media queries
+- 6 to 12 gallery items
 
 ### 3. Social Media Icon Links
 
@@ -64,7 +65,7 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
   - SVG icons
 - icons should be in an unordered list
 
-### 4. Reactions
+### 4. Reactions (with gallery items)
 
 - Figure cards should have reaction icons
 - These icons should clearly indicate that they can be interacted with
@@ -84,7 +85,8 @@ Each of the following will be marked out of 4 points (for a total of 20 points),
     - Outline a bug that you ran into
     - How did you fix it?
     - What benefits/limits came out of your solution beyond the immediate goal
-
+  - Attributions
+  
 ## Submission Requirements
 
 - Push this assignment to a repo named cpnt260-a3.
