@@ -36,6 +36,8 @@ released: true
 - Adding width and height to images
 - How to style them after setting this
 - Any questions about assignment 2
+- [This article](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/) has some good indepth information on dealing with issues related to setting width and height
+
 
 ### Quick follow up on fonts and reset
 - go over font settings and reset css in [Ash's image optimization repo](https://github.com/lilyx13/srcset-demo-code)
@@ -74,16 +76,15 @@ released: true
 ### Activity: Add 3 svgs to a web page
 - Quick activity (10min)
 - add 1 image with the img tag
-- add 1 img with object tag
 - add 1 inline svg
-
+- Create a section on a page and use an svg background. One way to do this is with [heropatterns](https://www.heropatterns.com/)
 ---
 
 ## Topic 4: SVG Style Tips
 - Color
 - Size
 - Transitions and pseudo classes
-- Keyframes
+- [Keyframes](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
 
 ## Lab Time: [Stylize svgs in html]({{ '/activities/images/svg-design/' | url }})
 ---
