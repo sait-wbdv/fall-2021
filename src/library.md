@@ -45,6 +45,9 @@ To do during next session.
   - [Javascript: the Weird Parts](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
     - This is the first 3.5 hours of a 12 hour Udemy course by Tony Alicea. It's and oldie but a goodie.
 
+## Digital Assets
+- [Open Source Assets](https://sait-wbdv.github.io/fall-2021/open-assets/)
+
 ---
 
 ## Program Textbook: Mozilla Developer Network
