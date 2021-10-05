@@ -44,9 +44,13 @@ released: true
 - [Repo with instructions for design demos](https://github.com/lilyx13/svg-image-design)
 
 ### Activity: SVG Logo Design Continued
-- Add to your design
+- Add to a previous svg design
 - Build off of one of the demos done in class
-- 
+- optimize with svgomg
+- Download/export the svg file and store it in a repo
+  - If you would like, you are welcome to fork the repo that I've provided
+- inspect with dev tools after loading it into a browser
+- visually inspect code for svg in vscode
 
 ---
 
