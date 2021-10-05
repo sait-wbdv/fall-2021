@@ -19,9 +19,9 @@ title: CPNT 201 Assignments
 - Due: October 5 2021 11:59pm
 - Weight: 25% of Final Course Mark
 
-### Assignment 3: TBA
+### Assignment 3: [SVG Logo]({{ '/assignments/cpnt201/assignment-3/' | url }})
 
-- Due: TBA
+- Due: October 8 2021 11:59pm
 - Weight: 25% of Final Course Mark
 
 ## Collaboration and Build Tools

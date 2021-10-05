@@ -27,6 +27,12 @@ released: true
 - Use your fork to experiment with
 - **IMPORTANT** Readme in this repo contains essential instructions for doing this.
 
+## Morning Activity
+- Try modifying the code in your fork of [Ash's github repo](https://github.com/lilyx13/srcset-demo-code)
+  - edit sizes
+  - edit the images
+  - try adding css and markup around the images
+  
 ---
 ## Topic 1: Vector Editors
 - Figma, Inkscape, Illustrator, Coreldraw, Penpot... So many options!

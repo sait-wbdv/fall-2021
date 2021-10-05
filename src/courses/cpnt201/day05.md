@@ -3,6 +3,7 @@ layout: layouts/day.njk
 title: CPNT 201 Day 5 - Scalable Vector Graphics
 description: In this class we will look at how you can add svg (a type of vector) code directly to a website and stylize it with css. We will learn how to optimize and prepare vectors for use on the web.
 date: 2021-10-05
+released: true
 ---
 
 {% comment %}
@@ -27,43 +28,59 @@ date: 2021-10-05
   - for interaction use transitions and pseudo classes
   - for animation try using keyframes
 
+## CPNT 201 [Assignment 3: SVG Logo]({{ '/assignments/cpnt201/assignment-3/' | url }})
+- Due: Friday October 8th @ 11:59pm
+
 ---
+## Topic 1: Width and Height Img Src
+- Adding width and height to images
+- How to style them after setting this
+- Any questions about assignment 2
+
+### Quick follow up on fonts and reset
+- go over font settings and reset css in [Ash's image optimization repo](https://github.com/lilyx13/srcset-demo-code)
+
 ## Topic 1: SVGs in HTML
-- Insert svgs into html
-  - img
-  - css background image
-  - inline
-- [Tony's Gist](https://gist.github.com/acidtone/90c99bbd1825f591586d05e5419d711f)
-- Style svgs with css using fill and stroke
-- Css filters can be applied to inline svgs
+- [Repo with instructions for design demos](https://github.com/lilyx13/svg-image-design)
 
-### Activity: Add 3 svgs to a web page
+### Activity: SVG Logo Design Continued
+- Add to your design
+- Build off of one of the demos done in class
+- 
 
 ---
-## Topic 2: ViewBox and SVG Anatomy
+
+## Topic 2: Optimize an SVG
+
+### Tool Time: SVGOMG
+- Jake Archibald's svg optimization app [svgomg](https://jakearchibald.github.io/svgomg)
+
+### ViewBox and SVG Anatomy
 - go over svg syntax
   - path
   - heigth and width
   - viewBox
 
-### SVG Editing Preparation
-- Optimization
-- Identifying and naming paths
+## Topic 3: Add an SVG to HTML and style with CSS
+- [Tony's Gist](https://gist.github.com/acidtone/90c99bbd1825f591586d05e5419d711f)
+- Style svgs with css using fill and stroke
+- Css filters can be applied to inline svgs
 
-### Tool Time: SVGOMG
-- Jake Archibald's svg optimization app [svgomg](https://jakearchibald.github.io/svgomg)
+
+### Activity: Add 3 svgs to a web page
+- Quick activity (10min)
+- add 1 image with the img tag
+- add 1 img with object tag
+- add 1 inline svg
 
 ---
-## Topic 3: SVG Style Tips
+
+## Topic 4: SVG Style Tips
 - Color
 - Size
 - Transitions and pseudo classes
 - Keyframes
 
-### Editing Walkthrough
-- We will take an svg logo that we have recently built and stylize it for use on a web page
-
-## Activity: Stylize an inline svg
-
+## Lab Time: [Stylize svgs in html]({{ '/activities/images/svg-design/' | url }})
 ---
 
