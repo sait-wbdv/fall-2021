@@ -9,6 +9,7 @@ released: true
 ## Housekeeping
 - Introductions: Isha and Bruk
 - [Assignment Schedule]({{ '/assignments/cpnt262/' | url }})
+- Course Overview: [Days 1 - 11]({{ '/schedule/' | url }})
 - Tooltime: [Install Node](https://nodejs.org/en/download/)
 
 ## Trophy of the day
