@@ -69,6 +69,12 @@ There are 9 data types in Javascript (depending on how you define them) but, for
 ---
 
 4. Open Lab
+    - Free Code Camp exercises
+    - SVG Assignment
+    - Treasure Hunt
+    - Watch: [JavaScript Tutorial for Beginners](https://youtu.be/W6NZfCO5SIk) by [Mosh Hamedani](https://codewithmosh.com/)
+      - This is an excellent overview of the starter JS concepts you'll need for the rest of this course.
+      - There is a handy Table of Contents in the video description. 
 
 ---
 
