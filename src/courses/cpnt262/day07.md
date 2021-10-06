@@ -5,4 +5,7 @@ description:
 date: 2021-10-15
 ---
 
-A lesson plan!
+## Prep
+
+{% comment %}
+{% endcomment %}
