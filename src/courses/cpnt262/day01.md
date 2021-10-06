@@ -10,6 +10,7 @@ released: true
 - Introductions: Isha and Bruk
 - [Assignment Schedule]({{ '/assignments/cpnt262/' | url }})
 - Course Overview: [Days 1 - 11]({{ '/schedule/' | url }})
+- One-on-ones: DM Tony to set a time if you haven't had one yet
 - Tooltime: [Install Node](https://nodejs.org/en/download/)
 
 ## Trophy of the day
