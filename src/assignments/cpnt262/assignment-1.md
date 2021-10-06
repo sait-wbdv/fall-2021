@@ -1,4 +1,7 @@
-# Assignment 1: classList Toggle
+---
+layout: layouts/assignment.njk
+title: CPNT 262 Assignment 1 - classList Toggle
+---
 In this assignment you'll be extending the example classList toggle shown in class.
 
 ## Use Cases
