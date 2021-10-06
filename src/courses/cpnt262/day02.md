@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
 title: CPNT 262 Day 2 - Numbers and operators
-description: In this session we'll take a closer look at assigning variables, the Number value and number operations.
+description: In this session we'll take a closer look at assigning variables, arithmetic operators and syntax errors.
 date: 2021-10-07
 released: true
 ---

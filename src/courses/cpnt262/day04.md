@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 4
+title: CPNT 262 Day 4 - Booleans, comparison operators and conditionals
 description: 
 date: 2021-10-12
 ---

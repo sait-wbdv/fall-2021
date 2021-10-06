@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 3 - Strings and string methods
+title: CPNT 262 Day 3 - Strings, string methods and the browser environment
 description: In this session we'll take a closer look at the String value, coercion and string methods.
 date: 2021-10-08
 released: true

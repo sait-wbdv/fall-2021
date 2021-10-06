@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 5
+title: CPNT 262 Day 5 - Functions and methods
 description: 
 date: 2021-10-13
 ---
