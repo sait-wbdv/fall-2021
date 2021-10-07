@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Variables - Declaration vs Assignment</h1>
+<h2>Terminology</h2>
+<dl>
+<dt>Expression</dt>
+<dd>A piece of code that returns a value.</dd>
+<dt>Variable Declaration</dt>
+<dd>Creating a variable name in memory (with or without a value). In Javascript ES6, this is accomplished with the <code>const</code> and <code>let</code> declaration keywords.</dd>
+<dt>Variable Assignment</dt>
+<dd>When we give a variable name a value using the <code>=</code> assignment operator. We say we've &quot;assigned a variable&quot;. If a variable hasn't been assigned, it's value will be <code>undefined</code>.</dd>
+</dl>
+<hr>
+<h2><code>const</code> vs <code>let</code> vs <code>var</code></h2>
+<p>Variables should be initially declared (a name created in memory) with a declaration keyword. This is only needed when the variable is first created. Of the three keywords available, it is recommended you try them in this order</p>
+<ol>
+<li><code>const</code>: The value of a constant can't be changed through reassignment. This is the safest way to declare a variable.</li>
+<li><code>let</code>: If you need to reassign a variable later (see common errors below), you should use <code>let</code>.</li>
+<li><code>var</code>: This keyword is the classic (ES5) method of declaring a variable and should be avoided.</li>
+</ol>
+<h3>Key Takeaways</h3>
+<ul>
+<li>
+<p>Use strict mode whenever possible. It will make you a better (safer) coder:</p>
+<p>At the top of your script, add:</p>
+<pre class="language-js"><code class="language-js"><span class="token string">'use strict'</span><span class="token punctuation">;</span></code></pre>
+<ul>
+<li>Note: if you include your file with <code>&lt;script type=&quot;module&quot;&gt;</code>, your code will run in strict mode by default.</li>
+</ul>
+</li>
+<li>
+<p>By default, all declared variables have a value of <code>undefined</code> until they are assigned.</p>
+</li>
+<li>
+<p>When declaring variables, start with the <code>const</code> keyword and use <code>let</code> only when you need to reassign a variable. Avoid the use of the older <code>var</code> keyword.</p>
+</li>
+<li>
+<p>Declaration keywords (<code>const</code> and <code>let</code>) are only used the first time to declare the variable. After that, you can use the variable without it.</p>
+</li>
+<li>
+<p>Arrays and objects defined with <code>const</code> are still changeable, they just can't be reassigned. In other words, the items in an array created with the <code>const</code> keyword can still be changed. The same is true for objects including HTML Elements.</p>
+</li>
+<li>
+<p>Never explicitly assign a variable to <code>undefined</code>. When you need a variable to be &quot;nothing&quot; use <code>null</code> instead. The <code>undefined</code> data type should be reserved for use by the runtime environment.</p>
+</li>
+</ul>
+<hr>
+<h2>Common assignment/declaration syntax errors</h2>
+<ol>
+<li>
+<p>Calling a variable that hasn't been declared:</p>
+<pre><code>Uncaught ReferenceError: 'whatever' is not defined
+</code></pre>
+<ul>
+<li>Probably the most common syntax error: trying to use a variable that doesn't exist. Best solution: declare the variable so it exists!</li>
+<li>Note: &quot;is not defined&quot; does not mean <code>undefined</code>. This is an unfortunate choice of wording.</li>
+</ul>
+</li>
+<li>
+<p>Missing assignment on <code>const</code> variable:</p>
+<p>In Firefox:</p>
+<pre><code>Uncaught SyntaxError: missing = in const declaration
+</code></pre>
+<p>Or, in Chrome/Node</p>
+<pre><code>SyntaxError: Missing initializer in const declaration
+</code></pre>
+<p>The <code>const</code> keyword requires that you assign the variable with a value at the time of creation. If you need to create a variable without assigning it, use <code>let</code>.</p>
+</li>
+<li>
+<p>Re-assigning a <code>const</code> variable:</p>
+<p>In Firefox:</p>
+<pre><code>Uncaught TypeError: invalid assignment to const 'whatever'
+</code></pre>
+<p>Or, in Chrome/Node</p>
+<pre><code>TypeError: Assignment to constant variable.
+</code></pre>
+<p>You tried to reassign a constant variable. Try declaring with <code>let</code> if you need to reassign.</p>
+</li>
+</ol>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>
