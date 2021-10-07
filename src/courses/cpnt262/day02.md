@@ -8,6 +8,8 @@ released: true
 
 ## Housekeeping
 - Tooltime: Install the [ES Lint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) VS Code extension
+- New Dailies process
+    - [Forking and cloning Gists](https://docs.github.com/en/github/writing-on-github/editing-and-sharing-content-with-gists/forking-and-cloning-gists)
 
 ## Trophy of the day
 - Upgraded [Tip Calculator](https://gist.github.com/acidtone/5c13ec3ff2ea53b7f75ae3692ca944d1)!
