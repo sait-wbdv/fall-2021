@@ -39,9 +39,10 @@ released: true
 ### Activity
 #### Instructions
 1. Fork and clone this [Tip Calculator](https://gist.github.com/acidtone/5c13ec3ff2ea53b7f75ae3692ca944d1) to your daily workspace.
-2. Follow as many of the Activity steps as you can;
-3. Commit and push your changes to GitHub;
-4. Submit your Gist link as a daily in Brightspace.
+2. Rename the cloned folder to `tip-calculator`;
+3. Follow as many of the Activity steps as you can;
+4. Commit and push your changes to GitHub;
+5. Submit your Gist link as a daily in Brightspace.
 
 ## 4. Open Lab
 - Trophy of the Day

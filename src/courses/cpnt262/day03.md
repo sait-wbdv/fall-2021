@@ -8,8 +8,13 @@ released: true
 
 ## Prep
 ### MDN Readings
-- [Handling text - strings in Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)
-- [Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)
+- String data type
+    - [Handling text - strings in Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)
+    - [Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)
+- Outputting information to a web page
+    - Background: [Manipulating Documents with Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
+    - Creating a variable from an HTML element with [Element.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector)
+    - Outputting to an HTML element with [Element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
 
 ### Free Code Camp Exercises
 - [Javascript basics](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript): Exercises 23-36
