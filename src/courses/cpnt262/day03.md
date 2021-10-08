@@ -29,7 +29,7 @@ released: true
 
 ---
 
-## 3. Dates and the `Element` prototype
+## 3. Dates and common DOM objects/methods
 ### Materials
 - [Manipulating Documents with Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
 - [Element.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector)
