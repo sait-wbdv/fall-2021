@@ -62,7 +62,71 @@
   <h2>CPNT 262 Day 3 - Strings, string methods and the browser environment</h2>
   
   
-        <h2>Prep</h2>
+        <h2>Trophy of the day</h2>
+<ul>
+<li><a href="https://gist.github.com/acidtone/d7685ba337620ce4c01e2767211efb95">A Date with Harry Potter</a></li>
+</ul>
+<hr>
+<h2>1. Spoiler Demo: Tip Calculator</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/5c13ec3ff2ea53b7f75ae3692ca944d1">JS Activity: Tip Calculator</a></li>
+</ul>
+<h2>2. Strings and string methods</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings">Handling text - strings in Javascript</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods">Useful string methods</a></li>
+<li>Takeaways: <a href="/fall-2021/takeaways/js/string-methods/">String Methods</a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/4f1bd6ffff85fc8f4fed359b619fe76b">String Methods</a></li>
+</ul>
+<h2>3. Dates and the <code>Element</code> prototype</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents">Manipulating Documents with Javascript</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector">Element.querySelector()</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent">Node.textContent</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML">Element.innerHTML</a></li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>
+<p>The <code>querySelector()</code> method accepts any valid CSS selector, such as:</p>
+<ul>
+<li><code>.intro</code></li>
+<li><code>h1</code></li>
+<li><code>#sign-in-form</code></li>
+<li><code>a[href=&quot;https://example.org&quot;]</code></li>
+</ul>
+</li>
+<li>
+<p><code>querySelector()</code> will return the first matching element only. Use <code>querySelectorAll()</code> to return a list of all matching elements.</p>
+</li>
+<li>
+<p><em>All</em> HTML elements have the <code>querySelector()</code> method, so you can query for elements directly inside other elements:</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">// finds the first paragraph in the document</span><br><span class="token keyword">const</span> paragraph <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br><span class="token comment">// finds the first span element in the above paragraph</span><br><span class="token keyword">const</span> paraSpan <span class="token operator">=</span> paragraph<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'span'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> </code></pre>
+</li>
+<li>
+<p>Both <code>textContent</code> and <code>innerHTML</code> are object properties that you can read and assign like any other variable.</p>
+</li>
+<li>
+<p>Use <code>textContent</code> unless the value contains HTML, then use <code>innerHTML</code>.</p>
+</li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/d7685ba337620ce4c01e2767211efb95">A Date with Harry Potter</a></li>
+</ul>
+<hr>
+<h2>4. Open Lab</h2>
+<ul>
+<li>Trophy of the Day</li>
+<li>Free Code Camp Exercises</li>
+<li>Assignments</li>
+<li>Prep for tomorrow</li>
+</ul>
+<hr>
+<h2>Prep</h2>
 <h3>MDN Readings</h3>
 <ul>
 <li>String data type
