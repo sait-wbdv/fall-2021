@@ -6,6 +6,62 @@ date: 2021-10-08
 released: true
 ---
 
+## Trophy of the day
+- [A Date with Harry Potter](https://gist.github.com/acidtone/d7685ba337620ce4c01e2767211efb95)
+
+---
+
+## 1. Spoiler Demo: Tip Calculator 
+### Materials
+- [JS Activity: Tip Calculator](https://gist.github.com/acidtone/5c13ec3ff2ea53b7f75ae3692ca944d1)
+
+## 2. Strings and string methods
+### Materials
+- [Handling text - strings in Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)
+- [Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)
+- Takeaways: [String Methods]({{ '/takeaways/js/string-methods/' | url }})
+- Gist: [String Methods](https://gist.github.com/acidtone/4f1bd6ffff85fc8f4fed359b619fe76b)
+
+## 3. Dates and the `Element` prototype
+### Materials
+- [Manipulating Documents with Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
+- [Element.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector)
+- [Node.textContent](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+- [Element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+
+### Key Takeaways
+- The `querySelector()` method accepts any valid CSS selector, such as:
+    - `.intro`
+    - `h1`
+    - `#sign-in-form`
+    - `a[href="https://example.org"]`
+- `querySelector()` will return the first matching element only. Use `querySelectorAll()` to return a list of all matching elements.
+- _All_ HTML elements have the `querySelector()` method, so you can query for elements directly inside other elements:
+
+    ```js
+    // finds the first paragraph in the document
+    const paragraph = document.querySelector('p');
+
+    // finds the first span element in the above paragraph
+    const paraSpan = paragraph.querySelector('span'); 
+    ```
+
+- Both `textContent` and `innerHTML` are object properties that you can read and assign like any other variable.
+- Use `textContent` unless the value contains HTML, then use `innerHTML`.
+
+### Activity
+- [A Date with Harry Potter](https://gist.github.com/acidtone/d7685ba337620ce4c01e2767211efb95)
+
+---
+
+## 4. Open Lab
+- Trophy of the Day
+- Free Code Camp Exercises
+- Assignments
+- Prep for tomorrow
+
+---
+
 ## Prep
 ### MDN Readings
 - String data type
@@ -22,11 +78,6 @@ released: true
     - Complete and Stop (or not): [Word Blanks](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/word-blanks)
 
 {% comment %}
-### Stretch resources
-- Watch: [Expressions vs. Statements in JS](https://www.youtube.com/watch?v=WVyCrI1cHi8) by Codexpanse.
 
-## Dot Notation
-
-## Built-in objects
 
 {% endcomment %}
