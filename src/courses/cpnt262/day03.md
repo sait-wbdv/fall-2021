@@ -1,10 +1,13 @@
 ---
 layout: layouts/day.njk
 title: CPNT 262 Day 3 - Strings, string methods and the browser environment
-description: In this session we'll take a closer look at the String value, coercion and string methods.
+description: In this session we'll take a closer look at the String value, coercion and string methods. We'll then play with dates and strings in the browser.
 date: 2021-10-08
 released: true
 ---
+
+## Houskeeping
+- [in-class code pushed to GitHub](https://github.com/sait-wbdv/in-class/)
 
 ## Trophy of the day
 - [A Date with Harry Potter](https://gist.github.com/acidtone/d7685ba337620ce4c01e2767211efb95)
