@@ -18,12 +18,16 @@ released: true
 ### Materials
 - [JS Activity: Tip Calculator](https://gist.github.com/acidtone/5c13ec3ff2ea53b7f75ae3692ca944d1)
 
+---
+
 ## 2. Strings and string methods
 ### Materials
 - [Handling text - strings in Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)
 - [Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)
 - Takeaways: [String Methods]({{ '/takeaways/js/string-methods/' | url }})
 - Gist: [String Methods](https://gist.github.com/acidtone/4f1bd6ffff85fc8f4fed359b619fe76b)
+
+---
 
 ## 3. Dates and the `Element` prototype
 ### Materials
