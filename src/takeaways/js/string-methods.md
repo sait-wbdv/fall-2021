@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Numbers, Strings and Coercion
+title: String Methods
 ---
 
 ## Terminology
