@@ -3,6 +3,7 @@ layout: layouts/day.njk
 title: CPNT 262 Day 4 - Function fundamentals
 description: 
 date: 2021-10-12
+released: true
 ---
 
 ## Housekeeping
@@ -24,7 +25,8 @@ Knowledge of functions is a key skill in software development, especially in Jav
 - MDN: 
     - [Functions - reusable blocks of code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
     - [Build your own function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)
-    - [Function expression](https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function) 
+    - [Function expression](https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function)
+- Takeaways: [Function terminology](https://sait-wbdv.github.io/fall-2021/takeaways/js/functions/)
 - Gist: [Defining functions](https://gist.github.com/acidtone/e3ed5adfcb4f3c02f1b78f78c9c2bf8b)
 - Gist: [Invoking functions](https://gist.github.com/acidtone/679b1b07dcaad4491e8696c871e36436)
 
