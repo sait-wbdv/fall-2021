@@ -8,8 +8,11 @@ released: true
 
 ## Housekeeping
 
-## Goal of the day
-- Clickable button
+## Goals of the day
+- Tip Calculator using functions
+    - [Defining and invoking functions](https://gist.github.com/acidtone/1e3ddce433eb669f44196180d5119705)
+    - [Define and invoke a function with parameters](https://gist.github.com/acidtone/e9e291765e7dea1928bd643b46660438)
+- [Eat and Drink click handlers](https://gist.github.com/acidtone/37a879d3777bc123483d582248eded90)
 
 ---
 
@@ -31,7 +34,7 @@ Knowledge of functions is a key skill in software development, especially in Jav
 - Gist: [Invoking functions](https://gist.github.com/acidtone/679b1b07dcaad4491e8696c871e36436)
 
 ### Activity
-- Steps 1 and 2 of [Defining and invoking functions](https://gist.github.com/acidtone/1e3ddce433eb669f44196180d5119705)
+- [Tip Calculator: Defining and invoking functions](https://gist.github.com/acidtone/1e3ddce433eb669f44196180d5119705)
 
 ---
 
@@ -46,7 +49,7 @@ A core goal of programming is to write DRY (Do Not Repeat yourself) code. In thi
 - Gist: [Function return values](https://gist.github.com/acidtone/6a3cedd619454c4eeb49f87e98a925d2)
 
 ### Activity
-- [Define and invoke a function with parameters](https://gist.github.com/acidtone/e9e291765e7dea1928bd643b46660438)
+- [Tip Calculator: Define and invoke a function with parameters](https://gist.github.com/acidtone/e9e291765e7dea1928bd643b46660438)
 
 ---
 
