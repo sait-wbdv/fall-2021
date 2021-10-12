@@ -12,4 +12,19 @@ date: 2021-10-12
     - Stop: [Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
 
 {% comment %}
+## Terminology
+Return
+
+Parameters
+Arguments
+
+
+### Review
+
+
+- DRY
+    - callback: tip calculator with tax
+    - demo: 
+        - arg: "A ratio"
+        - return: `${.8 * 100}%`
 {% endcomment %}
