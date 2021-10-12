@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 5 - Functions and methods
+title: CPNT 262 Day 5 - classList and checkboxes
 description: 
 date: 2021-10-13
 ---
