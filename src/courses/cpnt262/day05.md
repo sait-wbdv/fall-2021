@@ -9,6 +9,7 @@ released: true
 ## Housekeeping
 
 ## Trophies of the day
+- [Tip Calculator with form inputs](https://gist.github.com/acidtone/b41a29264b72ca0439f772bfa2fb6b47)
 - [CSS Toggle](http://browsertherapy.com/challenges/css-toggles-with-classlist/)
 
 ---
@@ -26,11 +27,7 @@ released: true
 
 ### Activities
 - [Adding Machine](https://gist.github.com/acidtone/41311f0c2ae259445de4e6ca3b400edc)
-- Refactor the latest version of the [Tip Calculator](https://gist.github.com/acidtone/e9e291765e7dea1928bd643b46660438) to accept form input:
-    1. Create a form with two field inputs for subtotal and rate.
-    2. Add a `submit` event listener to the form that invokes a function called `handleSubmit`.
-    3. In `handleSubmit` prevent the form from submitting with `preventDefault()` and calculate the bill total.
-    4. Output the bill total to the page using `textContent`.
+- [Tip Calculator with form inputs](https://gist.github.com/acidtone/b41a29264b72ca0439f772bfa2fb6b47)
 
 ---
 
