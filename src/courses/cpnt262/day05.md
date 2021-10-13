@@ -20,6 +20,8 @@ released: true
 ---
 
 ## 2. Forms: text and number fields
+To practice traditional forms you may use this url as the attribute value for `action`:
+    - `https://sait-wbdv.herokuapp.com/form-submit`
 
 ### Materials
 - Article: [Prevent Default and Form Events](https://wesbos.com/javascript/05-events/prevent-default-and-form-events) by Wes Bos
