@@ -52,6 +52,7 @@ Separation of concerns
 - [Assignment 1](https://sait-wbdv.github.io/fall-2021/assignments/cpnt262/assignment-1/)
 - Stretch Activities: 
     - Create a function that accepts any array as an argument and returns a random item in that array. See: [Find a random item in an Array](https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e)
+    - Refactor the [Eat and Drink click handler](https://gist.github.com/acidtone/baecbfd10f7959eb26f0f445d80a70d3) activity to use a `form` element with `preventDefault()`
     - [Coding Challenge: Manipulating CSS with CSS Variables](http://browsertherapy.com/challenges/colour-sliders-css-variables/)
 
 ---
