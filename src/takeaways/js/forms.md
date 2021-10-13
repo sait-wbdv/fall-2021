@@ -14,7 +14,7 @@ const clickHandler = function(event) {
 
 Handy properties of the event object:
 - [Event.preventDefault()](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault): Submitting a form will automatically trigger a page refresh and stop any scripts running on the page. We can invoke `Event.preventDefault()` to stop the form from submitting, like when a form is only being used client-side such as a calculator. 
-- `Event.target`: returns the element that triggered the event. In the case of form submissions, this is usually the `submit` button.
+- [`Event.target`](https://developer.mozilla.org/en-US/docs/Web/API/Event/target): returns the element that triggered the event. In the case of form submissions, this is usually the `submit` button.
 
 ---
 
