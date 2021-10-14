@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Truthiness and equality
+title: Validating values 
 ---
 
 ## Validating values

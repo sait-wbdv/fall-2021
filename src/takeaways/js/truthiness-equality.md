@@ -27,20 +27,3 @@ Strict Equality (`===`)
 
 String Inequality (`!==`)
 : The strict inequality operator (!==) checks whether its two operands are not equal, returning a Boolean result. Unlike the inequality operator, the strict inequality operator always considers operands of different types to be different. 
-
----
-
-## Guidelines for evaluating equality
-- Use `===` when testing for equality (it's safer). Use `==` once you understand truthiness.
-
----
-
-## Explicitly converting to Boolean
-Any value can be converted to a Boolean value:
-
-```js
-myBool = Boolean(myVar); // Method 1
-myBool = !!myVar; // Method 2
-```
-
-##
