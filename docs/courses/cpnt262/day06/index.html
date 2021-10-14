@@ -62,7 +62,87 @@
   <h2>CPNT 262 Day 6 - Booleans, comparison operators and conditionals</h2>
   
   
-        <h2>Prep</h2>
+        <h2>Housekeeping</h2>
+<ul>
+<li>Quick chat about Fat arrow functions</li>
+<li>No more Node until we start backend on Oct 26</li>
+</ul>
+<hr>
+<h2>1. Spoiler demo</h2>
+<ul>
+<li>Form inputs for <a href="https://gist.github.com/acidtone/b41a29264b72ca0439f772bfa2fb6b47">Tip Calculator</a> with anonymous functions</li>
+</ul>
+<hr>
+<h2>2. Equality and Truthiness</h2>
+<p>Coercion in untyped languages (such as Javascript) produces a concept known as &quot;Truthiness&quot;: some values are more equal than others, based on their value type.</p>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Boolean">Boolean values</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness">Equality comparisons and sameness</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators">Comparison operators</a></li>
+<li><a href="/fall-2021/takeaways/js/truthiness-equality/">Equality and truthiness terminology</a></li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>
+<p>Use <code>===</code> when testing for equality (it's safer). Use <code>==</code> once you understand truthiness (or you just can't get the job done with <code>===</code>).</p>
+</li>
+<li>
+<p>Any value can be converted to a Boolean value:</p>
+<pre class="language-js"><code class="language-js">myBool <span class="token operator">=</span> <span class="token function">Boolean</span><span class="token punctuation">(</span>myVar<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Method 1</span><br>myBool <span class="token operator">=</span> <span class="token operator">!</span><span class="token operator">!</span>myVar<span class="token punctuation">;</span> <span class="token comment">// Method 2</span></code></pre>
+</li>
+</ul>
+<h3>Activities</h3>
+<ul>
+<li>Why does <code>3 &gt; 2 &gt; 1</code> evaluate to <code>false</code>?</li>
+</ul>
+<hr>
+<h2>3. Conditional code blocks</h2>
+<p>The <code>if</code>/<code>else</code> statement is used to conditionally run code when an expression is <code>true</code>.</p>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals">Making decisions in your code - conditionals</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND">Logical AND (<code>&amp;&amp;</code>)</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select"><code>&lt;select&gt;</code>: The HTML Select element</a></li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>An <code>if</code> block only runs if its expression evaluates to <code>true</code></li>
+<li>An <code>else if</code> block only runs if its expression evaluates to <code>true</code> AND all <code>if</code> and <code>else if</code> blocks before it have evaluated to <code>false</code>.</li>
+<li>An <code>else</code> block only runs if all previous <code>if</code> and <code>else if</code> blocks have evaluated to <code>false</code>.</li>
+<li>The AND logical operator (<code>&amp;&amp;</code>) only evaluates to <code>true</code> if both operands also evaluate to <code>true</code>.</li>
+<li>The OR logical operator (<code>||</code>) evaluates to <code>true</code> if EITHER of the two operands evaluate to <code>true</code>.</li>
+<li>The NOT logical operator (<code>!</code>) inverts a <code>true</code> value to <code>false</code>, and vice versa.</li>
+</ul>
+<h3>Activities</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/fb9d28505944280f548ad6dde0890102">Simple Calculator from Adding Machine</a></li>
+<li>Add a select menu to your Tip Calculator form that uses conditional blocks to select the tip rate based on level of service:
+<ul>
+<li>Poor Service: 12%</li>
+<li>Adequate Service: 18%</li>
+<li>Superb Service: 23%</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>4. Validation</h2>
+<p>A common task in untyped languages is confirming the value type that you're working with.</p>
+<h3>Materials</h3>
+<ul>
+<li>Takeaways: <a href="/fall-2021/takeaways/js/variables-validating-types/">Validating values</a></li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li>Using your knowledge of comparison operators and conditional statements, add validation to your Tip Calculator that ensures that:
+<ol>
+<li>The entered Bill Total is greater than $0, and</li>
+<li>The supplied Service Level is one of the options available in the select menu.</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2>Prep</h2>
 <h3>Booleans and Conditional Statements</h3>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Boolean">Boolean values</a></li>
