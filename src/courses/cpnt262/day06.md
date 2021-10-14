@@ -11,7 +11,7 @@ released: true
 - No more Node until we start backend on Oct 26
 
 ## Trophy of the Day
-- Tip Calculator with Service Level menu
+- [Tip Calculator with drop down menu](https://gist.github.com/acidtone/9adae5b6fcdf8f2b3bab4c814f9f1da6)
 
 ---
 
@@ -61,10 +61,7 @@ The `if`/`else` statement is used to conditionally run code when an expression i
 
 ### Activities
 - [Simple Calculator from Adding Machine](https://gist.github.com/acidtone/fb9d28505944280f548ad6dde0890102)
-- Add a select menu to your Tip Calculator form that uses conditional blocks to select the tip rate based on level of service:
-    - Poor Service: 12%
-    - Adequate Service: 18%
-    - Superb Service: 23%
+- [Tip Calculator with drop down menu](https://gist.github.com/acidtone/9adae5b6fcdf8f2b3bab4c814f9f1da6)
 
 ---
 
