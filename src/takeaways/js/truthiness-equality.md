@@ -11,10 +11,10 @@ Boolean values
 : _Implicitly_ converting a value from one type to another.
 
 Falsy
-: A value that is considered `false` when converted to a Boolean value.
+: A falsy (sometimes written falsey) value is a value that is considered `false` when converted to a Boolean value.
 
 Truthy
-: A value that is considered `true` when converted to a Boolean value.
+: A truthy value is a value that is considered `true` when converted to a Boolean value.
 
 Equality (`==`)
 : The equality operator checks whether its two operands are equal, returning a Boolean result. Unlike the strict equality operator, it attempts to convert and compare operands that are of different types. 
