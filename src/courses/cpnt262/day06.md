@@ -10,6 +10,9 @@ released: true
 - Quick chat about Fat arrow functions
 - No more Node until we start backend on Oct 26
 
+## Trophy of the Day
+- Tip Calculator with Service Level menu
+
 ---
 
 ## 1. Spoiler demo
