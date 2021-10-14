@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 7 - Validation, Scope and Review
+title: CPNT 262 Day 7 - Validating value types, Scope and Review
 description: 
 date: 2021-10-15
 released: true
