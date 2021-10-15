@@ -8,6 +8,7 @@ released: true
 
 ## Housekeeping
 - [Assignment 1]({{ '/assignments/cpnt262/assignment-1/' | url }}) now due Sunday Oct 17 @ 11:59pm
+- [Assignment 2]({{ '/assignments/cpnt262/assignment-2/' | url }}) announced
 
 ## Trophy of the day
 - [Text area character counter](https://gist.github.com/acidtone/74727a562940ead812f46c1b1b870d19)
