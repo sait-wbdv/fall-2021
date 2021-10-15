@@ -37,7 +37,7 @@ A common task in untyped languages is confirming the value type that you're work
 - Article: [A Simple Explanation of Scope in JavaScript](https://dmitripavlutin.com/javascript-scope/)
 - [Scope terminology]({{ '/takeaways/js/scope/' | url }})
 
---
+---
 
 ## 4. Activity: Text area counter
 ### Materials
