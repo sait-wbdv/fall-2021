@@ -26,9 +26,11 @@ A common task in untyped languages is confirming the value type that you're work
 - Takeaways: [Validating values]({{ '/takeaways/js/variables-validating-types/' | url }})
 
 ### Activity
-- Using your knowledge of comparison operators and conditional statements, add validation to your Tip Calculator that ensures that:
-    1. The user entered a number for Bill Total;
-    2. The entered Bill Total is greater than $0;
+- Using your knowledge of comparison operators and conditional statements, add validation to your [Tip Calculator](https://gist.github.com/acidtone/9adae5b6fcdf8f2b3bab4c814f9f1da6) that ensures that:
+    1. Remove the `required` attribute from `total` field so we can test;
+    2. The user entered a number for Bill Total (i.e. not empty);
+    3. The entered Bill Total is greater than $0;
+    4. Throw an error if `total` is negative or missing.
 
 ---
 
