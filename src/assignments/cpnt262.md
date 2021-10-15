@@ -8,7 +8,7 @@ title: CPNT 262 Assignments
 - Due: Oct 17 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
-## Assignment 2: Dynamic Image Gallery
+## Assignment 2: [Dynamic Image Gallery]({{ '/assignments/cpnt262/assignment-2/' | url }})
 - Due: Oct 22 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
