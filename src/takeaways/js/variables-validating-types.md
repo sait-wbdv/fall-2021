@@ -3,7 +3,6 @@ layout: layouts/page.njk
 title: Validating values 
 ---
 
-## Validating values
 A common task in untyped languages is confirming the value type that you're working with. For example, when you think a variable is a `Number`,
 
 ```

@@ -65,7 +65,7 @@ The `if`/`else` statement is used to conditionally run code when an expression i
 
 ---
 
-## 4. Validation
+## 4. Value validation
 A common task in untyped languages is confirming the value type that you're working with.
 
 ### Materials
