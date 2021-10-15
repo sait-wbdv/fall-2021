@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: Numbers, Strings and Coercion
 ---
 
+:::terms
 ## Terminology
 [Coercion](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
 : _Implicitly_ converting a value from one type to another.
@@ -15,8 +16,7 @@ Addition Operator (`+`)
 
 String Concatenation
 : Joining two or more strings together.
-
----
+:::
 
 ## Untyped languages and coercion
 It's important to know that Javascript is an untyped language, meaning that a variable will often be converted from one data type (such as a number) to another (a string). This often "helps" programmers type less code but will sometimes cause problems when you don't expect it.

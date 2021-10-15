@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: Variables - Declaration vs Assignment
 ---
 
+:::terms
 ## Terminology
 Expression
 : A piece of code that returns a value.
@@ -12,8 +13,7 @@ Variable Declaration
 
 Variable Assignment
 : When we give a variable name a value using the `=` assignment operator. We say we've "assigned a variable". If a variable hasn't been assigned, it's value will be `undefined`.
-
----
+:::
 
 ## `const` vs `let` vs `var`
 Variables should be initially declared (a name created in memory) with a declaration keyword. This is only needed when the variable is first created. Of the three keywords available, it is recommended you try them in this order

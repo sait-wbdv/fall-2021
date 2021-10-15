@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: String Methods
 ---
 
+:::terms
 ## Terminology
 Prototype
 : A base object that other objects can inherit. In the case of strings, methods such as [`string.prototype.substr()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr) and [`string.prototype.trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim) are inherited using prototypes.
@@ -12,6 +13,7 @@ Property
 
 Method
 : A fancy term for a function that lives inside an object and is most often accessed using dot notation. Example: `string.trim()`.
+:::
 
 ## Key Takeaways
 - Deep dark secret: everything in Javascript is actually an object.
