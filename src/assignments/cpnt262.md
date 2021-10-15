@@ -5,7 +5,7 @@ title: CPNT 262 Assignments
 **Note**: Assignment structure may change as the course progresses.
 
 ## Assignment 1: [classList Toggle]({{ '/assignments/cpnt262/assignment-1/' | url }})
-- Due: Oct 15 @ 11:59 PM
+- Due: Oct 17 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
 ## Assignment 2: Dynamic Image Gallery
