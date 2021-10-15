@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>CPNT 262 Assignment 2 - Dynamic Image Gallery</h2>
+<p>In this assignment you'll be refactoring your past 260 gallery assignment into a Javascript-driven gallery:</p>
+<ul>
+<li>Gallery information will be stored in an array of objects;</li>
+<li>The array will be converted to HTML using a loop;</li>
+<li>The HTML elements will be outputted to an HTML page.</li>
+</ul>
+<p>You may use the same images you used for CPNT 260 or you can choose different ones. All images must be openly licensed or your own works.</p>
+<h2>Criteria</h2>
+<p>This assignment will be marked out of 10 points according to the following requirements:</p>
+<h3>1. Image Array: 2 Points</h3>
+<ul>
+<li>Array of 9-12 image object literals, declared as a <code>const</code> variable.</li>
+<li>For each image object, store the following information:
+<ul>
+<li><code>id</code> - Unique identifier (<code>number</code>);</li>
+<li><code>title</code> - Image heading (<code>string</code>);</li>
+<li><code>description</code> - Image description (<code>string</code>: 10-25 words);</li>
+<li><code>width</code> - Image width in pixels (<code>number</code>);</li>
+<li><code>height</code> - Image height in pixels (<code>number</code>);</li>
+<li><code>pathURL</code> - a local path to your image file(<code>string</code>);</li>
+<li><code>linkURL</code> - 3rd party web page that the image links to (<code>string</code>; example: wikipedia entry relating to the image);</li>
+<li><code>credit</code> - The photo credit for the image such as a person, company or website (<code>string</code>).</li>
+<li><code>creditURL</code> - A link to the original photo, photographer's home page, license details, etc (<code>string</code>).</li>
+</ul>
+</li>
+</ul>
+<h3>2. Array Loop and Output: 4 Points</h3>
+<ul>
+<li>Using <code>Array.prototype.forEach()</code> or similar method/statement, loop through the image array and output to an HTML page.</li>
+<li>Within each loop iteration, either:
+<ul>
+<li>output image information directly to an HTML gallery, OR</li>
+<li>append to an <code>output</code> variable to be outputted at the end of the loop.</li>
+</ul>
+</li>
+<li>HTML output can be achieved with either:
+<ul>
+<li><code>Element.innerHTML</code>;</li>
+<li>Direct DOM manipulation (i.e. <code>Document.createElement()</code>, etc);</li>
+<li>the use of a <code>&lt;template&gt;</code> element.</li>
+</ul>
+</li>
+<li>Gallery HTML should be valid and semantic (i.e. <code>figure</code>/<code>figcaption</code> elements or similar).</li>
+<li>All information contained in the object should be used:
+<ul>
+<li><code>id</code> is optional;</li>
+<li><code>width</code> and <code>height</code> are for image attributes.</li>
+</ul>
+</li>
+<li>Photo credit information can be displayed once on the page if it is the same for all images (but still must be included in the image objects)</li>
+</ul>
+<h3>3. Setup and Deployment: 2 points</h3>
+<ul>
+<li>Images
+<ul>
+<li>Images must be locally hosted with your project.</li>
+<li>Image resolution should be appropriate for the final display size in the viewport.</li>
+<li>The gallery must be responsive and accessible.</li>
+</ul>
+</li>
+<li>Javascript
+<ul>
+<li>Javascript must be linked in the <code>head</code> of the document and located in a dedicated <code>js</code> directory. Optional: ES modules.</li>
+<li>Javascript must use <em>strict</em> mode.</li>
+<li>There must be no JS errors or warnings (except for favicon).</li>
+</ul>
+</li>
+<li>CSS
+<ul>
+<li>CSS must be linked as an external stylesheet in the <code>head</code> of the document and located in a dedicated <code>css</code> directory.</li>
+<li>While the goal of this assignment is not design, points will be deducted for accessibility/usability issues.</li>
+</ul>
+</li>
+</ul>
+<h3>4. Documentation and Code Quality: 2 Points</h3>
+<ol>
+<li>Include a <code>README.md</code> in your project that contains the following information:
+<ul>
+<li>Course title;</li>
+<li>Author name;</li>
+<li>Links to:
+<ul>
+<li>GH repo;</li>
+<li>GH Pages site</li>
+</ul>
+</li>
+<li>Some context/hints on where to look for the requirements above.</li>
+<li>Attributions for any code or assets that are not your own.</li>
+</ul>
+</li>
+<li>Use best practices with <a href="https://sait-wbdv.github.io/winter-2021/cheatsheets/naming-conventions/">file/directory names</a>, commenting and indentation:
+<ul>
+<li>2 spaces per indent.</li>
+<li>CamelCase naming conventions followed.</li>
+<li>Statements ended with semi-colons.</li>
+<li>Code is well-commented.</li>
+<li>See <a href="https://www.w3schools.com/js/js_conventions.asp">JavaScript Style Guide</a> for full list.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>Submission Requirements</h2>
+<ul>
+<li>Push this assignment to a repo named <code>cpnt262-a2</code>.</li>
+<li>ZIP all files required for the site to operate and upload to Brightspace.</li>
+<li>Leave a link to the following as a comment in your Brightspace submission:
+<ul>
+<li>GH repo</li>
+<li>GH Pages site</li>
+</ul>
+</li>
+</ul>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>
