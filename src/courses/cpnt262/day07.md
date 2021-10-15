@@ -27,10 +27,8 @@ A common task in untyped languages is confirming the value type that you're work
 
 ### Activity
 - Using your knowledge of comparison operators and conditional statements, add validation to your Tip Calculator that ensures that:
-    1. The user entered a bill total;
+    1. The user entered a number for Bill Total;
     2. The entered Bill Total is greater than $0;
-    3. The user entered a service level;
-    4. The supplied Service Level is one of the options available in the select menu.
 
 ---
 
