@@ -47,6 +47,10 @@ A common task in untyped languages is confirming the value type that you're work
 ### Activity
 - [Text area character counter](https://gist.github.com/acidtone/74727a562940ead812f46c1b1b870d19)
 
+---
+
+## Lab Time
+- [Walkthrough](https://gist.github.com/acidtone/271634bbc2c1b1b6b6ace82306480e2e) of this week's [in-class code](https://github.com/sait-wbdv/in-class/)
 
 ---
 
