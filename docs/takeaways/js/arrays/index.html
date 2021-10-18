@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Getting started with arrays</h1>
+<div class="terms"><h2>Terminology</h2>
+<dl>
+<dt>Array literal</dt>
+<dd>A comma separated list of values surrounded by <code>[]</code>. For example, ['cats', 'dogs', 'fish'].</dd>
+<dt>Array index</dt>
+<dd>The location of an item in an array. In Javascript, his is always a sequential number starting at 0.</dd>
+<dt>Array item</dt>
+<dd>Any Javascript data type (i.e. value) that an array index points to.</dd>
+<dt>Array length</dt>
+<dd>The number of items in an array. Accessed with the <code>Array.length</code> property.</dd>
+</dl>
+</div><h2>Key Takeaways</h2>
+<ul>
+<li>
+<p>Creating an array using <code>const</code> still allows you to change (or mutate) the items in that array.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> hobbies <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'pinball'</span><span class="token punctuation">,</span> <span class="token string">'bug hunting'</span><span class="token punctuation">,</span> <span class="token string">'napping'</span><span class="token punctuation">]</span><span class="token punctuation">;</span><br>hobbies<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'proper sleeping'</span><span class="token punctuation">;</span> <span class="token comment">// No error!</span></code></pre>
+<ul>
+<li><code>const</code> only stops you from <em>re-assigning</em> <code>hobbies</code>, not changing <code>hobbies</code>.</li>
+</ul>
+</li>
+<li>
+<p>The <em>value</em> of an element can be any data type: <code>undefined</code>, <code>null</code>, <code>number</code>, <code>string</code>, <code>boolean</code>, <code>array</code>, <code>object</code>, etc.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> randomStuff <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token string">'Hello World!'</span><span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre>
+<ul>
+<li>Although it's possible, you rarely see a mix of different value types in the same array.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3>Accessing array items</h3>
+<p>Given the following array:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> animals <span class="token operator">=</span> <span class="token punctuation">[</span><br>  <span class="token string">'Puppy'</span><span class="token punctuation">,</span><br>  <span class="token string">'Bear'</span><span class="token punctuation">,</span><br>  <span class="token string">'Moose'</span><span class="token punctuation">,</span><br>  <span class="token string">'Coyote'</span><span class="token punctuation">,</span><br>  <span class="token string">'Tiger'</span><span class="token punctuation">,</span><br>  <span class="token string">'Husky'</span><br><span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre>
+<ul>
+<li>
+<p>You can retrieve an item from an array using the <em>index</em>:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> thirdAnimal <span class="token operator">=</span> animals<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// Moose</span></code></pre>
+</li>
+<li>
+<p>The <em>first</em> index of an array is <em>always</em> <code>0</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> firstAnimal <span class="token operator">=</span> animals<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// Puppy</span></code></pre>
+</li>
+<li>
+<p>The <em>last</em> index of an array is <em>always</em> <code>Array.length - 1</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> lastAnimal <span class="token operator">=</span> animals<span class="token punctuation">[</span>animals<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// Husky</span></code></pre>
+</li>
+<li>
+<p>To add an item to an array, the <em>next</em> index is <em>always</em> <code>array.length</code>.</p>
+<pre class="language-js"><code class="language-js">animals<span class="token punctuation">[</span>animals<span class="token punctuation">.</span>length<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'Wolf'</span><span class="token punctuation">;</span> <span class="token comment">// New item at the end of the array</span></code></pre>
+</li>
+</ul>
+<p>See: <a href="/fall-2021/takeaways/js/array-methods/">Handy Array Methods</a></p>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>
