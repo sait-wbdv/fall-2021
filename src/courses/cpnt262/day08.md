@@ -7,6 +7,7 @@ released: true
 ---
 
 ## Housekeeping
+- Don't forget to vote!
 
 ## Trophy of the day
 - [A comma-separated list of nouns](https://gist.github.com/acidtone/5c8b6c954dadb7f9e60cbb98cddc0230)
@@ -88,10 +89,11 @@ Append
 ---
 
 ## Lab Time
-### Activities
+### Stretch Activities
 - Instead of `.innerHTML`, try using one of the following accepted methods of outputting HTML to a page:
     - [Manipulating documents](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
     - [`<template>`: The Content Template element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
+- Create a function that accepts any array as an argument and returns a random item in that array. See: [Find a random item in an Array](https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e)
 
 ---
 
