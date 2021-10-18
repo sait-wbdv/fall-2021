@@ -33,11 +33,14 @@ released: true
 ---
 
 ## 3. Loops with `Array.prototype.forEach()`
-
 ### Materials
 - [Looping code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
 - [`Array.prototype.forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - Video: [JavaScript Array forEach Method](https://youtu.be/159EAISAxwg) by Steve Griffith 
+
+### Key Takeaways
+- `item` is the conventional name given to the array item passed to the callback function but you can name it whatever you want (i.e. `noun` if you're looping an array of nouns).
+- You can optionally add the `index` (of the current iteration) as a second argument to the callback function.
 
 ### Activities
 - [Creating a comma-separated list of nouns](https://gist.github.com/acidtone/5c8b6c954dadb7f9e60cbb98cddc0230)
