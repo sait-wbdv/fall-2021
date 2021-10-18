@@ -75,4 +75,3 @@ const animals = [
     animals[animals.length] = 'Wolf'; // New item at the end of the array
     ```
 
-See: [Handy Array Methods]({{ '/takeaways/js/array-methods/' | url }})
