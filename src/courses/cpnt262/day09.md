@@ -8,7 +8,7 @@ released: true
 
 ## Housekeeping
 - Tooltime: [Install Postman](https://www.postman.com/downloads/)
-- Alternatives to Lorem Picsum
+- [Alternatives to Lorem Picsum](https://www.saashub.com/lorem-picsum-alternatives)
 
 ## Trophies of the Day
 - [Upgraded Lorem Picsum gallery](https://gist.github.com/acidtone/a5f40cda47c6d5c1a8e3815833572024)
