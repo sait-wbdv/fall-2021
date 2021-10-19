@@ -3,6 +3,7 @@ layout: layouts/day.njk
 title: CPNT 262 Day 10 - `fetch()` and Asynchronous Javascript
 description: 
 date: 2021-10-20
+released: true
 ---
 
 ## Prep
