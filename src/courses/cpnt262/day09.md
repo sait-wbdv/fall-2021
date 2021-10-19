@@ -63,6 +63,7 @@ In this session, you will refactor yesterday's Lorem Picsum gallery to use local
 ### Materials
 - [Looping code: The standard `for` loop](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#the_standard_for_loop)
 - Video: [`for` Loop](https://www.youtube.com/watch?v=s9wW2PpJsmQ) by Mosh Hamedani
+- Takeaways: [Array fundamentals]({{ '/takeaways/js/arrays/' |  url }})
 - Examples: 
     - [Print 1-to-100 with a for Loop](https://gist.github.com/acidtone/e87aa5564ae1b286beca66b07d52550f)
     - [Tony's Name Generator](https://acidtone.github.io/namor/)
@@ -77,11 +78,11 @@ In this session, you will refactor yesterday's Lorem Picsum gallery to use local
     - otherwise, print the number.
 - Using a `for` loop and your favourite [mocking Sponge Bob meme](https://nymag.com/intelligencer/2017/05/what-is-the-mocking-spongebob-capitalized-letters-chicken-meme.html), create a function that will turn a phrase like this:
 
-    > "Can I get some extra credit?"
+    > Me: "Can I get some extra credit?"
 
     To sticky caps, like this:
 
-    > "cAn i GEt SomE eXtRa creDiT?"
+    > Professor: "cAn i GEt SomE eXtRa creDiT?"
 
 ---
 
