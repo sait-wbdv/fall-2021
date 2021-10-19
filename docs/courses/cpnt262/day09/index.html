@@ -62,7 +62,95 @@
   <h2>CPNT 262 Day 9 - Looping with objects</h2>
   
   
-        <h2>Prep</h2>
+        <h2>Housekeeping</h2>
+<ul>
+<li>Tooltime: <a href="https://www.postman.com/downloads/">Install Postman</a></li>
+<li>Alternatives to Lorem Picsum</li>
+</ul>
+<h2>Trophies of the Day</h2>
+<ul>
+<li><a href="https://gist.github.com/acidtone/a5f40cda47c6d5c1a8e3815833572024">Upgraded Lorem Picsum gallery</a></li>
+<li>Fizzbuzz: See Section 4 below</li>
+<li>Mocking Sponge Bob function: See Section 4 below</li>
+</ul>
+<hr>
+<h2>1. Spoiler Demos</h2>
+<ul>
+<li><a href="https://gist.github.com/acidtone/5c8b6c954dadb7f9e60cbb98cddc0230">Creating a comma-separated list of nouns</a></li>
+<li><a href="https://gist.github.com/acidtone/0c3caca6908b650c17b605f4242ff004">Creating a gallery of Lorem Picsum images</a></li>
+</ul>
+<hr>
+<h2>2. Local images</h2>
+<p>While <a href="https://picsum.photos/">Lorem Picsum</a> is a wonderful service for inserting placeholder images, it's not a practical solution for a production website.</p>
+<p>In this session, you will refactor yesterday's Lorem Picsum gallery to use local images instead of placeholder links.</p>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/fbfa8e15f7098f231e8cc52d0518ee2b">Spoilers: Create a Lorem Picsum Gallery</a></li>
+<li><a href="https://github.com/acidtone/animals-ids">Animal Lorem Picsum Images</a></li>
+</ul>
+<h3>Activity: Refactor for local images</h3>
+<ul>
+<li>
+<p>Replace the placeholder links in the Lorem Picsum Gallery with local image links. For example,</p>
+<p>Instead of this:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://picsum.photos/id/237/300/300<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<p>Use host your images locally like this:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>images/md/237.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+</li>
+</ul>
+<hr>
+<h2>3. Arrays of objects</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics">Object basics</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">Working_with_Objects</a></li>
+</ul>
+<h3>Activities</h3>
+<ul>
+<li>Picsum gallery: <a href="https://gist.github.com/acidtone/a5f40cda47c6d5c1a8e3815833572024">Upgrade the gallery using an array of objects</a>.</li>
+</ul>
+<hr>
+<h2>4. Stretch: <code>for</code> loops</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#the_standard_for_loop">Looping code: The standard <code>for</code> loop</a></li>
+<li>Video: <a href="https://www.youtube.com/watch?v=s9wW2PpJsmQ"><code>for</code> Loop</a> by Mosh Hamedani</li>
+<li>Examples:
+<ul>
+<li><a href="https://gist.github.com/acidtone/e87aa5564ae1b286beca66b07d52550f">Print 1-to-100 with a for Loop</a></li>
+<li><a href="https://acidtone.github.io/namor/">Tony's Name Generator</a>
+<ul>
+<li><a href="https://github.com/acidtone/namor/blob/master/js/app.mjs#L16">method call</a> in <code>app.mjs</code> on Line 16</li>
+<li><a href="https://github.com/acidtone/namor/blob/master/js/phraser.mjs#L11-L13"><code>for</code> loop code</a> in <code>phraser.mjs</code> on Lines 11-13</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Activities</h3>
+<ul>
+<li>
+<p><strong>FizzBuzz</strong>: Using conditional logic and a <code>for</code> loop, <a href="https://gist.github.com/acidtone/e87aa5564ae1b286beca66b07d52550f">print a series of numbers from 1 to 100</a> such that:</p>
+<ul>
+<li>if the number is divisible by 3, print 'Fizz';</li>
+<li>if the number is divisible by 5, print 'Buzz';</li>
+<li>if the number is divisible by both 3 and 5, print 'FizzBuzz';</li>
+<li>otherwise, print the number.</li>
+</ul>
+</li>
+<li>
+<p>Using a <code>for</code> loop and your favourite <a href="https://nymag.com/intelligencer/2017/05/what-is-the-mocking-spongebob-capitalized-letters-chicken-meme.html">mocking Sponge Bob meme</a>, create a function that will turn a phrase like this:</p>
+<blockquote>
+<p>&quot;Can I get some extra credit?&quot;</p>
+</blockquote>
+<p>To sticky caps, like this:</p>
+<blockquote>
+<p>&quot;cAn i GEt SomE eXtRa creDiT?&quot;</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h2>Prep</h2>
 <h3>Loops</h3>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#the_standard_for_loop">Looping code: The standard <code>for</code> loop</a></li>
