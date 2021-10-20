@@ -45,7 +45,7 @@ The action should be directly related to either retrieving more data or changing
 ### 4. Error handling
 All errors must be handled gracefully. For example, the page should display a human-readable error to the user if:
 - The `fetch()` is rejected and is redirected to `.catch()` (for example, there is a network error);
-- The request doesn't return a `200 OK` response such as `404 Not found`. 
+- The request doesn't return a `200 OK` response code such as `404 Not found`. 
 
 ### 5. Documentation
 - Include a `README.md` in your project that contains the following information:
