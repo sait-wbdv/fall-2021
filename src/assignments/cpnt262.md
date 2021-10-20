@@ -12,7 +12,7 @@ title: CPNT 262 Assignments
 - Due: Oct 22 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
-## Assignment 3: Fetching API data
+## Assignment 3: [Fetching API data]({{ '/assignments/cpnt262/assignment-3/' | url }})
 - Due: Oct 27 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
