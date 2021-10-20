@@ -62,7 +62,77 @@
   <h2>CPNT 262 Day 10 - `fetch()` and Asynchronous Javascript</h2>
   
   
-        <h2>Prep</h2>
+        <h2>Housekeeping</h2>
+<ul>
+<li><a href="/fall-2021/assignments/cpnt262/">Assignment 3 announced</a>
+<ul>
+<li>10% of Final mark</li>
+<li>Due: Oct 27 @ 11:59 PM</li>
+</ul>
+</li>
+</ul>
+<h2>Trophy of the day</h2>
+<ul>
+<li>A page displaying data fetched from an API!</li>
+</ul>
+<hr>
+<h2>1. Spoiler Demo</h2>
+<ul>
+<li>Picsum gallery: <a href="https://gist.github.com/acidtone/a5f40cda47c6d5c1a8e3815833572024">Upgrade the gallery using an array of objects</a>.</li>
+</ul>
+<hr>
+<h2>2. Postman and JSON Placeholder</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON">Working with JSON data</a></li>
+<li>Sample endpoints:
+<ul>
+<li><a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a></li>
+</ul>
+</li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li>Using Postman and <a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a>:
+<ol>
+<li>
+<p>Retrieve a list of albums;</p>
+<pre><code>GET https://jsonplaceholder.typicode.com/albums
+</code></pre>
+</li>
+<li>
+<p>Choose a record from the returned JSON and retrieve the data for just that record by using it's <code>id</code>:</p>
+<pre><code>GET GET https://jsonplaceholder.typicode.com/albums/:id
+</code></pre>
+</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h3>3. Basics: Asynchronous Javascript</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing">Introducing asynchronous Javascript</a></li>
+<li>Video: <a href="https://www.youtube.com/watch?v=Bv_5Zv5c-Ts&amp;t=5855s">Asynchronous Callbacks</a> by Tony Alicea (you can stop at 1:48:00)</li>
+</ul>
+<hr>
+<h2>4. Fetching data with <code>fetch()</code></h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data">Fetching data from the server</a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/33304c82f8d22e9a330003b19a147303">fetch GET: Retrieving data asynchronously</a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/673dfc5c11ce06e9e8cd6ce33609eb3c">Practice REST API endpoints</a></li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li>Take one of the <a href="https://gist.github.com/acidtone/673dfc5c11ce06e9e8cd6ce33609eb3c">Practice REST API endpoints</a> (or one from this list of <a href="https://github.com/public-apis/public-apis">list of public APIs</a>) and either:
+<ul>
+<li>Display a single item on a web page;</li>
+<li>Use <code>.forEach()</code> to display a list of items on a web page.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Prep</h2>
 <h3>Asynchronous Javascript</h3>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous">Asynchronous Javascript</a>

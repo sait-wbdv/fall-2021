@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+  <!-- Website Styles -->
+  <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+  <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+  <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+  
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+  <header class="page-header">
+    <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+    <div>
+      <p class="site-name">SAIT Web Developer</p>
+      <p class="tagline">Fast Track - Fall 2021</p>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="/fall-2021/schedule">Schedule</a></li>
+        <li><a href="/fall-2021/assignments">Assignments</a></li>
+        <li><a href="/fall-2021/library">Library</a></li>
+        <li><a href="https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>CPNT 262 Assignment 3 - Fetching API Data</h2>
+<p>In this assignment you'll be fetching data asynchronously from a <a href="https://github.com/public-apis/public-apis">public API</a> and displaying in on a web page.</p>
+<p>You may use an API endpoint of your choice that has not been demonstrated in class. Have fun with it!</p>
+<p>Speak to your instructor if you'd like to try something that doesn't quite fit the requirements listed below.</p>
+<hr>
+<h2>Criteria</h2>
+<p>This assignment will be marked out of 10 points. Each of the following requirements are worth 2 points each:</p>
+<h3>1. Using <code>fetch()</code> to retrieve data</h3>
+<p>Using the <code>fetch()</code> Web API retrieve an array or object from a public API using a <code>GET</code> request.</p>
+<p>The retrieved data must include</p>
+<ul>
+<li>A name or title</li>
+<li>An image url</li>
+<li>A date</li>
+<li>An off-site link that's directly related to the data</li>
+<li>At least one other property that can be displayed on the page</li>
+</ul>
+<p>Data must be logged to the browser console to receive full marks.</p>
+<h3>2. HTML Output</h3>
+<p>Display the above information on an <code>index.html</code> page.</p>
+<ul>
+<li>Name or title should be displayed in an appropriate heading;</li>
+<li>Date should be formatted to be human-readable;</li>
+<li>Image should not be distorted and include a custom <code>alt</code> attribute derived from the retrieved data;</li>
+<li>All other data should be displayed appropriately according to the content.</li>
+</ul>
+<h3>3. Interactivity</h3>
+<p>An interactive element of your choice, and related to the data, must be included on your page.</p>
+<p>Examples:</p>
+<ul>
+<li>A button to refresh a random Disney character (without reloading the page);</li>
+<li>A button to show the next episode in a season;</li>
+<li>A button to change the sort order of a list.</li>
+</ul>
+<p>The action should be directly related to either retrieving more data or changing the way the current data is displayed.</p>
+<h3>4. Error handling</h3>
+<p>All errors must be handled gracefully. For example, the page should display a human-readable error to the user if:</p>
+<ul>
+<li>The <code>fetch()</code> is rejected and is redirected to <code>.catch()</code> (for example, there is a network error);</li>
+<li>The request doesn't return a <code>200 OK</code> response such as <code>404 Not found</code>.</li>
+</ul>
+<h3>5. Documentation</h3>
+<ul>
+<li>Include a <code>README.md</code> in your project that contains the following information:
+<ul>
+<li>Course title;</li>
+<li>Author name;</li>
+<li>Links to:
+<ul>
+<li>your GH repo;</li>
+<li>your deployed Heroku domain;</li>
+</ul>
+</li>
+<li>Any comments that may help squeeze marks out of your instructor (maybe give him hints on where to look for the requirements above);</li>
+<li>Attributions for any code or assets that are not your own.</li>
+</ul>
+</li>
+<li>Use best practices with file/directory names, commenting and indentation.</li>
+</ul>
+<hr>
+<h2>General Requirements</h2>
+<p>While this assignment is not testing your HTML or CSS skills, points will be deducted if conventions of accessibility and visual hierarchy aren't followed.</p>
+<ul>
+<li>There should be an obvious key message (i.e. Random Disney Character of the day) for the page;</li>
+<li>Text and images should be readable;</li>
+<li>Colours and layout should be aesthetically pleasing and should support the key message.</li>
+</ul>
+<hr>
+<h2>Submission Requirements</h2>
+<ul>
+<li>Push this assignment to a repo named <code>cpnt262-a3</code>.</li>
+<li>ZIP all files required for the site to operate and upload to Brightspace.</li>
+<li>Leave a link to the following as a comment in your Brightspace submission:
+<ul>
+<li>GH repo</li>
+<li>GH Pages site</li>
+</ul>
+</li>
+</ul>
+
+  </main>
+  <footer>
+    &copy; 2021 MIT License.
+  </footer>
+</div>
+</body>
+</html>
