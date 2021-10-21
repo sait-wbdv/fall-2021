@@ -25,6 +25,22 @@ released: true
 
 ---
 
+## 2. Deck API Example
+- Review of Fesal's Daily code
+
+---
+
+## 1. `fetch()` with `.forEach()`
+- Pattern: Entry list -> Display single item
+- How to limit the display of a long list
+- Pagination?
+
+---
+
+## 3. TBA
+
+---
+
 ## Prep
 ### Extras
 - [Find a random item in an Array](https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e)
