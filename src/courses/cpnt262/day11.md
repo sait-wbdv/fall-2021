@@ -6,6 +6,9 @@ date: 2021-10-21
 released: true
 ---
 
+## Housekeeping
+- Early dismissal at 11:30am
+
 ## Vote for today's topics
 - Build a simple version of [Namor](https://acidtone.github.io/namor)
     - [Find a random item in an Array](https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e)
