@@ -26,12 +26,12 @@ title: CPNT 201 Assignments
 
 ## Collaboration and Build Tools
 
-### Assignment 4: TBA
+### Assignment 4: [Collaborative Git]({{ '/assignments/cpnt201/assignment-4/' | url }})
 
-- Due: TBA
+- Due: October 28 11:59pm
 - Weight: 10% of Final Course Mark
 
-### Assignment 5: TBA
+### Assignment 5: [SASS and CSS Frameworks]({{ '/assignments/cpnt201/assignment-5/' | url }})
 
 - Due: TBA
 - Weight: 15% of Final Course Mark
