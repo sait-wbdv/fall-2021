@@ -21,6 +21,7 @@ released: true
 - SVG Hamburger Menu button
 - Dark Mode Toggle
 - `fetch()` with `.forEach()`
+- Promises with the Deck API
 
 ---
 
