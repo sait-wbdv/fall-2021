@@ -20,6 +20,7 @@ released: true
 - Sponge Bob mocking meme spoiler
 - SVG Hamburger Menu button
 - Dark Mode Toggle
+- `fetch()` with `.forEach()`
 
 ---
 
