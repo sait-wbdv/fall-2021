@@ -62,7 +62,235 @@
   <h2>CPNT 201 Day 6 - Team Collaboration with Git</h2>
   
   
-        <h3>Sorry, this lesson hasn't been released.</h3>  
+        <h2>Morning Reflection</h2>
+<ul>
+<li>Check in</li>
+<li>Questions about CPNT-201 A2 &amp; A3</li>
+<li>Questions about git</li>
+</ul>
+<h2>Assignment 4: Collaborative Git</h2>
+<ul>
+<li><a href="assignments/cpnt201/assignment-4">Assignment Link</a></li>
+<li>Assignment Due: October 28 @ 11:59pm</li>
+</ul>
+<h2>Prep</h2>
+<ul>
+<li>Watch <a href="https://youtu.be/Uszj_k0DGsg?t=88">Git for Professionals</a>
+<ul>
+<li>Watch these parts:
+<ul>
+<li>the perfect commit</li>
+<li>pull requests</li>
+<li>merge conflicts</li>
+</ul>
+</li>
+<li>If you want to go deeper, also watch:
+<ul>
+<li>branching strategies</li>
+<li>merge vs rebase</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Read <a href="https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue">Creating Issues</a></li>
+<li>Skim <a href="https://guides.github.com/features/issues/">Mastering Github Issues</a></li>
+<li>Read <a href="https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files">Ignoring files</a></li>
+<li>Read [<a href="https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts">https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts</a>]</li>
+<li>Read <a href="https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts">Git merge conflicts</a></li>
+</ul>
+<hr>
+<h2>Overview</h2>
+<ul>
+<li>
+<ol>
+<li><a href="#topic-1">gitignore</a></li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li><a href="#topic-2">forks and pull requests</a></li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li><a href="#topic-3">Merge Conflicts</a></li>
+</ol>
+</li>
+</ul>
+<h2>&lt;a id=&quot;topic-1&gt;</a> Ignoring files with gitignore</h2>
+<ul>
+<li>gitignore is used to keep certain files out of your remote git repository</li>
+<li>this is important for security and repo size</li>
+<li>you can have a local gitignore in the project root repo</li>
+<li>you can also have a global gitignore</li>
+</ul>
+<h3>Files to keep out of your git repo</h3>
+<ul>
+<li>system files</li>
+<li>local configurations</li>
+<li>environment variables</li>
+<li>dependency directories</li>
+</ul>
+<h3>Best practices</h3>
+<ul>
+<li>use a global gitignore for system files
+<ul>
+<li>examples: .trash, npm-debug.log, Thumbs.db</li>
+</ul>
+</li>
+<li>use a local(project) gitignore for project files
+<ul>
+<li>examples: .env, node_modules, .vscode</li>
+</ul>
+</li>
+</ul>
+<h3>Sample Code</h3>
+<p>These are some simple gitignore setups that you can use.</p>
+<ul>
+<li><a href="https://gist.github.com/lilyx13/55f2f92d520dc40de4a5129cfd70e26c">local gitignore</a></li>
+<li><a href="https://gist.github.com/subfuzion/db7f57fff2fb6998a16c">global gitignore</a></li>
+</ul>
+<h3>Activity: Gitignore (10 minute activity)</h3>
+<ol>
+<li>create a new git repository called 'git-collab-practice' or something similar</li>
+<li>add a <code>.gitignore</code> file manually</li>
+<li>Create/add any file to the repo</li>
+<li>Add it to the git ignore</li>
+<li>Add files and Commit your changes</li>
+<li>Create another file, <strong>don't</strong> add it to the gitignore</li>
+<li>Commit changes and push</li>
+<li>Check to make sure that the right files are in your remote repo</li>
+</ol>
+<hr>
+<h2><a id="topic-2"></a>Topic 2: Forks and Pull Requests</h2>
+<ul>
+<li>When you fork a repo, you are creating your own version of it</li>
+<li>Oftentimes, you will work on your own version of the code
+<ul>
+<li>you can pull updates from the master repository</li>
+<li>you can make <strong>pull requests</strong> to submit your own code to the master repository</li>
+</ul>
+</li>
+<li>Collaborating on open source projects by making PRs is a great way to start building your dev experience</li>
+</ul>
+<h3>How to make a Pull Request</h3>
+<ul>
+<li>Basic Method (follow these steps):
+<ol>
+<li>Edit code in your fork</li>
+</ol>
+<ul>
+<li>fork and clone the repo onto your system</li>
+<li>Make your edits</li>
+</ul>
+<ol start="2">
+<li>Commit and push changes in your fork</li>
+</ol>
+<ul>
+<li>Your changes need to be pushed to github</li>
+</ul>
+<ol start="3">
+<li>Submit a pull request</li>
+</ol>
+<ul>
+<li>Look for the green button that says &quot;Compare &amp; pull request&quot;</li>
+</ul>
+</li>
+<li><strong>(optional)</strong> Advanced steps
+<ul>
+<li>Track the original repository
+<ul>
+<li><code>git remote add --track master upstream git@github.com/repo-name.git</code></li>
+</ul>
+</li>
+<li>Create new branches for your changes
+<ul>
+<li>do this for experiments and feature development (not required for this course)
+<ul>
+<li><code>git checkout -b new-branch-title</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Make good quality PRs</h3>
+<ul>
+<li>Title and summary should be clear and concise</li>
+<li>describe your changes well in each commit</li>
+<li>keep it small
+<ul>
+<li>make a pr that focuses on 1 thing. don't make PRs that aim to do lots of different things</li>
+</ul>
+</li>
+<li>test your code before submitting a PR
+<ul>
+<li>Do not submit broken code</li>
+<li>Sometimes when we change too many things, unexpected breaks can occur
+<ul>
+<li>before submitting, double check that everything still looks good</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Lots of information can be found <a href="https://gist.github.com/mikepea/863f63d6e37281e329f8">in this gist</a></li>
+</ul>
+<h3>Activity: Fork your <a href="https://github.com/sait-wbdv/scavengit-game">CPNT201-A4 Assignment Directory</a></h3>
+<ol>
+<li>Fork the repo noted above</li>
+<li>in the directory named <code>players</code> add a markdown file titled your name</li>
+<li>Inside the file, use proper markdown syntax to add a link to your personal github repo</li>
+<li>Make a Pull Request to add it to the master repository</li>
+</ol>
+<hr>
+<h2><a id="topic-3"></a>Topic 3: Merge Conflicts</h2>
+<p>They are a bad time but they happen</p>
+<h3>Learning Objectives</h3>
+<ul>
+<li>Recognize when a merge conflict occurs.</li>
+<li>Understand what causes a merge conflict.</li>
+<li>Create a merge conflict in a new repo using the GitHub web interface.</li>
+<li>Resolve a merge conflict using VS Code.</li>
+<li>Recognize the difference between a normal commit and a merge commit on GitHub, based on the number of parent branches listed.</li>
+</ul>
+<h3>Terminology</h3>
+<dl>
+<dt>Merge</dt>
+<dd>When two branches in Git are merged into one. This will often happen if two developers are submitted code to a project or one developer is submitting code from two machines.</dd>
+<dt>Merge conflict</dt>
+<dd>When two branches edit the same line of code. Git doesn't know which change to keep so it leaves it to the developer to decide when remote code is pulled.</dd>
+<dt>Current Change</dt>
+<dd>The change (relevant to the conflict) that was made on the local repo.</dd>
+<dt>Incoming Change</dt>
+<dd>The change that is incoming from the remote repo.</dd>
+</dl>
+<h3>Materials</h3>
+<ul>
+<li>Activity: <a href="https://gist.github.com/acidtone/d8c2e285c9b25fcb7443a4f0f4e4b4e6">Create a merge conflict</a></li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>Push code often. When two developers edit the same line of code, the dev that pushed their code last is the one that has to resolve the conflict.</li>
+<li>It's sometimes not obvious: after you accept the current/incoming change, you still need to <code>add</code> and <code>commit</code> the changes.</li>
+</ul>
+<h3>Activity: Force a merge conflict in your gitignore activity from this morning</h3>
+<ol>
+<li>Add some text in the tracked markdown file <strong>in the github editor</strong></li>
+<li>Commit that change in github</li>
+<li><strong>without pulling first</strong> try to edit the same line of that file in vscode</li>
+<li>Push changes</li>
+<li>Resolve merge conflict</li>
+<li>In brightspace, submit the link to the git commit where the merge conflict was resolved under the dailies.</li>
+</ol>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li><a href="activities/git/scavengit-hunt">Assignment</a></li>
+<li>Work on your assignment</li>
+<li>Most of the work should be able to be finished before the end of lab time.</li>
+</ul>
+
   
 </article>
 
