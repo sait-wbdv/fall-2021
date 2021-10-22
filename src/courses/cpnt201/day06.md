@@ -41,7 +41,7 @@ released: true
 - 2. [forks and pull requests](#topic-2)
 - 3. [Merge Conflicts](#topic-3)
 
-## <a id="topic-1></a> Ignoring files with gitignore
+## <a id="topic-1"></a> Ignoring files with gitignore
 
 - gitignore is used to keep certain files out of your remote git repository
 - this is important for security and repo size
@@ -176,6 +176,6 @@ Incoming Change
 
 ## Lab Time
 
-- [Assignment]({{ 'activities/git/scavengit-hunt' | url }})
+- [Assignment]({{ '/assignments/cpnt201/assignment-4/' | url }})
 - Work on your assignment
 - Most of the work should be able to be finished before the end of lab time.
