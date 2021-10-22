@@ -119,12 +119,16 @@ These are some simple gitignore setups that you can use.
     - before submitting, double check that everything still looks good
 - Lots of information can be found [in this gist](https://gist.github.com/mikepea/863f63d6e37281e329f8)
 
-### Activity: Fork your [CPNT201-A4 Assignment Directory](https://github.com/sait-wbdv/scavengit-game)
+### Activity: Fork [this test repo](https://github.com/lilyx13/day6_gitignore-stuff)
 
 1. Fork the repo noted above
-2. in the directory named `players` add a markdown file titled your name
-3. Inside the file, use proper markdown syntax to add a link to your personal github repo
-4. Make a Pull Request to add it to the master repository
+2. Fork one of the people in your group's version of the same repo
+3. Edit your version of their fork
+4. Make a pull request
+
+- Everyone should make a PR to another repo and merge a PR from someone else
+
+5. Invite someone to be a collaborator to your repo
 
 ---
 
