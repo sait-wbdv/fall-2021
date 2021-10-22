@@ -13,7 +13,7 @@ Marks will be based on documented git commits. Each required commit will be wort
 
 ## Instructions
 
-- Fork [this github repository](https://github.com/sait-wbdv/scavengit-hunt)
+- Fork [this github repository](https://github.com/sait-wbdv/scavengit-game)
 - Follow the following steps. More details are provided in the index.html page of the repository
 
 ### Steps
