@@ -3,6 +3,8 @@ layout: layouts/assignment.njk
 title: CPNT 201 Assignment 4 - Collaborative Git
 ---
 
+- **UPDATE**: only one person in you team will be able to work off of the original fork. the others can clone but will have to re-initialize and create a new repository. Everything else works the same, but only 1 person can use the original fork.
+
 ## Summary
 
 This assignment will give you experience working with others using git. You will work as a maintainer, collaborator, and contributor.

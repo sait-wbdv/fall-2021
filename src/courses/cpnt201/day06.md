@@ -15,7 +15,7 @@ released: true
 ## Assignment 4: Collaborative Git
 
 - [Assignment Link]({{ '/assignments/cpnt201/assignment-4/' | url }})
-- Assignment Due: October 28 @ 11:59pm
+- Assignment Due: October 29 @ 11:59pm
 
 ## Prep
 
