@@ -62,7 +62,266 @@
   <h2>CPNT 201 Day 7 - SASS, Minification, and CSS frameworks</h2>
   
   
-        <h3>Sorry, this lesson hasn't been released.</h3>  
+        <h2>Morning Reflection</h2>
+<ul>
+<li>Assignment 4 Check in</li>
+<li>Open Questions</li>
+<li>Make sure that everyone has node and npm installed</li>
+</ul>
+<h2>Assignment 5: Build Tools</h2>
+<ul>
+<li><a href="/fall-2021/assignments/cpnt201/assignment-5">Assignment Link</a></li>
+<li>Assignment Due: November 1 @11:59pm</li>
+</ul>
+<h2>Prep</h2>
+<ul>
+<li><a href="https://tailwindcss.com/docs">tailwindcss documentation</a></li>
+<li><a href="https://sass-lang.com/documentation">sass documentation</a></li>
+<li><a href="https://getbootstrap.com/">bootstrap documentation</a></li>
+</ul>
+<hr>
+<h2>Overview</h2>
+<ol>
+<li><a href="#css-frame">Intro to CSS Frameworks</a></li>
+<li><a href="#npm-css-setup">CSS Frameworks</a></li>
+<li><a href="#sass">SASS</a></li>
+<li><a href="#minify">Minification</a></li>
+<li><a href="#lab">Lab Time</a></li>
+</ol>
+<hr>
+<h2><a id="css-frame"></a> Intro to CSS Frameworks</h2>
+<ul>
+<li>CSS Frameworks help make site styles more maintainable and quicker to deploy.</li>
+<li>There are lots of options and they cater to different developer needs/preferences</li>
+<li>3 of the most common tools:</li>
+</ul>
+<h3><a href="https://sass-lang.com/">SASS/SCSS</a></h3>
+<ul>
+<li>
+<dl>
+<dt>Definition</dt>
+<dd>A superset of css. Compatible with css and extends css functionality. Sass is also used to build css frameworks. It gives you the ability to nest css declarations, create defaults easily, and add logic to your stylesheets.</dd>
+</dl>
+</li>
+<li>
+<p>Example (nesting):</p>
+<pre><code>header {
+  display: flex;
+  a.btn {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    padding: 2px 4px;
+    border-radius: 50px;
+  }
+  a.btn: hover {
+    background-color: darkblue;
+  }
+}
+</code></pre>
+</li>
+<li>
+<p>Example (mixin):</p>
+<pre><code>/* declare the mixin */
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* Then use the mixin like so: */
+nav ul {
+  @include reset-list;
+}
+</code></pre>
+</li>
+<li>
+<p>Note that you can use tailwind inside of sass</p>
+</li>
+<li>
+<p>Important syntax includes:</p>
+<ul>
+<li><code>@function</code>, <code>@mixin</code>, <code>@include</code>, and <code>$variable-name</code> (for custom variables)</li>
+</ul>
+</li>
+</ul>
+<h3><a href="https://tailwindcss.com/">Tailwind CSS</a></h3>
+<ul>
+<li>
+<dl>
+<dt>Definition</dt>
+<dd>A utility-first framework. Create your own components and styles effeciently. Great for developers' who want to have a lot of personalization to their stylesheets. Not as opinionated at Bootstrap.</dd>
+</dl>
+</li>
+<li>
+<p>Example: <code>&lt;a class=&quot;bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px4 rounded-full&quot;&gt;button&lt;/a&gt;</code></p>
+<ul>
+<li>
+<p>you can then turn this into a component in a css file by using the <code>@apply</code> directive</p>
+<pre><code>.btn {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px4 rounded-full;
+}
+</code></pre>
+</li>
+<li>
+<p>Then your html markup would look like</p>
+<ul>
+<li><code>&lt;a class=&quot;btn&quot;&gt;button&lt;/a&gt;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><a href="https://getbootstrap.com/">Bootstrap CSS</a></h3>
+<ul>
+<li>
+<dl>
+<dt>Definition</dt>
+<dd>A component focused css framework. Includes javascript plugins and a responsive grid system. Bootstrap was created by Twitter. It's an older, heavier, and more opinionatedframework and sites that use it tend to look the same. However it is very powerful and easy to use.</dd>
+</dl>
+</li>
+<li>
+<p>Example:</p>
+<ul>
+<li><code>&lt;a class=&quot;btn btn-primary&quot;&gt;button&lt;/a&gt;</code></li>
+</ul>
+</li>
+</ul>
+<p>You can try these out in codepen by adding any of them to your css in the settings via the cdn.</p>
+<ul>
+<li>For your projects, you will need to install the framework of choice with npm.</li>
+</ul>
+<h3>Tips to get Started</h3>
+<ul>
+<li>All 3 of the tools mentioned have amazing documentation that is designed to be searched as you work.
+<ul>
+<li>Get used to using the search bar on the website to find the code you need</li>
+<li>There are also great vscode extensions that will bring code snippits into your editor</li>
+</ul>
+</li>
+</ul>
+<h3>Activity: Experiment with a css framework in codepen</h3>
+<ul>
+<li>Fork or use one of your old codepens</li>
+<li>Add a framework or sass preprocessor</li>
+<li>follow the documentation and try implementing any of the following changes:
+<ul>
+<li>restyle a nav bar</li>
+<li>style a button</li>
+<li>style a card layou</li>
+</ul>
+</li>
+<li><strong>NOTE</strong> you can use sass with bootstrap or tailwind. However it is considered best practice to use minimal custom css when using a framework</li>
+</ul>
+<hr>
+<h2><a id="npm-css-setup"></a> Install a Framework</h2>
+<p><strong>For demonstration I will be using tailwind and sass/scss</strong></p>
+<ul>
+<li>You can install any of these with <code>npm</code> or <code>yarn</code></li>
+<li>Install guides can be found in the documentation and on <a href="https://npmjs.com">npm's website</a></li>
+<li>For a project specific install (generally use this) you would:
+<ol>
+<li>go to the root of your project directory in your command line</li>
+<li>run <code>npm install package-name</code></li>
+<li>Do any other configurations required</li>
+<li>Start coding</li>
+</ol>
+</li>
+</ul>
+<h3>SASS Setup</h3>
+<ul>
+<li>create a <code>main.scss</code> file and edit your styles in there</li>
+<li>To render the css file, you can use the vscode Live Sass Compiler plugin, and you can also add a build script to your <code>package.json</code></li>
+<li><a href="https://sass-lang.com/guided">Review this doc</a></li>
+</ul>
+<h4>How to compile in the commandline</h4>
+<p>Add this to the <code>&quot;scripts&quot;: {}</code> part of your <code>package.json</code></p>
+<ul>
+<li><code>&quot;scss&quot;: &quot;node-sass --watch scss -o css&quot;</code>
+<ul>
+<li>this will compile the output of your sass to the css directory.
+<ul>
+<li><strong>IMPORTANT</strong> this command assumes that you have a folder called <code>scss/</code> inside of one called <code>css</code>. If you used different names, you have to change them in the command</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Tailwind Setup</h3>
+<h4>How to compile a tailwind file</h4>
+<ul>
+<li><code>npx tailwindcss -o tailwind.css</code>
+<ul>
+<li>this will create a default tailwind.css file</li>
+<li>Add it to your html document like you would any other stylesheet</li>
+</ul>
+</li>
+<li><a href="https://tailwindcss.com/docs/installation#using-tailwind-cli">Follow this doc page for quick startup</a></li>
+<li><a href="https://tailwindcss.com/docs/installation">Review this doc page for advanced startup</a></li>
+</ul>
+<h4>Create a custom configuration</h4>
+<ul>
+<li>this will generate a <code>tailwind.config.js</code> file
+<ul>
+<li><code>npx tailwindcss init</code></li>
+<li>to create a full complete configuration run
+<ul>
+<li><code>npx tailwindcss init --full</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Activity: Set up tailwind css in a project</h3>
+<ul>
+<li>Create a new repository</li>
+<li>Add tailwind css to it along with an html file
+<ul>
+<li>Use the install method that makes the most sense to you</li>
+</ul>
+</li>
+<li>Add some sample content (keep it small)</li>
+<li>Stylize your sample content</li>
+</ul>
+<hr>
+<h2><a id="minify"></a> Minification</h2>
+<ul>
+<li>
+<p>This optimizes your code for production</p>
+</li>
+<li>
+<p>install a minifier through a vscode extension</p>
+</li>
+<li>
+<dl>
+<dt>Minification</dt>
+<dd>A build process that reduces css and js file size by removing comments and whitespace. Will also reduce js variable/function names in advanced cases.</dd>
+</dl>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=olback.es6-css-minify">Minification plugin</a></p>
+</li>
+</ul>
+<hr>
+<h2><a id="lab"></a> Lab Time</h2>
+<ul>
+<li>Submit a link to your codepen or the repo created for your local tailwindcss activity to Brightspace for the daily activity</li>
+<li>Work on Assignment 4 or 5</li>
+<li>Rooms will be open for your choice</li>
+</ul>
+<h3>Extra Trophy Activity: <a href="https://gist.github.com/lilyx13/695f214efa87cb48a45a51bd443f2129">Feature Branch</a></h3>
+<ul>
+<li>Create a feature branch on your assignment 4 repository</li>
+<li>Use this branch to write your assignment 5 code
+<ul>
+<li>you can submit this branch or merge it into your main branch
+<ul>
+<li>(it will not interfere with assignment 4 as that is all based on specific commits)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   
 </article>
 

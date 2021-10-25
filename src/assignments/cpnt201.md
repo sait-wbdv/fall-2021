@@ -28,10 +28,10 @@ title: CPNT 201 Assignments
 
 ### Assignment 4: [Collaborative Git]({{ '/assignments/cpnt201/assignment-4/' | url }})
 
-- Due: October 28 11:59pm
+- Due: October 29 11:59pm
 - Weight: 10% of Final Course Mark
 
 ### Assignment 5: [SASS and CSS Frameworks]({{ '/assignments/cpnt201/assignment-5/' | url }})
 
-- Due: TBA
+- Due: November 1st 11:59pm
 - Weight: 15% of Final Course Mark
