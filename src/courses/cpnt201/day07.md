@@ -81,6 +81,8 @@ released: true
 - Important syntax includes:
   - `@function`, `@mixin`, `@include`, and `$variable-name` (for custom variables)
 
+---
+
 ### [Tailwind CSS](https://tailwindcss.com/)
 
 - Definition
@@ -99,6 +101,8 @@ released: true
   - Then your html markup would look like
     - `<a class="btn">button</a>`
 
+---
+
 ### [Bootstrap CSS](https://getbootstrap.com/)
 
 - Definition
@@ -110,6 +114,8 @@ released: true
 You can try these out in codepen by adding any of them to your css in the settings via the cdn.
 
 - For your projects, you will need to install the framework of choice with npm.
+
+---
 
 ### Tips to get Started
 
