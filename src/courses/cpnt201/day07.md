@@ -125,6 +125,7 @@ You can try these out in codepen by adding any of them to your css in the settin
   - There are also great vscode extensions that will bring code snippits into your editor
 
 - [An article to help u get going with tailwind](https://www.freecodecamp.org/news/get-started-with-tailwindcss/)
+- [A default settings repo for bootstrap](https://github.com/twbs/bootstrap-npm-starter)
 
 ### Activity: Experiment with a css framework in codepen
 
