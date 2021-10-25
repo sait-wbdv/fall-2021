@@ -120,8 +120,11 @@ You can try these out in codepen by adding any of them to your css in the settin
 ### Tips to get Started
 
 - All 3 of the tools mentioned have amazing documentation that is designed to be searched as you work.
+
   - Get used to using the search bar on the website to find the code you need
   - There are also great vscode extensions that will bring code snippits into your editor
+
+- [An article to help u get going with tailwind](https://www.freecodecamp.org/news/get-started-with-tailwindcss/)
 
 ### Activity: Experiment with a css framework in codepen
 
