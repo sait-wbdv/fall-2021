@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
 title: CPNT 262 Day 20
-description: 
+description: Deploying databases to Heroku with Atlas
 date: 2021-11-05
 ---
 
