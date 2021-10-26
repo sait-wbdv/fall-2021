@@ -127,6 +127,12 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 <li><a href="https://nodejs.org/docs/latest/api/fs.html"><code>fs builtin module</code></a></li>
 <li>Gist: <a href="https://gist.github.com/acidtone/9fa3f74b8efc12273cfcdc224ac5f56b">Reading files with fs</a></li>
 </ul>
+<h3>Key Takeaways</h3>
+<ol>
+<li>Read files asynchronously whenever possible.</li>
+<li>The &quot;dot-slash&quot; characters <code>./</code> at the beginning of a path mean it's location is relative to the current script.</li>
+<li><code>fs.readFile()</code> and <code>fs.readdir()</code> use &quot;error-first callbacks&quot; where the first argument passed to a callback is the error, if there was one. This is a common pattern in Node.</li>
+</ol>
 <hr>
 <h2>4. Lab Time</h2>
 <p>Looks like you need inspiration for Assignment 4!</p>

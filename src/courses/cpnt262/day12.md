@@ -23,7 +23,6 @@ released: true
 - Reference: [`Array.slice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 - Gist: [Default Node objects and properties](https://gist.github.com/acidtone/873e18b256e3feca52d36ead8b1d5318)
 
-
 ### Activities
 - [Adding command line arguments with `process.argv`](https://gist.github.com/acidtone/99208821b9d7fbdc5b04ae2ddd4d04bc)
 - [Tip Calculator from the command line with `process.argv`](https://gist.github.com/acidtone/176e0755a3919f85d7faaea348abb383)
@@ -58,6 +57,11 @@ Node Builtin Module
 ### Materials
 - [`fs builtin module`](https://nodejs.org/docs/latest/api/fs.html)
 - Gist: [Reading files with fs](https://gist.github.com/acidtone/9fa3f74b8efc12273cfcdc224ac5f56b)
+
+### Key Takeaways
+1. Read files asynchronously whenever possible.
+2. The "dot-slash" characters `./` at the beginning of a path mean it's location is relative to the current script.
+3. `fs.readFile()` and `fs.readdir()` use "error-first callbacks" where the first argument passed to a callback is the error, if there was one. This is a common pattern in Node.
 
 ---
 

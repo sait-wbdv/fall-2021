@@ -75,4 +75,3 @@ Points will be deducted for:
 - ZIP all files required for the site to operate and upload to Brightspace. 
 - Leave a link to the following as a comment in your Brightspace submission:
   - GH repo
-  - GH Pages site
