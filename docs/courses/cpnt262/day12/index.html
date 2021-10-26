@@ -63,7 +63,110 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
   <h2>CPNT 262 Day 12 - Introduction to Node builtin modules</h2>
   
   
-        <h2>Prep</h2>
+        <h2>Housekeeping</h2>
+<ul>
+<li><a href="/fall-2021/assignments/cpnt262/">New assignment schedule</a></li>
+<li><a href="/fall-2021/assignments/cpnt262/assignment-4/">Assignment 4</a></li>
+</ul>
+<h2>Trophies of the Day</h2>
+<ul>
+<li>A command line app!</li>
+</ul>
+<hr>
+<h2>1. Node Global Objects</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://www.tutorialspoint.com/nodejs/nodejs_global_objects.htm">Node global objects</a>
+<ul>
+<li><a href="https://www.freecodecamp.org/news/node-process-object-explained/">Node Process Object Explained</a></li>
+</ul>
+</li>
+<li>Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"><code>Array.slice()</code></a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/873e18b256e3feca52d36ead8b1d5318">Default Node objects and properties</a></li>
+</ul>
+<h3>Activities</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/99208821b9d7fbdc5b04ae2ddd4d04bc">Adding command line arguments with <code>process.argv</code></a></li>
+<li><a href="https://gist.github.com/acidtone/176e0755a3919f85d7faaea348abb383">Tip Calculator from the command line with <code>process.argv</code></a></li>
+<li><a href="https://gist.github.com/acidtone/4afa69e5521e4232ecf406cae79a0ad0">Greeting App from the command line with <code>process.argv</code></a></li>
+</ul>
+<hr>
+<h2>2. Builtin modules</h2>
+<ul>
+<li><code>path</code> module</li>
+</ul>
+<h3>Terminology</h3>
+<dl>
+<dt>Node Builtin Module</dt>
+<dd>Modules that are included with the Node runtime environment. These modules need to be imported into your script but do not need to be installed with <code>npm</code>.</dd>
+</dl>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://nodejs.dev/learn/nodejs-file-paths">file paths</a></li>
+<li><a href="https://nodejs.dev/learn/the-nodejs-path-module">'path builtin module'</a></li>
+<li>Gists:
+<ul>
+<li><a href="https://gist.github.com/acidtone/67f06e065255915f41f92abde65d2e2c">Listing builtin modules</a></li>
+<li><a href="https://gist.github.com/acidtone/aa0302b5f6573d73cfd05fedb00fc708">Manipulating file paths the with the <code>path</code> module</a></li>
+</ul>
+</li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>Although builtin modules come pre-installed with Node, they still need to be imported into your script with <code>require()</code>.</li>
+</ul>
+<h3>Activities</h3>
+<ul>
+<li>Using the <code>path</code> builtin module and the <code>__filename</code> constant, create a node app that prints the file name (without directory) and extension of the current script.</li>
+<li>Using <code>path.isAbsolute</code>, determine if the first two arguments of <code>process.argv</code> are absolute paths or not.</li>
+</ul>
+<hr>
+<h2>3. <code>fs</code> module</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://nodejs.org/docs/latest/api/fs.html"><code>fs builtin module</code></a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/9fa3f74b8efc12273cfcdc224ac5f56b">Reading files with fs</a></li>
+</ul>
+<hr>
+<h2>4. Lab Time</h2>
+<p>Looks like you need inspiration for Assignment 4!</p>
+<ul>
+<li>Can any of the following sample code be refactored to take arguments from the command line?</li>
+</ul>
+<h3>Miscellaneous Node-friendly Gists</h3>
+<ul>
+<li>Javascript basics
+<ul>
+<li><a href="https://gist.github.com/acidtone/d85a9a0ba6bccfa73cfb269d65a25839">Javascript: Names, values and variables</a></li>
+</ul>
+</li>
+<li>Strings
+<ul>
+<li><a href="https://gist.github.com/acidtone/4f1bd6ffff85fc8f4fed359b619fe76b">Javascript: String Methods</a></li>
+</ul>
+</li>
+<li>Arrays
+<ul>
+<li><a href="https://gist.github.com/acidtone/a55879499d884cc44167f5db15c82d70">Javascript Arrays: Getting started</a></li>
+<li><a href="https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e">Find a random item in an Array</a></li>
+</ul>
+</li>
+<li><a href="https://gist.github.com/acidtone/8464c40543bb499925c59d8c481d626e">Javascript Objects: Getting started</a></li>
+<li>Functions
+<ul>
+<li><a href="https://gist.github.com/acidtone/e3ed5adfcb4f3c02f1b78f78c9c2bf8b">Defining functions</a></li>
+<li><a href="https://gist.github.com/acidtone/cf53fd8eac01a7a41fce234b8e66d3d6">Example: Greet callback function</a></li>
+<li><a href="https://gist.github.com/acidtone/f3176c2da93f6813fd3c64f0bd8dfe4f">Funception: How functions inherit variables</a></li>
+</ul>
+</li>
+<li>Loops
+<ul>
+<li><a href="https://gist.github.com/acidtone/e87aa5564ae1b286beca66b07d52550f">Example: Print 1-to-100 with a for Loop</a></li>
+<li><a href="https://gist.github.com/acidtone/aca3574779b81c3ec6d19e3d075fb3ed">Basic loop with <code>Array.prototype.forEach()</code></a></li>
+</ul>
+</li>
+</ul>
+<h2>Prep</h2>
 <h3>Node basics</h3>
 <ul>
 <li>Video <a href="https://www.youtube.com/watch?v=TlB_eWDSMt4">Node.js Tutorial for Beginners: Learn Node in 1 Hour</a> by Programming with Mosh</li>
