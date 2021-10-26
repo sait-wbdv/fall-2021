@@ -6,17 +6,6 @@ date: 2021-10-26
 released: true
 ---
 
-## Prep
-### Node basics
-- Video [Node.js Tutorial for Beginners: Learn Node in 1 Hour](https://www.youtube.com/watch?v=TlB_eWDSMt4) by Programming with Mosh
-
-### Reference
-
-- [file paths](https://nodejs.dev/learn/nodejs-file-paths)
-- ['path'](https://nodejs.dev/learn/the-nodejs-path-module)
-- [`fs`](https://nodejs.org/docs/latest/api/fs.html)
-
-{% comment %}
 ## Housekeeping
 - [New assignment schedule]({{ '/assignments/cpnt262/' | url }})
 - [Assignment 4]({{ '/assignments/cpnt262/assignment-4/' | url }})
@@ -62,7 +51,6 @@ Node Builtin Module
 ### Activities
 - Using the `path` builtin module and the `__filename` constant, create a node app that prints the file name (without directory) and extension of the current script.
 - Using `path.isAbsolute`, determine if the first two arguments of `process.argv` are absolute paths or not.
-- 
 
 ---
 
@@ -71,11 +59,11 @@ Node Builtin Module
 - [`fs builtin module`](https://nodejs.org/docs/latest/api/fs.html)
 - Gist: [Reading files with fs](https://gist.github.com/acidtone/9fa3f74b8efc12273cfcdc224ac5f56b)
 
-
 ---
 
 ## 4. Lab Time
-Looks like you need inspiration for Assignment 4! 
+Looks like you need inspiration for Assignment 4!
+- Can any of the following sample code be refactored to take arguments from the command line?
 
 ### Miscellaneous Node-friendly Gists
 - Javascript basics
@@ -93,5 +81,16 @@ Looks like you need inspiration for Assignment 4!
 - Loops 
     - [Example: Print 1-to-100 with a for Loop](https://gist.github.com/acidtone/e87aa5564ae1b286beca66b07d52550f)
     - [Basic loop with `Array.prototype.forEach()`](https://gist.github.com/acidtone/aca3574779b81c3ec6d19e3d075fb3ed)
+
+## Prep
+### Node basics
+- Video [Node.js Tutorial for Beginners: Learn Node in 1 Hour](https://www.youtube.com/watch?v=TlB_eWDSMt4) by Programming with Mosh
+
+### Reference
+- [file paths](https://nodejs.dev/learn/nodejs-file-paths)
+- ['path'](https://nodejs.dev/learn/the-nodejs-path-module)
+- [`fs`](https://nodejs.org/docs/latest/api/fs.html)
+
+{% comment %}
 
 {% endcomment %}
