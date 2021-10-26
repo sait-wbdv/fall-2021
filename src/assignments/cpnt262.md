@@ -13,18 +13,18 @@ title: CPNT 262 Assignments
 - Weight: 10% of Final Course Mark
 
 ## Assignment 3: [Fetching API data]({{ '/assignments/cpnt262/assignment-3/' | url }})
-- Due: Oct 27 @ 11:59 PM
-- Weight: 10% of Final Course Mark
-
-## Assignment 4: Deployed Static Express Website
 - Due: Oct 29 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
-## Assignment 5: JSON Gallery Routes
-- Due: Nov 5 @ 11:59 PM
+## Assignment 4: [Node command line app]({{ '/assignments/cpnt262/assignment-4/' | url }})
+- Due: Nov 2 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
-## Assignment 6: JSON routes with Heroku and MongoDB Atlas
+## Assignment 5: Deployed REST API
+- Due: Nov 7 @ 11:59 PM
+- Weight: 10% of Final Course Mark
+
+## Assignment 6: Form submitted to MongoDB Atlas
 - Due: Nov 12 @ 11:59 PM
 - Weight: 15% of Final Course Mark
 
