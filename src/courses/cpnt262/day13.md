@@ -22,7 +22,13 @@ released: true
 - Dates: [luxom](https://www.npmjs.com/package/luxon)
     - [Installation](https://moment.github.io/luxon/#/install)
 - URLs: [slugify](https://www.npmjs.com/package/slugify)
-
+- Command line arguments: [`yargs`](https://www.npmjs.com/package/yargs)
+    - Video: [Passing Command Line Arguments Node.js](https://www.youtube.com/watch?v=5aT02ihNueU)
 
 {% comment %}
+
+## Relevant Gists
+- [npm Package Manager - Introduction](https://gist.github.com/acidtone/01ce4933169a17011659c525233442b5)
+- [`npm` Terminology](https://gist.github.com/acidtone/9a52204b37465c860decd481ab130727)
+- Stretch: [Node: Create a simple http server](https://gist.github.com/acidtone/4f96eefab57e9ab8d2ec4e21f6029be3)
 {% endcomment %}
