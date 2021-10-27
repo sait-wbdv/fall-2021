@@ -15,7 +15,7 @@ title: npm Introduction
 : A package is a file or directory that is described by a `package.json` file.  
 
 **Dependency**
-: Code that another your app needs to function properly. Each dependency will most likely have their own list of dependencies, which npm also manages.
+: Code that your app needs to function properly. Each dependency will most likely have their own list of dependencies, which npm also manages.
 
 **Development dependency**
 : An `npm` package that's only needed during development (i.e. `nodemon` to help reload new code). These dependencies should be ignored when the app is in production.
