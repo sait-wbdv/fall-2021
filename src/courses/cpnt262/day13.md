@@ -21,8 +21,11 @@ released: true
 ## 2. `npm` Package Manager
 ### Materials
 - Takeaways: [Introduction to `npm`]({{ '/takeaways/npm/introduction/' | url }})
-- Video: [NPM Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0) by Traversy Media
-- NodeJS: [An introduction to the npm package manager](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)
+- Prep:
+  - [Anatomy of a `package.json` File](https://www.digitalocean.com/community/tutorials/nodejs-package-json) on Digital Ocean
+  - [The `package.json` guide](https://nodejs.dev/learn/the-package-json-guide)
+  - Video: [NPM Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0) by Traversy Media
+  - NodeJS: [An introduction to the npm package manager](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)
 
 ### Activity: File size - before and after
 1. Download or clone the `hello-npm` project to your workspace.
