@@ -23,6 +23,8 @@ released: true
 {% comment %}
 
 ## Relevant Gists
+- Node 
+    - [Create a simple http server](https://gist.github.com/acidtone/4f96eefab57e9ab8d2ec4e21f6029be3)
 - Express
     - [Express: Hello World!](https://gist.github.com/acidtone/8a188adf6e85a913f7f88c4f6cd53677)
     - [Express: Catch 404 Not Found errors](https://gist.github.com/acidtone/f5a08d0f15e70c4ddf1d40571b9e0645)
