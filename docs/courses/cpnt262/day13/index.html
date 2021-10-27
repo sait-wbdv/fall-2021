@@ -63,20 +63,83 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
   <h2>CPNT 262 Day 13 - Introduction npm and dependencies</h2>
   
   
-        <h2>Prep</h2>
-<h3>NPM Basics</h3>
+        <h2>Housekeeping</h2>
 <ul>
+<li>Daily submission counts</li>
+</ul>
+<h2>Trophy of the day</h2>
+<ul>
+<li>Example app using an <code>npm</code> package</li>
+</ul>
+<hr>
+<h2>1. Spoiler Demos</h2>
+<ul>
+<li><a href="https://gist.github.com/acidtone/99208821b9d7fbdc5b04ae2ddd4d04bc">Simple Calculator</a></li>
+</ul>
+<hr>
+<h2>2. <code>npm</code> Package Manager</h2>
+<h3>Materials</h3>
+<ul>
+<li>Takeaways: <a href="/fall-2021/takeaways/npm/introduction/">Introduction to <code>npm</code></a></li>
 <li>Video: <a href="https://www.youtube.com/watch?v=jHDhaSSKmB0">NPM Crash Course</a> by Traversy Media</li>
-<li><a href="https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager">An introduction to the npm package manager</a></li>
-<li><a href="https://nodejs.dev/learn/where-does-npm-install-the-packages">Where does npm install the packages?</a></li>
-<li><a href="https://nodejs.dev/learn/semantic-versioning-using-npm">Semantic Versioning using npm</a></li>
+<li>NodeJS: <a href="https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager">An introduction to the npm package manager</a></li>
 </ul>
-<h3><code>package.json</code></h3>
+<h3>Activity: File size - before and after</h3>
+<ol>
+<li>Download or clone the <code>hello-npm</code> project to your workspace.</li>
+<li>Navigate to the root of the project on the command line.</li>
+<li>Use your operating system to determine the file size of this new project and how many files there are:
 <ul>
-<li><a href="https://www.digitalocean.com/community/tutorials/nodejs-package-json">Anatomy of a <code>package.json</code> File</a> on Digital Ocean</li>
-<li><a href="https://nodejs.dev/learn/the-package-json-guide">The <code>package.json</code> guide</a></li>
+<li>File size: 188 kB on disk</li>
+<li>Number of items: 5 files</li>
 </ul>
-<h3>Starter packages</h3>
+</li>
+<li>Install dependencies with <code>npm install</code></li>
+<li>Check the file size and number again:
+<ul>
+<li>File size: ???</li>
+<li>Number of files: ???</li>
+</ul>
+</li>
+<li>Questions to ask:
+<ul>
+<li>What has changed?</li>
+<li>What is taking up the extra disk space?</li>
+<li>Would we want to include <code>node_modules</code> in our repositories? Hint: the answer is no.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>3. Ignoring <code>node_modules</code></h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://nodejs.dev/learn/where-does-npm-install-the-packages">Where does npm install the packages?</a></li>
+</ul>
+<p>We want to exclude the <code>node_modules</code> directory (with a <code>.gitignore</code> file) for a few reasons:</p>
+<ol>
+<li>Including the directory will bloat the file size of your repos, which we'll see later.</li>
+<li>Even if the file size of <code>node-modules</code> is small, it will &quot;pollute&quot; your commit history with changes you didn't make because the directory is auto-generated and auto-updated.</li>
+<li>There's no reason not to! <code>npm</code> can rebuild the <code>node_modules</code> directory at anytime with the <code>npm install</code> command. You only need to commit <code>package.json</code>.</li>
+</ol>
+<h3>Key Takeaways</h3>
+<ul>
+<li>Use your <em>global</em> <code>.gitignore</code> for files that your operating system might add to your projects.</li>
+<li>Use your <em>project</em> <code>.gitignore</code> for project-specific files that your team members all need to exclude.</li>
+</ul>
+<hr>
+<h2>4. Initializing <code>npm</code> projects and installing packages</h2>
+<h3>Materials</h3>
+<ul>
+<li>Gists:
+<ul>
+<li><a href="https://gist.github.com/acidtone/d57f41d7c18d0d198263c7bc3ab230e3">Evaluating the status of an <code>npm</code> project</a></li>
+<li><a href="https://gist.github.com/acidtone/f2e901fb4b04bd41aa59755e2de9af4f">Initializing a new <code>npm</code> project</a></li>
+</ul>
+</li>
+</ul>
+<h3>Activity: Starter packages</h3>
+<ol>
+<li>Install one or all of these packages:
 <ul>
 <li>JS Utilities: <a href="https://www.npmjs.com/package/lodash">lodash</a></li>
 <li>Dates: <a href="https://www.npmjs.com/package/luxon">luxom</a>
@@ -90,6 +153,31 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 <li>Video: <a href="https://www.youtube.com/watch?v=5aT02ihNueU">Passing Command Line Arguments Node.js</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li>For any given package, create an example app by following the usage instructions.</li>
+<li>Have one of your classmates clone and run your demo app <em>without</em> including <code>node_modules</code>.</li>
+</ol>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Assignment 4</li>
+<li>Example <code>npm</code> package demo</li>
+<li>Sharing your package demo</li>
+</ul>
+<hr>
+<h2>Prep</h2>
+<h3>NPM Basics</h3>
+<ul>
+<li>Video: <a href="https://www.youtube.com/watch?v=jHDhaSSKmB0">NPM Crash Course</a> by Traversy Media</li>
+<li><a href="https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager">An introduction to the npm package manager</a></li>
+<li><a href="https://nodejs.dev/learn/where-does-npm-install-the-packages">Where does npm install the packages?</a></li>
+<li><a href="https://nodejs.dev/learn/semantic-versioning-using-npm">Semantic Versioning using npm</a></li>
+</ul>
+<h3><code>package.json</code></h3>
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/nodejs-package-json">Anatomy of a <code>package.json</code> File</a> on Digital Ocean</li>
+<li><a href="https://nodejs.dev/learn/the-package-json-guide">The <code>package.json</code> guide</a></li>
 </ul>
 
   
