@@ -28,7 +28,7 @@ released: true
   - NodeJS: [An introduction to the npm package manager](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)
 
 ### Activity: File size - before and after
-1. Download or clone the `hello-npm` project to your workspace.
+1. Download or clone the [`hello-npm`](https://github.com/sait-wbdv/hello-npm) project to your workspace.
 2. Navigate to the root of the project on the command line.
 3. Use your operating system to determine the file size of this new project and how many files there are:
     - File size: 188 kB on disk
