@@ -8,19 +8,19 @@ HTTP Header
 : A list of name and value pairs that contain information that a client and server send back and forth to each other. 
 
 Request Header
-: The information a client (a browser) sends to a server to request a file. These files can be static such as `index.html`, `main.css` and `logo.jpg`. They can also be dynamically generated JSON files such as `customers.json`. 
+: The information a client (a browser) sends to a server to request a file or resource.  
 
 Response Header
-: The information that the server sends back to the browser. This will include the requested file (usually) and a Response Code telling the client if the request was successful or not.
+: The information that the server sends back to the browser. 
 
 Resource
 : The file or information that the browser is requesting.
 
 Request Endpoint (URL)
-: The "location" or path of a resource on the server. This is an actual location in the case of static files but is a virtual location when requesting JSON data.
+: The "location" or path of a resource on the server. 
 
 HTTP Verb
-: An action that represents what the client would like the server to do with a resource. In this course, we will cover `GET` (Read), `POST` (Create), `PUT` (Update) and `DELETE` (Delete, duh).
+: An action that represents what the client would like the server to do with a resource. Common verbs: `GET`, `POST`, `PUT` and `DELETE`.
 :::
 
 ## Request/Response Cycle
