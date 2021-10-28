@@ -19,8 +19,8 @@ Resource
 Request Endpoint (URL)
 : The "location" or path of a resource on the server. 
 
-HTTP Verb
-: An action that represents what the client would like the server to do with a resource. Common verbs: `GET`, `POST`, `PUT` and `DELETE`.
+HTTP Method
+: An action that represents what the client would like the server to do with a resource. Common methods: `GET`, `POST`, `PUT` and `DELETE`.
 :::
 
 ## Request/Response Cycle
@@ -29,7 +29,7 @@ The Request/Response Cycle is the basis for all communication between a browser 
 2. The Request is magically routed to the server using many Internet protocols, such as DNS (domain names -> IP addresses) and HTTP.
 3. The server receives the request and decides what to do based on the:
     - Endpoint URL - The "location" of a resource (a file or information) on the server.
-    - HTTP Verb - The action that is requested, based on CRUD operations:
+    - HTTP Method - The action that is requested, based on CRUD operations:
         - Create a resource: `GET` Request
         - Read a resource: `POST` Request
         - Update a resource: `UPDATE` Request
