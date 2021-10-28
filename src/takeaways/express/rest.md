@@ -20,7 +20,7 @@ RESTful APIs define how a client requests information from a server over HTTP. I
 CRUD represents the four ways we can use or affect information which map directly to HTTP Methods:
 - Create a resource: `POST` Request
 - Read a resource: `GET` Request
-- Update a resource: `UPDATE` Request
+- Update a resource: `PUT` Request
 - Delete a resource: `DELETE` Request
 
 ## Routes: a key concept
