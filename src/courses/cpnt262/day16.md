@@ -8,7 +8,9 @@ released: true
 
 ## Prep
 ### Express Routes
-- Review: [How to build a REST API with Node js & Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) by Programming with Mosh
+- Review: 
+    - [How to build a REST API with Node js & Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) by Programming with Mosh
+    - [Introduction to REST]({{ '/takeaways/express/rest/' | url }})
 - [Express Routes](https://expressjs.com/en/guide/routing.html) in the ExpressJS Documentation
 
 ### Route parameters
