@@ -94,7 +94,9 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 <p>Installing a dependency globally is not recommended for production dependencies (you're locked to one version of <code>express</code>, for example) but global dev dependencies are usually fine.</p>
 </li>
 <li>
-<p>Permissions issues sometimes happen with global packages depending on the system.</p>
+<p>Permissions issues sometimes happen with global packages depending on the system. Try using <code>sudo</code> and enter your user password:</p>
+<pre><code>$ sudo npm install -g nodemon
+</code></pre>
 </li>
 </ul>
 <hr>

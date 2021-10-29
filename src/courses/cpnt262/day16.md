@@ -6,6 +6,14 @@ date: 2021-11-01
 ---
 
 ## Prep
+### Express Routes
+- Review: [How to build a REST API with Node js & Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) by Programming with Mosh
+- [Express Routes](https://expressjs.com/en/guide/routing.html) in the ExpressJS Documentation
+
+### Route parameters
+- [Route parameters](https://expressjs.com/en/guide/routing.html#route-parameters) (linked to "Route parameters" section)
+- [Route Parameters in Express](https://masteringjs.io/tutorials/express/route-parameters) on MasteringJS
+- Reference: [`req.params`](https://expressjs.com/en/4x/api.html#req.params)
 
 {% comment %}
 

@@ -35,7 +35,11 @@ Global `npm` packages are available for all npm projects and are usually used fo
     $ nodemon server.js
     ```
 - Installing a dependency globally is not recommended for production dependencies (you're locked to one version of `express`, for example) but global dev dependencies are usually fine.
-- Permissions issues sometimes happen with global packages depending on the system.
+- Permissions issues sometimes happen with global packages depending on the system. Try using `sudo` and enter your user password:
+
+    ```
+    $ sudo npm install -g nodemon
+    ```
 
 ---
 
