@@ -1,11 +1,18 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 17 - Local Modules
+title: CPNT 262 Day 17 - JSON 404 errors and local modules
 description: 
 date: 2021-11-02
+released: true
 ---
 
 ## Prep
+### Custom Modules
+- Video: 19:16 - 37:40 of [Node.js Tutorial for Beginners](https://youtu.be/TlB_eWDSMt4?t=1156) by Mosh Hamedani    
+- [Export a Module in Node.js](https://www.tutorialsteacher.com/nodejs/nodejs-module-exports) by Tutorials Teacher
+
+### JSON 404 Errors
+- Review: [Validating values](https://sait-wbdv.github.io/fall-2021/takeaways/js/variables-validating-types/)
 
 {% comment %}
 
