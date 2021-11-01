@@ -46,6 +46,8 @@ In the assignment you will:
   - Load the following packages:
     - `express`
     - local module containing your Gallery data (see below);
+    - local module containing your routes (see below);
+
 - App deployed to Heroku.
     - Connect your Heroku App to the Github repo of your project.
     - `"start": "node server.js"` defined as a script in `package.json` 

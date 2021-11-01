@@ -50,7 +50,7 @@ Higher order function
       - [Introduction to REST]({{ '/takeaways/express/rest/' | url }})
   - [Express Routes](https://expressjs.com/en/guide/routing.html) in the ExpressJS Documentation
 - Sample Code
-  - [Definitions in-class code](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/10-29-deploy-to-heroku/01-definitions)
+  - [Guild starter code](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-01-express-routes/01-route-params-starter)
 
 ---
 
