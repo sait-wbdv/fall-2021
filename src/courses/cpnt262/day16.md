@@ -65,8 +65,7 @@ Higher order function
   - [Definitions in-class code](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/10-29-deploy-to-heroku/01-definitions)
 
 ### Activity
-Using the [sample code from Friday](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/10-29-deploy-to-heroku/01-definitions), refactor the [Guild Spoiler code](https://gist.github.com/acidtone/443af5d0efc720e19e56c9cc55f31521) so that it serves the object via an API instead of logging it to the console.
-
+- [Express Activity: Create a JSON endpoint using route parameters](https://gist.github.com/acidtone/f470990b7ebd01907a37118f200b17ab)
 {% comment %}
 
 
