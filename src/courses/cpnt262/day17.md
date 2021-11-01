@@ -17,7 +17,8 @@ released: true
 ### ES6: Fat arrow syntax
 - [Arrow Functions In Javascript](https://medium.com/@mandeepkaur1/arrow-functions-in-javascript-9254e41a80e3)
 
---- 
+---
+
 {% comment %}
 
 ## Relevant Gist
