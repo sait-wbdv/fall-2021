@@ -20,7 +20,7 @@ title: CPNT 262 Assignments
 - Due: Nov 2 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
-## Assignment 5: Deployed REST API
+## Assignment 5: [Deployed REST API]({{ '/assignments/cpnt262/assignment-5/' | url }})
 - Due: Nov 7 @ 11:59 PM
 - Weight: 10% of Final Course Mark
 
