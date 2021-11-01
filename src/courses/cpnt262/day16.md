@@ -7,7 +7,7 @@ released: true
 ---
 
 ## Housekeeping
-- [Assignment 5]({{ '/assignments/cpnt262/assignment-5' | url }}): Deployed REST API
+- [Assignment 5: Deployed REST API]({{ '/assignments/cpnt262/assignment-5' | url }})
 
 ## Trophy of the Day
 - A REST API with the endpoints:
