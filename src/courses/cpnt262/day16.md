@@ -1,12 +1,25 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 16 - JSON routes and custom (local) modules
+title: CPNT 262 Day 16 - JSON routes
 description: 
 date: 2021-11-01
+released: true
 ---
 
 ## Prep
+### Express Routes
+- Review: 
+    - [How to build a REST API with Node js & Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) by Programming with Mosh
+    - [Introduction to REST]({{ '/takeaways/express/rest/' | url }})
+- [Express Routes](https://expressjs.com/en/guide/routing.html) in the ExpressJS Documentation
 
+### Route parameters
+- [Route parameters](https://expressjs.com/en/guide/routing.html#route-parameters) (linked to "Route parameters" section of "Express Routes" above)
+- [Step 3 - Using `req.params` with Routes](https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters#step-3-–-using-req-params-with-routes) in [How To Retrieve URL and POST Parameters with Express](https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters) on Digital Ocean
+- Reference: [`req.params`](https://expressjs.com/en/4x/api.html#req.params)
+
+### Finding an object in an array
+- [Array.prototype.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 {% comment %}
 
 ## Relevant Gists
