@@ -14,6 +14,9 @@ released: true
 ### JSON 404 Errors
 - Review: [Validating values](https://sait-wbdv.github.io/fall-2021/takeaways/js/variables-validating-types/)
 
+### ES6: Fat arrow syntax
+- [Arrow Functions In Javascript](https://medium.com/@mandeepkaur1/arrow-functions-in-javascript-9254e41a80e3)
+
 {% comment %}
 
 ## Relevant Gist
