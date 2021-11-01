@@ -7,7 +7,7 @@ released: true
 ---
 
 ## Prep
-### Custom Modules
+### Local Modules
 - Video: 19:16 - 37:40 of [Node.js Tutorial for Beginners](https://youtu.be/TlB_eWDSMt4?t=1156) by Mosh Hamedani    
 - [Export a Module in Node.js](https://www.tutorialsteacher.com/nodejs/nodejs-module-exports) by Tutorials Teacher
 
