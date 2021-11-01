@@ -60,11 +60,58 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 
 <article class="post">
   <time>Mon, November 1</time>
-  <h2>CPNT 262 Day 16 - JSON routes</h2>
+  <h2>CPNT 262 Day 16 - Express JSON routes</h2>
   
   
-        <h2>Prep</h2>
-<h3>Express Routes</h3>
+        <h2>Housekeeping</h2>
+<ul>
+<li><a href="/fall-2021/assignments/cpnt262/assignment-5">Assignment 5</a></li>
+</ul>
+<h2>Trophy of the Day</h2>
+<ul>
+<li>
+<p>A REST API with the endpoints:</p>
+<pre class="language-js"><code class="language-js"><span class="token constant">GET</span> <span class="token operator">/</span>api<span class="token operator">/</span>your<span class="token operator">-</span>object<span class="token operator">-</span>here<br><span class="token constant">GET</span> <span class="token operator">/</span>api<span class="token operator">/</span>your<span class="token operator">-</span>object<span class="token operator">-</span>here<span class="token operator">/</span><span class="token operator">:</span>id</code></pre>
+</li>
+</ul>
+<hr>
+<h2>1. Higher order functions with <code>array.find()</code></h2>
+<h3>Terminology</h3>
+<dl>
+<dt>Higher order function</dt>
+<dd>A function that hides (abstracts) information so we can tackle a problem at a higher (more abstract level). Examples: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"><code>Array.forEach()</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"><code>Array.filter()</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"><code>Array.find()</code></a>.</dd>
+</dl>
+<h3>Materials</h3>
+<ul>
+<li>Search: <a href="https://www.google.com/search?q=js+higher+order+functions">&quot;js higher order functions&quot;</a></li>
+<li>Reference
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find">Array.prototype.find()</a></li>
+</ul>
+</li>
+<li>Gists:
+<ul>
+<li><a href="https://gist.github.com/acidtone/385b2f850d4881364ac7b0da320f239a">Find a value in an array</a></li>
+<li><a href="https://gist.github.com/acidtone/fec626b5701beeed49cea776fc354325">Find an object in an array</a></li>
+</ul>
+</li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li><code>Array.find()</code> loops through an array of objects and expects a Boolean return value:
+<ul>
+<li>If <code>true</code> is returned, the loops stops and <code>Array.find()</code> returns the current item;</li>
+<li>If <code>false</code> is returned, the loop continues to the next item;</li>
+<li>If no items are found by the end of the loop, <code>Array.find()</code> returns <code>undefined</code>.</li>
+</ul>
+</li>
+<li>This method is considered a higher order function, meaning it hides (abstracts) information so we can tackle a problem at a higher (more abstract level). In this case, <code>Array.find()</code> hides the fact that it's looping through the array (and that it operations differently based on a boolean result).</li>
+</ul>
+<hr>
+<h2>2. Express routes</h2>
+<h3>Materials</h3>
+<ul>
+<li>Prep
 <ul>
 <li>Review:
 <ul>
@@ -74,16 +121,32 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </li>
 <li><a href="https://expressjs.com/en/guide/routing.html">Express Routes</a> in the ExpressJS Documentation</li>
 </ul>
-<h3>Route parameters</h3>
+</li>
+<li>Sample Code
+<ul>
+<li><a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/10-29-deploy-to-heroku/01-definitions">Definitions in-class code</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>3. Route parameters and <code>request.params</code></h2>
+<h3>Materials</h3>
+<ul>
+<li>Prep
 <ul>
 <li><a href="https://expressjs.com/en/guide/routing.html#route-parameters">Route parameters</a> (linked to &quot;Route parameters&quot; section of &quot;Express Routes&quot; above)</li>
 <li><a href="https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters#step-3-%E2%80%93-using-req-params-with-routes">Step 3 - Using <code>req.params</code> with Routes</a> in <a href="https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters">How To Retrieve URL and POST Parameters with Express</a> on Digital Ocean</li>
 <li>Reference: <a href="https://expressjs.com/en/4x/api.html#req.params"><code>req.params</code></a></li>
 </ul>
-<h3>Finding an object in an array</h3>
+</li>
+<li>Sample code
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find">Array.prototype.find()</a></li>
+<li><a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/10-29-deploy-to-heroku/01-definitions">Definitions in-class code</a></li>
 </ul>
+</li>
+</ul>
+<h3>Activity</h3>
+<p>Using the <a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/10-29-deploy-to-heroku/01-definitions">sample code from Friday</a>, refactor the <a href="https://gist.github.com/acidtone/443af5d0efc720e19e56c9cc55f31521">Guild Spoiler code</a> so that it serves the object via an API instead of logging it to the console.</p>
 
   
 </article>
