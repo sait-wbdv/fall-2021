@@ -39,6 +39,11 @@ Higher order function
     - If no items are found by the end of the loop, `Array.find()` returns `undefined`.
 - This method is considered a higher order function, meaning it hides (abstracts) information so we can tackle a problem at a higher (more abstract level). In this case, `Array.find()` hides the fact that it's looping through the array (and that it operations differently based on a boolean result).
 
+### Activity: Practice with `Array.find()`
+1. Find your array from your Gallery `.forEach()` assignment (or some other array of Objects);
+2. Choose a property (with a string or number value) within your objects to test against;
+3. Using `process.argv` and `Array.find()`, create a command line app that returns the item that matches the `inputValue` that is passed from the command line OR print a "Please try again" statement if no items were found.
+
 ---
 
 ## 2. Express routes
