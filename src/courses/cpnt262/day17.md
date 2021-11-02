@@ -18,7 +18,8 @@ released: true
 ## 1. Spoiler demo
 ### Materials
 - [Create a JSON endpoint using route parameters](https://gist.github.com/acidtone/f470990b7ebd01907a37118f200b17ab)
-- Review: [Validating values](https://sait-wbdv.github.io/fall-2021/takeaways/js/variables-validating-types/)- [Arrow Functions In Javascript](https://medium.com/@mandeepkaur1/arrow-functions-in-javascript-9254e41a80e3)
+- Review: [Validating values](https://sait-wbdv.github.io/fall-2021/takeaways/js/variables-validating-types/)
+- [Arrow Functions In Javascript](https://medium.com/@mandeepkaur1/arrow-functions-in-javascript-9254e41a80e3)
 
 ### Activity
 - A walk-through and optimization of the `guild` spoilers.
