@@ -130,6 +130,5 @@ CommonJS Module
 
 
   - Example: [Node: 3 stages of greet](https://gist.github.com/acidtone/7ab0bd9d11f8d85a39fe185d2fb0a065)
-- [REST APIs: Getting Started](https://gist.github.com/acidtone/55f3c53bab36a7a9f9927a96a2556025)
 
 {% endcomment %}
