@@ -28,10 +28,10 @@ A good coder is a lazy coder. Arrow functions are made for lazy coders.
 
 Given the following input variables:
 
-    ```js
-    const cats = require('./cats') // Array of objects
-    const searchName = 'fluffy' // From either argv or url 
-    ```
+```js
+const cats = require('./cats') // Array of objects
+const searchName = 'fluffy' // From either argv or url 
+```
 
 Each of the following do the exact same thing (find a `cat` based on `name`).
 
