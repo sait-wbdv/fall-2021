@@ -8,7 +8,7 @@ released: true
 
 ## Housekeeping
 - Tutorials: [Javascript Exercism](https://exercism.org/tracks/javascript)
-- Ash and Norv will cover for me this afternoon
+- Ash and Norv will cover for Tony this afternoon
 
 ## Trophy of the Day
 - A local module!
@@ -17,8 +17,8 @@ released: true
 
 ## 1. Spoiler demo
 ### Materials
-- [Arrow Functions In Javascript](https://medium.com/@mandeepkaur1/arrow-functions-in-javascript-9254e41a80e3)
 - [Create a JSON endpoint using route parameters](https://gist.github.com/acidtone/f470990b7ebd01907a37118f200b17ab)
+- Review: [Validating values](https://sait-wbdv.github.io/fall-2021/takeaways/js/variables-validating-types/)- [Arrow Functions In Javascript](https://medium.com/@mandeepkaur1/arrow-functions-in-javascript-9254e41a80e3)
 
 ### Activity
 - A walk-through and optimization of the `guild` spoilers.
