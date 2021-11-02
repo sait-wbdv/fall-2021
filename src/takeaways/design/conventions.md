@@ -16,7 +16,7 @@ Web conventions are popular design patterns that evolve over time as the user be
 
 ### Web usability conventions 
 - [Navigation]({{ '/takeaways/design/navigation/' | url }})
-- [Layout]({{ '/takeaways/design/content/' | url }})
+- [Layout]({{ '/takeaways/design/layout/' | url }})
 - [Content]({{ '/takeaways/design/content/' | url }})
 - Forms
-- Mobile
+- [Mobile]({{ '/takeaways/design/mobile/' | url }})
