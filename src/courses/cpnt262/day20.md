@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
 title: CPNT 262 Day 20
-description: `express.Router` and Heroku with Atlas
+description: Express Router and Heroku with Atlas
 date: 2021-11-05
 released: true
 ---
