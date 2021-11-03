@@ -10,7 +10,9 @@ released: true
 - Announced after lunch:
     - Group assignments for Final Project
     - Draft of Assignment 6 and Group Project announced
-- Tooltime: [Syncing a Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
+- Tooltime: 
+    - Experiment: starter code in `in-class` 
+    - [Syncing a Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
 ## Trophy of the day
 - A randy module: Build an express module that returns a random item from a List Entry endpoint.
