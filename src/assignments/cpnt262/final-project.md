@@ -3,7 +3,7 @@ layout: layouts/assignment.njk
 title: DRAFT - CPNT 262 Final Project - Deployed Product/Services Website
 ---
 
-[Team Assignments]({{ '/assignments/cpnt262/members/' | url }})
+[Team Assignments]({{ '/assignments/cpnt262/team/' | url }})
 
 In this assignment, your group will deploy a multi-page, database-driven Product website using Express and Mongoose. It will be deployed to Heroku and MongoDB Atlas.
 
