@@ -76,7 +76,7 @@ Modify the List Entry endpoint of the [Guild sample code](https://github.com/sai
 ---
 
 ## Lab Time
-- Group assignments
+- [Final Project]({{ '/assignments/cpnt262/final-project/' | url }}): [Group assignments]({{ '/assignments/cpnt262/teams/' | url }})
     - Decide on a group name
     - Decide on a theme for your website
 - Morning Activities
