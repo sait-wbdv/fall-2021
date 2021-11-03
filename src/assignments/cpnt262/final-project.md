@@ -3,7 +3,7 @@ layout: layouts/assignment.njk
 title: DRAFT - CPNT 262 Final Project - Deployed Product/Services Website
 ---
 
-[Team Assignments]({{ '/assignments/cpnt262/team/' | url }})
+[Team Assignments]({{ '/assignments/cpnt262/teams/' | url }})
 
 In this assignment, your group will deploy a multi-page, database-driven Product website using Express and Mongoose. It will be deployed to Heroku and MongoDB Atlas.
 
@@ -91,7 +91,7 @@ Create HTML route handlers to render and serve the following static pages:
 
 ---
 
-### 2. Schema/model implementation: 5 points
+### 2. Schema/model implementation: 10 points
 - Define the following Mongoose Schemas in a dedicated `/models` directory:
   - `/models/Gallery.js`: The product/service you are selling/advertising. This may be renamed to match your chosen theme.
     - `id`
@@ -120,29 +120,22 @@ Your instructor may need to build a local version of your database to mark this 
 
 ### 3. JSON Endpoints: 5 points
 Create the following JSON endpoints to serve your frontend views:
-1. Products/Services gallery
-    - `GET /api/gallery`
-2. Single Product/Service
-    - `GET /api/gallery/:id` 
-3. Subscribers list
-    - `GET /api/subscribers`
-    - `POST /api/subscribers`
-        - Inserts subscriber to database using `subscriber` model
-4. Team members
-    - `GET /api/members`
-5. Frontend `fetch()` implementations: Create appropriate frontend `fetch()` requests for the following JSON endpoints defined above:
-    - Requests `GET /api/v0/gallery` for `/public/gallery.html`
-    - Requests `GET /api/v0/gallery/:id` for `/public/item.html`
-    - Requests `GET /api/v0/subscribers` for `/public/admin/index.html`
-    - Requests `GET /api/v0/members` for `/public/team.html`
-6. For each `fetch()` request, build a corresponding gallery/list using `.forEach()` or similar method. 
-
----
-
-### 4. DRAFT Pagination: 5 points
-- `/public/gallery.html?page=3`
-- 3 items per page
-- Query parameters added to `GET /api/gallery`
+  1. Products/Services gallery
+      - `GET /api/gallery`
+  2. Single Product/Service
+      - `GET /api/gallery/:id` 
+  3. Subscribers list
+      - `GET /api/subscribers`
+      - `POST /api/subscribers`
+          - Inserts subscriber to database using `subscriber` model
+  4. Team members
+      - `GET /api/members`
+  5. Frontend `fetch()` implementations: Create appropriate frontend `fetch()` requests for the following JSON endpoints defined above:
+      - Requests `GET /api/gallery` for `/public/gallery.html`
+      - Requests `GET /api/gallery/:id` for `/public/item.html`
+      - Requests `GET /api/subscribers` for `/public/admin/index.html`
+      - Requests `GET /api/members` for `/public/team.html`
+  6. For each `fetch()` request, build a corresponding gallery/list using `.forEach()` or similar method. 
 
 ---
 

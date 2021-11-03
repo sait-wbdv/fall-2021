@@ -42,7 +42,7 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
   </header>
   <main>
     <h2>DRAFT - CPNT 262 Final Project - Deployed Product/Services Website</h2>
-<p><a href="/fall-2021/assignments/cpnt262/team/">Team Assignments</a></p>
+<p><a href="/fall-2021/assignments/cpnt262/teams/">Team Assignments</a></p>
 <p>In this assignment, your group will deploy a multi-page, database-driven Product website using Express and Mongoose. It will be deployed to Heroku and MongoDB Atlas.</p>
 <h2>Instructions</h2>
 <p>This website will sell/advertise new products/services of your choice that you have not covered in prior assignments in this program.</p>
@@ -148,7 +148,7 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </li>
 </ul>
 <hr>
-<h3>2. Schema/model implementation: 5 points</h3>
+<h3>2. Schema/model implementation: 10 points</h3>
 <ul>
 <li>Define the following Mongoose Schemas in a dedicated <code>/models</code> directory:
 <ul>
@@ -218,21 +218,14 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </li>
 <li>Frontend <code>fetch()</code> implementations: Create appropriate frontend <code>fetch()</code> requests for the following JSON endpoints defined above:
 <ul>
-<li>Requests <code>GET /api/v0/gallery</code> for <code>/public/gallery.html</code></li>
-<li>Requests <code>GET /api/v0/gallery/:id</code> for <code>/public/item.html</code></li>
-<li>Requests <code>GET /api/v0/subscribers</code> for <code>/public/admin/index.html</code></li>
-<li>Requests <code>GET /api/v0/members</code> for <code>/public/team.html</code></li>
+<li>Requests <code>GET /api/gallery</code> for <code>/public/gallery.html</code></li>
+<li>Requests <code>GET /api/gallery/:id</code> for <code>/public/item.html</code></li>
+<li>Requests <code>GET /api/subscribers</code> for <code>/public/admin/index.html</code></li>
+<li>Requests <code>GET /api/members</code> for <code>/public/team.html</code></li>
 </ul>
 </li>
 <li>For each <code>fetch()</code> request, build a corresponding gallery/list using <code>.forEach()</code> or similar method.</li>
 </ol>
-<hr>
-<h3>4. DRAFT Pagination: 5 points</h3>
-<ul>
-<li><code>/public/gallery.html?page=3</code></li>
-<li>3 items per page</li>
-<li>Query parameters added to <code>GET /api/gallery</code></li>
-</ul>
 <hr>
 <h3>5. Fancy Feature: 5 points</h3>
 <p>Implement an app feature that we haven't covered in this course. Your instructor needs to approve this feature (before the end of CPNT 262) to ensure it has a large enough scope to qualify for its 5 points of mark value.</p>
