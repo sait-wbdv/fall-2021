@@ -63,6 +63,10 @@ Build your own local module that returns a random item in an array and apply it 
 - [Filter an Array of Objects in JavaScript](https://masteringjs.io/tutorials/fundamentals/filter-array-of-objects)
 
 ### Key Takeaways
+- `Array.filter()` loops through an array of objects, expects a Boolean return value and it creates a new empty array that will be returned at the end of the loop:
+    - If `true` is returned, the current item is added to the new array;
+    - If `false` is returned, the loop continues to the next item;
+    - At the end of the loop, `Array.find()` returns the new array containing all the items that passed the test.
 - The `.filter()` method operates very similarly to `.find()`, except that it returns an array instead of a single item.
 - `.filter()` returns a _new_ array, it does not modify the original array.  
 

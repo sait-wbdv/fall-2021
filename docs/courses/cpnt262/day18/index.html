@@ -123,7 +123,6 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </ul>
 </li>
 <li>Query params are usually applied to a List Entry endpoint, even if only one item is returned.</li>
-<li>If one item is returned, it will usually be sent as a one-item array.</li>
 </ul>
 <h3>Demo: Random guild member endpoint</h3>
 <p>Find a random guild member using this sample code:<a href="https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e">Find a random item in an Array</a></p>
@@ -146,6 +145,13 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </ul>
 <h3>Key Takeaways</h3>
 <ul>
+<li><code>Array.filter()</code> loops through an array of objects, expects a Boolean return value and it creates a new empty array that will be returned at the end of the loop:
+<ul>
+<li>If <code>true</code> is returned, the current item is added to the new array;</li>
+<li>If <code>false</code> is returned, the loop continues to the next item;</li>
+<li>At the end of the loop, <code>Array.find()</code> returns the new array containing all the items that passed the test.</li>
+</ul>
+</li>
 <li>The <code>.filter()</code> method operates very similarly to <code>.find()</code>, except that it returns an array instead of a single item.</li>
 <li><code>.filter()</code> returns a <em>new</em> array, it does not modify the original array.</li>
 </ul>
