@@ -71,7 +71,7 @@ Build your own local module that returns a random item in an array and apply it 
 - `.filter()` returns a _new_ array, it does not modify the original array.  
 
 ### Activity
-Modify the List Entry endpoint of the [Guild sample code](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-03-query-params-filter/02-starter-guild-routes) so that it can return a list of poisoned guild members.
+Modify the List Entry endpoint of the [Guild sample code](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-03-query-params-filter/06-starter-guild-poison-filter) so that it can return a list of poisoned guild members.
 
 ---
 
