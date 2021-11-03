@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 18 - Express Router 
+title: CPNT 262 Day 18 - Query params and .filter() 
 description: 
 date: 2021-11-03
 released: true
