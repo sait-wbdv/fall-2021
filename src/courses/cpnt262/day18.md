@@ -45,7 +45,6 @@ released: true
     - pagination
     - search
 - Query params are usually applied to a List Entry endpoint, even if only one item is returned.
-- If one item is returned, it will usually be sent as a one-item array.
 
 ### Demo: Random guild member endpoint
 Find a random guild member using this sample code:[Find a random item in an Array](https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e)
