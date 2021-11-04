@@ -8,6 +8,7 @@ released: true
 
 ## Housekeeping
 - Tooltime: Install [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+- Ash and Norv will cover for Tony this afternoon
 
 ## Trophy of the day
 - You have connected to an Atlas database and imported data.

@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 20 - Express Router and Heroku with Atlas
+title: CPNT 262 Day 20 - Introduction to Mongoose and Heroku with Atlas
 description: 
 date: 2021-11-05
 released: true
