@@ -33,8 +33,8 @@ Modify the List Entry endpoint of the [Guild sample code](https://github.com/sai
 - [Using dotenv package to create environment variables](https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f)
 
 ### Key Takeaways
-- IMPORTANT: Add `.env` to your `.gitignore`. This will prevent you from pushing private credentials to a public repo.
 - Any app that uses Mongoose will have a `.env` file in the root directory that will store your database login information.
+- IMPORTANT: Add `.env` to your `.gitignore`. This will prevent you from pushing private credentials to a public repo.
 
 ### Activity
 Refactor one of your Express apps to use port 3001 using an environment variable.
@@ -62,7 +62,7 @@ Refactor one of your Express apps to use port 3001 using an environment variable
 4. Add your connection string.
     - MongoDB Atlas will create a starter for you, which you will modify with your db login and database name.
 5. Create a Database (call it `wbdv-sait` or similar)
-6. Create a Collection (plural noun like `gallery` or `images`)
+6. Create a Collection (plural noun like `animals` or `images`)
 7. Click "Import Data" and upload your `json` file.
 
 ---
