@@ -41,48 +41,34 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
     </nav>
   </header>
   <main>
-    
-
-<article class="post">
-  <time>Thu, October 7</time>
-  <h2>Mobile first Breakpoints</h2>
-  
-  
-        <h2>Instructions</h2>
-<ol>
-<li>Do one of the following</li>
-</ol>
+    <h1>Getting started with NoSQL</h1>
+<div class="terms"><h3>Terminology</h3>
+<dl>
+<dt>Document Database</dt>
+<dd>A type of NoSQL (Not-only SQL) database that stores its data as documents on the file system. MongoDB is a <code>json</code> document database.</dd>
+<dt>Database</dt>
+<dd>Holds one or more collections.</dd>
+<dt>Collection</dt>
+<dd>A collection of documents (i.e. a fancy folder). Collections are analogous to tables in relational databases.</dd>
+<dt>Document</dt>
+<dd>MongoDB stores data in the form of <code>json</code> Documents (technically BSON documents). Each document is analagous to a row in a relational database.</dd>
+</dl>
+</div><h2>Materials</h2>
 <ul>
-<li>Take one of the pages that you have previously made and refactor it to use media queries</li>
-<li>Create a new page layout using the flexbox and media queries that we worked with today</li>
+<li><a href="https://www.mongodb.com/nosql-explained">What is NoSQL?</a></li>
+<li><a href="https://www.mongodb.com/nosql-explained/nosql-vs-sql">NoSQL vs SQL Databases</a></li>
 </ul>
-<ol start="2">
-<li>Decide on whether you want to serve a mobile or desktop layout at the default, then create a media query for the other one</li>
-</ol>
+<h2>Key Takeaways</h2>
 <ul>
-<li>set this by using min-width or max-width</li>
-<li>In the readings for today, there is a freecodecamp article that has some great suggestions for breakpoints if you want to get really specific</li>
-</ul>
-<ol start="3">
-<li>make a design that has a distinct layout between mobile and desktop screen sizes</li>
-</ol>
+<li>MongoDB is a file database engine. It literally stores its data as a folder (i.e. Collection) of <code>json</code> files (i.e. Documents).</li>
+<li>Working with MongoDB is a little messy so we use the <code>mongoose</code> package to:
 <ul>
-<li>at mobile
-<ul>
-<li>content should be in a single column (much of this can be done with flexbox on it's own)</li>
-</ul>
-</li>
-<li>at desktop
-<ul>
-<li>More content can be displayed beside other content</li>
-<li>for some displays, you will need to use media queries to make some content disappear, and other content to use different flex properties</li>
+<li>use a simpler syntax;</li>
+<li>ensure the documents in a collection have the same structure;</li>
+<li>hide the gritty details like promises and asynchronous things.</li>
 </ul>
 </li>
 </ul>
-
-  
-</article>
-
 
   </main>
   <footer>

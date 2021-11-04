@@ -63,24 +63,81 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
   <h2>CPNT 262 Day 19 - Mongoose and MongoDB Atlas</h2>
   
   
-        <h2>Prep</h2>
-<h3>MVC pattern and environment variables</h3>
+        <h2>Housekeeping</h2>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">Model-view-controller</a></li>
+<li>Tooltime: Install <a href="https://www.mongodb.com/try/download/compass">MongoDB Compass</a></li>
 </ul>
-<h3>Mongoose and MongoDB</h3>
+<h2>Trophy of the day</h2>
 <ul>
-<li><a href="https://www.mongodb.com/nosql-explained/nosql-vs-sql">NoSQL vs SQL Databases</a></li>
-<li><a href="https://coursework.vschool.io/mongoose-crud/">Mongoose CRUD</a> (Create, Read, Update, Delete)</li>
-<li><a href="https://mongoosejs.com/docs/">Mongoose Getting Started (kittens!)</a></li>
-<li>Extras: <a href="https://padlet.com/acidtone/3bfm7ngr6m0elrz1">Mongoose Padlet</a></li>
+<li>You have connected to an Atlas database and imported data.</li>
+<li>You will not be able to submit this to Brightspace (otherwise you'd be sharing database credentials)</li>
 </ul>
-<h3>MongoDB Atlas</h3>
+<hr>
+<h2>1. Spoiler Demo: Poisoned endpoint</h2>
+<p>Modify the List Entry endpoint of the <a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-03-query-params-filter/02-starter-guild-routes">Guild sample code</a> so that it can return a list of poisoned guild members.</p>
+<hr>
+<h2>2. MVC and NoSQL</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/MVC">MVC</a> definition on MDN</li>
+<li><a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">Model-view-controller</a> on Wikipedia</li>
+<li>Takeaways: <a href="/fall-2021/takeaways/mongoose/nosql/">Getting started with NoSQL</a></li>
+</ul>
+<hr>
+<h2>3. <code>dotenv</code> and environment variables</h2>
+<h3>Materials</h3>
 <ul>
 <li><a href="https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f">Using dotenv package to create environment variables</a></li>
-<li><a href="https://docs.atlas.mongodb.com/getting-started/">Get Started with Atlas</a></li>
-<li><a href="https://gist.github.com/acidtone/534b025d6212a003a8a8ec3030a4d4ae">Deploying a collection to the cloud</a></li>
 </ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>Any app that uses Mongoose will have a <code>.env</code> file in the root directory that will store your database login information.</li>
+<li>IMPORTANT: Add <code>.env</code> to your <code>.gitignore</code>. This will prevent you from pushing private credentials to a public repo.</li>
+</ul>
+<h3>Activity</h3>
+<p>Refactor one of your Express apps to use port 3001 using an environment variable.</p>
+<ol>
+<li>Navigate to the project root on the command line.</li>
+<li>Install <a href="https://www.npmjs.com/package/dotenv"><code>dotenv</code></a> as a dependency</li>
+<li>Create a <code>.env</code> file in the project root and add <code>PORT=3001</code> (you can change this back to <code>3000</code> once you've confirmed <code>dotenv</code> is working).</li>
+</ol>
+<hr>
+<h2>4. Connecting to MongoDB Atlas</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://docs.atlas.mongodb.com/getting-started/">Get Started with Atlas</a></li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/534b025d6212a003a8a8ec3030a4d4ae">Connecting to a MongoDB database in the cloud</a></li>
+</ul>
+<hr>
+<h2>5. Importing data into MongoDB Atlas</h2>
+<h3>Activity</h3>
+<ol>
+<li>Assumption: <a href="https://gist.github.com/acidtone/534b025d6212a003a8a8ec3030a4d4ae">Connected to a MongoDB database in the cloud</a></li>
+<li><a href="https://gist.github.com/acidtone/9ba1c784d5f78fdc9dc4df9c6f26bcf8">Create a <code>json</code> file</a> containing the data you'd like to import (like the local module you're creating for Assignment 5).
+<ul>
+<li><strong>Warning</strong>: MongoDB (and <code>mongoose</code>) assume you'll be importing an <em>array of objects</em>. Any other data types will lead to unexpected results.</li>
+</ul>
+</li>
+<li><a href="https://www.mongodb.com/products/compass">Install Compass</a></li>
+<li>Add your connection string.
+<ul>
+<li>MongoDB Atlas will create a starter for you, which you will modify with your db login and database name.</li>
+</ul>
+</li>
+<li>Create a Database (call it <code>wbdv-sait</code> or similar)</li>
+<li>Create a Collection (plural noun like <code>animals</code> or <code>images</code>)</li>
+<li>Click &quot;Import Data&quot; and upload your <code>json</code> file.</li>
+</ol>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Create an Atlas database and import your sample data.</li>
+<li>Final Project: choose a group member that will own the database you will use for your project. Follow today's steps and have all group members connect to this database.</li>
+</ul>
+<hr>
 
   
 </article>
