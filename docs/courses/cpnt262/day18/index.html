@@ -71,7 +71,12 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 <li>Draft of Assignment 6 and Group Project announced</li>
 </ul>
 </li>
-<li>Tooltime: <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork">Syncing a Fork</a></li>
+<li>Tooltime:
+<ul>
+<li>Experiment: starter code in <code>in-class</code></li>
+<li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork">Syncing a Fork</a></li>
+</ul>
+</li>
 </ul>
 <h2>Trophy of the day</h2>
 <ul>
@@ -118,7 +123,6 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </ul>
 </li>
 <li>Query params are usually applied to a List Entry endpoint, even if only one item is returned.</li>
-<li>If one item is returned, it will usually be sent as a one-item array.</li>
 </ul>
 <h3>Demo: Random guild member endpoint</h3>
 <p>Find a random guild member using this sample code:<a href="https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e">Find a random item in an Array</a></p>
@@ -141,15 +145,22 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </ul>
 <h3>Key Takeaways</h3>
 <ul>
+<li><code>Array.filter()</code> loops through an array of objects, expects a Boolean return value and it creates a new empty array that will be returned at the end of the loop:
+<ul>
+<li>If <code>true</code> is returned, the current item is added to the new array;</li>
+<li>If <code>false</code> is returned, the loop continues to the next item;</li>
+<li>At the end of the loop, <code>Array.find()</code> returns the new array containing all the items that passed the test.</li>
+</ul>
+</li>
 <li>The <code>.filter()</code> method operates very similarly to <code>.find()</code>, except that it returns an array instead of a single item.</li>
 <li><code>.filter()</code> returns a <em>new</em> array, it does not modify the original array.</li>
 </ul>
 <h3>Activity</h3>
-<p>Modify the List Entry endpoint of the <a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-03-query-params-filter/02-starter-guild-routes">Guild sample code</a> so that it can return a list of poisoned guild members.</p>
+<p>Modify the List Entry endpoint of the <a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-03-query-params-filter/06-starter-guild-poison-filter">Guild sample code</a> so that it can return a list of poisoned guild members.</p>
 <hr>
 <h2>Lab Time</h2>
 <ul>
-<li>Group assignments
+<li><a href="/fall-2021/assignments/cpnt262/final-project/">Final Project</a>: <a href="/fall-2021/assignments/cpnt262/teams/">Group assignments</a>
 <ul>
 <li>Decide on a group name</li>
 <li>Decide on a theme for your website</li>

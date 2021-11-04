@@ -34,7 +34,7 @@ Higher order function
 
 ### Key Takeaways
 - `Array.find()` loops through an array of objects and expects a Boolean return value:
-    - If `true` is returned, the loops stops and `Array.find()` returns the current item;
+    - If `true` is returned, the loop stops and `Array.find()` returns the current item;
     - If `false` is returned, the loop continues to the next item;
     - If no items are found by the end of the loop, `Array.find()` returns `undefined`.
 - This method is considered a higher order function, meaning it hides (abstracts) information so we can tackle a problem at a higher (more abstract level). In this case, `Array.find()` hides the fact that it's looping through the array (and that it operations differently based on a boolean result).

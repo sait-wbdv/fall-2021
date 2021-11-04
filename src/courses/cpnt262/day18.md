@@ -10,7 +10,9 @@ released: true
 - Announced after lunch:
     - Group assignments for Final Project
     - Draft of Assignment 6 and Group Project announced
-- Tooltime: [Syncing a Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
+- Tooltime: 
+    - Experiment: starter code in `in-class` 
+    - [Syncing a Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
 ## Trophy of the day
 - A randy module: Build an express module that returns a random item from a List Entry endpoint.
@@ -43,7 +45,6 @@ released: true
     - pagination
     - search
 - Query params are usually applied to a List Entry endpoint, even if only one item is returned.
-- If one item is returned, it will usually be sent as a one-item array.
 
 ### Demo: Random guild member endpoint
 Find a random guild member using this sample code:[Find a random item in an Array](https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e)
@@ -62,16 +63,20 @@ Build your own local module that returns a random item in an array and apply it 
 - [Filter an Array of Objects in JavaScript](https://masteringjs.io/tutorials/fundamentals/filter-array-of-objects)
 
 ### Key Takeaways
+- `Array.filter()` loops through an array of objects, expects a Boolean return value and it creates a new empty array that will be returned at the end of the loop:
+    - If `true` is returned, the current item is added to the new array;
+    - If `false` is returned, the loop continues to the next item;
+    - At the end of the loop, `Array.find()` returns the new array containing all the items that passed the test.
 - The `.filter()` method operates very similarly to `.find()`, except that it returns an array instead of a single item.
 - `.filter()` returns a _new_ array, it does not modify the original array.  
 
 ### Activity
-Modify the List Entry endpoint of the [Guild sample code](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-03-query-params-filter/02-starter-guild-routes) so that it can return a list of poisoned guild members.
+Modify the List Entry endpoint of the [Guild sample code](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-03-query-params-filter/06-starter-guild-poison-filter) so that it can return a list of poisoned guild members.
 
 ---
 
 ## Lab Time
-- Group assignments
+- [Final Project]({{ '/assignments/cpnt262/final-project/' | url }}): [Group assignments]({{ '/assignments/cpnt262/teams/' | url }})
     - Decide on a group name
     - Decide on a theme for your website
 - Morning Activities
