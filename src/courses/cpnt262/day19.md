@@ -40,8 +40,9 @@ Modify the List Entry endpoint of the [Guild sample code](https://github.com/sai
 ### Activity
 Refactor one of your Express apps to use port 3001 using an environment variable.
 1. Navigate to the project root on the command line.
-2. Install [`dotenv`](https://www.npmjs.com/package/dotenv) as a dependency
-3. Create a `.env` file in the project root and add `PORT=3001` (you can change this back to `3000` once you've confirmed `dotenv` is working).
+2. Create a `.env` file in the project root and add `PORT=3001` (you can change this back to `3000` once you've confirmed `dotenv` is working).
+3. Install [`dotenv`](https://www.npmjs.com/package/dotenv) as a dependency
+4. `require('dotenv)` in your server
 
 ---
 
