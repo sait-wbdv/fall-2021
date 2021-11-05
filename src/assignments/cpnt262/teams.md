@@ -5,7 +5,7 @@
 - Jared
 - Jessica
 
-## Group 2
+## Matrix Squad
 - Lucas
 - Fesal
 - Hyeju
@@ -17,7 +17,7 @@
 - Devon
 - Isha
 
-## Group 4
+## Fan4stic
 - Alex
 - Chris
 - Icah
