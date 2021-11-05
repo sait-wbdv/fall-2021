@@ -1,5 +1,5 @@
 # Final Project Group Assignments
-## Group 1
+## Alarm Robots
 - David
 - JayPee
 - Jared
@@ -11,7 +11,7 @@
 - Hyeju
 - Raj
 
-## Group 3
+## VS Coders
 - Evan
 - Filora
 - Devon
