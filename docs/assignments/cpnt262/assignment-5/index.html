@@ -48,7 +48,7 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 <p>Create static web pages for your API Documentation (<code>index.html</code>) and custom 404 page (<code>404.html</code>).</p>
 </li>
 <li>
-<p>Serve JSON endpoints using <code>app.get()</code> and a local module. For example:</p>
+<p>Serve JSON endpoints using <code>app.get()</code> and a Mongoose Model. For example:</p>
 <pre><code>GET /api/animals
 GET /api/animals/:id
 </code></pre>
@@ -62,14 +62,16 @@ GET /api/animals/:id
 </ul>
 <hr>
 <h2>Criteria</h2>
-<p>2 points will be given for each of the following criteria, for a total of 10 points:</p>
+<p>4 points will be given for each of the following criteria, for a total of 20 points:</p>
 <h3>1. Server setup</h3>
 <ul>
 <li>
 <p>Project directory structure:</p>
 <pre><code>project-root
-└─ data
-   └─ gallery.js (or similar)    
+└─ models
+   ├─ seeds
+     └─ items.js
+   └─ Item.js (change name to match your data)    
 └─ public
    ├─ assets
      ├─ css
@@ -91,64 +93,39 @@ GET /api/animals/:id
 <li>Load the following packages:
 <ul>
 <li><code>express</code></li>
-<li>local module containing your Gallery data (see below);</li>
+<li><code>mongoose</code></li>
+<li><code>dotenv</code></li>
 <li>local module containing your routes (see below);</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<p>App deployed to Heroku.</p>
+<p>App connects to MongoDB Atlas</p>
+</li>
+<li>
+<p>App deployed to Heroku and MongoDB Atlas.</p>
 <ul>
 <li>Connect your Heroku App to the Github repo of your project.</li>
 <li><code>&quot;start&quot;: &quot;node server.js&quot;</code> defined as a script in <code>package.json</code></li>
 <li>Server <code>PORT</code>: If <code>process.env.PORT</code> isn't found, use port 3000.</li>
+<li>Heroku connected to MongoDB Atlas:
+<ul>
+<li>Connection string added to <code>Config Vars</code> in Heroku Settings</li>
 </ul>
 </li>
 </ul>
-<h3>2. Data and list endpoint</h3>
+</li>
+</ul>
+<h3>2. List and item endpoints</h3>
 <p>Using your gallery from Assignment 2 (modifications are welcome), create a JSON API endpoint that returns a list of gallery items (<code>animals</code> used an example; modify your endpoint to match your content):</p>
 <pre><code>GET /api/animals
+GET /api/animals/:id
 </code></pre>
 <ul>
-<li>
-<p>Migrate your frontend Javascript array to a local Node module (<code>./data/gallery.js</code>).</p>
-<ul>
-<li>Basic object properties:
-<ul>
-<li><code>id</code> - Unique identifier (<code>number</code>);</li>
-<li><code>title</code> - Image heading (<code>string</code>);</li>
-<li><code>description</code> - Image description (<code>string</code>: 10-25 words);</li>
-</ul>
-</li>
-<li>Additional properties:
-<ul>
-<li>An image with:
-<ul>
-<li>information for the <code>src</code> attribute, such as file name or complete path</li>
-<li>locally hosted image in an <code>images</code> directory</li>
-<li>Note: <code>width</code> and <code>height</code> are not needed for this assignment</li>
-</ul>
-</li>
-<li>A date in ISO-8601 format:
-<ul>
-<li>Time is not required but set timezone to UTC if you decide to use it;</li>
-<li><code>dateCreated</code> or <code>dateAccessed</code> is a good starting point but feel free to adapt a date that fits your API;</li>
-<li>See: <a href="http://apiux.com/2013/03/20/5-laws-api-dates-and-times/">The 5 laws of API dates and times</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Route is loaded as a local module using <code>require('./routes/api.js')</code></p>
-</li>
-<li>
-<p>Data is loaded as a local module using <code>require('./data/animals.js')</code></p>
-</li>
-<li>
-<p>Error handling is implemented:</p>
+<li>Routes are loaded as a local module using <code>require('./routes/api.js')</code></li>
+<li>Data is served from MongoDB using a <code>mongoose</code> model (see below)</li>
+<li>Error handling is implemented:
 <ul>
 <li>
 <p>requests to non-existent endpoints to <code>GET /api</code> return a JSON response with <code>404</code> status code:</p>
@@ -159,32 +136,53 @@ GET /api/animals/:id
 <ul>
 <li><code>GET /api/whatever</code></li>
 <li><code>GET /api/this/endpoint/does/not/exist</code></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3>3. Item endpoint</h3>
-<p>Using route parameters, create a JSON API endpoint that returns one gallery item, based on a unique <code>id</code> or other parameter:</p>
-<pre><code>GET /animals/:id
-</code></pre>
-<ul>
-<li>The JSON response should match the array exported from your local module imported above.</li>
-<li>You may choose a parameter other than <code>:id</code> that suits your API.</li>
-<li>Error handling is implemented:
-<ul>
-<li>malformed requests (i.e. string when a number is expected) are handled gracefully with JSON <code>404</code> response</li>
-<li>requests to non-existent parameters return a JSON response with <code>404</code> status code</li>
-<li>Example endpoints that should return <code>404</code> as JSON:
-<ul>
 <li><code>GET /api/animals/0</code> (assuming that <code>id</code> does not exist)</li>
-<li><code>GET /api/animals/not/an/id</code></li>
 <li><code>GET /api/animals/233740055837</code> (assuming that <code>id</code> does not exist)</li>
-<li><code>GET /api/not-a-number</code></li>
 </ul>
 </li>
 </ul>
 </li>
+<li>You may choose a parameter other than <code>:id</code> that suits your API.</li>
+<li>Note: Data may come from a local module if <code>mongoose</code> model is inoperable or non-existent.</li>
+</ul>
+<h3>3. Mongoose Model</h3>
+<ul>
+<li>Migrate your frontend Javascript array to a <code>mongoose</code> model (<code>./models/Item.js</code>; rename to suit your data).
+<ul>
+<li>Basic model properties:
+<ul>
+<li><code>id</code> - Unique identifier (<code>Number</code>);</li>
+<li><code>title</code> - Image heading (<code>String</code>);</li>
+<li><code>description</code> - Image description (<code>String</code>: 10-25 words);</li>
+</ul>
+</li>
+<li>Additional properties:
+<ul>
+<li>An image with:
+<ul>
+<li>information for the <code>src</code> attribute (<code>String</code>), such as file name or complete path</li>
+<li>locally hosted image in an <code>images</code> directory</li>
+<li>Note: <code>width</code> and <code>height</code> are not needed for this assignment</li>
+</ul>
+</li>
+<li>A date (mongoose <code>Date</code>):
+<ul>
+<li>Time is not required but set timezone to UTC if you decide to use it;</li>
+<li><code>dateCreated</code> or <code>dateAccessed</code> is a good starting point but feel free to adapt a date that fits your API;</li>
+<li>See:
+<ul>
+<li><a href="http://apiux.com/2013/03/20/5-laws-api-dates-and-times/">The 5 laws of API dates and times</a></li>
+<li><a href="https://mongoosejs.com/docs/tutorials/dates.html">Working With Dates in Mongoose</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Routes are loaded as a local module using <code>require('./models/Item.js')</code> and used to serve data to your List and Item endpoints.</li>
+<li>include a <code>./model/seeds</code> directory containing the data you've imported into MongoDB Atlas.</li>
 </ul>
 <h3>4. Public documentation and custom 404 page</h3>
 <ul>
