@@ -24,6 +24,6 @@ title: CPNT 262 Assignments
 - Due: Nov 10 @ 11:59 PM
 - Weight: 20% of Final Course Mark
 
-## Final Group Project
+## [Final Group Project]({{ '/assignments/cpnt262/final-project/' | url }})
 - Due: Nov 15 @ 11:59 PM
 - Weight: 40% of Final Course Mark
