@@ -75,8 +75,7 @@ GET /api/animals/:id
 └─ public
    ├─ assets
      ├─ css
-     ├─ images
-     └─ js
+     └─ images
    ├─ 404.html
    └─ index.html
 └─ routes
@@ -161,7 +160,7 @@ GET /api/animals/:id
 <li>An image with:
 <ul>
 <li>information for the <code>src</code> attribute (<code>String</code>), such as file name or complete path</li>
-<li>locally hosted image in an <code>images</code> directory</li>
+<li>API should output a complete URL (with domain) to a hosted image. This can be local or somewhere else on the Interwebs (like a GH Pages repo).</li>
 <li>Note: <code>width</code> and <code>height</code> are not needed for this assignment</li>
 </ul>
 </li>
@@ -181,8 +180,8 @@ GET /api/animals/:id
 </li>
 </ul>
 </li>
-<li>Routes are loaded as a local module using <code>require('./models/Item.js')</code> and used to serve data to your List and Item endpoints.</li>
-<li>include a <code>./model/seeds</code> directory containing the data you've imported into MongoDB Atlas.</li>
+<li>Model is loaded using <code>require('./models/Item.js')</code> and used to serve data to your List and Item endpoints.</li>
+<li>Include a <code>./model/seeds</code> directory containing the data you've imported into MongoDB Atlas.</li>
 </ul>
 <h3>4. Public documentation and custom 404 page</h3>
 <ul>

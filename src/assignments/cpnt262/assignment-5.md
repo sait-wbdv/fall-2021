@@ -31,8 +31,7 @@ In the assignment you will:
     └─ public
        ├─ assets
          ├─ css
-         ├─ images
-         └─ js
+         └─ images
        ├─ 404.html
        └─ index.html
     └─ routes
@@ -94,7 +93,7 @@ GET /api/animals/:id
     - Additional properties:
         - An image with:
             - information for the `src` attribute (`String`), such as file name or complete path
-            - locally hosted image in an `images` directory
+            - API should output a complete URL (with domain) to a hosted image. This can be local or somewhere else on the Interwebs (like a GH Pages repo).
             - Note: `width` and `height` are not needed for this assignment
         - A date (mongoose `Date`):
             - Time is not required but set timezone to UTC if you decide to use it;
@@ -102,8 +101,8 @@ GET /api/animals/:id
             - See: 
                 - [The 5 laws of API dates and times](http://apiux.com/2013/03/20/5-laws-api-dates-and-times/)
                 - [Working With Dates in Mongoose](https://mongoosejs.com/docs/tutorials/dates.html)
-- Routes are loaded as a local module using `require('./models/Item.js')` and used to serve data to your List and Item endpoints.
-- include a `./model/seeds` directory containing the data you've imported into MongoDB Atlas. 
+- Model is loaded using `require('./models/Item.js')` and used to serve data to your List and Item endpoints.
+- Include a `./model/seeds` directory containing the data you've imported into MongoDB Atlas. 
 
 ### 4. Public documentation and custom 404 page
 - Custom 404 html page

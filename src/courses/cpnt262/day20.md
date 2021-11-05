@@ -79,7 +79,8 @@ Route modules work much like other local modules but require some added steps:
 
 ---
 
-## 4. MongoDB Atlas on Heroku
+## 3. MongoDB Atlas on Heroku
+### Materials
 - [How to host a RESTful Node.js server with MongoDB Atlas database on Heroku](https://dev.to/cpclark360/how-to-host-a-restful-node-js-server-with-mongodb-atlas-database-on-heroku-1opl)
 
 ### Key Takeaways
