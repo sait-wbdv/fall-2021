@@ -150,7 +150,7 @@ Some examples that would qualify:
 
 ---
 
-### 5. Individual Contribution: 10 points
+### 5. Individual Contribution: 15 points
 Assign the key roles and responsibilities for each group member in delivering the Final Project. After each entry write a short summary defining their role and what their responsibilities are in the project. 
 
 This charter will serve as the reference for your instructor's evaluation of your individual contribution to the group project.

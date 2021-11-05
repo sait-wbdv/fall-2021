@@ -4,7 +4,7 @@ title: CPNT 262 Assignment 5 - Deployed REST API
 ---
 In the assignment you will:
 - Create static web pages for your API Documentation (`index.html`) and custom 404 page (`404.html`).
-- Serve JSON endpoints using `app.get()` and a local module. For example:
+- Serve JSON endpoints using `app.get()` and a Mongoose Model. For example:
 
     ```
     GET /api/animals
@@ -17,15 +17,17 @@ In the assignment you will:
 ---
 
 ## Criteria
-2 points will be given for each of the following criteria, for a total of 10 points:
+4 points will be given for each of the following criteria, for a total of 20 points:
 
 ### 1. Server setup
 - Project directory structure:
 
     ```
     project-root
-    └─ data
-       └─ gallery.js (or similar)    
+    └─ models
+       ├─ seeds
+         └─ items.js
+       └─ Item.js (change name to match your data)    
     └─ public
        ├─ assets
          ├─ css
@@ -45,39 +47,28 @@ In the assignment you will:
 - `server.js`
   - Load the following packages:
     - `express`
-    - local module containing your Gallery data (see below);
+    - `mongoose`
+    - `dotenv`
     - local module containing your routes (see below);
 
-- App deployed to Heroku.
+- App connects to MongoDB Atlas
+- App deployed to Heroku and MongoDB Atlas.
     - Connect your Heroku App to the Github repo of your project.
     - `"start": "node server.js"` defined as a script in `package.json` 
     - Server `PORT`: If `process.env.PORT` isn't found, use port 3000.
+    - Heroku connected to MongoDB Atlas:
+        - Connection string added to `Config Vars` in Heroku Settings
 
-### 2. Data and list endpoint
+### 2. List and item endpoints
 Using your gallery from Assignment 2 (modifications are welcome), create a JSON API endpoint that returns a list of gallery items (`animals` used an example; modify your endpoint to match your content):
 
 ```
 GET /api/animals
+GET /api/animals/:id
 ```
 
-- Migrate your frontend Javascript array to a local Node module (`./data/gallery.js`).
-    - Basic object properties:
-        - `id` - Unique identifier (`number`);
-        - `title` - Image heading (`string`);
-        - `description` - Image description (`string`: 10-25 words);
-    - Additional properties:
-        - An image with:
-            - information for the `src` attribute, such as file name or complete path
-            - locally hosted image in an `images` directory
-            - Note: `width` and `height` are not needed for this assignment
-        - A date in ISO-8601 format:
-            - Time is not required but set timezone to UTC if you decide to use it;
-            - `dateCreated` or `dateAccessed` is a good starting point but feel free to adapt a date that fits your API;
-            - See: [The 5 laws of API dates and times](http://apiux.com/2013/03/20/5-laws-api-dates-and-times/)
-
-
-- Route is loaded as a local module using `require('./routes/api.js')`
-- Data is loaded as a local module using `require('./data/animals.js')`
+- Routes are loaded as a local module using `require('./routes/api.js')`
+- Data is served from MongoDB using a `mongoose` model (see below)
 - Error handling is implemented:
     - requests to non-existent endpoints to `GET /api` return a JSON response with `404` status code:
          ```js
@@ -89,24 +80,30 @@ GET /api/animals
     - Example endpoints that should return `404` as JSON:
       - `GET /api/whatever`
       - `GET /api/this/endpoint/does/not/exist`
-
-### 3. Item endpoint
-Using route parameters, create a JSON API endpoint that returns one gallery item, based on a unique `id` or other parameter:
-
-```
-GET /animals/:id
-```
-
-- The JSON response should match the array exported from your local module imported above.
+      - `GET /api/animals/0` (assuming that `id` does not exist)
+      - `GET /api/animals/233740055837` (assuming that `id` does not exist)
 - You may choose a parameter other than `:id` that suits your API.
-- Error handling is implemented:
-    - malformed requests (i.e. string when a number is expected) are handled gracefully with JSON `404` response
-    - requests to non-existent parameters return a JSON response with `404` status code
-    - Example endpoints that should return `404` as JSON:
-        - `GET /api/animals/0` (assuming that `id` does not exist)
-        - `GET /api/animals/not/an/id`
-        - `GET /api/animals/233740055837` (assuming that `id` does not exist)
-        - `GET /api/not-a-number`
+- Note: Data may come from a local module if `mongoose` model is inoperable or non-existent.
+
+### 3. Mongoose Model
+- Migrate your frontend Javascript array to a `mongoose` model (`./models/Item.js`; rename to suit your data).
+    - Basic model properties:
+        - `id` - Unique identifier (`Number`);
+        - `title` - Image heading (`String`);
+        - `description` - Image description (`String`: 10-25 words);
+    - Additional properties:
+        - An image with:
+            - information for the `src` attribute (`String`), such as file name or complete path
+            - locally hosted image in an `images` directory
+            - Note: `width` and `height` are not needed for this assignment
+        - A date (mongoose `Date`):
+            - Time is not required but set timezone to UTC if you decide to use it;
+            - `dateCreated` or `dateAccessed` is a good starting point but feel free to adapt a date that fits your API;
+            - See: 
+                - [The 5 laws of API dates and times](http://apiux.com/2013/03/20/5-laws-api-dates-and-times/)
+                - [Working With Dates in Mongoose](https://mongoosejs.com/docs/tutorials/dates.html)
+- Routes are loaded as a local module using `require('./models/Item.js')` and used to serve data to your List and Item endpoints.
+- include a `./model/seeds` directory containing the data you've imported into MongoDB Atlas. 
 
 ### 4. Public documentation and custom 404 page
 - Custom 404 html page

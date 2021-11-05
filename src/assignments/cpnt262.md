@@ -21,13 +21,9 @@ title: CPNT 262 Assignments
 - Weight: 10% of Final Course Mark
 
 ## Assignment 5: [Deployed REST API]({{ '/assignments/cpnt262/assignment-5/' | url }})
-- Due: Nov 7 @ 11:59 PM
-- Weight: 10% of Final Course Mark
-
-## Assignment 6: Form submitted to MongoDB Atlas
-- Due: Nov 12 @ 11:59 PM
-- Weight: 15% of Final Course Mark
+- Due: Nov 10 @ 11:59 PM
+- Weight: 20% of Final Course Mark
 
 ## Final Group Project
 - Due: Nov 15 @ 11:59 PM
-- Weight: 35% of Final Course Mark
+- Weight: 40% of Final Course Mark
