@@ -7,12 +7,12 @@ released: true
 ---
 
 ## Housekeeping
-- Proposed assignment changes
+- Proposed [assignment changes]({{ '/assignments/cpnt262/' | url }})
     1. Assignment 6 removed
-    2. Assignment upgraded to include Mongoose
+    2. [Assignment 5]({{ '/assignments/cpnt262/assignment-5/' | url }}) upgraded to include Mongoose
         - Weight: 20%
-        - Due: Nov 10
-    3. Group project now 40% (15% for individual contribution)
+        - Due: Wednesday Nov 10
+    3. [Group project]({{ '/assignments/cpnt262/final-project' | url }}) now 40% (15% for individual contribution)
 - Tony needs your team names
 - Ash will be covering for Tony this afternoon
 
