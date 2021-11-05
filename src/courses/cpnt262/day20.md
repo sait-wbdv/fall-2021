@@ -27,7 +27,7 @@ released: true
 - Reference: [Express Routes - `express.Router`](https://expressjs.com/en/guide/routing.html#express-router)
 
 ### Demo: Guild routes with `express.Router`
-- [Starter Code]
+- [Starter Code](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-05-mongoose/starter-guild-router)
 
 ### Key Takeaways
 Route modules work much like other local modules but require some added steps:
@@ -75,7 +75,7 @@ Route modules work much like other local modules but require some added steps:
 
 ### Demos 
 - Kittens in [Mongoose Getting Started](https://mongoosejs.com/docs/)
-- [Guild app](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-05-mongoose/starter-guild-router) upgrade using model
+- If there's time: Guild app with mongoose
 
 ---
 
