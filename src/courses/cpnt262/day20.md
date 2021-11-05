@@ -64,6 +64,7 @@ Route modules work much like other local modules but require some added steps:
         ```js
         app.use('/api', api)
         ```
+    3. Move any modules that the new router depends on, such as the `guild.js` data and the `random-item.js` module in the Guild example.
 
 ---
 
@@ -76,6 +77,13 @@ Route modules work much like other local modules but require some added steps:
 ### Demos 
 - Kittens in [Mongoose Getting Started](https://mongoosejs.com/docs/)
 - If there's time: Guild app with mongoose
+
+### Key Takeaways
+- MongoDB is a file database engine. It literally stores its data as a folder (i.e. Collection) of `json` files (i.e. Documents).
+- Working with MongoDB is a little messy so we use the `mongoose` package to:
+  - use a simpler syntax;
+  - ensure the documents in a collection have the same structure;
+  - hide the gritty details like promises and asynchronous things.
 
 ---
 
