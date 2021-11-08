@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 262 Day 21
+title: CPNT 262 Day 21 - Mongoose with async/await and try/catch
 description: 
 date: 2021-11-08
 released: true
