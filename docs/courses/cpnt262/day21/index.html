@@ -76,6 +76,7 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 <h3>Materials</h3>
 <ul>
 <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await">Making asynchronous programming easier with async and await</a></li>
+<li>Demo Starter Code: <a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-08-mongoose-async-await/01-starter-random-dog">Fetch Random Dog</a></li>
 </ul>
 <h3>Key Takeaways</h3>
 <ul>
@@ -152,6 +153,12 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </ul>
 </li>
 <li>Gist: <a href="https://gist.github.com/acidtone/de24abff567b3b2bf90b1af35bc3a23a">Read MongoDB data with Mongoose and Express</a></li>
+<li>Demo Starter Code:
+<ul>
+<li><a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-08-mongoose-async-await/02-starter-atlas-connection">Basic Atlas Connection</a></li>
+<li><a href="https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-08-mongoose-async-await/03-starter-guild-endpoints">Simple Guild Endpoints</a></li>
+</ul>
+</li>
 </ul>
 <h3>Key Takeaways</h3>
 <ul>
@@ -161,7 +168,7 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 </li>
 <li>
 <p>Once your Mongoose code is inside an <code>async</code> function, you use the <code>await</code> keyword whenever you invoke a Mongoose method (because all Mongoose functions use Promises when you don't pass it a callback function as an optional parameter).</p>
-<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> Cat <span class="token operator">=</span> mongoose<span class="token punctuation">.</span><span class="token function">model</span><span class="token punctuation">(</span><span class="token string">'Cat'</span><span class="token punctuation">,</span> catSchema<span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>app<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/api/cats'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">request<span class="token punctuation">,</span> response</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><br>  <span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token keyword">await</span> Cat<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  response<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> catSchema <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">mongoose<span class="token punctuation">.</span>Schema</span><span class="token punctuation">(</span><span class="token punctuation">{</span>name<span class="token operator">:</span> String<span class="token punctuation">}</span><span class="token punctuation">)</span><br><span class="token keyword">const</span> Cat <span class="token operator">=</span> mongoose<span class="token punctuation">.</span><span class="token function">model</span><span class="token punctuation">(</span><span class="token string">'Cat'</span><span class="token punctuation">,</span> catSchema<span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>app<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/api/cats'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">request<span class="token punctuation">,</span> response</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><br>  <span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token keyword">await</span> Cat<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  response<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
 </li>
 </ul>
 <hr>
