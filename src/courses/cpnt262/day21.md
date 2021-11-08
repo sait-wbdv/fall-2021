@@ -17,6 +17,7 @@ released: true
 ## 1. Promises with `async`/`await`
 ### Materials
 - MDN: [Making asynchronous programming easier with async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+- Demo Starter Code: [Fetch Random Dog](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-08-mongoose-async-await/01-starter-random-dog)
 
 ### Key Takeaways
 - `async`/`await` is a newer and alternative syntax for Promises, which function the same way as with `.then()` and `.catch()`.
@@ -140,8 +141,10 @@ Refactor Assignment 3 so that it uses `async`/`await` with a `try`/`catch` block
     - Reference: [Mongoose Queries](https://mongoosejs.com/docs/queries.html) in the mongoose documentation.
         - [`Model.find()`](https://mongoosejs.com/docs/api.html#model_Model.find)
         - [`Model.findOne()`](https://mongoosejs.com/docs/api.html#model_Model.findOne)
-- Gist: [Read MongoDB data with Mongoose and Express](https://gist.github.com/acidtone/de24abff567b3b2bf90b1af35bc3a23a)  
-
+- Gist: [Read MongoDB data with Mongoose and Express](https://gist.github.com/acidtone/de24abff567b3b2bf90b1af35bc3a23a)
+- Demo Starter Code:
+    - [Basic Atlas Connection](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-08-mongoose-async-await/02-starter-atlas-connection)
+    - [Simple Guild Endpoints](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-08-mongoose-async-await/03-starter-guild-endpoints)
 
 ### Key Takeaways
 - Since all our Mongoose code will be inside a function passed to our method handler, we place the `async` keyword in front of it.
@@ -154,6 +157,7 @@ Refactor Assignment 3 so that it uses `async`/`await` with a `try`/`catch` block
 - Once your Mongoose code is inside an `async` function, you use the `await` keyword whenever you invoke a Mongoose method (because all Mongoose functions use Promises when you don't pass it a callback function as an optional parameter).
 
     ```js
+    const catSchema = new mongoose.Schema({name: String})
     const Cat = mongoose.model('Cat', catSchema);
     
     app.get('/api/cats', async (request, response) => {
