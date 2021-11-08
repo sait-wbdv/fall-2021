@@ -165,6 +165,22 @@ Refactor Assignment 3 so that it uses `async`/`await` with a `try`/`catch` block
       response.send(data);
     })
     ```
+- Since `app.get()` invokes our callback function for us, it's difficult (impossible) to a `.catch()` method (for Promises) on the end of it. Instead, we use a `try`/`catch` block to handle any problems we might have with Atlas:
+
+    ```js
+    const catSchema = new mongoose.Schema({name: String})
+    const Cat = mongoose.model('Cat', catSchema);
+    
+    app.get('/api/cats', async (request, response) => {
+      try {
+        const data = await Cat.find();
+        response.send(data);
+      } catch(error){
+        console.log('Caught an error!', err)
+        response.send({error: 'Uh oh, there was an error'})
+      }
+    })
+    ```
 
 ---
 
