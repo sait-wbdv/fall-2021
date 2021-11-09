@@ -95,12 +95,6 @@ GET /api/animals/:id
             - information for the `src` attribute (`String`), such as file name or complete path
             - API should output a complete URL (with domain) to a hosted image. This can be local or somewhere else on the Interwebs (like a GH Pages repo).
             - Note: `width` and `height` are not needed for this assignment
-        - A date (mongoose `Date`):
-            - Time is not required but set timezone to UTC if you decide to use it;
-            - `dateCreated` or `dateAccessed` is a good starting point but feel free to adapt a date that fits your API;
-            - See: 
-                - [The 5 laws of API dates and times](http://apiux.com/2013/03/20/5-laws-api-dates-and-times/)
-                - [Working With Dates in Mongoose](https://mongoosejs.com/docs/tutorials/dates.html)
 - Model is loaded using `require('./models/Item.js')` and used to serve data to your List and Item endpoints.
 - Include a `./model/seeds` directory containing the data you've imported into MongoDB Atlas. 
 

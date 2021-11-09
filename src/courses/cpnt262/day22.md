@@ -67,12 +67,12 @@ released: true
 - Since we didn't cover view engines in express, we will be redirecting to static success and fail pages depending on the result of the `.save()`
 
     ```js
-    response.redirect('/success.html`)
+    response.redirect('/success.html')
     ```
     
     OR
     ```js
-    response.redirect('/fail.html`)
+    response.redirect('/fail.html')
     ```
     
 ---

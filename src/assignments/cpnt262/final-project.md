@@ -75,7 +75,7 @@ Create HTML route handlers to render and serve the following static pages:
       - `email`
       - `action="[POST endpoint]"`
       - `method="post"`
-  - Returns with a custom message, repeating the name and email, confirming they are subscribed.
+  - Returns with a static success or fail page informing the user of the submit result. Include a link to the original form.
 - `/public/gallery.html`
   - lists 9-12 products/services/items of your choice with a minimum of the fields listed in the Model in the next section.
   - Client-side `fetch()` calls to a JSON endpoint (listed below)
