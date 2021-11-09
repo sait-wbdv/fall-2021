@@ -44,7 +44,7 @@ released: true
 - The form submission is handled by `app.post()` at the same path as your list entry endpoint. The method is set by the `method` attribute in your form:
 
     ```js
-    app.post('/api/characters', () => {...})
+    app.post('/api/kittens', () => {...})
     ```
 
 ---

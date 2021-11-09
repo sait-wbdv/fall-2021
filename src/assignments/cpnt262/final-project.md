@@ -147,6 +147,11 @@ Some examples that would qualify:
 - You can install a 3rd party frontend framework to add additional functionality to your page. For example,
     - Greensock to animate SVGs
     - A chart library to display bar or pie charts
+- Migrating static `public` files to views using a supported view engine ([ejs](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application), [pug](https://expressjs.com/en/guide/using-template-engines.html)).
+- JSON API call from the backend using a package such as [axios](https://www.section.io/engineering-education/nodejs-network-requests-using-axios/).
+- Authenticated API calls using keys from either the front or backend.
+- Data logger using Express middleware that logs general requests, errors, etc and writes them to a local text file.
+- Snipcart implementation.
 
 ---
 
