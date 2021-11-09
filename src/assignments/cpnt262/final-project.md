@@ -1,6 +1,6 @@
 ---
 layout: layouts/assignment.njk
-title: DRAFT - CPNT 262 Final Project - Deployed Product/Services Website
+title: CPNT 262 Final Project - Deployed Product/Services Website
 ---
 
 [Team Assignments]({{ '/assignments/cpnt262/teams/' | url }})
