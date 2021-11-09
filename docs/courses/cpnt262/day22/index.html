@@ -63,12 +63,117 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
   <h2>CPNT 262 Day 22 - Handling POST Requests with Mongoose</h2>
   
   
-        <h2>Prep</h2>
+        <h2>Housekeeping</h2>
+<ul>
+<li>Tony needs fancy features for approval</li>
+</ul>
+<h2>Trophy of the day</h2>
+<ul>
+<li>Deployed express server with mongoose</li>
+</ul>
+<hr>
+<h2>1. POST requests with <code>request.body</code> and <code>express.urlencoded()</code></h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/008bde16ec883f5b8cda22417623d435">Express: Handling POST Requests</a></li>
+</ul>
+<h2>Key Takeaways</h2>
+<ul>
+<li>
+<p>The <code>request</code> object stores parameters in three main objects:</p>
+<ol>
+<li><code>req.params</code>: Parameters passed as route segments.
+<ul>
+<li>Example: <code>GET /api/animals/:id</code>.</li>
+</ul>
+</li>
+<li><code>req.query</code>: Parameters passed after the <code>?</code> in a URL.
+<ul>
+<li>Example: <code>/api/animals?page=3&amp;per_page=10</code>.</li>
+</ul>
+</li>
+<li><code>req.body</code>: Parameters passed in the request body, such as when a form is submitted with <code>method=&quot;POST&quot;</code>.</li>
+</ol>
+</li>
+<li>
+<p><code>req.body</code> is only available if you add the following middleware to your server file:</p>
+<pre class="language-js"><code class="language-js">app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">urlencoded</span><span class="token punctuation">(</span><span class="token punctuation">{</span> extended<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+</li>
+<li>
+<p>Alternatively, you can add the following if the form was submitted in JSON format (not covered in this course):</p>
+<pre class="language-js"><code class="language-js">app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<ul>
+<li>Both can be added at the same time and both will process <code>POST</code> form parameters and add them to <code>req.body</code></li>
+</ul>
+</li>
+<li>
+<p>The form submission is handled by <code>app.post()</code> at the same path as your list entry endpoint. The method is set by the <code>method</code> attribute in your form:</p>
+<pre class="language-js"><code class="language-js">app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/api/characters'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
+</li>
+</ul>
+<hr>
+<h2>2. Creating Mongoose records</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/nodejs-crud-operations-mongoose-mongodb-atlas">CRUD Operations with Mongoose and MongoDB Atlas</a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/c69a20727a1e11c58fcc9ff0503b1471">Create Mongoose document from form data in Express</a></li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>
+<p>Saving a record with Mongoose requires two steps:</p>
+<ol>
+<li>Creating a model instance, passing an object containing the information submitted by the form.<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> kitten <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Kitten</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>body<span class="token punctuation">)</span></code></pre>
+</li>
+<li>Saving the instance with <code>model.save()</code>:<pre class="language-js"><code class="language-js"><span class="token keyword">await</span> kitten<span class="token punctuation">.</span><span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+</li>
+</ol>
+</li>
+<li>
+<p>Since we didn't cover view engines in express, we will be redirecting to static success and fail pages depending on the result of the <code>.save()</code></p>
+<pre class="language-js"><code class="language-js">response<span class="token punctuation">.</span><span class="token function">redirect</span><span class="token punctuation">(</span>'<span class="token operator">/</span>success<span class="token punctuation">.</span>html`<span class="token punctuation">)</span></code></pre>
+<p>OR</p>
+<pre class="language-js"><code class="language-js">response<span class="token punctuation">.</span><span class="token function">redirect</span><span class="token punctuation">(</span>'<span class="token operator">/</span>fail<span class="token punctuation">.</span>html`<span class="token punctuation">)</span></code></pre>
+</li>
+</ul>
+<hr>
+<h2>3. Deploying to Heroku with Atlas</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://dev.to/cpclark360/how-to-host-a-restful-node-js-server-with-mongodb-atlas-database-on-heroku-1opl">How to host a RESTful Node.js server with MongoDB Atlas database on Heroku</a>
+<ul>
+<li>Note:
+<ul>
+<li>CORS headers are often not needed with Atlas... but sometimes they are.</li>
+<li>We will be connecting to Mongoose a little differently that what is shown in this article.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>Most of the steps in this tutorial were completed yesterday so you should only have to complete the following to have your Heroku connect to Atlas:
+<ul>
+<li>Add your connection string to the Config Var section of your App Settings with a name of <code>MONGODB_URL</code> (Important: Heroku won't connect to Atlas properly unless you use this variable name).</li>
+</ul>
+</li>
+<li>Note: CORS is <em>probably</em> not needed for your app to operate.</li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Trophy of the day</li>
+<li>Assignment 5</li>
+<li>Final Project</li>
+</ul>
+<hr>
+<h2>Prep</h2>
 <h3>POST Requests with Express and Mongoose</h3>
 <ul>
 <li><a href="https://codeforgeek.com/handle-get-post-request-express-4/">Handle GET and POST Request in Express</a>
 <ul>
-<li>Note: We don't need to require <code>body-parser</code> as of Express 4.6</li>
+<li>Note: We don't need to require <code>body-parser</code> as of Express 4.16</li>
 </ul>
 </li>
 <li>Gists:

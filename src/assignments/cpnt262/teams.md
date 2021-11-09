@@ -1,4 +1,7 @@
-# Final Project Group Assignments
+---
+layout: layouts/assignment.njk
+title: CPNT 262 Final Project Team Assignments
+---
 ## Alarm Robots
 - David
 - JayPee
@@ -21,13 +24,10 @@
 - Alex
 - Chris
 - Icah
-
-## Group 5
-- Robin
-- Hayden
 - Jesse
 
-## Group 6
+## ISU
 - James
 - Jean-Marc
 - Mysia
+- Hayden
