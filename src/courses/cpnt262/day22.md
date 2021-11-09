@@ -8,6 +8,7 @@ released: true
 
 ## Housekeeping
 - Tony needs fancy features for approval
+- Tweaks to [Final Project]({{ '/assignments/cpnt262/final-project/' | url }})
 
 ## Trophy of the day
 - Deployed express server with mongoose
@@ -18,6 +19,7 @@ released: true
 
 ### Materials
 - [Express: Handling POST Requests](https://gist.github.com/acidtone/008bde16ec883f5b8cda22417623d435)
+- Starter Code: [Guild with Mongoose](https://github.com/sait-wbdv/in-class/tree/main/cpnt262/11-09-post-requests/01-starter-guild)
 
 ## Key Takeaways
 - The `request` object stores parameters in three main objects:
