@@ -8,13 +8,21 @@ date: 2021-11-18
 ## Prep
 - 
 
-## [Assignment 3 - ]({{ '/assignments/cpnt200/assignment-3/' | url }})
+## [Assignment 3 - JAMstack Setup]({{ '/assignments/cpnt200/assignment-3/' | url }})
 - **Due: Friday November 29 @ 11:59**
 - Push a blog article onto your nuxt page dynamically
 - Deploy to Netlify
 
-## Overview
+## Topics
+- Integrate Netlify CMS and Nuxt
+- Navigation Component
+- Nuxt Images
 ---
+
+## Integrate Netlify CMS with Nuxt
+
+---
+## Navigation Component
 
 ### Nuxt Router
 - Check out the [documentation](https://nuxtjs.org/docs/features/nuxt-components/) for more info on using nuxt-link
