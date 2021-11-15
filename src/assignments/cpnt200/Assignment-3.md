@@ -5,7 +5,8 @@ description: Integrate netlify cms and nuxt.
 ---
 
 ## Instructions
-Create 4 entries, 2 for each of your collections, and create pages for them
+Create 4 entries, 2 for each of your collections. Use nuxt-content to show them. Lorem Ipsum content is fine body text but titles need to be easily distinguishable.
+
 ## Marking Rubric
 
 1. Configuration
