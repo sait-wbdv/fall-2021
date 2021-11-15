@@ -14,12 +14,12 @@ We will be using NuxtJS and Strapi CMS to build websites and they will be deploy
 
 --- 
 
-### Strapi Backend Configuration [Assignment]({{ '/assignments/cpnt200/assignment-1/' | url }})
-- Due Friday, November 26, 2021
+### Nuxt Configuration [Assignment]({{ '/assignments/cpnt200/assignment-1/' | url }})
+- Due Monday, November 29, 2021
 - Weight: 10% of Final Course Mark
 - Focus: CMS Setup
 
-### Strapi Content Editing [Assignment]({{ '/assignments/cpnt200/assignment-2/' | url }})
+### Netlify CMS Setup [Assignment]({{ '/assignments/cpnt200/assignment-2/' | url }})
 - Due Friday, November 26, 2021
 - Weight: 10% of Final Course Mark
 - Focus: CMS Usage
