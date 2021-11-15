@@ -12,16 +12,13 @@ released: true
 - [What's the Difference?](https://www.techmagic.co/blog/headless-vs-serverless-cms/)
 --- 
 
-
-
-## [Assignment 1: Netlify CMS Admin Panel]({{ '/assignments/cpnt200/assignment-1/' | url }})
+## [Assignment 2: Netlify CMS Admin Panel]({{ '/assignments/cpnt200/assignment-2/' | url }})
 - **Due: November 29 11:59pm**
 - Create a nuxt project and set up an netlify-cms admin panel 
 
 ## Today's Topics
 - CMS and Site Rendering
 - Headless vs Traditional CMS
-- Nuxt Install
 - Netlify CMS Setup
 ---
 
@@ -78,26 +75,34 @@ However new types of CMS's are starting to emerge as well. The JAMStack has rece
 
 ---
 
-
 ## Introduction to Netlify CMS
-- What is Netlify CMS?
-- How do you set it up?
-- Why are we using Netlify CMS?
+- [Netlify CMS Documentation](https://www.netlifycms.org/)
+- Netlify CMS is based on your git workflow
+  - Unlike Strapi and many others, it does not require a database
+  - This creates a full JAMstack configuration
+    - lightweight, fast deployment, and secure
+- [Netlify Github Setup](https://www.netlifycms.org/docs/github-backend/)
 
 ### Netlify Setup Notes
+- [Netlify Setup Directions](https://gist.github.com/lilyx13/94398c49afce55e49032251687227cfc)
+  - This will add netlify to your nuxt instance
+- [Netlify CMS Nuxt Official Docs](https://www.netlifycms.org/docs/nuxt/)
+- Netlify CMS will integrate with the `nuxt/content` module
+
+#### Activity: Set up Netlify
+- Follow [this gist](https://gist.github.com/lilyx13/94398c49afce55e49032251687227cfc) 
+  - The code snippits are taken from netlify cms' documentation
 
 
-### Netlify CMS Admin Panel
+### Netlify CMS Widgits
+- With your `yml` file, you have a lot of power over creating widgits
+- [Documentation](https://www.netlifycms.org/docs/configuration-options/)   
+- [Article on Netlify CMS Widgits](https://www.netlify.com/blog/2017/06/20/extending-netlify-cms-part-one-custom-widgets/)
 
-#### Walkthrough
-1. Dashboard
-2. General settings 
-3. Plugins
-4. Content Manager
-
-### Activity: [Create a blog field](https://gist.github.com/lilyx13/f83513a37740706780acc5e4e936d3d9)
-
+#### Activity: Create a Netlify CMS Widgit
+- [Follow these directions](https://gist.github.com/lilyx13/f16358b2eeffb684b89991dd877fe3ef)
+- 
 ---
 
 ## Lab Time
-- Work on [assignment 1]({{ '/assignments/cpnt200/assignment-1/' | url})
+- Work on [assignment 2]({{ '/assignments/cpnt200/assignment-2/' | url })
