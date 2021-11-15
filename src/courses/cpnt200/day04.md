@@ -36,12 +36,7 @@ date: 2021-11-19
 
 ### Activity: Set up a simple vue project
 - [This documentation](https://vuejs.org/v2/guide/installation.html#CDN) describes different ways of setting up a vue projec.
-- Create a vue project in at least one of the following ways:
-  - Use a cdn
-  - Add vue to a codepen
-    - Note that while this is quick to get going with, it's a bit different from how you will use vue in production
-  - Create a vue project using `npm` or `yarn`
-    - This is how you will be using vue in nuxt and in other vue project
+- Create a vue project using `npm` or `yarn`
 
 ### Basic Terminology
 The following are some of the most used parts of using VueJS
@@ -90,8 +85,7 @@ Components are self contained units in Vue. They can have a `template`, `style`,
   - `v-text`: add string variables from `data`. Similar to `{{ moustache syntax }}`
   - `v-html`: add strings that can render html syntax
 - Directives for more complicated rendering
-  - `v-for`: for loop through arrays of variables.
-  - `v-bind`: for accessing properties from parent components. For adding properties to html tags. One way passing of values.
+  - `v-bind`: for accessing properties from parent components. For adding properties to html tags. One way passing of values. It operates sort of like an import script
   - `v-model`: Like `v-bind` but can pass values both ways. Especially useful for forms and input fields.
 
 ### Activity: Make a component

@@ -46,11 +46,28 @@ date: 2021-11-18
     - other links use `/about` type syntax
     - It depends on the name of the file in your `pages/` directory
 
+ 
+
 #### Activity: Create a navigation using nuxt-router
 - create 2-3 .vue files in the `pages/` directory
 - use `<NuxtLink>` syntax to create a nav bar
   - use the default template
 
+### Nuxt Images
+Nuxt has a plugin for optimizing images
+- Check out these [installation and setup documentation](https://image.nuxtjs.org/getting-started/installation)
+  - in your nuxt repo, add the dev dependency `@nuxt/image`
+    - `npm install -D @nuxt/image`
+  - then in your `nuxt.config.js` file add it to the build modules
+  ``` 
+  buildModules: [
+    '@nuxt/image'
+  ]
+  ```
+- There are a few options to configure your image defaults [Check out modules options here](https://image.nuxtjs.org/api/options/)
+
+### Nuxt Content
+- [nuxt/content module](https://content.nuxtjs.org/)
 ---
 
 ## Lab Time
