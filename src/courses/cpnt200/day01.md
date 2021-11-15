@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
-title: CPNT 200 Day 1 - Headless CMS and the CMS Landscape
-description: Today we will explore setting up a headless CMS with 11ty. We will also go into more detail on the options available for setting up CMS websites and things that you will need to consider for your future clients.
+title: CPNT 200 Day 1 - JAMstack and Nuxt Intro
+description: We will look at a JAMstack and basic nuxt setup
 date: 2021-11-17
 released: true
 ---
