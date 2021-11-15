@@ -59,11 +59,219 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 
 
 <article class="post">
-  <time>Tue, November 16</time>
-  <h2>CPNT 200 Day 1 - Content Management Systems</h2>
+  <time>Wed, November 17</time>
+  <h2>CPNT 200 Day 1 - Headless CMS and the CMS Landscape</h2>
   
   
-        <h3>Sorry, this lesson hasn't been released.</h3>  
+        <h2>Prep</h2>
+<ul>
+<li>Read Through <a href="https://jamstack.org/what-is-jamstack/">What is a JAMStack</a></li>
+<li>Skim through <a href="https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/">this indepth article on JAMStack</a></li>
+<li>Watch <a href="https://www.youtube.com/watch?v=COAVmST41Q0">State of JAMstack Nation - Sarah Drasner</a></li>
+<li>Watch until 6:07 <a href="https://www.youtube.com/watch?v=UAQXQG5RnUQ">NuxtJS Content</a></li>
+</ul>
+<h2><a href="/fall-2021/assignments/cpnt200/assignment-1/">Assignment 1: Nuxt Frontend Setup</a></h2>
+<ul>
+<li><strong>Due November 29th 11:59pm</strong></li>
+<li>Set up a nuxtjs page</li>
+<li>Remove boiler plate</li>
+<li>Add modules</li>
+<li>Create a header, footer, and nav component</li>
+</ul>
+<hr>
+<h2>Topics</h2>
+<ul>
+<li>LAMPStack vs JAMStack</li>
+<li>Intro to Nuxt</li>
+<li>Nuxt Configuration</li>
+</ul>
+<hr>
+<h3>LAMP Stack vs JAMStack</h3>
+<ul>
+<li>LAMP Stack stands for:
+<ul>
+<li>Linux Apache MySQL and PHP
+<ul>
+<li>Linux = Operating System</li>
+<li>Apache = Web Server</li>
+<li>MySQL = Database</li>
+<li>PHP = Programming Language</li>
+</ul>
+</li>
+<li>The LAMP stack is a mature, stable, and powerful stack to use for websites.</li>
+<li>LAMP Stacks are Server Side Rendered (SSR)</li>
+</ul>
+</li>
+<li>JAM Stack stands for:
+<ul>
+<li>Javascript API Markup
+<ul>
+<li>Javascript = Dynamic programming, ran on client</li>
+<li>API = Server-side functions and database actions. Served using a CDN</li>
+<li>Markup = Content (templates etc) built before build time in the browser. Static Site Generators are used for this.</li>
+</ul>
+</li>
+<li>Many site builders used to make JAMStack sites can create SSR, SSG, and PWA (Progressive Web Apps)</li>
+</ul>
+</li>
+</ul>
+<h2>JAMStack and Headless CMS</h2>
+<p>JAMStack is quickly becoming a favourite for developers. You have a lot of options to configure a stack that works with you and your clients.</p>
+<p>You can choose between different frontend frameworks such as:</p>
+<ul>
+<li>React
+<ul>
+<li>Gatsby (One of the most popular site builders around)</li>
+<li>NextJS (Next and Nuxt are very similar, just one is react and the other is vue)</li>
+</ul>
+</li>
+<li>Vue
+<ul>
+<li>Gridsome</li>
+<li>Nuxt</li>
+</ul>
+</li>
+<li>Svelte
+<ul>
+<li>Sveltekit</li>
+</ul>
+</li>
+<li>Ruby
+<ul>
+<li>Jekyll</li>
+</ul>
+</li>
+<li>Go
+<ul>
+<li>Hugo</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Intro to Nuxt</h2>
+<ul>
+<li>NuxtJS is a frontend framework that uses VueJS</li>
+<li>It can be used to create:
+<ul>
+<li>Server Side Rendered (SSR) Pages
+<ul>
+<li>backend server sends data to frontend page (traditional page)</li>
+</ul>
+</li>
+<li>Static Site Generation (SSG)
+<ul>
+<li>Web page content is built and then hosted statically</li>
+</ul>
+</li>
+<li>Progressive Web Apps
+<ul>
+<li>A client side rendered web application</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Nuxt 2, Nuxt Bridge, Nuxt 3
+<ul>
+<li>Nuxt 2: stable version</li>
+<li>Nuxt Bridge: adds some features from Nuxt 3 to Nuxt 2</li>
+<li>Nuxt 3: Currently in Public Beta Version</li>
+</ul>
+</li>
+<li>We will use Nuxt 2 as there are more available resources</li>
+</ul>
+<h3>NuxtJS Resources</h3>
+<ul>
+<li><a href="https://nuxtjs.org/docs/get-started/installation">Offical Docs</a></li>
+<li><a href="https://nuxtjs.org/tutorials">Tutorials</a></li>
+<li><a href="https://www.youtube.com/watch?v=ltzlhAxJr74">Traversy Video</a> <strong>note that this tutorial is focused on SSR</strong></li>
+</ul>
+<hr>
+<h2>Nuxt Setup</h2>
+<ul>
+<li>Use the create nuxt-app command as noted on the documentation
+<ul>
+<li>npm, npx, and yarn are all good options</li>
+<li><a href="https://github.com/nuxt/create-nuxt-app/blob/master/README.md">Create Nuxt App Docs</a></li>
+</ul>
+</li>
+<li>Going through the prompt:
+<ul>
+<li><em>Make sure to press space to select options</em></li>
+<li>Follow <a href="https://gist.github.com/lilyx13/db43759b547b7cf909d4167d0577d482">Ash's guide</a></li>
+<li>If you use Nuxt with Strapi, select <code>axios</code> instead of <code>content</code> during setup</li>
+</ul>
+</li>
+</ul>
+<h3>Nuxt Tour Gists</h3>
+<ul>
+<li><a href="https://gist.github.com/lilyx13/4c973750fb63713d04f7d2f64fa20223">Nuxt Project Structure</a></li>
+<li><a href="https://gist.github.com/lilyx13/3ae4627f079929978634d9d84b776f35">Nuxt Navigation</a></li>
+<li><a href="https://gist.github.com/lilyx13/b4dfac6b3f0c3a5c98dee24a6d44eb72">Nuxt Pages</a></li>
+</ul>
+<h3>Important Modules</h3>
+<ul>
+<li><a href="https://content.nuxtjs.org/">Nuxt Content</a> (selected during setup, but can also install after)
+<ul>
+<li>Handles the CMS stuff</li>
+<li>install with `npm install -D @nuxt/content</li>
+</ul>
+</li>
+<li><a href="https://image.nuxtjs.org/">Nuxt Images</a> (must add to project)
+<ul>
+<li>Automatic and easy optimization of images</li>
+<li>install with `npm install -D @nuxt/image
+<ul>
+<li>Then add to <code>buildModules</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://nuxtjs.org/docs/get-started/routing/">Nuxt Router</a> (built in)
+<ul>
+<li><code>NuxtLink</code> makes site navigation easy</li>
+</ul>
+</li>
+</ul>
+<h4>Activity - Install and explore nuxt</h4>
+<ul>
+<li>Install</li>
+<li>Run dev</li>
+<li>Look at the pages and components files</li>
+<li>Try adding content in any of the <code>template</code> tags
+<ul>
+<li>In vue, you can write plain html in the template tags</li>
+</ul>
+</li>
+</ul>
+<h3>nuxt.config.js</h3>
+<ul>
+<li>This is where you will set up your modules and a lot of your defaults</li>
+<li>Review <a href="https://nuxtjs.org/docs/directory-structure/nuxt-config/">the documentation</a></li>
+<li>check that <code>components: true</code>, if it is set to false, you will have to manually import components</li>
+<li>you can set default image sizes if you are using @nuxt/image in here</li>
+<li>you can import sass/scss into here as well.</li>
+<li>If you are using an external stylesheet, decalre it in this file (see docs)</li>
+</ul>
+<h4>Activity: Nuxt Config File</h4>
+<ul>
+<li>Read through the docs and edit your config file</li>
+<li>Install the <code>@nuxt/image</code> module
+<ul>
+<li>Add it to the configuration</li>
+</ul>
+</li>
+<li>Install the <code>@nuxtjs/dotenv</code> module
+<ul>
+<li>Add it to the configuration</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Work on <a href="/fall-2021/assignments/cpnt200/assignment-2/">Assignment 2</a></li>
+</ul>
+
   
 </article>
 

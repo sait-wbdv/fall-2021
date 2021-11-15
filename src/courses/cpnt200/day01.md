@@ -1,89 +1,137 @@
 ---
 layout: layouts/day.njk
-title: CPNT 200 Day 1 - Content Management Systems
-description: 
-date: 2021-11-16
+title: CPNT 200 Day 1 - Headless CMS and the CMS Landscape
+description: Today we will explore setting up a headless CMS with 11ty. We will also go into more detail on the options available for setting up CMS websites and things that you will need to consider for your future clients.
+date: 2021-11-17
+released: true
 ---
 
 ## Prep
+- Read Through [What is a JAMStack](https://jamstack.org/what-is-jamstack/)
+- Skim through [this indepth article on JAMStack](https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/)
+- Watch [State of JAMstack Nation - Sarah Drasner](https://www.youtube.com/watch?v=COAVmST41Q0)
+- Watch until 6:07 [NuxtJS Content](https://www.youtube.com/watch?v=UAQXQG5RnUQ)
 
-- [Headless CMS Explained](https://www.freecodecamp.org/news/what-is-headless-cms-explained/)
-- [What's the Difference?](https://www.techmagic.co/blog/headless-vs-serverless-cms/)
-- [State of JAMstack Nation - Sarah Drasner](https://www.youtube.com/watch?v=COAVmST41Q0)
---- 
-
-## CPNT 200 Overview
-- This course will consist of 6 assignments: 5 small assignments and 1 large group assignment
-- The 5 small assignments will be focused on the main aspects of setting up a Headless CMS website
-  - All the individual assignments will be due on November 29th
-- The group project will give you an opportunity to focus on the area of development that interests you the most*
-  - Your team be organized as: Backend Dev, Content Manager, Frontend Dev, and Designer
-
-## [Assignment 1: Netlify CMS Admin Panel]({{ '/assignments/cpnt200/assignment-1/' | url }})
-- **Due: November 29 11:59pm**
-- Create a nuxt project and set up an netlify-cms admin panel 
-
-## Today's Topics
-- CMS and Site Rendering
-- Headless vs Traditional CMS
-- Node Version Management
-- Netlify CMS Setup
----
-
-##  Content Management Systems and Site Rendering
-CMS's are used to organze content on websites. This includes text content like blogs and articles, images, videos, products, etc.
-
-Traditional CMS's like Wordpress and Drupal are built on a LAMP stack. These types of sites still make up over 40% of websites on the internet. 
-
-However new types of CMS's are starting to emerge as well. The JAMStack has recently become a serious contender due to it's flexibility, developer friendliness, optimization, and security.
-
-### CMS Headless & Traditional
-
-- Traditional CMS
-  : Backend and frontend content are tightly together.
-
-- Headless CMS
-  : The Content is separated from the frontend.
-
-- There are many headless cms options.
-  - Open Source
-    - [Netlify CMS](https://www.netlifycms.org/)
-      - simpler, less featured, pure JAMstack, great integration with netlify hosting
-    - [Strapi CMS](https://strapi.io)
-      - Very full featured, sql database default, deployed separately from frontend, most popular open source headless cms
-  - Closed Source
-    - [Storyblok](https://storyblok.com)
-      - Visual Editor, stable, great features, SAAS
-    - [Ghost CMS](https://ghost.org/)
-      - Beautiful editor, 14 day free trial
+## [Assignment 1: Nuxt Frontend Setup]({{ '/assignments/cpnt200/assignment-1/' | url}})
+- **Due November 29th 11:59pm**
+- Set up a nuxtjs page
+- Remove boiler plate
+- Add modules
+- Create a header, footer, and nav component
 
 ---
 
-## Node Version Management
-- You will need to use [NVM](https://github.com/nvm-sh/nvm#installing-and-updating)
-  - NVM allows you to set the node version for a specific project
-  - `nvm install` version number
-  - `nvm use` select version
-  - **Important** If you switch versions, you will need to install packages that you may have already installed in other versions
-
-## Introduction to Netlify CMS
-
-
-#### Activity: Nuxt install and NetlifyCMS Setup
+## Topics
+- LAMPStack vs JAMStack
+- Intro to Nuxt
+- Nuxt Configuration
 
 ---
 
-## Netlify CMS Admin Panel
+### LAMP Stack vs JAMStack
+- LAMP Stack stands for:
+  - Linux Apache MySQL and PHP
+    - Linux = Operating System
+    - Apache = Web Server
+    - MySQL = Database
+    - PHP = Programming Language
+  - The LAMP stack is a mature, stable, and powerful stack to use for websites.
+  - LAMP Stacks are Server Side Rendered (SSR)
+- JAM Stack stands for:
+  - Javascript API Markup
+    - Javascript = Dynamic programming, ran on client
+    - API = Server-side functions and database actions. Served using a CDN
+    - Markup = Content (templates etc) built before build time in the browser. Static Site Generators are used for this.
+  - Many site builders used to make JAMStack sites can create SSR, SSG, and PWA (Progressive Web Apps)
 
-### Walkthrough
-1. Dashboard
-2. General settings 
-3. Plugins
-4. Content Manager
+## JAMStack and Headless CMS
+JAMStack is quickly becoming a favourite for developers. You have a lot of options to configure a stack that works with you and your clients.
 
-### Activity: [Create a blog field](https://gist.github.com/lilyx13/f83513a37740706780acc5e4e936d3d9)
+You can choose between different frontend frameworks such as:
+- React
+  - Gatsby (One of the most popular site builders around)
+  - NextJS (Next and Nuxt are very similar, just one is react and the other is vue)
+- Vue
+  - Gridsome
+  - Nuxt
+- Svelte
+  - Sveltekit
+- Ruby
+  - Jekyll
+- Go
+  - Hugo
+
+---
+## Intro to Nuxt
+- NuxtJS is a frontend framework that uses VueJS
+- It can be used to create:
+  - Server Side Rendered (SSR) Pages
+    - backend server sends data to frontend page (traditional page)
+  - Static Site Generation (SSG)
+    - Web page content is built and then hosted statically
+  - Progressive Web Apps
+    - A client side rendered web application
+- Nuxt 2, Nuxt Bridge, Nuxt 3
+  - Nuxt 2: stable version
+  - Nuxt Bridge: adds some features from Nuxt 3 to Nuxt 2
+  - Nuxt 3: Currently in Public Beta Version
+- We will use Nuxt 2 as there are more available resources
+
+### NuxtJS Resources
+- [Offical Docs](https://nuxtjs.org/docs/get-started/installation)
+- [Tutorials](https://nuxtjs.org/tutorials)
+- [Traversy Video](https://www.youtube.com/watch?v=ltzlhAxJr74) **note that this tutorial is focused on SSR**
+
+---
+
+## Nuxt Setup
+- Use the create nuxt-app command as noted on the documentation
+  - npm, npx, and yarn are all good options
+  - [Create Nuxt App Docs](https://github.com/nuxt/create-nuxt-app/blob/master/README.md)
+- Going through the prompt:
+  - _Make sure to press space to select options_
+  - Follow [Ash's guide](https://gist.github.com/lilyx13/db43759b547b7cf909d4167d0577d482)       
+  - If you use Nuxt with Strapi, select `axios` instead of `content` during setup
+
+### Nuxt Tour Gists
+- [Nuxt Project Structure](https://gist.github.com/lilyx13/4c973750fb63713d04f7d2f64fa20223)
+- [Nuxt Navigation](https://gist.github.com/lilyx13/3ae4627f079929978634d9d84b776f35)
+- [Nuxt Pages](https://gist.github.com/lilyx13/b4dfac6b3f0c3a5c98dee24a6d44eb72) 
+
+### Important Modules
+- [Nuxt Content](https://content.nuxtjs.org/) (selected during setup, but can also install after)
+  - Handles the CMS stuff
+  - install with `npm install -D @nuxt/content
+- [Nuxt Images](https://image.nuxtjs.org/) (must add to project)
+  - Automatic and easy optimization of images
+  - install with `npm install -D @nuxt/image
+    - Then add to `buildModules`
+- [Nuxt Router](https://nuxtjs.org/docs/get-started/routing/) (built in)
+  - `NuxtLink` makes site navigation easy
+
+#### Activity - Install and explore nuxt
+- Install
+- Run dev
+- Look at the pages and components files
+- Try adding content in any of the `template` tags
+  - In vue, you can write plain html in the template tags
+
+### nuxt.config.js
+- This is where you will set up your modules and a lot of your defaults
+- Review [the documentation](https://nuxtjs.org/docs/directory-structure/nuxt-config/)
+- check that `components: true`, if it is set to false, you will have to manually import components
+- you can set default image sizes if you are using @nuxt/image in here
+- you can import sass/scss into here as well.
+- If you are using an external stylesheet, decalre it in this file (see docs)
+
+#### Activity: Nuxt Config File
+- Read through the docs and edit your config file
+- Install the `@nuxt/image` module
+  - Add it to the configuration
+- Install the `@nuxtjs/dotenv` module
+  - Add it to the configuration
 
 ---
 
 ## Lab Time
-- Work on [assignment 1]({{ '/assignments/cpnt200/assignment-1/' | url})
+- Work on [Assignment 2]({{ '/assignments/cpnt200/assignment-2/' | url }})

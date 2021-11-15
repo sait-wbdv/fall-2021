@@ -59,11 +59,147 @@ https://sait-ca.zoom.us/j/86237827440">Zoom</a></li>
 
 
 <article class="post">
-  <time>Wed, November 17</time>
-  <h2>CPNT 200 Day 2 - Headless CMS and the CMS Landscape</h2>
+  <time>Tue, November 16</time>
+  <h2>CPNT 200 Day 2 - Content Management Systems</h2>
   
   
-        <h3>Sorry, this lesson hasn't been released.</h3>  
+        <h2>Prep</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org/news/what-is-headless-cms-explained/">Headless CMS Explained</a></li>
+<li><a href="https://www.techmagic.co/blog/headless-vs-serverless-cms/">What's the Difference?</a></li>
+</ul>
+<hr>
+<h2><a href="/fall-2021/assignments/cpnt200/assignment-1/">Assignment 1: Netlify CMS Admin Panel</a></h2>
+<ul>
+<li><strong>Due: November 29 11:59pm</strong></li>
+<li>Create a nuxt project and set up an netlify-cms admin panel</li>
+</ul>
+<h2>Today's Topics</h2>
+<ul>
+<li>CMS and Site Rendering</li>
+<li>Headless vs Traditional CMS</li>
+<li>Nuxt Install</li>
+<li>Netlify CMS Setup</li>
+</ul>
+<hr>
+<h2>Content Management Systems and Site Rendering</h2>
+<p>CMS's are used to organze content on websites. This includes text content like blogs and articles, images, videos, products, etc.</p>
+<p>Traditional CMS's like Wordpress and Drupal are built on a LAMP stack. These types of sites still make up over 40% of websites on the internet.</p>
+<p>However new types of CMS's are starting to emerge as well. The JAMStack has recently become a serious contender due to it's flexibility, developer friendliness, optimization, and security.</p>
+<h3>Headless CMS vs Traditional CMS</h3>
+<ul>
+<li>
+<dl>
+<dt>Headless CMS</dt>
+<dd>The Content is separated from the frontend.</dd>
+</dl>
+</li>
+<li>
+<p>There are many headless cms options.</p>
+<ul>
+<li>Open Source
+<ul>
+<li><a href="https://www.netlifycms.org/">Netlify CMS</a>
+<ul>
+<li>simpler, less featured, pure JAMstack, great integration with netlify hosting</li>
+</ul>
+</li>
+<li><a href="https://strapi.io">Strapi CMS</a>
+<ul>
+<li>Very full featured, sql database default, deployed separately from frontend, most popular open source headless cms</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Closed Source
+<ul>
+<li><a href="https://storyblok.com">Storyblok</a>
+<ul>
+<li>Visual Editor, stable, great features, SAAS</li>
+</ul>
+</li>
+<li><a href="https://ghost.org/">Ghost CMS</a>
+<ul>
+<li>Beautiful editor, 14 day free trial</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<dl>
+<dt>Traditional CMS</dt>
+<dd>Backend and frontend content are tightly together. LAMP stack.</dd>
+</dl>
+</li>
+<li>
+<p>Examples includes:</p>
+<ul>
+<li>Wordpress, Drupal...</li>
+</ul>
+</li>
+</ul>
+<h3>Why Headless?</h3>
+<ul>
+<li>We will be using a headless CMS because it is more flexible, secure, and developer friendly than traditional cms options.</li>
+</ul>
+<h4>Netlify CMS vs Strapi</h4>
+<ul>
+<li>Netlify CMS is best for:
+<ul>
+<li>Simple content management</li>
+<li>Not excessive data</li>
+<li>Data does not need to be stored in a data base</li>
+</ul>
+</li>
+<li>Netlify CMS is <strong>full JAMstack</strong>
+<ul>
+<li>All you need is a git repo and a netlify account</li>
+</ul>
+</li>
+<li>Strapi is best for:
+<ul>
+<li>Separation of data from frontend</li>
+<li>Deployment of data to multiple frontends</li>
+<li>Lots of data</li>
+<li>Lots of different types of data</li>
+</ul>
+</li>
+<li>Strapi is a headless cms
+<ul>
+<li>You will need to deploy to Heroku or something similar</li>
+<li>Frontend will be deployed separately
+<ul>
+<li>GH Pages, Netlify...</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Introduction to Netlify CMS</h2>
+<ul>
+<li>What is Netlify CMS?</li>
+<li>How do you set it up?</li>
+<li>Why are we using Netlify CMS?</li>
+</ul>
+<h3>Netlify Setup Notes</h3>
+<h3>Netlify CMS Admin Panel</h3>
+<h4>Walkthrough</h4>
+<ol>
+<li>Dashboard</li>
+<li>General settings</li>
+<li>Plugins</li>
+<li>Content Manager</li>
+</ol>
+<h3>Activity: <a href="https://gist.github.com/lilyx13/f83513a37740706780acc5e4e936d3d9">Create a blog field</a></h3>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Work on [assignment 1]({{ '/assignments/cpnt200/assignment-1/' | url})</li>
+</ul>
+
   
 </article>
 
