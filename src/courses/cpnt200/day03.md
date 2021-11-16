@@ -51,8 +51,12 @@ Nuxt has a plugin for optimizing images
   ```
 - There are a few options to configure your image defaults [Check out modules options here](https://image.nuxtjs.org/api/options/)
 
+---
+## JAMStack Deployment
+Using Netlify CMS and Nuxt, it is really easy to get a JAMstack site deployed quickly
 ### Nuxt Content
 - [nuxt/content module](https://content.nuxtjs.org/)
+
 ---
 
 ## Lab Time

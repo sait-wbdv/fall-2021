@@ -90,7 +90,7 @@ However new types of CMS's are starting to emerge as well. The JAMStack has rece
 - [Netlify CMS Nuxt Official Docs](https://www.netlifycms.org/docs/nuxt/)
 - Netlify CMS will integrate with the `nuxt/content` module
 
-#### Activity: Set up Netlify
+#### Activity: Add netlify CMS to your Nuxt page
 - Follow [this gist](https://gist.github.com/lilyx13/94398c49afce55e49032251687227cfc) 
   - The code snippits are taken from netlify cms' documentation
 
@@ -100,9 +100,9 @@ However new types of CMS's are starting to emerge as well. The JAMStack has rece
 - [Documentation](https://www.netlifycms.org/docs/configuration-options/)   
 - [Article on Netlify CMS Widgits](https://www.netlify.com/blog/2017/06/20/extending-netlify-cms-part-one-custom-widgets/)
 
-#### Activity: Create a Netlify CMS Widgit
+#### Netlify Widget Steps
 - [Follow these directions](https://gist.github.com/lilyx13/f16358b2eeffb684b89991dd877fe3ef)
-- 
+
 ---
 
 ## Lab Time

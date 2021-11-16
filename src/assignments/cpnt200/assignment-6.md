@@ -4,7 +4,11 @@ title: Assignment 6 - JAMStack Website
 description: In a team, build a simple tech blog that focuses on a technology/theory in web development. Each team member will have a well defined role in this project (backend, content manager, frontend developer, designer).
 ---
 
-## Outline
+## Assignment 6 Group Project
+- Due Friday December 3 11:59pm
+- Only 1 submission required
+
+### Outline
 You are a small web development team that has decided to start working for yourselves. As such you need to make a website for your organization. The site needs to have:
 - 4-5 web pages
 - A team/company name
@@ -53,3 +57,4 @@ Create a JAMstack site using Github, Nuxt, and Netlify CMS.
 
 ### Team Assessment 5
 - Determined at end by group assessment
+
