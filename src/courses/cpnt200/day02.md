@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 200 Day 2 - Content Management Systems
 description: Today we will explore setting up a headless CMS with Netlify CMS. We will also go into more detail on the options available for setting up CMS websites and things that you will need to consider for your future clients.
-date: 2021-11-16
+date: 2021-11-17
 released: true
 ---
 
@@ -10,6 +10,7 @@ released: true
 
 - [Headless CMS Explained](https://www.freecodecamp.org/news/what-is-headless-cms-explained/)
 - [What's the Difference?](https://www.techmagic.co/blog/headless-vs-serverless-cms/)
+
 --- 
 
 ## [Assignment 2: Netlify CMS Admin Panel]({{ '/assignments/cpnt200/assignment-2/' | url }})

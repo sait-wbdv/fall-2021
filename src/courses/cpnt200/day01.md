@@ -2,7 +2,7 @@
 layout: layouts/day.njk
 title: CPNT 200 Day 1 - JAMstack and Nuxt Intro
 description: We will look at a JAMstack and basic nuxt setup
-date: 2021-11-17
+date: 2021-11-16
 released: true
 ---
 
