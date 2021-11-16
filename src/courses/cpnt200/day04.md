@@ -87,7 +87,7 @@ Components are self contained units in Vue. They can have a `template`, `style`,
 - Directives for more complicated rendering
   - `v-bind`: for accessing properties from parent components. For adding properties to html tags. One way passing of values. It operates sort of like an import script
 
-## Simple Rendering
+### Basic Rendering
 - Vue offers a few basic rendering directives
 - You can use `v-html` or mustache syntax `{{ var-name }}` to add text content from `data(){...}` to your `<template>...</template>`
 ```
@@ -109,6 +109,11 @@ Components are self contained units in Vue. They can have a `template`, `style`,
       ```
       <div v-html="var-name"></div>
       ```
+
+### Data Binding
+- v-bind is used to bind data to attributes and components
+- [Check out this gist](https://gist.github.com/lilyx13/9e1c1cd6f7f6f3d6d0a9bb7eff9e5652) for examples of how v-bind can be used
+
 ### Activity: Make a component
 
 - Pick 1 of 3 Options:
