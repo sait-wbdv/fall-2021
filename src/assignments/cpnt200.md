@@ -4,42 +4,40 @@ title: CPNT 200 Assignments
 ---
 
 ## CPNT 200: Content Management Systems
-This course will consist of 6 small assignments and 1 large group project.
+This course will consist of 5 small assignments and 1 large group project.
 
 The small assignments focus on a core skill of the different aspects of CMS development and management.
 
-In the group assignment, you will take a particular role on a JAMStack team, and work with your group to build a live blog.
-
-We will be using NuxtJS and Strapi CMS to build websites and they will be deployed to Heroku and Netlify.
+Note that you you must make a new repo for each assignment. labelled cpnt200-a1, cpnt200-a2 etc. However you can reuse the same code within each assignment.
 
 --- 
 
 ### Nuxt Configuration [Assignment]({{ '/assignments/cpnt200/assignment-1/' | url }})
 - Due Monday, November 29, 2021
 - Weight: 10% of Final Course Mark
-- Focus: CMS Setup
+- Focus: Nuxt SSG Frontend Setup
 
 ### Netlify CMS Setup [Assignment]({{ '/assignments/cpnt200/assignment-2/' | url }})
-- Due Friday, November 26, 2021
+- Due Monday, November 29, 2021
 - Weight: 10% of Final Course Mark
-- Focus: CMS Usage
+- Focus: Create content collections in netlify cms
 
-### Nuxt Frontend Development [Assignment]({{ '/assignments/cpnt200/assignment-3/' | url }})
-- Due Friday, November 26, 2021
+### Nuxt + Netlify CMS  [Assignment]({{ '/assignments/cpnt200/assignment-3/' | url }})
+- Due Monday, November 29, 2021
 - Weight: 10% of Final Course Mark
-- Focus: Frontend Framework Workflow
+- Focus: Integrate Netlify CMS into Nuxt and deploy content.
 
-### Nuxt Strapi Integration & Deployment [Assignment]({{ '/assignments/cpnt200/assignment-4/' | url }})
-- Due Friday, November 26, 2021
+### Vue Components I [Assignment]({{ '/assignments/cpnt200/assignment-4/' | url }})
+- Due Monday, November 29, 2021
 - Weight: 10% of Final Course Mark
-- Focus: JAMStack Setup
+- Focus: Create reusable vue components
 
-### SQL & GraphQL Databases [Assignment]({{ '/assignments/cpnt200/assignment-5/' | url }})
-- Due Friday, November 26, 2021
+### Vue Components II [Assignment]({{ '/assignments/cpnt200/assignment-5/' | url }})
+- Due Monday, November 29, 2021
 - Weight: 10% of Final Course Mark
-- Focus: Databases
+- Focus: dynamically display content in vue components.
 
 ### Group Project [Assignment]({{ '/assignments/cpnt200/assignment-6/' | url }})
-- Due Wednesday, December 1, 2021
+- Due Friday, December 3, 2021
 - Weight: 50% of Final Course Mark
 - Focus: CMS Team Project

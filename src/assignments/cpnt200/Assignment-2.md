@@ -9,9 +9,11 @@ description: Add netlify cms to a nuxt site. Customize an admin panel
 - Set up the basic configuration
   - nuxt.config.js
   - admin
-- Create a widgit 
-  - It should have at least 3 fields
+
 - Create 2 collections
+- Create a widgit for each collection
+  - It should have at least 3 fields
+    - the two widgets must use different main content fields
 ## Marking Rubric
 
 1. Configuration
@@ -19,7 +21,7 @@ description: Add netlify cms to a nuxt site. Customize an admin panel
 2. Widgit
 - Must have a slug
 - Must have a title
-- Must have at least 1 other field
+- 2 Other Widgets
 
 3. Collections
 - Collections are properly defined in your admin directory 

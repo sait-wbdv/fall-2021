@@ -16,15 +16,15 @@ description: Create vue components for page layout
 -  Add the components to your main layout
 
 2. Vue Directives
-- Use the v-bind directive to send data to a child component
 - Use v-html once (include html tag in the string)
 - Use v-text once (no html in string)
 - Use moustache syntax once
 
 3. Styles
-- Set unscoped styles in the layout
-- add scoped styles to one of your components
-- You only need 1 class or @apply (if you're using tailwind) in each file
+- Use your choice of CSS Framework (tailwind, bulma, vuetify...)
+- All content should be styled using your framework
+- Unscoped styles on pages
+- add scoped styles to your components (if necessary)
 
 4. Readme
 - Add links to your github repo and github pages site
