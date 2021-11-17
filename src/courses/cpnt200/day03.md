@@ -5,51 +5,30 @@ description: Deploy your blog pages to your nuxt site and deploy the website to 
 date: 2021-11-18
 ---
 
-## Prep
-- 
-
 ## [Assignment 3 - JAMstack Setup]({{ '/assignments/cpnt200/assignment-3/' | url }})
-- **Due: Friday November 29 @ 11:59**
+- **Due: November 24 @ 11:59**
 - Push a blog article onto your nuxt page dynamically
 - Deploy to Netlify
 
 ## Topics
-- Integrate Netlify CMS and Nuxt
-- Navigation Component
-- Nuxt Images
+- Review Collections and Fields
+- Nuxt-Content Setup
+- Dynamically load CMS posts into Nuxt
+- CSS Framework Exploration
+
+### Resources
+- [Fixing NPM Vulnerabilities Guide](https://gist.github.com/lilyx13/52a4356d5cb7eee315d71493c693b59b)
+
 ---
 
-## Integrate Netlify CMS with Nuxt
+## Netlify CMS Collections and Fields Review
 
----
-## Navigation Component
 
-### Nuxt Router
-- Check out the [documentation](https://nuxtjs.org/docs/features/nuxt-components/) for more info on using nuxt-link
-- Nuxt provides it's own syntax for local links
-  - `<NuxtLink to="/">Home</NuxtLink>
-    - other links use `/about` type syntax
-    - It depends on the name of the file in your `pages/` directory
+## Nuxt Content Setup
 
- 
+## Dynamically Load CMS Posts into Nuxt
 
-#### Activity: Create a navigation using nuxt-router
-- create 2-3 .vue files in the `pages/` directory
-- use `<NuxtLink>` syntax to create a nav bar
-  - use the default template
-
-### Nuxt Images
-Nuxt has a plugin for optimizing images
-- Check out these [installation and setup documentation](https://image.nuxtjs.org/getting-started/installation)
-  - in your nuxt repo, add the dev dependency `@nuxt/image`
-    - `npm install -D @nuxt/image`
-  - then in your `nuxt.config.js` file add it to the build modules
-  ``` 
-  buildModules: [
-    '@nuxt/image'
-  ]
-  ```
-- There are a few options to configure your image defaults [Check out modules options here](https://image.nuxtjs.org/api/options/)
+)
 
 ---
 ## JAMStack Deployment

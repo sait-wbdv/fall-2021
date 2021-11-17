@@ -14,7 +14,7 @@ released: true
 --- 
 
 ## [Assignment 2: Netlify CMS Admin Panel]({{ '/assignments/cpnt200/assignment-2/' | url }})
-- **Due: November 29 11:59pm**
+- **Due: November 22 11:59pm**
 - Create a nuxt project and set up an netlify-cms admin panel 
 
 ## Today's Topics

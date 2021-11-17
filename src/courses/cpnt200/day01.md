@@ -13,7 +13,7 @@ released: true
 - Watch until 6:07 [NuxtJS Content](https://www.youtube.com/watch?v=UAQXQG5RnUQ)
 
 ## [Assignment 1: Nuxt Frontend Setup]({{ '/assignments/cpnt200/assignment-1/' | url}})
-- **Due November 29th 11:59pm**
+- **Due November 22th 11:59pm**
 - Set up a nuxtjs page
 - Remove boiler plate
 - Add modules

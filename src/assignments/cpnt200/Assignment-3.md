@@ -4,23 +4,28 @@ title: Assignment 3 - JAMstack Setup
 description: Integrate netlify cms and nuxt.
 ---
 
+## Assignment 3: JAMstack Setup
+- Due: Wednesday November 24 @ 11:59PM
+- Submit Zipped project, github repo, and link to netlify to brightspace
+
 ## Instructions
-Create 4 entries, 2 for each of your collections. Use nuxt-content to show them. Lorem Ipsum content is fine body text but titles need to be easily distinguishable.
+Create 4 entries, 2 for each of your collections. Use nuxt-content to make them visible. Lorem Ipsum content is fine. Body text but titles need to be easily distinguishable.
 
 ## Marking Rubric
 
-1. Configuration
-  - Set up a _slug.vue file to load cms content dynamically as pages
-  - Set up 
+1. Configuration (20%)
+    - Netlify CMS + Nuxt Deployed to Netlify
 
-2. CMS Content
-- Write 4 entries using two different collections. Can be sample content
+2. CMS Content (30%)
+    - Write 4 entries using two different collections. Can be sample content
+    - Collections should have different fields.
 
-3. Nuxt Link navigation
-- Use nuxt link to create navigation pages
+3. Nuxt-Content to Render your Collection Posts
+    - `_slug.vue` file properly set up
+    - Posts created in netlify cms render onto your website
 
-4. Readme
-- Add links to your github repo and github pages site
-- Code Review
-  - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
-- Attributions
+4. Readme (20%)
+    - Add links to your github repo and github pages site
+    - Code Review
+      - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
+    - Attributions
