@@ -30,7 +30,8 @@ released: true
 - Review yaml syntax for nested lists
   - white space sensitive
   - Creating different widgets
-
+- [Netlify CMS Collections Gist](https://gist.github.com/lilyx13/003a7bca82c6acdb72cc4ccd81cc6fe0)
+  - This is the example we used in class. it shows a few use cases for setting up a content editor. Note the nesting and indentation styles
 ---
 
 ## Nuxt-Content Setup
