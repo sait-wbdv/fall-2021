@@ -27,7 +27,9 @@ released: true
 ---
 
 ## Netlify CMS Collections and Fields Review
-- 
+- Review yaml syntax for nested lists
+  - white space sensitive
+  - Creating different widgets
 
 ---
 
