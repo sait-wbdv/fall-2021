@@ -3,6 +3,7 @@ layout: layouts/day.njk
 title: CPNT 200 Day 3 - Integrating CMS with Nuxt Frontend
 description: Deploy your blog pages to your nuxt site and deploy the website to netlify.
 date: 2021-11-18
+released: true
 ---
 
 ## [Assignment 3 - JAMstack Setup]({{ '/assignments/cpnt200/assignment-3/' | url }})
