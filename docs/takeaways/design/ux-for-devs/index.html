@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>UX for Devs</h1>
+<h2>Terminology</h2>
+<dl>
+<dt>Usability</dt>
+<dd>A <em>quality attribute</em> that assesses how easy user interfaces are to use. The word &quot;usability&quot; also refers to methods for improving ease-of-use during the design process.</dd>
+<dt>Information Hierarchy</dt>
+<dd>A discipline that focuses on organizing, structuring, and labeling content in an effective and sustainable way.</dd>
+<dt>Satisfice</dt>
+<dd>When a user chooses the <em>first reasonable option</em> instead of the best option.</dd>
+<dt>Interaction Cost</dt>
+<dd>The sum of efforts — mental and physical — that the users must deploy in interacting with a site in order to reach their goals.</dd>
+</dl>
+<h2>Key Takeaways</h2>
+<h3>Satisficing</h3>
+<p>Unless faced with life-changing information, most site visitors won't read all of the content provided but settle for a “good-enough” answer. Better sorting and clearer writing satisfy users without exhausting the limited time they’re willing to spend on a website.</p>
+<p>How we really use the web:</p>
+<ol>
+<li>We don't read pages. we scan them.
+<ul>
+<li><a href="https://www.nngroup.com/articles/text-scanning-patterns-eyetracking/">Text Scanning Patterns: Eyetracking Evidence</a></li>
+</ul>
+</li>
+<li>We don't make optimal choices. We satisfice.
+<ul>
+<li><a href="https://www.nngroup.com/articles/satisficing/">Satisficing</a></li>
+</ul>
+</li>
+<li>We don't figure out how things work. We muddle through.
+<ul>
+<li><a href="https://www.nngroup.com/articles/information-foraging/">Information foraging</a></li>
+</ul>
+</li>
+</ol>
+<p>Source: Don't Make Me Think by Steve Krug</p>
+<h3>Usable sites/apps minimize Interaction Cost</h3>
+<p>Throughout this program we will be making design decisions that will (hopefully) maximize the usability of our websites and applications by minimizing interaction costs for the user. We do this by <em><strong><em>minimizing</em></strong></em>:</p>
+<ul>
+<li><strong>Reading</strong>
+<ul>
+<li><a href="https://www.nngroup.com/articles/inverted-pyramid/">Inverted Pyramid: Writing for Comprehension</a></li>
+<li><a href="https://www.nngroup.com/articles/plain-language-experts/">Plain Language Is for Everyone, Even Experts</a></li>
+</ul>
+</li>
+<li><strong>Scrolling</strong>
+<ul>
+<li><a href="https://www.nngroup.com/articles/scrolling-and-attention/">Scrolling and Attention</a></li>
+<li>Video: <a href="https://www.nngroup.com/videos/fold-manifesto/">The Fold Manifesto: How to Encourage Scrolling</a></li>
+</ul>
+</li>
+<li><strong>Looking around in order to find relevant information</strong>
+<ul>
+<li><a href="https://www.nngroup.com/articles/information-foraging/">Information foraging</a></li>
+</ul>
+</li>
+<li><strong>Comprehending information presented to you</strong>
+<ul>
+<li><a href="https://www.nngroup.com/articles/get-started/">Don't use &quot;Read more&quot;, &quot;Get started&quot;...</a></li>
+</ul>
+</li>
+<li><strong>Clicking or touching (without making mistakes)</strong>
+<ul>
+<li><a href="https://www.nngroup.com/articles/clickable-elements/">Making Clickable Elements Recognizable</a></li>
+</ul>
+</li>
+<li><strong>Typing</strong>
+<ul>
+<li><a href="https://www.nngroup.com/articles/web-form-design/">Website Forms Usability: Top 10 Recommendations</a></li>
+</ul>
+</li>
+<li><strong>Page loads and waiting times</strong>
+<ul>
+<li><a href="https://www.nngroup.com/articles/the-need-for-speed/">The Need for Speed, 23 Years Later</a></li>
+</ul>
+</li>
+<li><strong>Attention switches</strong>
+<ul>
+<li><a href="https://www.nngroup.com/articles/attention-economy/">Attention Economy</a></li>
+</ul>
+</li>
+<li><strong>Memory load</strong> ­— the information that users must remember in order to complete their task.
+<ul>
+<li>Video: <a href="https://www.nngroup.com/videos/magical-number-7-ux/">The Magical Number 7 and UX</a></li>
+<li><a href="https://www.nngroup.com/articles/chunking/">How Chunking Helps Content Processing</a></li>
+</ul>
+</li>
+</ul>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

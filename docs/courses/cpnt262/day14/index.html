@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day13/" title="CPNT 262 Day 13 - Introduction npm and dependencies">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day15/" title="CPNT 262 Day 15 - Deploying a server to Heroku">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Thu, October 28</time>
+  <h2>CPNT 262 Day 14 - Serving static files with Express</h2>
+  
+  
+        <h2>Trophy of the day</h2>
+<ul>
+<li>Build a static Express server for one of your GH Pages sites.</li>
+</ul>
+<hr>
+<h2>1. HTTP and the request/response cycle</h2>
+<h3>Materials</h3>
+<ul>
+<li>Prep
+<ul>
+<li><a href="https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047">request/response cycle</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server">What is a web server? - Learn web development | MDN</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction">Introduction to the server side - Learn web development | MDN</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview">Client-Server Overview - Learn web development | MDN</a></li>
+</ul>
+</li>
+<li>Takeaways
+<ul>
+<li><a href="/fall-2021/takeaways/express/http/">HTTP Basics</a></li>
+</ul>
+</li>
+<li>Reference
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">HTTP Status Codes</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>2. HTTP servers with Node (yuck)</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/4f96eefab57e9ab8d2ec4e21f6029be3">Create a simple <code>http</code> server</a></li>
+</ul>
+<h3>Key Takeaways</h3>
+<p>This will be the only time we use the <code>http</code> module directly because it's a pain to use. BUT, we will use it to illustrate the request/response cycle.</p>
+<hr>
+<h2>3. HTTP servers with Express (yum!)</h2>
+<h3>Materials</h3>
+<ul>
+<li>Prep
+<ul>
+<li>Express Docs</li>
+<li><a href="https://expressjs.com/en/starter/installing.html">Installing Express</a></li>
+<li><a href="https://expressjs.com/en/starter/hello-world.html">Hello World! with Express</a></li>
+<li><a href="https://expressjs.com/en/starter/static-files.html">Serving static files in Express</a></li>
+<li>Video: <a href="https://www.youtube.com/watch?v=pKd0Rpw7O48">How to build a REST API with Node js &amp; Express</a> by Programming with Mosh</li>
+</ul>
+</li>
+<li>Takeaways:
+<ul>
+<li><a href="/fall-2021/takeaways/express/rest/">Introduction to REST</a></li>
+</ul>
+</li>
+<li>Gists:
+<ul>
+<li><a href="https://gist.github.com/acidtone/8a188adf6e85a913f7f88c4f6cd53677">Express: Hello World!</a></li>
+<li><a href="https://gist.github.com/acidtone/f5a08d0f15e70c4ddf1d40571b9e0645">Express: Catch 404 Not Found errors</a></li>
+<li><a href="https://gist.github.com/acidtone/e2590b67f8fd701a36f7a04e62caa594">Express: Serving static files</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>4. Lab time</h2>
+<ul>
+<li>Assignments</li>
+<li>Trophy of the day</li>
+</ul>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day13/" title="CPNT 262 Day 13 - Introduction npm and dependencies">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day15/" title="CPNT 262 Day 15 - Deploying a server to Heroku">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

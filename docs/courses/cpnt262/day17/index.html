@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day16/" title="CPNT 262 Day 16 - Express JSON routes">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day18/" title="CPNT 262 Day 18 - Query params and .filter()">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Tue, November 2</time>
+  <h2>CPNT 262 Day 17 - JSON 404 errors and local modules</h2>
+  
+  
+        <h2>Housekeeping</h2>
+<ul>
+<li>Tutorials: <a href="https://exercism.org/tracks/javascript">Javascript Exercism</a></li>
+<li>Ash and Norv will cover for Tony this afternoon</li>
+</ul>
+<h2>Trophy of the Day</h2>
+<ul>
+<li>A local module!</li>
+</ul>
+<hr>
+<h2>1. Spoiler demo</h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/f470990b7ebd01907a37118f200b17ab">Create a JSON endpoint using route parameters</a></li>
+<li>Review: <a href="https://sait-wbdv.github.io/fall-2021/takeaways/js/variables-validating-types/">Validating values</a></li>
+<li><a href="https://medium.com/@mandeepkaur1/arrow-functions-in-javascript-9254e41a80e3">Arrow Functions In Javascript</a></li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li>A walk-through and optimization of the <code>guild</code> spoilers.</li>
+</ul>
+<h3>Key Takeaways</h3>
+<p>A good coder is a lazy coder. Arrow functions are made for lazy coders.</p>
+<p>Given the following input variables:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> cats <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./cats'</span><span class="token punctuation">)</span> <span class="token comment">// Array of objects</span><br><span class="token keyword">const</span> searchName <span class="token operator">=</span> <span class="token string">'fluffy'</span> <span class="token comment">// From either argv or url </span></code></pre>
+<p>Each of the following do the exact same thing (find a <code>cat</code> based on <code>name</code>).</p>
+<ol>
+<li>
+<p>Not lazy at all (bad):</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> foundCat <span class="token operator">=</span> cats<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">cat</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span>cat<span class="token punctuation">.</span>name <span class="token operator">===</span> searchName<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">return</span> <span class="token boolean">true</span><br>  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span><br>    <span class="token keyword">return</span> <span class="token boolean">false</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
+<ul>
+<li>The <code>if</code>/<code>else</code> is redundant in this case.</li>
+</ul>
+</li>
+<li>
+<p>Lazy (good):</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> foundCat <span class="token operator">=</span> cats<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">cat</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br>  <span class="token keyword">return</span> cat<span class="token punctuation">.</span>name <span class="token operator">===</span> searchName<br><span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
+<ul>
+<li>Returning the comparison expression directly instead.</li>
+</ul>
+</li>
+<li>
+<p>Suuuuper Lazy (fancy and modern):</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> foundCat <span class="token operator">=</span> cats<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token parameter">cat</span> <span class="token operator">=></span> cat<span class="token punctuation">.</span>name <span class="token operator">===</span> searchName<span class="token punctuation">)</span></code></pre>
+<ul>
+<li><code>return</code> is assumed if the block is a single expression.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>2. Review</h2>
+<h3>Terminology</h3>
+<dl>
+<dt>Expression</dt>
+<dd>A piece of code that returns a value.</dd>
+</dl>
+<h3>Materials</h3>
+<ul>
+<li><a href="/fall-2021/courses/cpnt262/day01/">Day 1: Data types</a>
+<ul>
+<li>Gist: <a href="https://gist.github.com/acidtone/d85a9a0ba6bccfa73cfb269d65a25839">Common Data Types</a></li>
+</ul>
+</li>
+<li><a href="/fall-2021/courses/cpnt262/day04/">Day 4: Functions</a></li>
+</ul>
+<h3>Activity</h3>
+<p>Create a function that accepts any array as an argument and returns a random item in that array. See: <a href="https://gist.github.com/acidtone/2a3cac26a229aa95685e5cf6344f2e4e">Find a random item in an Array</a></p>
+<hr>
+<h2>3. Local modules</h2>
+<h3>Terminology</h3>
+<dl>
+<dt>Module</dt>
+<dd>A reusable block of code whose existence does not accidentally impact other code (Javascript didn't have this before).</dd>
+<dt>CommonJS Module</dt>
+<dd>An agreed upon standard for how code modules should be structured. Because modules are a relatively new feature of Javascript, there are competing standards: ES Modules are used in the browser but CommonJS Modules are most common in Node.js (which supports both standards).</dd>
+</dl>
+<h3>Materials</h3>
+<ul>
+<li>Prep
+<ul>
+<li>Video: 19:16 - 37:40 of <a href="https://youtu.be/TlB_eWDSMt4?t=1156">Node.js Tutorial for Beginners</a> by Mosh Hamedani</li>
+<li><a href="https://www.tutorialsteacher.com/nodejs/nodejs-module-exports">Export a Module in Node.js</a> by Tutorials Teacher</li>
+</ul>
+</li>
+<li>Gist: <a href="https://gist.github.com/acidtone/4dd61a189ef934a76df8efde14738dfe">Custom (local) Node modules</a></li>
+</ul>
+<h3>Key Takeaways</h3>
+<ul>
+<li>You must prefix local module paths with <code>./</code>.</li>
+<li><code>module.exports</code> is an empty object by default.</li>
+<li>You can assign any value to <code>module.exports</code> to expose it to the outer environment.</li>
+<li><code>require()</code> returns the value that is assigned to a module's <code>module.exports</code>. All other variables will be private to the module.</li>
+</ul>
+<h3>Activities</h3>
+<ul>
+<li>
+<p>Find a literal in your Command Line App assignment and move it into a local module.</p>
+</li>
+<li>
+<p>Take the random item function from this morning's demo and move it into a local module such that:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> randomItem <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./random-item'</span><span class="token punctuation">)</span><br><span class="token keyword">const</span> array <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'one'</span><span class="token punctuation">,</span> <span class="token string">'two'</span><span class="token punctuation">,</span> <span class="token string">'three'</span><span class="token punctuation">]</span><br><br>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">randomItem</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// Output a random item</span></code></pre>
+</li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Ash and Norv!</li>
+</ul>
+<hr>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day16/" title="CPNT 262 Day 16 - Express JSON routes">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day18/" title="CPNT 262 Day 18 - Query params and .filter()">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

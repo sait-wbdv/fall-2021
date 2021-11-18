@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day09/" title="CPNT 260 Day 9 - Maintainable CSS, Position, and Transitions">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt201/day04/" title="CPNT 201 Day 4 - Optimized Rasters and Intro to Vector Design">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Fri, October 1</time>
+  <h2>CPNT 201 Day 3 - Raster Images</h2>
+  
+  
+        <h2>Overview</h2>
+<ol>
+<li>Plan it out</li>
+</ol>
+<ul>
+<li>Intro to raster images and image editors</li>
+<li>Raster Image Theory</li>
+</ul>
+<ol start="2">
+<li>Brute force</li>
+</ol>
+<ul>
+<li>Set up image directories</li>
+<li>optimize images for web</li>
+</ul>
+<ol start="3">
+<li>Lab Time</li>
+</ol>
+<ul>
+<li>Work on Activity</li>
+</ul>
+<ol start="4">
+<li>Walkthrough</li>
+</ol>
+<ul>
+<li>Discussion on process</li>
+</ul>
+<h2><a href="/fall-2021/assignments/cpnt201/assignment-2/">CPNT201 Assignment 2: Raster Image Optimization</a></h2>
+<ul>
+<li>Due: Tuesday October 5th @ 11:59pm;</li>
+</ul>
+<hr>
+<h2>Raster Image Editors</h2>
+<ul>
+<li><a href="https://www.gimp.org/">Gimp</a>
+<ul>
+<li><a href="https://www.youtube.com/c/LogosByNick">Youtube Video Tutorials</a></li>
+<li><a href="https://github.com/Diolinux/PhotoGIMP">Photogimp</a>
+<ul>
+<li>Enhance gimp's functionality</li>
+</ul>
+</li>
+<li><a href="https://alessandrofrancesconi.it/projects/bimp/">BIMP</a>
+<ul>
+<li>A plugin for Batch Image Processing</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://pixlr.com/">Pixlr</a>
+<ul>
+<li>Web based raster editing</li>
+</ul>
+</li>
+<li><a href="https://www.canva.com/photo-editor/app/">Canva</a>
+<ul>
+<li>Web and mobile based editing</li>
+</ul>
+</li>
+<li><a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>
+<ul>
+<li>Premium raster image editing program (Industry Standard)</li>
+<li><a href="https://www.youtube.com/c/TerryWhite01">Youtube Tutorial Videos</a></li>
+</ul>
+</li>
+<li>I will be doing examples using GIMP with photogimp and bimp</li>
+</ul>
+<h2>Raster Images in Web Development</h2>
+<h3>Terminology</h3>
+<ul>
+<li><a href="https://www.picmonkey.com/blog/photo-editing-terms-you-dont-know">Terminology source</a></li>
+</ul>
+<dl>
+<dt>Aspect Ratio</dt>
+<dd>proportional representation of width vs height</dd>
+<dt>Clarity vs Sharpen</dt>
+<dd>sharpen is contrast between light and dark pixels, clarity is contrast between mid tones.</dd>
+<dt>Exposure</dt>
+<dd>How light or dark an image appears after capturing it</dd>
+<dt>Histogram</dt>
+<dd>Displays tones in your image ranging from 0-255</dd>
+<dt>Compression</dt>
+<dd>decreasing an image fileze for faster loading. lossy or lossless</dd>
+<dt>Lossy Compression</dt>
+<dd>Reduces file size by eliminating information. The image will not be exactly the same. Data that is lost when performing a lossy compression cannot be recovered.</dd>
+<dt>Lossless Compression</dt>
+<dd>All the original information is kept. PNG is an example of loseless compression.</dd>
+</dl>
+<h2>Common Practices for Raster Image Editing</h2>
+<ul>
+<li>Color Selection
+<ul>
+<li>Photoshop: healing brush</li>
+</ul>
+</li>
+<li>Brightness, Colors, Levels, Exposure
+<ul>
+<li>Gimp: Colors tab</li>
+<li>Photoshop: Image/Adjustments tabs</li>
+</ul>
+</li>
+<li>Touch up photos
+<ul>
+<li>Healing Brush</li>
+<li>Gimp: Heal Selection</li>
+<li>Photoshop: Spot Healing</li>
+</ul>
+</li>
+<li>Cut a something out of a background
+<ul>
+<li>photoshop: direct selection tool, refine edge, mask mode</li>
+<li>gimp:</li>
+</ul>
+</li>
+</ul>
+<h3><a href="https://gist.github.com/lilyx13/8aa5c8e4550652e37ce0fa8fa10c1983">Gist on image size ranges</a></h3>
+<h3>Image size for Web extra Reading</h3>
+<ul>
+<li><a href="https://flothemes.com/flothemes-image-sizes/">Flothemes article</a></li>
+</ul>
+<h3>File Formats for web</h3>
+<ul>
+<li>PNG, JPG, WebP</li>
+</ul>
+<h3>Activity: <a href="/fall-2021/activities/images/image-directory/">Set up Directory Hierarchy</a></h3>
+<hr>
+<h2>Lazy Loading</h2>
+<ul>
+<li>This is used to shorten the critical rendering path</li>
+<li>items that are not required immediatly will be downloaded when the user gets to them</li>
+<li>this is the opposite of <code>preload</code> which we use on our fonts to speed up the rendering of the page</li>
+<li>for lazy loading, the image loads at render</li>
+</ul>
+<pre><code>&lt;!-- image lazy loading --&gt;
+&lt;img src=&quot;image.jpg&quot; alt=&quot;...&quot; loading=&quot;lazy&quot;&gt;
+&lt;!-- iframe lazy loading --&gt;
+&lt;iframe src=&quot;video-player.html&quot; title=&quot;...&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+<hr>
+<h2>Optimization</h2>
+<ul>
+<li>Batch processing for resizing and file conversion using gimp</li>
+<li>Convert to Webp</li>
+<li>Optimize images</li>
+</ul>
+<h3>Tooltime</h3>
+<ul>
+<li><a href="https://alessandrofrancesconi.it/projects/bimp/">BIMP</a></li>
+<li><a href="https://squoosh.app">squoosh</a></li>
+</ul>
+<h3>Activity: <a href="/fall-2021/activities/images/image-optimization">Image Optimization</a></h3>
+<hr>
+<h2>Prep for tomorrow</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=eZJOSK4gXl4">Video: Keven Powell Getting started with Figma</a>
+<ul>
+<li>overview of how to use figma. longer video with great intro content</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=zngMDDeOjmw&amp;list=PLynG8gQD-n8BMplEVZVsoYlaRgqzG1qc4&amp;index=11">Video: Logos by Nick Simple Box Icon</a>
+<ul>
+<li>a design tutorial using inkscape. The same thing can easily be made in figma and illustrator. His method of using shapes is particularly useful.</li>
+</ul>
+</li>
+</ul>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day09/" title="CPNT 260 Day 9 - Maintainable CSS, Position, and Transitions">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt201/day04/" title="CPNT 201 Day 4 - Optimized Rasters and Intro to Vector Design">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

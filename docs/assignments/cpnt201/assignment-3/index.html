@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>CPNT 201 Assignment 3 - SVG Image</h1>
+<h2>Summary</h2>
+<p>A client has requested a custom graphic to be used as a logo/icon for a website that has multiple colour schemes.</p>
+<h2>Requirements</h2>
+<p>To accomplish different colour schemes with the same graphic, you realize you will need to use and inline SVG.</p>
+<p>For the purposes of this assignment, you may create a logo design of your choosing and implement it on a page of your choosing. Please pay attention to your documentation so your instructor can find the design in question.</p>
+<h3>1. SVG Design</h3>
+<p>Using Figma, or similar vector authoring tool, build an SVG that:</p>
+<ul>
+<li>Contains three separate closed paths. For example, these paths can be a combination of:
+<ul>
+<li>a manually &quot;drawn&quot; closed shape using the pen tool (avoid the use of the pencil tool);</li>
+<li>an icon font (imported as an SVG) that has been altered using the Pathfinder or similar tool (see the <a href="https://github.com/sait-wbdv/sample-code/blob/master/frontend/svg/no-bugs/images/no-bugs.svg">No Bugs</a> graphic built in class);</li>
+<li>some other openly-licensed SVG design you find online.</li>
+</ul>
+</li>
+<li>Can be of a design of your choosing. You will not be marked on the aesthetics of the design itself; only the technical requirements of the closed paths.</li>
+</ul>
+<h3>2. SVG Optimization</h3>
+<p>To ensure the best performance you will use <a href="https://jakearchibald.github.io/svgomg/">SVG OMG</a> to optimize the exported design such that:</p>
+<ul>
+<li>Precision reduced to 1 (a precision of 2 is acceptable if a reduction in quality is apparent);</li>
+<li>Prettify Markup is turned on (for the benefit of your instructor);</li>
+<li>a <code>viewBox</code> is included in the file;</li>
+<li><code>width</code> and <code>height</code> attributes are not included;</li>
+<li>no <code>style</code> element or inline <code>style</code> attributes are present within the <code>svg</code> element (presentational attributes are fine).</li>
+</ul>
+<p>Note: SVG OMG may merge one or more of your paths. This is fine as long as your design has three visually distinct closed paths that can be targeted with CSS.</p>
+<h3>3. Inline SVG</h3>
+<p>Insert the optimized SVG graphic into a test page such that:</p>
+<ul>
+<li>the design incorporates two colours that match a non-white background;</li>
+<li>use class selectors and an external CSS stylesheet to achieve the colour scheme;</li>
+<li>at least one property other than <code>fill</code> colour is used to enhance the design (such as <code>stroke</code>, <code>filter</code>, etc);</li>
+<li>the size is large enough to properly differentiate between the colours of the design (e.g. don't use the graphic as a tiny social media icon). In other words, make it loud and proud.</li>
+</ul>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

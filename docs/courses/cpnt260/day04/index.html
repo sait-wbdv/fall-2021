@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day03/" title="CPNT 260 Day 3 Intro to Flexbox">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day05/" title="CPNT 260 Day 5 - Introduction to CSS Grid">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Wed, September 22</time>
+  <h2>CPNT 260 Day 4 - Mobile First Design, Flexbox, and Breakpoints</h2>
+  
+  
+        <h2>Tropy of the day: Mobile first webpage with hamburger menu</h2>
+<h2>Review</h2>
+<ul>
+<li>Flexbox Questions</li>
+<li>debugging overflow (if you've had this issue on any of your activities, this will be a good time to go back to it and work on fixing it)</li>
+<li>Apply starter flexbox and styling to <a href="https://codepen.io/ashlyn-knox/pen/ExXRrLY">today's codepen</a> as a class</li>
+<li>Form follow up: add <code>fieldset</code> to forms</li>
+<li>Look at the <a href="https://css-tricks.com/almanac/properties/f/flex/"><code>flex</code></a> proprty</li>
+</ul>
+<h3>Class Codepens</h3>
+<p><em>quick note: don't use assignments for daily activities</em></p>
+<ul>
+<li><a href="https://boostha.github.io/cpnt260-simple-nav/">David Ha Simple Nav</a></li>
+<li>nested space-between and space-around</li>
+</ul>
+<h2>Assignment 2: Services, Info, Team Members, or Product Page</h2>
+<ul>
+<li><strong>Due: September 26 11:59pm</strong></li>
+<li><a href="/fall-2021/assignments/cpnt260/assignment-2/">Assignment Link</a></li>
+</ul>
+<hr>
+<h2>Overview</h2>
+<ol>
+<li>Plan it out</li>
+</ol>
+<ul>
+<li>Mobile First Design</li>
+</ul>
+<ol>
+<li>Brute force</li>
+</ol>
+<ul>
+<li>Card Design</li>
+<li>Hamburger menu and icons</li>
+</ul>
+<ol>
+<li>Walkthrough</li>
+<li>Optimize/Test</li>
+</ol>
+<hr>
+<h2>Topic 1: Mobile First Design</h2>
+<p><em>Media Queries and Breakpoints</em></p>
+<h3>Terminology</h3>
+<dl>
+<dt>breakpoint</dt>
+<dd>The points where the layout shifts<br>
+media-query</dd>
+<dd>Media queries are used to set major breakpoints. CSS declarations within a media query will only run under the conditions specified in the media query declaration. You can have multiple media-query declarations in a file.</dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li>Use this <a href="https://mediag.com/blog/popular-screen-resolutions-designing-for-all/">guide on screen resolutions</a> to determine sensible breakpoints</li>
+<li>With modern layouts like flexbox and grid, media queries are less important for creating a responsive experience.</li>
+<li>Try to use them sparingly. Check out <a href="https://css-tricks.com/a-complete-guide-to-css-media-queries/">this guide from css-tricks</a> on tips for using mobile queries</li>
+<li>we will be focusing on using media queries in css</li>
+</ul>
+<h4>Media Query Gists</h4>
+<ul>
+<li><a href="https://gist.github.com/lilyx13/fa4da2064d0173358bf0e7dd8b8dfa5d">Media Query Mobile First</a></li>
+<li><a href="https://gist.github.com/acidtone/8b22888818aa6f81653ab0858ad4c418">Mobile First</a></li>
+<li><a href="https://gist.github.com/acidtone/0f9c31e820f29511fc2671063fd71c58">Desktop First</a></li>
+<li><a href="https://gist.github.com/acidtone/6aeb476a3c9bbc9788ce1ebc958b98d1">Mobile First and Orientation</a></li>
+</ul>
+<h2>Activity: Add media queries to a page</h2>
+<ul>
+<li>Use one of your previously made pages or create a new one</li>
+<li>make the navigation and one other thing function differently at a mobile screen size</li>
+<li>the nav menu needs to completely change layout to vertical and not flex when resizing the screen</li>
+<li>Other content to try to change could be:</li>
+<li>how sections are positions around one another (do something that cannot be achieved with <code>flex-wrap</code>)</li>
+</ul>
+<h2>Topic 2: Flexbox card layouts</h2>
+<p><em>How to make easy and responsive cards</em></p>
+<h3>Notes</h3>
+<ul>
+<li>Check out <a href="https://codepen.io/ashlyn-knox/pen/MWmxxbR">Ash's Codepen</a> for a simple card layout</li>
+<li>Articles are a great tag for cards</li>
+<li>If you have clickable elements inside your cards, keep in mind how you want your interaction hierarchy to work.</li>
+<li>Does the user click on the whole card? or button inside the card?</li>
+<li>If you use a hover state to indicate that the card can be clicked on a desktop, how will you replace this visual breadcrumb for mobile users?</li>
+</ul>
+<h4>Code</h4>
+<ul>
+<li><code>@media media-type and (media-feature-rule) { /* styles here */ }</code></li>
+</ul>
+<h4>Further Reading</h4>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card">Mdn Card Design</a></li>
+<li><a href="https://thenextweb.com/news/how-cards-are-taking-over-web-design">Article on card designs</a></li>
+</ul>
+<hr>
+<h2>Topic 3: Adding Icons to your site</h2>
+<p><em>Hamburger menus and many more</em></p>
+<h3>Notes</h3>
+<ul>
+<li>To access fontawesome icons, include this in the head of your html</li>
+<li><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css&quot;&gt;</code></li>
+<li>You can also download the icons and store them in your assets</li>
+<li>set icons with <code>&lt;i&gt;</code> tag</li>
+</ul>
+<h2>Activity: <a href="/fall-2021/activities/html-css/media-query-breakpoints/">Add Icons and create a hamburger menu</a></h2>
+<ul>
+<li><a href="https://codepen.io/ashlyn-knox/pen/LYLWPBy">Ash's Example</a></li>
+</ul>
+<hr>
+<h2>Walkthrough</h2>
+<ul>
+<li>Discuss file naming conventions</li>
+<li>style.css</li>
+<li>index.html</li>
+<li>Discuss Submission content for graded assignments</li>
+<li>Color theme practicing</li>
+<li>Apply a color theme that you like to your design
+<ul>
+<li>this can happen early or later depending on if you are starting with a clear brand/theme or are starting with quick placeholders</li>
+<li>take a color scheme that you like:
+<ul>
+<li>could be from a game</li>
+<li>movie</li>
+<li>clothing line</li>
+<li>band</li>
+<li>Your house</li>
+</ul>
+</li>
+<li>Apply the theme to your design
+<ul>
+<li>use the dropper tool to find exact hexcodes or hsl() values.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Explore media queries, font-awesome icons, and flexbox</li>
+<li>Enhance previous designs</li>
+<li>Create a card layout with flexbox</li>
+</ul>
+<hr>
+<h2>Homework for next day</h2>
+<ul>
+<li>Read <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids">Mdn CSS Grid</a></li>
+<li>Play <a href="https://cssgridgarden.com/">CSS Grid Garden</a></li>
+<li>Watch <a href="https://www.youtube.com/watch?v=tFKrK4eAiUQ">Easy Layouts with CSS Grid</a></li>
+<li>Watch Jen Simmons on <a href="https://www.youtube.com/watch?v=FEnRpy9Xfes">The basics of grid</a></li>
+<li>Watch Jen Simmons on <a href="https://youtu.be/dQHtT47eH0M">Using Flexbox and CSS Grid together</a></li>
+</ul>
+<hr>
+<h2>Tool Time (For help with submissions)</h2>
+<ul>
+<li>Command line zipping (Windows)</li>
+<li><a href="https://nodogmablog.bryanhogan.net/2021/08/zipping-files-from-command-line-with-windows-10/">CLI 7-zip</a>
+<ul>
+<li>If you want to try zipping files from the command line, it can save a lot of time. You have to add 7zip to git bash</li>
+<li>the tutorial linked above describes how to do this</li>
+</ul>
+</li>
+<li>NOTE: 7-zip also has a GUI (graphical user interface) version. Use if this is a preferred method.</li>
+<li>Command line zipping (Mac, Linux)</li>
+<li>Unix systems have the zip command built in. This can be used for most situations.</li>
+<li>Check out instructions in <a href="https://www.ezyzip.com/how-to-zip-files-mac.html">this tutorial</a></li>
+<li>Basic Syntax: <code>zip archive.zip filename</code>
+<ul>
+<li>archive.zip can be named anything, depends on what you want your zip folder to be called</li>
+<li>You can declare multiple files</li>
+<li>If you want to zip an entire directory, you need to use the recusive flag <code>-r</code>
+<ul>
+<li>ex: <code>zip -r archive.zip directory/</code><br>
+}</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day03/" title="CPNT 260 Day 3 Intro to Flexbox">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day05/" title="CPNT 260 Day 5 - Introduction to CSS Grid">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>
