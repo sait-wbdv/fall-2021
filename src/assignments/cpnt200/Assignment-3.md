@@ -23,7 +23,7 @@ Create 4 entries, 2 for each of your collections. Use nuxt-content to make them 
     - Posts created in netlify cms render onto your website
 
 4. Readme (20%)
-    - Add links to your github repo and github pages site
+    - Add links to your github repo and netlify site
     - Code Review
       - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
     - Attributions

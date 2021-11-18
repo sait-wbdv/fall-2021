@@ -4,7 +4,7 @@ title: Assignment 1 - Nuxt Frontend Setup
 description: Set up and Deploy a NuxtJS boiler plate page for static site generation
 ---
 - Due: Monday November 22 @ 11:59PM
-- Submit Zipped project, github repo, and link to netlify to brightspace
+- Submit Zipped project, github repo, and link to netlify website to brightspace
 
 ## Instructions
 - Create a Nuxtjs Project
@@ -29,7 +29,7 @@ description: Set up and Deploy a NuxtJS boiler plate page for static site genera
     - Create a second page and use nuxtlink so you can reach both pages
 
 4. Readme (30% of mark)
-    - Add links to your github repo and github pages site
+    - Add links to your github repo and netlify webpage
     - Code Review
       - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
     - Attributions

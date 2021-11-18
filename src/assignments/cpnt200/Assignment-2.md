@@ -37,7 +37,7 @@ description: Add netlify cms to a nuxt site and create 2 collections
     - Define two new collections
 
 4. Readme (20%)
-- Add links to your github repo and github pages site
+- Add links to your github repo and netlify site
 - Code Review
   - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
 - Attributions

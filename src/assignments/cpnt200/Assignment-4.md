@@ -27,7 +27,7 @@ description: Create vue components for page layout
 - add scoped styles to your components (if necessary)
 
 4. Readme
-- Add links to your github repo and github pages site
+- Add links to your github repo and netlify site
 - Code Review
   - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
 - Attributions
