@@ -13,7 +13,7 @@ _Note_: This listing does not include _CPNT 264: Career & Consulting Essentials_
 - [CPNT 201: Web Design Tools and Techniques]({{ '/assignments/cpnt201/' | url }})
 - [CPNT 260: Web Page Construction Fundamentals]({{ '/assignments/cpnt260/' | url }})
 - [CPNT 262: Web Client and Server Programming]({{ '/assignments/cpnt262/' | url }})
-- CPNT 200: Content Management Systems
+- [CPNT 200: Content Management Systems]({{ '/assignments/cpnt200/' | url }})
 - CPNT 265: The Business of the Web
 
 ## Late Penalty
