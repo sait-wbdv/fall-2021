@@ -3,12 +3,10 @@ layout: layouts/assignment.njk
 title: Assignment 6 - JAMStack Website
 description: In a team, build a simple tech blog that focuses on a technology/theory in web development. Each team member will have a well defined role in this project (backend, content manager, frontend developer, designer).
 ---
-
-## Assignment 6 Group Project
 - Due Friday December 3 11:59pm
 - Only 1 submission required
 
-### Outline
+## Outline
 You are a small web development team that has decided to start working for yourselves. As such you need to make a website for your organization. The site needs to have:
 - 4-5 web pages
 - A team/company name
@@ -18,19 +16,19 @@ You are a small web development team that has decided to start working for yours
 - A team bio page
 - 2-3 other pages (services, reviews, contact, gallery...) 
 
-### Roles and Responsibilities
+## Roles and Responsibilities
 _These jobs are not exclusive to these roles_
 - Backend/DevOps: Responsible for configuration of cms, deployment to netlify, and managing git repo
 - Content Manager: Research for and write blog posts, gather image assets for posts and site.
 - Frontend Developer: Set up Nuxt, build vue components, manage script tags.
 - Designer: Manage design system, visual hierarchy, stylize the website
 
-#### Notes on Roles
+### Notes on Roles
 - These are basic guidelines. You can of course modify them as your team sees fit.
 - Your individual grade will reflect the work relevant to your role (by 5%)
 - How your team manages itself is up to you
 
-### Tech Stack
+## Tech Stack
 Create a JAMstack site using Github, Nuxt, and Netlify CMS.
 - Nuxt 2 Static Site
 - Your choice of css framework

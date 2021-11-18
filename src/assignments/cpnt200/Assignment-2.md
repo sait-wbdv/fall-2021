@@ -3,12 +3,10 @@ layout: layouts/assignment.njk
 title: Assignment 2 - Netlify CMS Admin Panel & Collections
 description: Add netlify cms to a nuxt site and create 2 collections
 ---
-
-## Assignment 2: Netlify CMS Admin Panel & Collections
 - Due: Monday November 22 @ 11:59PM
 - Submit Zipped project, github repo, and link to netlify to brightspace
 
-### Instructions
+## Instructions
 - Add netlify cms to a nuxt page
 - Set up netlify cms admin
 - Deploy to Netlify
@@ -22,7 +20,7 @@ description: Add netlify cms to a nuxt site and create 2 collections
 
 ---
 
-### Marking Rubric
+## Marking Rubric
 
 1. Configuration (20%)
     - Properly set up your netlify admin inside a nuxt project

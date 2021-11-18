@@ -3,8 +3,6 @@ layout: layouts/assignment.njk
 title: Assignment 3 - JAMstack Setup
 description: Integrate netlify cms and nuxt.
 ---
-
-## Assignment 3: JAMstack Setup
 - Due: Wednesday November 24 @ 11:59PM
 - Submit Zipped project, github repo, and link to netlify to brightspace
 
