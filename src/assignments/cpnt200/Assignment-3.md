@@ -5,6 +5,7 @@ description: Integrate netlify cms and nuxt.
 ---
 - Due: Wednesday November 24 @ 11:59PM
 - Submit Zipped project, github repo, and link to netlify to brightspace
+- 10% of Course Mark
 
 ## Instructions
 Create 4 entries, 2 for each of your collections. Use nuxt-content to make them visible. Lorem Ipsum content is fine. Body text but titles need to be easily distinguishable.
