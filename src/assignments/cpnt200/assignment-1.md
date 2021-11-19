@@ -5,6 +5,7 @@ description: Set up and Deploy a NuxtJS boiler plate page for static site genera
 ---
 - Due: Monday November 22 @ 11:59PM
 - Submit Zipped project, github repo, and link to netlify website to brightspace
+- 10% of Course Mark
 
 ## Instructions
 - Create a Nuxtjs Project
