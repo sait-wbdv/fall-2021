@@ -32,3 +32,4 @@ description: Create vue components for page layout
 - Code Review
   - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
 - Attributions
+
