@@ -3,26 +3,43 @@ layout: layouts/day.njk
 title: CPNT 200 Day 4 - Dynamic Templating with Vue
 description: We will learn about some of the cool things that you can do with vuejs. We will especially focus on some of the important terminology and directives used to make dynamic components.
 date: 2021-11-19
+released: true
 ---
 
-## Prep
-- Read [VueJs Documentation: Introduction](https://vuejs.org/v2/guide/)
-- Skim [A quick intro to vue](https://medium.com/free-code-camp/a-quick-introduction-to-vue-js-72937ee8880d)
-- Watch [Vue Tips](https://www.youtube.com/watch?v=r5rcdqkYAes)
-- Not required but interesting backstory to vue [The VueJS documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI) (34 Minutes)
-  
+## Assignment Update
+- 1 Vue syntax assignment worth 20% of course mark
+- **assigned Monday November 22**
+- **due Friday December 26**
+- Take the weekend to focus on the 3 CMS assignments
 
-## [Assignment 4: Vue Components I]({{ '/assignments/cpnt200/assignment-4/' | url }})
-- **Due: Friday November 29 @ 11:59pm**
-- Create
----
 
 ## Outline
+- Review Nuxt Content Rendering
+- Render Multiple Collections
 - Basic Terminology
 - Components
 - Directives
-- Advanced Directives
 
+---
+
+## Nuxt Content Rendering Review
+- Discuss and debug common problems
+- Short demo of adding content to a dynamic page
+
+### Breakout Session: Construct a Blog Template (30min)
+- In your _slug.vue page create a layout that displays all your blog fields
+
+---
+
+## How to Render Multiple Collections
+- [This article](https://ednsquare.com/story/nuxt-js-dynamic-nested-routing-with-vue-router------EXBBRt) is helpful for understanding the nuxt router
+- Create 2 directories in `pages/`, name them after the collections in your cms
+- Add `_slug.vue` to each directory
+- Use these [instructions](https://gist.github.com/lilyx13/0c457082cdf9c19d5e223be5acf3084a) to connect the content to the framework.
+- Change the relevant variables in the script tag
+- [Review this gist](https://gist.github.com/lilyx13/0452d4c090983fa417581c3ef747707f) for details on creating multiple collections
+
+---
 
 ## VueJS: Introduction
 - Vue is a progressive framework
@@ -84,7 +101,7 @@ Components are self contained units in Vue. They can have a `template`, `style`,
 - Basic directives for displaying content:
   - `v-text`: add string variables from `data`. Similar to `{{ moustache syntax }}`
   - `v-html`: add strings that can render html syntax
-- Directives for more complicated rendering
+- Directives for more rendering data
   - `v-bind`: for accessing properties from parent components. For adding properties to html tags. One way passing of values. It operates sort of like an import script
 
 ### Basic Rendering
@@ -116,7 +133,8 @@ Components are self contained units in Vue. They can have a `template`, `style`,
 
 ### Activity: Make a component
 
-- Pick 1 of 3 Options:
+- Try making any of these:
+
   - a header or footer  (mild)
     - render strings from data in the component
     - use: `v-text`, `v-html`, and/or `v-bind`
@@ -127,8 +145,32 @@ Components are self contained units in Vue. They can have a `template`, `style`,
     - use props to change text on something when the button is clicked
     - use `v-bind`, `v-model`, and moustache syntax
     - use `v-on:click` or `@click` syntax to trigger a click event
+
+#### Tips for Practicing with Vue Components
+- vue directives provide extensive power and flexiblity, the above use cases are suggestions but you can do lots of different things with them.
+- A great way to practice this is to:
+  - Take one of your layouts from 260.
+    - redesign a part of it into a vue component
+    - determine some variables to make into dynamic content
+      - create a data function in your script
+        - then add the variables to your data
+        - use v-text, v-html, and/or mustache syntax to render the variables
+  - Using imported data (like our cms content), or props called from a parent component is the same process as what's been described above
+- Take some time to look at other websites and think about what content should be dynamic
+  - Things to look for:
+    - Branding and repeated key words
+    - Terms that could be changed depending on time and state
+    - Repeated components with different information being displayed
+      - ie: buttons, banners, cards, articles...
 ---
+
+## Prep for Monday
+- Review [VueJs Documentation: Introduction](https://vuejs.org/v2/guide/)
+- Skim [A quick intro to vue](https://medium.com/free-code-camp/a-quick-introduction-to-vue-js-72937ee8880d)
+- Watch [Vue Tips](https://www.youtube.com/watch?v=r5rcdqkYAes)
+- Not required but interesting backstory to vue [The VueJS documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI) (34 Minutes)
+ 
 ---
 
 ## Lab Time
-- Work on Assignment 4
+- Work on Assignments 1-3
