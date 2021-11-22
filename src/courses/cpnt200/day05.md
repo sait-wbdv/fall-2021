@@ -78,12 +78,6 @@ Vue offers a lot of options for templating. These are some of the commonly used 
 - [`v-if`/`v-else`](#v-if)
   : Render content based on conditional statements. [Documentation](https://vuejs.org/v2/guide/conditional.html)
 
-- [`v-on`](#v-on)
-  : Used for event handling. [Documentation](https://vuejs.org/v2/guide/events.html)
-
-- [`v-model`](#v-model)
-  : Used form rendering bindings. It's like `v-bind` but data can pass both ways between parent and child components. [Documentation](https://vuejs.org/v2/guide/forms.html)
-
 ---
 
 ### <a id="v-for">List rendering with V-for</a>
@@ -139,20 +133,31 @@ Vue offers a lot of options for templating. These are some of the commonly used 
 
 ---
 
-### <a id="v-on">V-on</a>
-
-- [Gist]()
-
----
-
-### <a id="v-model">V-model</a>
-- Todo App example
-- [Gist]()
-
----
 ## <a id="twind-config-1"></a> Tailwind & Vuetify Basic Config review
-
-
+- **Tailwind Basic Configuration Options**
+  - Automatically set up a full default configuration using
+  ```
+  npx tailwindcss init --full
+  ```
+    - This will create [this default configuration](https://unpkg.com/browse/tailwindcss@2.2.19/stubs/defaultConfig.stub.js) in your project.
+    - Review the `tailwind.config.js` file
+      - Change the colors, fonts, borderRadius, spacing, and any others that you want to customize
+      - Try adding [plugins](https://tailwindcss.com/docs/plugins)
+  - Manually Configure tailwind
+    - `theme`
+    - `colors`
+    - `fontFamily`
+    - `extend spacing`
+- **Vuetify Basic Configuration Options**
+  - Review [the basic installation instructions](https://vuetifyjs.com/en/getting-started/installation/)
+  - Set up your apps theme following the [theme configuration](https://vuetifyjs.com/en/features/theme/#light-and-dark) notes
+  - 
+  - Review the `vuetify.js` file
+    - change the color values
+    - Set a light and dark variant of your design
+    - Set up your fonts
+- **Note** that vuetify isn't intended to be customized as much as tailwind is.
+  - This is because the components have all been designed to follow material design guidelines.
 ---
 
 ## Prep for November 23
@@ -173,3 +178,5 @@ Vue offers a lot of options for templating. These are some of the commonly used 
   - Content Creator (Gathers assets, writes articles, determine cms needs)
   - Frontend Developer (Setting up Nuxt, writes a lot of vue syntax)
   - Designer (Setting up CSS Framework, general site design)
+
+---
