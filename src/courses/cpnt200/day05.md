@@ -86,7 +86,7 @@ Vue offers a lot of options for templating. These are some of the commonly used 
 
 ---
 
-### <a id="v-for">V-for</a>
+### <a id="v-for">List rendering with V-for</a>
 
 - Use `v-for` to loop through arrays of variables and render groups of content
   ```
@@ -99,20 +99,43 @@ Vue offers a lot of options for templating. These are some of the commonly used 
   ```
   <li v-for="(item, index) in items"> {{ index }} + {{ item.title }} + ': ' + {{ item.description }}</li>
   ```
-- [Gist]()
+- [V-for Detailed Gist](https://gist.github.com/lilyx13/b05778d1e2c02a33f13158788aa4639b)
+  - This gist covers basic and advanced syntax using examples
+
+### Activity: Display Cards with V-for
+- Add more content to your card data
+- Create a v-for loop to render the cards onto a page
+
+#### Extra challenge
+- Create a list that displays only some content from your array of objects
+- Use the `name` argument to display content
+- Use the `index` argument to display content
+- Try rendering content in a range
 
 ---
 
-### <a id="v-if">V-if/else</a>
+### <a id="v-if">Conditional Rendering with v-if/else</a>
 
-- Add conditional logic with `v-if`
+- Add conditional logic with `v-if`, `v-else-if`, `v-else`
   - booleans are great for if/else statements
   - Avoid using this on the same element as a `v-for`
   - Display content under certain conditions ex:
   ```
   <h1 v-if="true">Show this</h1>
   <h1 v-else> show this if false</h1>
-- [Gist]() 
+  ```
+- This can be used at all levels of your html hierarchy
+- It can also be applied directly to the `<template>` tag
+  - This allows you to make components render content dramatically different based on specific conditions
+- `v-if` fully sets event listeners and child components in conditional blocks
+- `v-if` is lazy, and will not render initial content if it doesn't have to
+- [v-if/v-else Gist](https://gist.github.com/lilyx13/b76a2f92cff897e0edbb60de59b58dec)
+
+#### v-show
+- There is also a directive called `v-show`. This conditional rendering is only used for css changes as it is always rendered by the DOM, v-if/else is more effecient for actual content
+- v-if has a higher toggle cost and v-show has higher initial render cost.
+  - use `v-show` when something is toggled often (like a dark mode toggle)
+  - use `v-if` for conditions that won't change much
 
 ---
 
