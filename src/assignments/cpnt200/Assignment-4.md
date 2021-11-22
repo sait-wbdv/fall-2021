@@ -9,7 +9,7 @@ description: Create vue components for page layout
 - 20% of Course Mark
 
 ## Instructions
-- Create 2 vue components and use them on your pages.
+- Create 3 vue components and use them on your pages.
 - Use data and props to pass variables between components and pages.
 
 ## Marking Rubric
@@ -25,7 +25,7 @@ description: Create vue components for page layout
 - Use moustache syntax once
 - Use v-bind to send data to a component's prop
 - Use v-for to dynamically load a list of content
-- Use v-on or v-if in a component
+- Use one other vue directive: `v-on`, `v-if/else`, `v-show`, `v-slot`...
 
 3. Readme (5pts)
 - Add links to your github repo and netlify site
