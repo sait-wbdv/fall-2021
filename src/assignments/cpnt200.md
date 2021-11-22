@@ -13,31 +13,27 @@ Note that you you must make a new repo for each assignment. labelled cpnt200-a1,
 --- 
 
 ### Nuxt Configuration [Assignment]({{ '/assignments/cpnt200/assignment-1/' | url }})
-- Due Monday, November 29, 2021
+- Due Monday, November 22, 2021
 - Weight: 10% of Final Course Mark
 - Focus: Nuxt SSG Frontend Setup
 
 ### Netlify CMS Setup [Assignment]({{ '/assignments/cpnt200/assignment-2/' | url }})
-- Due Monday, November 29, 2021
+- Due Monday, November 22, 2021
 - Weight: 10% of Final Course Mark
 - Focus: Create content collections in netlify cms
 
 ### Nuxt + Netlify CMS  [Assignment]({{ '/assignments/cpnt200/assignment-3/' | url }})
-- Due Monday, November 29, 2021
+- Due Wednesday, November 24, 2021
 - Weight: 10% of Final Course Mark
 - Focus: Integrate Netlify CMS into Nuxt and deploy content.
 
-### Vue Components I [Assignment]({{ '/assignments/cpnt200/assignment-4/' | url }})
-- Due Monday, November 29, 2021
-- Weight: 10% of Final Course Mark
+### Vue Components [Assignment]({{ '/assignments/cpnt200/assignment-4/' | url }})
+- Due Friday, November 26, 2021
+- Weight: 20% of Final Course Mark
 - Focus: Create reusable vue components
 
-### Vue Components II [Assignment]({{ '/assignments/cpnt200/assignment-5/' | url }})
-- Due Monday, November 29, 2021
-- Weight: 10% of Final Course Mark
-- Focus: dynamically display content in vue components.
 
-### Group Project [Assignment]({{ '/assignments/cpnt200/assignment-6/' | url }})
-- Due Friday, December 3, 2021
+### Group Project [Assignment]({{ '/assignments/cpnt200/assignment-5/' | url }})
+- Due Wednesday, December 1, 2021
 - Weight: 50% of Final Course Mark
 - Focus: CMS Team Project
