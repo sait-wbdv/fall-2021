@@ -155,14 +155,15 @@ Vue offers a lot of options for templating. These are some of the commonly used 
 #### v-show
 - There is also a directive called `v-show`. This conditional rendering is only used for css changes as it is always rendered by the DOM, v-if/else is more effecient for actual content
 - v-if has a higher toggle cost and v-show has higher initial render cost.
-  - use `v-show` when something is toggled often (like a dark mode toggle)
+  - use v-show to hide something as you would with `display: none`
   - use `v-if` for conditions that won't change much
 
 ### Activity: Conditional Rendering
 - Using the data created for the v-for activity, create another component that renders information based on specific conditions
 - Examples:
   - Use a conditional v-if/else etc to show a specific welcome message based on user input
-  - Create a Dark mode toggle using v-show
+  - Create a Dark mode toggle
+  - Use v-show to hide certain elements
 
 ---
 
