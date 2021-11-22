@@ -70,7 +70,231 @@
   <h2>CPNT 200 Day 6 - CMS Page Design</h2>
   
   
-        <h3>Sorry, this lesson hasn't been released.</h3>  
+        <h2>Topics</h2>
+<ul>
+<li>Blog Page Analysis</li>
+<li><a href="#vue-syntax">Vue Syntax (v-on, v-model)</a></li>
+<li>Tailwind CSS Deep Dive (optional)</li>
+<li>Ash and Tony Live Pair Code &amp; Lab Time</li>
+</ul>
+<hr>
+<h2>Page Design Analysis</h2>
+<p>Today we will analyze these pages for layout and design. Tomorrow we will look more specifically at the actual content.</p>
+<ul>
+<li>Key Points from <a href="https://css-tricks.com/in-defense-of-a-fussy-website/">Sarah Drasner's article</a>
+<ul>
+<li>speed and effeciency are important</li>
+<li>but so is making a website memorable
+<ul>
+<li>Following convention and aiming for pure minimalism will often leave your website feeling void of personality</li>
+<li>Create UX informed designs that showcase personality through the design.
+<ul>
+<li>Take a couple specific ui components, and focus adding extra visual interest to them.</li>
+<li>Ground your visual candy in well through out functional design.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>If something is meaningful to you, the audience you'll gather will likely be the folks that find it meaningful, too.<br>
+<a href="https://css-tricks.com/in-defense-of-a-fussy-website/"><em>Sarah Drasner</em></a></p>
+</blockquote>
+<h3>Small Group Page Review (20min)</h3>
+<ul>
+<li>Analyze an index page an a blog article for design. use the following questions to guide your analysis. Pick 1 page to discuss with the class.</li>
+<li>Write your notes in a gist to share</li>
+</ul>
+<h4>Index Page to Review</h4>
+<ul>
+<li><a href="https://www.cassie.codes/writing">Cassie Evans</a></li>
+<li><a href="https://www.joshwcomeau.com/">Josh Comeau</a></li>
+<li><a href="https://sarahdrasnerdesign.com/writing">Sarah Drasner</a></li>
+</ul>
+<p>Each of these sites contain blog content among other information. They each focus on showcasing the developer's strengths and interests.</p>
+<ul>
+<li><strong>NOTE</strong> Review the blog index page <strong>OR</strong> the top level index page</li>
+</ul>
+<h5>Key Questions</h5>
+<ul>
+<li>How does the developer present themself?
+<ul>
+<li>visually, through narrative...</li>
+</ul>
+</li>
+<li>Without looking for anything, what catches your interest when scanning the page?</li>
+<li>Sketch out the content hierarchy on the main index page or blog index page (if they are different)
+<ul>
+<li>do this quickly, if you have to question the design etc, take notes of what is confusing</li>
+</ul>
+</li>
+<li>Identify as many components as you can
+<ul>
+<li>components are repeated ui elements used to portray different content</li>
+</ul>
+</li>
+<li>Are there any ui features that all or most of these pages share (that go beyond the obvious)</li>
+<li>What does the layout do well?</li>
+</ul>
+<h4>Blog Page Review</h4>
+<p>Navigate to one of the actual blog articles and analyze it's design. <strong>use your devtools</strong></p>
+<h5>Key Questions</h5>
+<ul>
+<li>How well does the developer use:
+<ul>
+<li>Typography</li>
+<li>Color</li>
+<li>Layout</li>
+<li>Hover Elements</li>
+<li>Animations</li>
+<li>Sound</li>
+<li>Length</li>
+<li>Contact &amp; Social Media</li>
+</ul>
+</li>
+<li>How different is the mobile experience? (use devtools to check mobile ui)</li>
+<li>Inspect elements that are done particularly well or bad and take note on how they implemented their design.
+<ul>
+<li>this can include font size, line height etc.</li>
+</ul>
+</li>
+</ul>
+<h3>Class Discussion</h3>
+<ul>
+<li>Each group will present their findings from one of the pages reviewed.</li>
+</ul>
+<hr>
+<h2><a id="vue-syntax"></a> Vue Dynamic Rendering</h2>
+<h3>Directives</h3>
+<p>We will build a small todo app using these next two vue directives</p>
+<ul>
+<li>
+<dl>
+<dt><a href="#v-on"><code>v-on</code></a></dt>
+<dd>Used for event handling. <a href="https://vuejs.org/v2/guide/events.html">Documentation</a></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="#v-model"><code>v-model</code></a></dt>
+<dd>Used form rendering bindings. It's like <code>v-bind</code> but data can pass both ways between parent and child components. <a href="https://vuejs.org/v2/guide/forms.html">Documentation</a></dd>
+</dl>
+</li>
+</ul>
+<h4><a id="v-on">V-on</a></h4>
+<ul>
+<li>v-on is used for event handling. It listens to DOM events</li>
+<li>Basic Syntax for v-on looks like</li>
+</ul>
+<pre><code>v-on:event=&quot;method
+</code></pre>
+<ul>
+<li>You can also use the shorthand syntax like</li>
+</ul>
+<pre><code>@event=&quot;method&quot;
+</code></pre>
+<ul>
+<li><a href="https://gist.github.com/lilyx13/74543137780c1958f01e9b470a3cb13b">v-on gist</a></li>
+</ul>
+<hr>
+<h4><a id="v-model">V-model</a></h4>
+<ul>
+<li>
+<p>v-model is used for two way bindings. This is especially important for forms.</p>
+</li>
+<li>
+<p>You can use <code>v-model</code> for all of the input types</p>
+</li>
+<li>
+<p>Check<a href="https://vuejs.org/v2/guide/forms.html">the documentation</a> for info on how to use <code>v-model</code></p>
+</li>
+<li>
+<p><code>v-model</code> is also useful for passing information from a child component back to a parent component</p>
+</li>
+<li>
+<p><code>v-model</code> works great with vue conditionals <code>v-if/else</code> statements</p>
+</li>
+<li>
+<p>Syntax:</p>
+</li>
+</ul>
+<pre><code>&lt;input v-model=&quot;message&quot; type=&quot;text&quot;&gt;
+&lt;p&gt; Print out the &lt;/p&gt;
+</code></pre>
+<ul>
+<li><a href="https://gist.github.com/lilyx13/08827cab9dfbcb30d64ca6c4dfdc50c4">Gist</a></li>
+</ul>
+<hr>
+<h3>Properties</h3>
+<p>Use computed and methods for adding javascript functions to your code</p>
+<ul>
+<li>
+<dl>
+<dt><a href="#computed">computed</a></dt>
+<dd>In template expressions are intended to be simple to keep the template clean and readable. Use the computed property to render logic and complex JavaScript. <code>computed</code> is a property that goes in your script tag, just like <code>props</code> and <code>data()</code>.</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="#methods">methods</a></dt>
+<dd>Functions in the methods object are used when you need to perform functions that handle events. methods are just like <code>computed</code> but will re-render again and again.</dd>
+</dl>
+</li>
+</ul>
+<h4><a id="computed">Computed</a></h4>
+<ul>
+<li>Computed property's dependencies are reactive values. They only calculate when needed.
+<ul>
+<li>If you need something to always be recalculated on render, use <code>methods</code> just like <code>computed</code></li>
+<li>a great example on the <a href="https://vuejs.org/v2/guide/computed.html">vuejs documentation</a> is the returning of <code>Date.now()</code> in computed. it is not reactive so it wont be re-run on render
+<ul>
+<li>Instead, returning <code>Date.now()</code> as a method, will re-render.</li>
+</ul>
+</li>
+<li>The caching feature of <code>computed</code> is especially useful when you have really heavy functions that process a lot of data. It keeps the execution down to a minimum.</li>
+</ul>
+</li>
+<li>Example using array methods to reverse a string</li>
+</ul>
+<pre><code>data () {
+  message: 'hello'
+},
+computed: {
+  reversedMessage: function () {
+    return this.message.split('').reverse().join('')
+  }
+}
+</code></pre>
+<ul>
+<li>template syntax to show difference</li>
+</ul>
+<pre><code>&lt;div&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+<ul>
+<li>The documentation will show more information about how to use computed properties, but this should be enough to get you started. Just remember to put reactive logic into computed and you're good.</li>
+</ul>
+<h3>Methods</h3>
+<p>These are like computed, but are always watching, so they work especially well with <code>v-on</code></p>
+<ul>
+<li>Review <a href="https://vuejs.org/v2/guide/events.html">the documentation</a> for excellent examples that show how the methods can be used for event handling with <code>v-on</code></li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Work on Assignments</li>
+<li>(Optional) Ash and Tony Pair Code in Main Room
+<ul>
+<li>Tailwind CSS</li>
+<li>Creating reusable components</li>
+</ul>
+</li>
+</ul>
+
   
 </article>
 
