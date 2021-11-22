@@ -16,22 +16,49 @@ date: 2021-11-22
 ---
 
 ## <a id="vscode"></a> Vscode Extensions
-
+- Eslint and Prettier can be installed globally `npm install -g prettier eslint`.
+  - If you do this, then you can run `eslint --init` in your project to configure your project settings
+  - Note that you will want to have project based eslint and prettier installed because otherwise formatting may not be consistent.
 ### Eslint
-- 
-#### Resources
+- Run `eslint --init` in your project root
 - [Official Documentation](https://eslint.org/)
+- [Eslint Getting Started Docs](https://eslint.org/docs/user-guide/getting-started)
 - [Medium Article Tutorial](https://medium.com/@LegendofColt/eslint-for-vue-js-f39194f15beb)
 
 ### Prettier
 - 
-#### Resources
 - [Official Documentation](https://prettier.io/docs/en/install.html)
+- [Prettier + Eslint](https://www.robinwieruch.de/prettier-eslint/)
+  - Install 2 packages ontop of prettier and eslint to make them work together better
+  ```
+  npm install --save-dev eslint-config-prettier eslint-plugin-prettier
+  ```
+  - Try using a popular style guide like airbnb's
+- Edit the `prettier.
 - [Blog Tutorial](https://glebbahmutov.com/blog/configure-prettier-in-vscode/)
 
 ### Vetur
-
-#### Resources
+- Review [This documentation](https://vuejs.github.io/vetur/guide/setup.html)
+  - Add `vue` to your eslint config
+- Use a `jsconfig.json` file to improve vue syntax highlighting in your project
+  - [This article is really helpful](https://lmichelin.fr/vscode-intellisense-jsconfig-vue-js-nuxt-js-absolute-imports/)
+    - IntelliSense doesn't work with code completion properly with absolute imports
+    - Put this in your jsconfig.json to make it work properly with nuxt
+```
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
+```
+  - Note that this should be done when you select `jsconfig.json` at nuxt project setup
 - [Vetur Documentation](https://vuejs.github.io/vetur/)
 
 ---
@@ -130,6 +157,12 @@ Vue offers a lot of options for templating. These are some of the commonly used 
 - v-if has a higher toggle cost and v-show has higher initial render cost.
   - use `v-show` when something is toggled often (like a dark mode toggle)
   - use `v-if` for conditions that won't change much
+
+### Activity: Conditional Rendering
+- Using the data created for the v-for activity, create another component that renders information based on specific conditions
+- Examples:
+  - Use a conditional v-if/else etc to show a specific welcome message based on user input
+  - Create a Dark mode toggle using v-show
 
 ---
 
