@@ -11,15 +11,33 @@ date: 2021-11-22
 ## Topics
 - [Vscode Extensions](#vscode)
 - [VueJS Dynamic Templating](#vue-syntax)
-- [(Optional) Vuetify Deep Dive](#vuetify)
+- [Tailwind and Vuetify Basic Config](#twind-config-1)
 - [Prep for Tomorrow](#prep)
 ---
 
 ## <a id="vscode"></a> Vscode Extensions
 
+### Eslint
+- 
+#### Resources
+- [Official Documentation](https://eslint.org/)
+- [Medium Article Tutorial](https://medium.com/@LegendofColt/eslint-for-vue-js-f39194f15beb)
 
-## <a id="vue-syntax"></a>VueJS Dynamic Templating
-Vue offers a lot of options for templating. These are some of the commonly used directives that you can use in your projects. Review [the documentation](https://vuejs.org/v2/guide/) for more 
+### Prettier
+- 
+#### Resources
+- [Official Documentation](https://prettier.io/docs/en/install.html)
+- [Blog Tutorial](https://glebbahmutov.com/blog/configure-prettier-in-vscode/)
+
+### Vetur
+
+#### Resources
+- [Vetur Documentation](https://vuejs.github.io/vetur/)
+
+---
+
+## Vue Syntax Review
+- We will take some time to review the syntax we worked on last week, this will be to create content to loop through when we get to dynamic content
 
 ### Props and Data
 - Data is a components _memory_
@@ -37,6 +55,21 @@ Vue offers a lot of options for templating. These are some of the commonly used 
 
 ### V-bind review
 - Use v-bind to 'bind' data to an html element
+
+### Activity: Vue Card Component
+- Create contents for a single card component as data on a page
+- Examples:
+  - Team Member
+  - Product
+  - Character
+- Create a card component layout
+  - use object notation to assign props
+  - use v-bind to send the object to the component
+- We will be duplicating these dynamically with v-for loops
+
+## <a id="vue-syntax"></a>VueJS Dynamic Templating
+Vue offers a lot of options for templating. These are some of the commonly used directives that you can use in your projects. Review [the documentation](https://vuejs.org/v2/guide/) for more 
+
 
 ## Advanced Content Rendering
 - [`v-for`](#v-for)
@@ -90,16 +123,17 @@ Vue offers a lot of options for templating. These are some of the commonly used 
 ---
 
 ### <a id="v-model">V-model</a>
-
+- Todo App example
 - [Gist]()
 
 ---
+## <a id="twind-config-1"></a> Tailwind & Vuetify Basic Config review
 
-## <a id="vuetify"></a>Vuetify
 
 ---
 
 ## Prep for November 23
+- Read the essential and strongly recommended sections of the [vuejs style guide](https://vuejs.org/v2/style-guide/)
 - Read [In Defense of a Fuzzy Website](https://css-tricks.com/in-defense-of-a-fussy-website/)
 - Scan These websites:
   - [Cassie Evan's Website](https://www.cassie.codes/)
