@@ -1,7 +1,7 @@
 ---
 layout: layouts/day.njk
 title: CPNT 200 Day 5 - VueJS Dynamic Templating
-description: We will cover some of the more advanced directives in vue templates
+description: Advanced Vue Templating and vscode extension configuration
 date: 2021-11-22
 ---
 
