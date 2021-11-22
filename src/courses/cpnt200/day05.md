@@ -3,6 +3,7 @@ layout: layouts/day.njk
 title: CPNT 200 Day 5 - VueJS Dynamic Templating
 description: Advanced Vue Templating and vscode extension configuration
 date: 2021-11-22
+released: true
 ---
 
 ## [Assignment 4: Vue Templating]({{ '/assignments/cpnt200/assignment-4/' | url }})
@@ -167,7 +168,7 @@ Vue offers a lot of options for templating. These are some of the commonly used 
 
 ---
 
-## <a id="twind-config-1"></a> Tailwind & Vuetify Basic Config review
+## <a id="twind-config-1"></a> Tailwind & Vuetify Basic Config (Extra Content)
 - **Tailwind Basic Configuration Options**
   - Automatically set up a full default configuration using
   ```
