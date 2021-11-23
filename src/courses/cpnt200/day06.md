@@ -161,5 +161,12 @@ These are like computed, but are always watching, so they work especially well w
 ## Lab Time
 - Work on Assignments
 - (Optional) Ash and Tony Pair Code in Main Room
+  - Build and Stylize a Todo App
+    - [Feature Planning](https://gist.github.com/lilyx13/7a37f951edf1c7db0db7d3388a472c1d)
+    - [Figma Mockup](https://www.figma.com/file/wve80uHDm0IBEp323DVQMV/Todo-App?node-id=0%3A1)
   - Tailwind CSS
-  - Creating reusable components
+    - [Extracting Components](https://v1.tailwindcss.com/docs/extracting-components)
+    - [Adding Base Styles](https://v1.tailwindcss.com/docs/adding-base-styles)
+    - [Writing Plugins](https://v1.tailwindcss.com/docs/plugins)
+  - Vue Syntax
+    - v-model, v-on, v-bind, script properties
