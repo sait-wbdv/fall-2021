@@ -28,6 +28,7 @@ _These jobs are not exclusive to these roles_
 - These are basic guidelines. You can of course modify them as your team sees fit.
 - Your individual grade will reflect the work relevant to your role (by 5%)
 - How your team manages itself is up to you
+- Site UI text and assets: group to determine how this will be created, Does not have to be the content editor.
 
 ## Tech Stack
 Create a JAMstack site using Github, Nuxt, and Netlify CMS.
@@ -39,21 +40,39 @@ Create a JAMstack site using Github, Nuxt, and Netlify CMS.
  
 ## Marking Rubric
 
+### Kanban Board (extra 2pts)
+- Organize project tasks in github kanban board
+
 ### Backend Development 10
 - Page Deployment
+  - Nuxt Content Module
+  - Netlify Deployment
+  - Configured YAML Fields
+  - Site Data Management
 
 ### Site Content 10
 - Articles
+  - 3 articles
+    - Can only use 1 short article
+    - Readability, grammar
+  - 2 other content types on posts
+  - Gather assets
 
 ### Frontend Development 10
 - Site Functionality
+  - Nuxt Configuration
+  - UI functionality
+  - Content rendering
+  - Nuxt Modules
 
 ### Site Design 10
 - Look and Feel
+  - CSS Framework
+  - Visual Hierarchy
+  - Overall Site Design
 
 ### Indiviual Grade 5
 - Relative to your role's grade
 
 ### Team Assessment 5
 - Determined at end by group assessment
-

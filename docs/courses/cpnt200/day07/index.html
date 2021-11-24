@@ -70,7 +70,202 @@
   <h2>CPNT 200 Day 7 - CMS Dev Team &amp; Flex Day</h2>
   
   
-        <h3>Sorry, this lesson hasn't been released.</h3>  
+        <h2><a href="/fall-2021/assignments/cpnt200/assignment-5/">Assignment 5: Group Project</a></h2>
+<ul>
+<li><strong>Due: December 1 @ 11:59pm</strong></li>
+<li>Groups of 3 - 4</li>
+</ul>
+<h2>Topics</h2>
+<ul>
+<li>v-model follow up</li>
+<li>Todo App Refactor</li>
+<li>Some sitewide data options</li>
+<li>vuetify config</li>
+<li>Group Assignment</li>
+</ul>
+<hr>
+<h2>V-Model Followup</h2>
+<ul>
+<li>
+<p><a href="https://vuejs.org/v2/guide/components.html#Listening-to-Child-Components-Events">Vue Documentation</a> on passing data to and from child components</p>
+</li>
+<li>
+<p><a href="https://gist.github.com/lilyx13/08827cab9dfbcb30d64ca6c4dfdc50c4">A theory focused gist for v-model</a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/lilyx13/d79df284fbbb9396f9482d69107633e4">An example focused gist for v-model</a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/lilyx13/64a8cdd87a2ba916a8c537a2acf0b1e1">Extra information about using <code>this</code></a></p>
+</li>
+<li>
+<p>On the parent component side, use vue model to bind the input to a data() variable</p>
+</li>
+<li>
+<p>On the child component side, bind the input value to the value from the model and set an event listener with v-on.</p>
+<ul>
+<li><code>v-on:input=&quot;$emit('input', $event.target.value)</code></li>
+</ul>
+</li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li>Implement a simple v-model on an input field using v-model</li>
+<li>Put the input into a component</li>
+<li>(extra difficulty) Experiment with the label location:
+<ul>
+<li>In the component</li>
+<li>Outside of the component</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Todo App Code Refactoring: DRY Code</h2>
+<ul>
+<li>Create major components
+<ul>
+<li>form</li>
+<li>list</li>
+<li>header</li>
+</ul>
+</li>
+<li>Create small components
+<ul>
+<li>button</li>
+<li>list item</li>
+</ul>
+</li>
+<li>Optimize styles
+<ul>
+<li>small elements
+<ul>
+<li>buttons</li>
+<li>headings</li>
+</ul>
+</li>
+<li>large elements
+<ul>
+<li>form</li>
+<li>List of Items</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Feature Add</h3>
+<ul>
+<li>Open discussion on other features
+<ul>
+<li>brief brainstorming about implementation ideas</li>
+</ul>
+</li>
+<li>Goal: 5+ ideas of feature implementation with notes on scope</li>
+</ul>
+<hr>
+<h2>Creating Site Wide Data</h2>
+<ul>
+<li>Some data needs to be used across the whole site, you have a few options for doing this.
+<ul>
+<li>store in a json file in the static directory</li>
+<li>when using @nuxt/content, store in the content directory</li>
+<li>store as data in a layout (limited sitewide accessibility)</li>
+</ul>
+</li>
+<li>Depending on the data, it might just be easier to write some things out when needed.</li>
+</ul>
+<hr>
+<h2>Tailwind and Vuetify Configuration</h2>
+<p>These two css frameworks take very different approaches. Tailwind is focused on customization, vuetify (like other material frameworks) is focused on consistent component focused design.</p>
+<h3>Tailwind Basic Configuration Options</h3>
+<ul>
+<li>Automatically set up a full default configuration using</li>
+</ul>
+<pre><code>npx tailwindcss init --full
+</code></pre>
+<pre><code>- This will create [this default configuration](https://unpkg.com/browse/tailwindcss@2.2.19/stubs/defaultConfig.stub.js) in your project.
+- Review the `tailwind.config.js` file
+  - Change the colors, fonts, borderRadius, spacing, and any others that you want to customize
+  - Try adding [plugins](https://tailwindcss.com/docs/plugins)
+</code></pre>
+<ul>
+<li>Manually Configure tailwind
+<ul>
+<li><code>theme</code></li>
+<li><code>colors</code></li>
+<li><code>fontFamily</code></li>
+<li><code>extend spacing</code></li>
+</ul>
+</li>
+<li><a href="https://gist.github.com/lilyx13/f1c82147032f0b11a1ea8e6c36c681f6">Check this Gist for some notes on customizing TailwindCSS</a></li>
+</ul>
+<h3>Vuetify Basic Configuration Options</h3>
+<ul>
+<li>Review <a href="https://vuetifyjs.com/en/getting-started/installation/">the basic installation instructions</a></li>
+<li>Set up your apps theme following the <a href="https://vuetifyjs.com/en/features/theme/#light-and-dark">theme configuration</a> notes</li>
+<li></li>
+<li>Review the <code>vuetify.js</code> file
+<ul>
+<li>change the color values</li>
+<li>Set a light and dark variant of your design</li>
+<li>Set up your fonts</li>
+</ul>
+</li>
+<li><strong>Note</strong> that vuetify isn't intended to be customized as much as tailwind is.
+<ul>
+<li>This is because the components have all been designed to follow material design guidelines.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Group Assignment</h2>
+<ul>
+<li>
+<p>Define Groups</p>
+</li>
+<li>
+<p>Discuss Blog Articles</p>
+<ul>
+<li><a href="https://www.wesfed.com/blog/ideal-blog-post-length-seo/">An article on blog lengths</a></li>
+<li>small articles: 500 - 750 words (300 minimum)</li>
+<li>medium articles: 750-1500 words</li>
+<li>long articles: 2000+ words</li>
+</ul>
+</li>
+<li>
+<p>A few types of blog posts</p>
+<ul>
+<li>Tutorial</li>
+<li>Analytic</li>
+<li>Opinion</li>
+<li>Critique</li>
+</ul>
+</li>
+<li>
+<p>Examples of content to add to your posts:</p>
+<ul>
+<li>Images</li>
+<li>Vectors</li>
+<li>Code blocks</li>
+<li>Gifs</li>
+<li>Videos</li>
+<li>Tag cloud</li>
+<li>Contents</li>
+</ul>
+</li>
+<li>
+<p>Review Github Kanban board for project management</p>
+<ul>
+<li>Extra 2pts on assignment for organizing project with this (must link to the kanban board in your project submission)</li>
+</ul>
+</li>
+</ul>
+<h3>Questions?</h3>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Group Assignment</li>
+</ul>
+
   
 </article>
 
