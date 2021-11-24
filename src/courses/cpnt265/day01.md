@@ -10,4 +10,8 @@ date: 2021-12-01
 - Plausible (analytics)
 - Strapi (full featured CMS)
 
-A lesson plan!
+## Tony Topics
+- Pirate Metrics
+- Contracting
+    - GST, taxes and bookkeeping
+
