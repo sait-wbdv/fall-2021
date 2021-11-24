@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>CPNT 262 Final Project - Deployed Product/Services Website</h1>
+<p><a href="/fall-2021/assignments/cpnt262/teams/">Team Assignments</a></p>
+<p>In this assignment, your group will deploy a multi-page, database-driven Product website using Express and Mongoose. It will be deployed to Heroku and MongoDB Atlas.</p>
+<h2>Instructions</h2>
+<p>This website will sell/advertise new products/services of your choice that you have not covered in prior assignments in this program.</p>
+<p>Note: Since this is not an HTML/CSS assignment, visual components such as hero sections, footers, logos etc may be reused from prior assignments and projects. Only the theme/product/service of the website must be unique for the purposes of this assignment. Existing images may be considered placeholders but <strong>must be served locally</strong> (no lorem picsum).</p>
+<p>Design elements will be ignored for this assignment with the exception of:</p>
+<ul>
+<li>Accessible and responsive navigation</li>
+<li>Accessible forms</li>
+<li>Accessible and semantic images</li>
+<li>Responsive galleries and card layouts</li>
+</ul>
+<p>Aside from the required endpoints and features defined, you may layout and organize your site as you feel appropriate.</p>
+<p>BUT, please make sure your instructor doesn't have to hunt to find your code...</p>
+<h3>Project Setup</h3>
+<p>While not explicitly listed as assignment criteria, marks will be deducted for projects that are not properly deployed.</p>
+<ul>
+<li>Initialize a new project using npm.</li>
+<li>Dependencies:
+<ul>
+<li><code>express</code></li>
+<li><code>dotenv</code></li>
+<li><code>mongoose</code></li>
+<li>Fancy feature (see below)</li>
+</ul>
+</li>
+<li>Serve static assets from a <code>public</code> directory.</li>
+<li>Return a custom 404 page when a file (or endpoint) cannot be found.</li>
+<li>Mongoose connection authenticated using <code>.env</code> file.
+<ul>
+<li>Log connection errors to the console.</li>
+<li>Log &quot;Connected to DB...&quot; to the console on successful connection.</li>
+<li>Respond with custom <code>500 Internal Server</code> error page if connection fails</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Example Directory Structure</h2>
+<pre><code>project-root
+  ├─ models
+      ├─ seeds
+          ├─ images.js
+          ├─ subscribers.js (if used)
+          └─ team-members.js
+      ├─ Image.js
+      ├─ Subscriber.js
+      └─ Member.js
+  ├─ public
+  ├─ routes
+      └─ api.js
+  ├─ package.json
+  └─ server.js
+</code></pre>
+<ul>
+<li>No route handlers or Mongoose models/connection should be in <code>server.js</code>.</li>
+</ul>
+<hr>
+<h2>Criteria</h2>
+<p>Points will be awarded for the criteria below, for a total of 35 points:</p>
+<h3>1. Static pages: 5 points</h3>
+<p>Create HTML route handlers to render and serve the following static pages:</p>
+<ul>
+<li><code>/public/index.html</code></li>
+<li><code>/public/subscribe.html</code>
+<ul>
+<li>Contains subscribe form:
+<ul>
+<li>Fields
+<ul>
+<li><code>name</code></li>
+<li><code>email</code></li>
+<li><code>action=&quot;[POST endpoint]&quot;</code></li>
+<li><code>method=&quot;post&quot;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Returns with a static success or fail page informing the user of the submit result. Include a link to the original form.</li>
+</ul>
+</li>
+<li><code>/public/gallery.html</code>
+<ul>
+<li>lists 9-12 products/services/items of your choice with a minimum of the fields listed in the Model in the next section.</li>
+<li>Client-side <code>fetch()</code> calls to a JSON endpoint (listed below)</li>
+</ul>
+</li>
+<li><code>/public/item.html?id=:id</code> (<code>:id</code> could be some other unique identifier)
+<ul>
+<li>Displays a single product/service from the above list.</li>
+<li>Calls <code>GET /api/gallery/:id</code> endpoint using <code>fetch()</code>.</li>
+</ul>
+</li>
+<li><code>/public/team.html</code>
+<ul>
+<li>Displays a list of each of your team members.</li>
+<li>Calls <code>GET /api/team</code> endpoint using <code>fetch()</code>.</li>
+</ul>
+</li>
+<li><code>/public/admin/index.html</code>
+<ul>
+<li>Displays a list of your subscribers.</li>
+<li>Calls <code>GET /api/subscribers</code> endpoint using <code>fetch()</code>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3>2. Schema/model implementation: 10 points</h3>
+<ul>
+<li>Define the following Mongoose Schemas in a dedicated <code>/models</code> directory:
+<ul>
+<li><code>/models/Gallery.js</code>: The product/service you are selling/advertising. This may be renamed to match your chosen theme.
+<ul>
+<li><code>id</code></li>
+<li><code>name</code> or <code>title</code></li>
+<li><code>description</code></li>
+<li><code>imageSrc</code></li>
+<li><code>width</code></li>
+<li><code>height</code></li>
+</ul>
+</li>
+<li><code>/models/Member.js</code>: Your group members, to be listed on your Team page.
+<ul>
+<li><code>name</code></li>
+<li><code>profilePic</code></li>
+<li><code>title</code></li>
+<li><code>bio</code></li>
+<li><code>github</code></li>
+</ul>
+</li>
+<li><code>/model/Subscriber.js</code>: Subscribers to your mailing list.
+<ul>
+<li><code>name</code></li>
+<li><code>email</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Based on the above schema, <code>require()</code> your compiled models into your app.</li>
+<li>Remember, the above singular noun will determine the name of your MongoDB collection. It will be the plural of the noun (i.e. <code>galleries</code>, <code>members</code> and <code>subscribers</code>).</li>
+</ul>
+<h4>DB seeds</h4>
+<p>Your instructor may need to build a local version of your database to mark this assignment.</p>
+<ul>
+<li>include a <code>./model/seeds</code> directory containing the objects you've defined Models for.</li>
+</ul>
+<hr>
+<h3>3. JSON Endpoints: 5 points</h3>
+<p>Create the following JSON endpoints to serve your frontend views:</p>
+<ol>
+<li>Products/Services gallery
+<ul>
+<li><code>GET /api/gallery</code></li>
+</ul>
+</li>
+<li>Single Product/Service
+<ul>
+<li><code>GET /api/gallery/:id</code></li>
+</ul>
+</li>
+<li>Subscribers list
+<ul>
+<li><code>GET /api/subscribers</code></li>
+<li><code>POST /api/subscribers</code>
+<ul>
+<li>Inserts subscriber to database using <code>subscriber</code> model</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Team members
+<ul>
+<li><code>GET /api/members</code></li>
+</ul>
+</li>
+<li>Frontend <code>fetch()</code> implementations: Create appropriate frontend <code>fetch()</code> requests for the following JSON endpoints defined above:
+<ul>
+<li>Requests <code>GET /api/gallery</code> for <code>/public/gallery.html</code></li>
+<li>Requests <code>GET /api/gallery/:id</code> for <code>/public/item.html</code></li>
+<li>Requests <code>GET /api/subscribers</code> for <code>/public/admin/index.html</code></li>
+<li>Requests <code>GET /api/members</code> for <code>/public/team.html</code></li>
+</ul>
+</li>
+<li>For each <code>fetch()</code> request, build a corresponding gallery/list using <code>.forEach()</code> or similar method.</li>
+</ol>
+<hr>
+<h3>5. Fancy Feature: 5 points</h3>
+<p>Implement an app feature that we haven't covered in this course. Your instructor needs to approve this feature (before the end of CPNT 262) to ensure it has a large enough scope to qualify for its 5 points of mark value.</p>
+<p>Some examples that would qualify:</p>
+<ul>
+<li>A login session that password protects your <code>GET /admin</code> route. Your teammates and your instructor should each have login credentials (<code>/register</code> functionality to add user account would not be needed). Note: this will involve adding a view engine to display password protected pages and (potentially) login status on all pages.</li>
+<li>You can install a 3rd party frontend framework to add additional functionality to your page. For example,
+<ul>
+<li>Greensock to animate SVGs</li>
+<li>A chart library to display bar or pie charts</li>
+</ul>
+</li>
+<li>Migrating static <code>public</code> files to views using a supported view engine (<a href="https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application">ejs</a>, <a href="https://expressjs.com/en/guide/using-template-engines.html">pug</a>).</li>
+<li>JSON API call from the backend using a package such as <a href="https://www.section.io/engineering-education/nodejs-network-requests-using-axios/">axios</a>.</li>
+<li>Authenticated API calls using keys from either the front or backend.</li>
+<li>Data logger using Express middleware that logs general requests, errors, etc and writes them to a local text file.</li>
+<li>Snipcart implementation.</li>
+</ul>
+<hr>
+<h3>5. Individual Contribution: 15 points</h3>
+<p>Assign the key roles and responsibilities for each group member in delivering the Final Project. After each entry write a short summary defining their role and what their responsibilities are in the project.</p>
+<p>This charter will serve as the reference for your instructor's evaluation of your individual contribution to the group project.</p>
+<h4>Peer Evaluation</h4>
+<p>At the end of the Final Project, all team members must evaluate their teammates on a scale of 1-10. Each member's mark for this portion will be the average score given to them by their teammates.</p>
+<h4>Instructor Evaluation</h4>
+<p>Your instructor will also evaluate the individual contribution of each team member, within the context of the Group Charter. This will be based largely on your commit history for the project.</p>
+<p>Things to remember:</p>
+<ul>
+<li>You must have Git properly configured to use your GitHub email address in order for your commits to be associated with your GH account. Without this, you will not receive credit for any work you have completed.</li>
+<li>If you have made contributions to the project that are not reflected in your commit history, please elaborate in your Project README or as a comment when you submit your group evaluation.</li>
+<li>Equal(ish) division of work is required unless there are mitigating circumstances.</li>
+</ul>
+<hr>
+<h2>Submitting Your Assignment</h2>
+<p>In order to receive a grade, you must:</p>
+<ol>
+<li>Deploy your Express app to Heroku and MongoDB Atlas.</li>
+<li>Include a <code>README.md</code> in your project that contains the following information:</li>
+</ol>
+<ul>
+<li>Course title and Team name;</li>
+<li>Team members;</li>
+<li>Details on what your <strong>Fancy Feature</strong> is an where to find it.</li>
+<li>Any comments that may help squeeze marks out of your instructor (maybe give him hints on where to look for the requirements above);</li>
+<li>Attributions for any code or assets that are not your own.</li>
+</ul>
+<ol start="3">
+<li>Zip your project (excluding <code>node_modules</code> and <code>.env</code> file) and submit them to Brightspace.
+<ul>
+<li>include a copy of the database seed (the array of objects) you used for this project so your instructor can recreate your database, if needed.</li>
+</ul>
+</li>
+<li>Include links to the following as a comment with your Brightspace submission:
+<ul>
+<li>GH Repo</li>
+<li>Deployed Heroku App URL</li>
+<li><strong>Connection string for <code>MONGODB_URL</code></strong></li>
+</ul>
+</li>
+</ol>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

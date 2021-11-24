@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Authentication vs Authorization</h1>
+<h2>Terminology</h2>
+<dl>
+<dt>Authentication (tokens)</dt>
+<dd>The process of verifying who a user is.</dd>
+<dt>Authorization (access tokens, keys)</dt>
+<dd>The process of verifying what an application has access to.</dd>
+</dl>
+<p>Comparing these processes to a real-world example, when you go through security in an airport, you show your ID to authenticate your identity. Then, when you arrive at the gate, you present your boarding pass to the flight attendant, so they can authorize you to board your flight and allow access to the plane.</p>
+<p>Source: - <a href="https://auth0.com/docs/get-started/authentication-and-authorization">Authentication vs. Authorization</a> on Auth0</p>
+<h2>Common API connection methods</h2>
+<p>Note: Basic Authentication (when you type your username and password) is not recommended for API connections.</p>
+<h3>API Keys</h3>
+<ul>
+<li>Is an authorization scheme that does <em>not</em> authenticate the user.</li>
+<li>Identifies the application making the request and can be revoked.</li>
+<li>Keys are considered public and are inherently insecure.</li>
+<li>The general process for creating a key:
+<ol>
+<li>Login to the service portal.</li>
+<li>Find/generate your API key. This is usually under Settings or similar.</li>
+<li>Copy your API key into your application.</li>
+<li>Follow the instructions provided by the service to test your API key.</li>
+</ol>
+</li>
+</ul>
+<h3>OAuth2 Tokens</h3>
+<ul>
+<li>A modern (and often recommended) authentication standard that identifies the user to a service (i.e GitHub, Twitter, etc).</li>
+<li>Tokens should be kept private and should only be used on the server, never the browser.</li>
+<li>Access tokens can be tied to particular scopes, which restrict the types of operations and data the application can access.</li>
+<li>Like API keys, tokens can be revoked.<br>
+<img src="assets/oauth2-sm.png" alt="OAuth 2 Encryption Scheme"></li>
+</ul>
+<h3>JSON Web Tokens (JWT)</h3>
+<ul>
+<li>JWTs can be used for other purposes than API authentication.</li>
+<li>Is a token scheme that can be used in combination with OAuth.</li>
+<li>Advantage: a JWT can store any type of data, thereby reducing the number of database calls.</li>
+</ul>
+<p><img src="assets/jwt-sm.png" alt="JWT Token Scheme"></p>
+<h2>Attributions</h2>
+<ul>
+<li><a href="https://auth0.com/docs/get-started/authentication-and-authorization">Authentication vs. Authorization</a> on Auth0</li>
+<li><a href="https://cloud.google.com/endpoints/docs/openapi/when-why-api-key">Why and when to use API keys</a></li>
+<li><a href="https://zapier.com/engineering/apikey-oauth-jwt/">API Keys vs OAuth Tokens vs JSON Web Tokens</a></li>
+<li>Video: <a href="https://www.youtube.com/watch?v=a9R3Gq1BKxI">OAuth Vs JWT - What is the difference?</a></li>
+</ul>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

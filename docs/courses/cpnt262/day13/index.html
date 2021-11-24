@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day12/" title="CPNT 262 Day 12 - Introduction to Node builtin modules">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day14/" title="CPNT 262 Day 14 - Serving static files with Express">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Wed, October 27</time>
+  <h2>CPNT 262 Day 13 - Introduction npm and dependencies</h2>
+  
+  
+        <h2>Housekeeping</h2>
+<ul>
+<li>Daily submission counts</li>
+</ul>
+<h2>Trophy of the day</h2>
+<ul>
+<li>Example app using an <code>npm</code> package</li>
+</ul>
+<hr>
+<h2>1. Spoiler Demos</h2>
+<ul>
+<li><a href="https://gist.github.com/acidtone/99208821b9d7fbdc5b04ae2ddd4d04bc">Simple Calculator</a></li>
+</ul>
+<hr>
+<h2>2. <code>npm</code> Package Manager</h2>
+<h3>Materials</h3>
+<ul>
+<li>Takeaways: <a href="/fall-2021/takeaways/npm/introduction/">Introduction to <code>npm</code></a></li>
+<li>Prep:
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/nodejs-package-json">Anatomy of a <code>package.json</code> File</a> on Digital Ocean</li>
+<li><a href="https://nodejs.dev/learn/the-package-json-guide">The <code>package.json</code> guide</a></li>
+<li>Video: <a href="https://www.youtube.com/watch?v=jHDhaSSKmB0">NPM Crash Course</a> by Traversy Media</li>
+<li>NodeJS: <a href="https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager">An introduction to the npm package manager</a></li>
+</ul>
+</li>
+</ul>
+<h3>Activity: File size - before and after</h3>
+<ol>
+<li>Download or clone the <a href="https://github.com/sait-wbdv/hello-npm"><code>hello-npm</code></a> project to your workspace.</li>
+<li>Navigate to the root of the project on the command line.</li>
+<li>Use your operating system to determine the file size of this new project and how many files there are:
+<ul>
+<li>File size: 188 kB on disk</li>
+<li>Number of items: 5 files</li>
+</ul>
+</li>
+<li>Install dependencies with <code>npm install</code></li>
+<li>Check the file size and number again:
+<ul>
+<li>File size: ???</li>
+<li>Number of files: ???</li>
+</ul>
+</li>
+<li>Questions to ask:
+<ul>
+<li>What has changed?</li>
+<li>What is taking up the extra disk space?</li>
+<li>Would we want to include <code>node_modules</code> in our repositories? Hint: the answer is no.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>3. Ignoring <code>node_modules</code></h2>
+<h3>Materials</h3>
+<ul>
+<li><a href="https://nodejs.dev/learn/where-does-npm-install-the-packages">Where does npm install the packages?</a></li>
+</ul>
+<p>We want to exclude the <code>node_modules</code> directory (with a <code>.gitignore</code> file) for a few reasons:</p>
+<ol>
+<li>Including the directory will bloat the file size of your repos, which we'll see later.</li>
+<li>Even if the file size of <code>node-modules</code> is small, it will &quot;pollute&quot; your commit history with changes you didn't make because the directory is auto-generated and auto-updated.</li>
+<li>There's no reason not to! <code>npm</code> can rebuild the <code>node_modules</code> directory at anytime with the <code>npm install</code> command. You only need to commit <code>package.json</code>.</li>
+</ol>
+<h3>Key Takeaways</h3>
+<ul>
+<li>Use your <em>global</em> <code>.gitignore</code> for files that your operating system might add to your projects.</li>
+<li>Use your <em>project</em> <code>.gitignore</code> for project-specific files that your team members all need to exclude.</li>
+</ul>
+<hr>
+<h2>4. Initializing <code>npm</code> projects and installing packages</h2>
+<h3>Materials</h3>
+<ul>
+<li>Gists:
+<ul>
+<li><a href="https://gist.github.com/acidtone/d57f41d7c18d0d198263c7bc3ab230e3">Evaluating the status of an <code>npm</code> project</a></li>
+<li><a href="https://gist.github.com/acidtone/f2e901fb4b04bd41aa59755e2de9af4f">Initializing a new <code>npm</code> project</a></li>
+</ul>
+</li>
+</ul>
+<h3>Activity: Starter packages</h3>
+<ol>
+<li>Install one or all of these packages:
+<ul>
+<li>JS Utilities: <a href="https://www.npmjs.com/package/lodash">lodash</a></li>
+<li>Dates: <a href="https://www.npmjs.com/package/luxon">luxom</a>
+<ul>
+<li><a href="https://moment.github.io/luxon/#/install">Installation</a></li>
+</ul>
+</li>
+<li>URLs: <a href="https://www.npmjs.com/package/slugify">slugify</a></li>
+<li>Command line arguments: <a href="https://www.npmjs.com/package/yargs"><code>yargs</code></a>
+<ul>
+<li>Video: <a href="https://www.youtube.com/watch?v=5aT02ihNueU">Passing Command Line Arguments Node.js</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>For any given package, create an example app by following the usage instructions.</li>
+<li>Have one of your classmates clone and run your demo app <em>without</em> including <code>node_modules</code>.</li>
+</ol>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Assignment 4</li>
+<li>Example <code>npm</code> package demo</li>
+<li>Sharing your package demo</li>
+</ul>
+<hr>
+<h2>Prep</h2>
+<h3>NPM Basics</h3>
+<ul>
+<li>Video: <a href="https://www.youtube.com/watch?v=jHDhaSSKmB0">NPM Crash Course</a> by Traversy Media</li>
+<li><a href="https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager">An introduction to the npm package manager</a></li>
+<li><a href="https://nodejs.dev/learn/where-does-npm-install-the-packages">Where does npm install the packages?</a></li>
+<li><a href="https://nodejs.dev/learn/semantic-versioning-using-npm">Semantic Versioning using npm</a></li>
+</ul>
+<h3><code>package.json</code></h3>
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/nodejs-package-json">Anatomy of a <code>package.json</code> File</a> on Digital Ocean</li>
+<li><a href="https://nodejs.dev/learn/the-package-json-guide">The <code>package.json</code> guide</a></li>
+</ul>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day12/" title="CPNT 262 Day 12 - Introduction to Node builtin modules">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day14/" title="CPNT 262 Day 14 - Serving static files with Express">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

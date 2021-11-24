@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day04/" title="CPNT 260 Day 4 - Mobile First Design, Flexbox, and Breakpoints">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day06/" title="CPNT 260 Day 6 - CSS Grid and Flex Together">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Thu, September 23</time>
+  <h2>CPNT 260 Day 5 - Introduction to CSS Grid</h2>
+  
+  
+        <h2>Trophy of the day: Use CSS Grid to create a site layout</h2>
+<ul>
+<li>We will be building one as a class, your daily will be to create your own in the afternoon</li>
+<li>Dailies today should focus on increased design optimization
+<ul>
+<li>Dailies with effective use of responsive design, css-grid, and optimized design will be used as case studies on friday morning</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Overview</h2>
+<ol>
+<li>Plan it out and Project Prep Review</li>
+</ol>
+<ul>
+<li>Assignment Questions/Concerns</li>
+<li><a href="#planit">Project Directory Structure</a></li>
+</ul>
+<ol start="2">
+<li><a href="#bruteforce">Brute force</a>
+<ul>
+<li>Recreate the <a href="https://v3.vuejs.org/guide/introduction.html">VueJS Documentation Site</a> as a class</li>
+</ul>
+</li>
+<li><a href="#walkthru">Walkthrough</a></li>
+</ol>
+<ul>
+<li>Intro to CSS Grid</li>
+<li>Plan how we will refactor to a grid layout</li>
+</ul>
+<ol start="4">
+<li><a href="#lab">Lab Time</a></li>
+</ol>
+<ul>
+<li>Ash will refactor our morning activity to use grid</li>
+<li>Breakout rooms for working on daily activity</li>
+</ul>
+<ol start="5">
+<li><a href="#prep">Prep for Tomorrow</a></li>
+<li><a href="#debugnotes">Debugging CSS Tips</a></li>
+</ol>
+<hr>
+<h2><a id="planit"></a> Directory Structure and Filenames</h2>
+<pre><code>project-name/
+  |- assets/
+  |  |- images/
+  |  |  |- img1.jpg
+  |  |  |- img2.jpg
+  |  |- css/
+  |  |  |- style.css
+  |  |  |- fonts.css
+  |- index.html
+  |- about.html
+</code></pre>
+<ul>
+<li>Note that the html files are in the root directory</li>
+<li>CSS files have their own directory in assets</li>
+<li>images are kept in assets as well</li>
+<li><strong>no spaces ever in file names</strong></li>
+</ul>
+<h3>A few commands for quick directory management</h3>
+<dl>
+<dt><code>mkdir -p dirname/dirname/</code></dt>
+<dd>Creates both the parent and child directory in 1 command</dd>
+<dt><code>touch filename.ext</code></dt>
+<dd>will create the file name specified</dd>
+<dt><code>less filename</code></dt>
+<dd>will print the contents of the file directly in the terminal for quick viewing</dd>
+<dt><code>cp -r file newlocation/</code></dt>
+<dd>will copy a file to a new location. The -r flag will copy a directory</dd>
+</dl>
+<hr>
+<h2><a id="bruteforce"></a> Morning Activity: VueJS Docsite Rebuild</h2>
+<ul>
+<li>We will try to recreate the VueJS documentation website using code we've learned so far</li>
+<li>This will all be done in vscode and git</li>
+</ul>
+<hr>
+<h2><a id="walkthru"></a> Topic 3: Intro to CSS Grid</h2>
+<h3>Notes</h3>
+<ul>
+<li>use <code>display: grid</code> to create grid</li>
+<li><code>grid-template-columns</code> is one of the most used declarations for grid</li>
+<li><code>fr</code> units are used to set grid items to a declared fraction of available space</li>
+<li><code>minmax()</code> is used to declare a minimum and maximum size of grid item</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/repeat()">repeat syntax</a>
+<ul>
+<li><code>auto-fit</code>, <code>auto-fill</code> are particularly useful for flexible layouts</li>
+<li>Often using a rigidly sized parent element can be useful for setting the grid row's max width</li>
+</ul>
+</li>
+<li><a href="https://gist.github.com/acidtone/d946ea7147e60568d7f8262b5e7be449">Tony's grid starter code gist</a></li>
+<li><a href="https://codepen.io/ashlyn-knox/pen/eYWbdZV">Complex Grid Design</a></li>
+</ul>
+<h3>Resources for getting a grid layout off the ground</h3>
+<ul>
+<li><a href="https://youtu.be/KOvGeFUHAC0">Build a Classic Layout Fast in CSS Grid</a> by Mirian Suzanne</li>
+<li><a href="https://youtu.be/tFKrK4eAiUQ">Easy Layouts with CSS Grid</a></li>
+<li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Read Complete Guide to Grid</a></li>
+<li><a href="https://gridbyexample.com/patterns/">Grid by example layout sample code</a></li>
+</ul>
+<hr>
+<h2><a id="lab"> Lab Time</h2>
+<h3>Main Room: Ash Refactors and Optimizes the VueJS Website Clone</h3>
+<ul>
+<li>CSS Grid Layout</li>
+<li>Spicy styling</li>
+</ul>
+<h3>Activity: <a href="/fall-2021/activities/html-css/grid-layouts/">Create a Grid Layout</a></h3>
+<ul>
+<li>This activity must be started from scratch</li>
+<li>You are welcome to work in pairs and both submit the same project.</li>
+</ul>
+<hr>
+<h2><a id="prep"></a>Prep for next day</h2>
+<ul>
+<li>Read <a href="https://css-tricks.com/snippets/css/complete-guide-gri">A Complete Guide to Grid</a></li>
+<li>Watch Jen Simmons on using <a href="https://www.youtube.com/watch?v=dQHtT47eH0M">flexbox and grid together</a></li>
+<li>Explore Jen Simmons <a href="https://labs.jensimmons.com/">Experimental Layout Lab</a></li>
+<li>Watch Jen Simmons on <a href="https://www.youtube.com/watch?v=u00FY9vADfQ">Progressive Enhancement</a></li>
+</ul>
+<hr>
+<h2><a id="debugnotes"></a>Extra Notes on Debugging CSS</h2>
+<dl>
+<dt>Logic Errors</dt>
+<dd>Errors that stop the program from doing what's expected. While there isn't logic in CSS the same way there is in JS, you will still find that logic errors can be very common. Early on, CSS Grid can be a tricky spot for logic errors<br>
+Syntax Errors</dd>
+<dd>Errors in your actually typed characters. Misspelled keywords, punctuation etc.</dd>
+</dl>
+<h3>Notes</h3>
+<ul>
+<li><strong>Devtools are your friend</strong> Take the time to get comfortable with checking errors with them.</li>
+<li>Always, always, always, think through what's actually broken before you start chopping up your code
+<ul>
+<li>promotes faster debugging skills as you gain experience, and you will likely cause less mistakes</li>
+</ul>
+</li>
+<li>If you are experiencing overlap and horizontal scroll issues, adding outlines to everything can help tell what's doing it
+<ul>
+<li><code>border</code> can also work, but it effects dimension and can give you an inaccurate read</li>
+</ul>
+</li>
+<li>Be methodical
+<ul>
+<li>Step through your code and talk it out <strong>yes talk to yourself, a colleague, a rubber duck...</strong></li>
+<li>remember that sometimes a bug can be caused by something that works ok being interferred with by something else - it might not be the thing that looks broken.</li>
+</ul>
+</li>
+</ul>
+<h3>Resources</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS">Mdn Debugging CSS</a></li>
+<li><a href="https://rohitgulam.hashnode.dev/the-best-way-to-debug-css-code">Article on debugging css</a></li>
+</ul>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day04/" title="CPNT 260 Day 4 - Mobile First Design, Flexbox, and Breakpoints">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt260/day06/" title="CPNT 260 Day 6 - CSS Grid and Flex Together">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

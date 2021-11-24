@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Validating values</h1>
+<p>A common task in untyped languages is confirming the value type that you're working with. For example, when you think a variable is a <code>Number</code>,</p>
+<pre><code>console.log('$' + price.toFixed(2));
+</code></pre>
+<p>But you get an error:</p>
+<pre><code>Uncaught TypeError: price.toFixed is not a function
+</code></pre>
+<p>Maybe the value of <code>price</code> was submitted from a form,which always converts to a <code>String</code>, and does not have the <code>toFixed</code> method. Errors like this can be avoided by:</p>
+<ol>
+<li>Testing for the correct type and/or;</li>
+<li>Converting to the expected type explicitly</li>
+</ol>
+<p>Here are the generally accepted methods of doing both for each of the common value types.</p>
+<h3>Undefined?</h3>
+<pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> myVar <span class="token operator">!==</span> <span class="token string">'undefined'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable has been assigned!</span><br><span class="token punctuation">}</span></code></pre>
+<h3>String</h3>
+<p>Test for <code>String</code> value type:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> myVar <span class="token operator">===</span> <span class="token string">'string'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is a string!</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Number</h3>
+<p>Test for <code>Number</code> value type:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> myVar <span class="token operator">===</span> <span class="token string">'number'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is a number!</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Boolean</h3>
+<p>Test for <code>Boolean</code> value type:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> myVar <span class="token operator">===</span> <span class="token string">'boolean'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is a boolean!</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Null</h3>
+<p>Test if a variable is NOT <code>null</code>:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> myVar <span class="token operator">===</span> <span class="token string">"object"</span> <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>myVar<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is a NOT null!</span><br><span class="token punctuation">}</span></code></pre>
+<ul>
+<li><code>typeof null</code> evaluates to &quot;object&quot; because of an old and non-fixable bug in Javascript. See <a href="https://javascript.plainenglish.io/how-to-check-for-null-in-javascript-dffab64d8ed5">How to Check for null in JavaScript</a> for all the gory details.</li>
+</ul>
+<h3>Array</h3>
+<p>Test for <code>Array</code> value type:</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">// Method 1</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span>myVar<span class="token punctuation">.</span>constructor <span class="token operator">==</span> Array<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is an array!</span><br><span class="token punctuation">}</span><br><br><span class="token comment">// Method 2</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span>Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>myVar<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is an array!</span><br><span class="token punctuation">}</span></code></pre>
+<ul>
+<li><a href="https://stackoverflow.com/questions/767486/how-do-you-check-if-a-variable-is-an-array-in-javascript">source</a></li>
+</ul>
+<p>Test for a NON-EMPTY array:</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">// Method 1</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span>myVar<span class="token punctuation">.</span>constructor <span class="token operator">==</span> Array <span class="token operator">&amp;&amp;</span> myVar<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is anon-empty array!</span><br><span class="token punctuation">}</span><br><br><span class="token comment">// Method 2</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span>Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>myVar<span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> myVar<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is anon-empty array!</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Object</h3>
+<p>Test for <code>Object</code> value type:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> myVar <span class="token operator">===</span> <span class="token string">'object'</span> <span class="token operator">&amp;&amp;</span> myVar <span class="token operator">!==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Variable is an object!</span><br><span class="token punctuation">}</span></code></pre>
+<ul>
+<li><code>null</code> variables also return &quot;object&quot; because of a bug in Javascript, hence the extra test for <code>null</code></li>
+</ul>
+<p>Optional chaining operator (<code>?.</code>):</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> myVar <span class="token operator">=</span> myObject<span class="token operator">?.</span>name<span class="token punctuation">;</span></code></pre>
+<ul>
+<li>returns <code>undefined</code> (instead of an error) if <code>name</code> does not exist</li>
+</ul>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>
