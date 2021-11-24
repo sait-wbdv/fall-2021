@@ -107,7 +107,7 @@ These two css frameworks take very different approaches. Tailwind is focused on 
 - Define Groups
 - Discuss Blog Articles
   - [An article on blog lengths](https://www.wesfed.com/blog/ideal-blog-post-length-seo/)
-  - small articles: 500- 750 words
+  - small articles: 500 - 750 words (300 minimum)
   - medium articles: 750-1500 words
   - long articles: 2000+ words
 - A few types of blog posts
