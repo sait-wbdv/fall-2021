@@ -32,7 +32,7 @@ Note: Basic Authentication (when you type your username and password) is not rec
 - Tokens should be kept private and should only be used on the server, never the browser.
 - Access tokens can be tied to particular scopes, which restrict the types of operations and data the application can access.
 - Like API keys, tokens can be revoked.
-![OAuth 2 Encryption Scheme](assets/oauth2-sm.png)
+![OAuth 2 Encryption Scheme]({{ '/assets/images/takeaways/security/oauth2-sm.png' | url }})
 
 ### JSON Web Tokens (JWT)
 - JWTs can be used for other purposes than API authentication.

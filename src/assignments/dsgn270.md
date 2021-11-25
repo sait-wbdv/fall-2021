@@ -13,10 +13,6 @@ title: DSGN 270 Assignments
 - Weight: 25% of Final Course Mark
 
 ## Social Tools
-### Assignment 3: TBA
+### Assignment 3: Social Media Integration
 - Due: TBA
-- Weight: 25% of Final Course Mark
-
-### Assignment 4: TBA
-- Due: TBA
-- Weight: 25% of Final Course Mark
+- Weight: 50% of Final Course Mark

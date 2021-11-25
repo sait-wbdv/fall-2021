@@ -3,7 +3,6 @@ layout: layouts/page.njk
 title: Small World Theory of Networks
 ---
 
-:::terms
 ## Terminology
 Node
 : Individual actors, people, or things within the network.
@@ -20,12 +19,11 @@ Induced Homophily
 Choice Homophily
 : Individuals will find others similar to themselves regardless of the group setting.
 
-:::
 
 ## Network Growth
 Metcalf's Law states that "the effect of a telecommunications network is proportional to the square of the number of connected users of the system (n<sup>2</sup>)"
 
-![Infographic illustrating network diagrams at 2, 5 and 12 nodes](assets/metcalfs-law.jpg)
+![Infographic illustrating network diagrams at 2, 5 and 12 nodes]({{ '/assets/images/takeaways/social/metcalfs-law.jpg' | url }})
 Figure 1: Connections grow exponentially with network size ([Source](https://medium.com/@embrkbusiness/knowledge-and-metcalfes-law-f0bc13a33db3))
 
 ---
@@ -48,7 +46,7 @@ Scientists refer to this as the [Small World Theory of Networks](https://en.wiki
 
 ---
 
-![Summary of Graph Theory Terminology](assets/graph-theory.jpg)
+![Summary of Graph Theory Terminology]({{ '/assets/images/takeaways/social/graph-theory.jpg' | url }})
 Figure 2: Graph Theory Clusters ([Source](https://sciences.ucf.edu/psychology/lighthalllab/dr-lighthall-contributes-to-new-systematic-review-of-graph-theory/))
 
 ---
