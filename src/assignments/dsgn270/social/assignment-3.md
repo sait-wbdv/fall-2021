@@ -4,6 +4,18 @@ title: DRAFT - DSGN 270 Assignment 3 - Social Integration Proof-of-Concept
 ---
 In this assignment, you will build a small proof-of-concept social media integration that you can promote to a potential market of clients.
 
+## Potential APIs
+- Youtube, Twitch, Vimeo, TikTok
+- Twitter
+- Facebook, Instagram, WhatsApp
+- LinkedIn
+- Shopify, Etsy
+- Reddit, 4Chan
+- GitHub, Codepen
+- Pintrest
+- Snapchat
+- Vibr
+
 ## Instructions
 1. Define a market of potential businesses to sell your product/service to. For example:
     - Bars and restaurants

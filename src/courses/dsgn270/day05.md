@@ -81,7 +81,7 @@ released: true
 ---
 
 ### 4. Treasure hunt: Developer friendly social APIs
-Find the developer documentation of a social API (GitHub, Twitter, LinkedIn, Twitter, etc) of your choice. For example: search `twitter api documentation`, `instagram api nodejs`, `github public api`, etc.
+Find the developer documentation of a social API (GitHub, Twitter, LinkedIn, Twitter, etc) of your choice. For example: search "`twitter api documentation`", "`instagram api nodejs`", "`github public api`", etc.
 - Is there a Getting Started or Getting Connected page for the API?
 - What are the API rate limits?
 - What's the current version of the API?
