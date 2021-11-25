@@ -44,6 +44,7 @@ released: true
 ## 3. API Authentication: Tokens vs Keys
 ### Materials
 - [Authentication vs. Authorization](https://auth0.com/docs/get-started/authentication-and-authorization)
+- [APIs and Authentication on the Jamstack](https://css-tricks.com/apis-and-authentication-on-the-jamstack/)
 - [What is the difference between API keys and API tokens?](https://security.stackexchange.com/questions/161946/what-is-the-difference-between-api-keys-and-api-tokens-usages)
 - [Why and when to use API keys](https://cloud.google.com/endpoints/docs/openapi/when-why-api-key) from Google Cloud documentation
 
