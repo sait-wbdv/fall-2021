@@ -1,27 +1,24 @@
 ---
 layout: layouts/day.njk
-title: DSGN 270 Day 6 - Serverless functions
-description: We will look at using Netlify to secure a JAMstack Instagram API.
+title: DSGN 270 Day 6 - Lab Day
+description: It's been a long week. Let's take a day.
 date: 2021-11-26
 released: true
 ---
 
-## Prep
-### JAMstack security and connection types
-- [Are your keys secure on the JAMstack?](https://dev.to/shortdiv/are-your-keys-secure-on-the-jamstack-pin)
-- [APIs and Authentication on the JAMstack ](https://css-tricks.com/apis-and-authentication-on-the-jamstack/)
+## Housekeeping
+- Question from Slack: 
+    > It looks like I scored a practicum but it looks like its pretty much all wordpress. I talked to the senior dev and he said they don't do much custom work, which isn't the worst but I feel like it wont be as fulfilling as a job that uses more modern and custom frameworks. Do you think i'll forget most of my knowledge in this course over the 3 or so months for the practicum? It feels like there's more need for devs that can use frameworks and such
+- Link to [Assignment 4]({{ '/assignments/cpnt200/assignment-4/' | url }}) fixed
+- CPNT 200 Group Assignment - Push the due date?
 
-### Netlify serverless functions
-- Documentation: [Serverless functions overview](https://docs.netlify.com/functions/overview/)
-    - [Javascript-specific overiew](https://docs.netlify.com/functions/build-with-javascript/)
-    - [Netlify Dev - Running a local developer environment](https://docs.netlify.com/cli/get-started/#netlify-dev)
-- Videos:
-    - [Create your first Netlify Serverless Function!](https://www.youtube.com/watch?v=n_KASTN0gUE) by Ania Kubów, AND/OR
-    - [Serverless Lambda Functions](https://www.youtube.com/watch?v=drJwMlD9Mjo) by Traversy Media (might be a little out of date)
-    - Local Netlify environment: [Netlify Serverless Functions with Netlify Dev](https://www.youtube.com/watch?v=bVmUHvVK8Hs) by James Q Quick
+---
 
-### Instagram API
-- Instagram Tutorial: [Using the Instagram API + Serverless Netlify to display your own Photos in 2021](https://harrisonkolor.medium.com/using-the-instagram-api-serverless-netlify-to-display-your-own-photos-in-2021-7923014522d0)
+## 1. Tony's Black Friday Deal
+Let's take the day off, work on assignments and pick up DSGN 270 on Monday (and maybe Wednesday).
+
+---
+
 
 {% comment %}
 
