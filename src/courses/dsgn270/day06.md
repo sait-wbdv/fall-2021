@@ -7,6 +7,7 @@ released: true
 ---
 
 ## Housekeeping
+- Starting Monday the 29th, class starts at 9am.
 - Question from Slack: 
     > It looks like I scored a practicum but it looks like its pretty much all wordpress. I talked to the senior dev and he said they don't do much custom work, which isn't the worst but I feel like it wont be as fulfilling as a job that uses more modern and custom frameworks. Do you think i'll forget most of my knowledge in this course over the 3 or so months for the practicum? It feels like there's more need for devs that can use frameworks and such
 - Link to [Assignment 4]({{ '/assignments/cpnt200/assignment-4/' | url }}) fixed
