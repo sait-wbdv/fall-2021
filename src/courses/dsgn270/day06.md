@@ -15,7 +15,9 @@ released: true
 ---
 
 ## 1. Tony's Black Friday Deal
-Let's take the day off, work on assignments and pick up DSGN 270 on Monday (and maybe Wednesday).
+Let's take the day off after Housekeeping, work on assignments and pick up DSGN 270 on Monday (and maybe Wednesday).
+
+The Zoom room will be open for the morning. 
 
 ---
 
