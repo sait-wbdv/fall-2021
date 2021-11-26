@@ -4,7 +4,7 @@ title: Assignment 4 - Vue Components and Directives
 description: Create vue components for page layout
 ---
 
-- Due: Friday November 26 @ 11:59pm
+- Due: Saturday November 27 @ 11:59pm
 - Submit zipped project file, github repo, and link to netlify in brightspace
 - 20% of Course Mark
 
