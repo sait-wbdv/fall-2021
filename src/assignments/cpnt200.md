@@ -37,3 +37,4 @@ Note that you you must make a new repo for each assignment. labelled cpnt200-a1,
 - Due Sunday, December 5, 2021
 - Weight: 50% of Final Course Mark
 - Focus: CMS Team Project
+- [Team List]({{ '/assignments/cpnt200/teams/' | url }})

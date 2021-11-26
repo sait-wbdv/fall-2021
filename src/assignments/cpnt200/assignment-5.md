@@ -6,6 +6,7 @@ description: In a team, build a simple tech blog that focuses on a technology/th
 - Due Sunday December 5 11:59pm
 - Only 1 submission required per team
 - 50% of Course mark
+- [Link to Groups]({{ '/assignments/cpnt200/teams/' | url }})
 
 ## Outline
 You are a small web development team that has decided to start working for yourselves. As such you need to make a website for your organization. The site needs to have:
@@ -37,7 +38,9 @@ Create a JAMstack site using Github, Nuxt, and Netlify CMS.
 - Netlify CMS
 - Hosted on Netlify
 - Git based on github
- 
+
+---
+
 ## Marking Rubric
 - In your Readme, please specify team member and their role
 
