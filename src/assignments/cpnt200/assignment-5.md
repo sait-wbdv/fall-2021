@@ -3,7 +3,7 @@ layout: layouts/assignment.njk
 title: Assignment 6 - JAMStack Website
 description: In a team, build a simple tech blog that focuses on a technology/theory in web development. Each team member will have a well defined role in this project (backend, content manager, frontend developer, designer).
 ---
-- Due Wednesday December 1 11:59pm
+- Due Sunday December 5 11:59pm
 - Only 1 submission required per team
 - 50% of Course mark
 
@@ -39,6 +39,7 @@ Create a JAMstack site using Github, Nuxt, and Netlify CMS.
 - Git based on github
  
 ## Marking Rubric
+- In your Readme, please specify team member and their role
 
 ### Kanban Board (extra 2pts)
 - Organize project tasks in github kanban board

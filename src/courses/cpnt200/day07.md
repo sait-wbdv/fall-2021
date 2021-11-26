@@ -7,7 +7,7 @@ released: true
 ---
 
 ## [Assignment 5: Group Project]({{ '/assignments/cpnt200/assignment-5/' | url }})
-- **Due: December 1 @ 11:59pm**
+- **Due: December 5 @ 11:59pm**
 - Groups of 3 - 4
 
 ## Topics

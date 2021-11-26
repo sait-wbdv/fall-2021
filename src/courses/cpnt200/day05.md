@@ -7,7 +7,7 @@ released: true
 ---
 
 ## [Assignment 4: Vue Templating]({{ '/assignments/cpnt200/assignment-4/' | url }})
-- **Due: Friday November 26**
+- **Due: Saturday November 27**
 
 ## Topics
 - [Vscode Extensions](#vscode)
