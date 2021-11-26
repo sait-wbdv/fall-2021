@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>npm Introduction</h1>
+<div class="terms"><h3>Terminology</h3>
+<dl>
+<dt><strong>Package Management System</strong></dt>
+<dd>Software that automates installing and updating packages/libraries/frameworks, including their dependencies.</dd>
+<dt><strong>npm</strong></dt>
+<dd><em>npm Package Manager</em>, previously <em>Node package manager</em> (npm is now used for many software projects besides Node).</dd>
+<dt><strong>npm package</strong></dt>
+<dd>A package is a file or directory that is described by a <code>package.json</code> file.</dd>
+<dt><strong>Dependency</strong></dt>
+<dd>Code that your app needs to function properly. Each dependency will most likely have their own list of dependencies, which npm also manages.</dd>
+<dt><strong>Development dependency</strong></dt>
+<dd>An <code>npm</code> package that's only needed during development (i.e. <code>nodemon</code> to help reload new code). These dependencies should be ignored when the app is in production.</dd>
+<dt><strong>Global <code>npm</code> package</strong></dt>
+<dd>A package that is installed globally on your machine so that it's available to every <code>npm</code> project. Global packages will not show up in your <code>node_modules</code> directory.</dd>
+<dt><strong>Semantic versioning</strong></dt>
+<dd>A three number versioning system (<code>major</code>.<code>minor</code>.<code>patch</code> =&gt; <code>2.3.1</code>) for software. See <a href="https://nodejs.dev/learn/semantic-versioning-using-npm">Semantic Versioning using <code>npm</code></a>.</dd>
+</dl>
+</div><h2>Why do we use <code>npm</code>?</h2>
+<ol>
+<li><strong>Dependency management</strong>: any npm package you install into your project becomes a dependency. Chances are, that package comes with its own set of dependencies, and so on. npm manages these interactions.</li>
+<li><strong>Development and deployment</strong>: npm includes many tools that help developers create and deploy software projects.</li>
+<li><strong>Project collaboration</strong>: npm ensures that multiple developers can reliably replicate a software project in their development environments.</li>
+</ol>
+<h2>Stats and trivia</h2>
+<p><code>npm</code> is the largest software package registry in the world. According to the <a href="https://en.wikipedia.org/wiki/Npm_(software)">npm Wikipedia page</a> and <a href="https://www.linux.com/news/state-union-npm/">this Linux.com article</a></p>
+<ul>
+<li><em>npm, Inc.</em> is a subsidiary of <em>GitHub</em>, which is itself a subsidiary of <em>Microsoft</em>.</li>
+<li>Over 477,000 packages are available in the main <code>npm</code> registry.</li>
+<li>In May 2016, users installed 18 billion packages, translating into 6 billion downloads, &quot;because approximately 66 percent of the installs are now being served from the cache.&quot;</li>
+<li>The registry does not have any vetting process for submission, which means that packages found there can be low quality, insecure, or malicious. Registry quality is dependant on user reviews and moderation.</li>
+<li><a href="https://status.npmjs.org/uptime">status.npmjs.org</a> shows the historical uptime of the registry.</li>
+<li>Every week roughly 160 people publish their first package in the registry</li>
+</ul>
+<h2>Example <code>npm</code> directory structure</h2>
+<pre><code>my-project-root
+├── node_modules
+│   └── dependency-1
+│   ├── dependency-2
+    └── dependency-3
+└── app.js
+├── package-lock.json
+└── package.json
+</code></pre>
+<h2>Key Takeaways</h2>
+<ul>
+<li>Don't initialize projects within projects.</li>
+<li>You no longer need to use the <code>--save</code> flag when installing packages.</li>
+<li>Add <code>node_modules</code> to your <code>.gitignore</code> file. This directory stores all your dependencies (often lots of files) which should not be committed to your repository.</li>
+<li>Commit <code>package.json</code> and <code>package-lock.json</code> to your repository (unless you're specifically told not to).</li>
+<li>Don't manually edit <code>package-lock.json</code>. This is auto-generated by <code>npm</code>.</li>
+<li>Update <code>package.json</code> by the command line (or other tool) unless you're comfortable editing the file manually.</li>
+</ul>
+<h2>Related resources</h2>
+<ul>
+<li>Gist: <a href="https://gist.github.com/acidtone/d57f41d7c18d0d198263c7bc3ab230e3">Evaluating the status of an <code>npm</code> project</a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/f2e901fb4b04bd41aa59755e2de9af4f">Initializing a new <code>npm</code> project</a></li>
+</ul>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

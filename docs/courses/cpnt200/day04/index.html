@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt200/day03/" title="CPNT 200 Day 3 - Integrating CMS with Nuxt Frontend">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt200/day05/" title="CPNT 200 Day 5 - VueJS Dynamic Templating">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Fri, November 19</time>
+  <h2>CPNT 200 Day 4 - Dynamic Templating with Vue</h2>
+  
+  
+        <h2>Assignment Update</h2>
+<ul>
+<li>1 Vue syntax assignment worth 20% of course mark</li>
+<li><strong>assigned Monday November 22</strong></li>
+<li><strong>due Friday December 26</strong></li>
+<li>Take the weekend to focus on the 3 CMS assignments</li>
+</ul>
+<h2>Outline</h2>
+<ul>
+<li>Review Nuxt Content Rendering</li>
+<li>Render Multiple Collections</li>
+<li>Basic Terminology</li>
+<li>Components</li>
+<li>Directives</li>
+</ul>
+<hr>
+<h2>Nuxt Content Rendering Review</h2>
+<ul>
+<li>Discuss and debug common problems</li>
+<li>Short demo of adding content to a dynamic page</li>
+</ul>
+<h3>Breakout Session: Construct a Blog Template (30min)</h3>
+<ul>
+<li>In your _slug.vue page create a layout that displays all your blog fields</li>
+</ul>
+<hr>
+<h2>How to Render Multiple Collections</h2>
+<ul>
+<li><a href="https://ednsquare.com/story/nuxt-js-dynamic-nested-routing-with-vue-router------EXBBRt">This article</a> is helpful for understanding the nuxt router</li>
+<li>Create 2 directories in <code>pages/</code>, name them after the collections in your cms</li>
+<li>Add <code>_slug.vue</code> to each directory</li>
+<li>Use these <a href="https://gist.github.com/lilyx13/0c457082cdf9c19d5e223be5acf3084a">instructions</a> to connect the content to the framework.</li>
+<li>Change the relevant variables in the script tag</li>
+<li><a href="https://gist.github.com/lilyx13/0452d4c090983fa417581c3ef747707f">Review this gist</a> for details on creating multiple collections</li>
+</ul>
+<hr>
+<h2>VueJS: Introduction</h2>
+<ul>
+<li>Vue is a progressive framework</li>
+<li>It is a littl opinionated, but still flexible</li>
+<li>Vue is scalable and flexible</li>
+<li>You can use as much vue syntax as you want</li>
+<li>Vue syntax is used in Nuxt</li>
+<li>We will use vue for the frontend rendering of page content</li>
+</ul>
+<h3>Activity: Set up a simple vue project</h3>
+<ul>
+<li><a href="https://vuejs.org/v2/guide/installation.html#CDN">This documentation</a> describes different ways of setting up a vue projec.</li>
+<li>Create a vue project using <code>npm</code> or <code>yarn</code></li>
+</ul>
+<h3>Basic Terminology</h3>
+<p>The following are some of the most used parts of using VueJS</p>
+<ul>
+<li>
+<dl>
+<dt><code>data</code></dt>
+<dd>This is the memory of a component. It is similar to props but is meant for to be only used in the component in which it is declared. data goes into your script tag</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>Directives</dt>
+<dd>Vue directives are bits of templating syntax. they allow you to dynamically generate content on a web page. They are also useful for passing values between components. Use these in the <code>&lt;template&gt;</code> tag</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><code>props</code></dt>
+<dd>Properties are specifically used to pass information from a parent to a child component. For instance, if you had a card component that you used over again, you would pass information <strong>to</strong> it in the parent component.</dd>
+</dl>
+</li>
+</ul>
+<h3>Components Overview</h3>
+<p>Components are self contained units in Vue. They can have a <code>template</code>, <code>style</code>, and <code>script</code> tag.</p>
+<ul>
+<li>Check out <a href="https://gist.github.com/lilyx13/7b28e3dfdb0e075e97706f08c8e4ce39">this gist on vue file structure</a> for a quick overview of how a vue file is set up</li>
+<li>The <code>template</code> is like an html file</li>
+<li>The <code>style</code> is like a css file (can be scoped to just the component)</li>
+<li>The <code>script</code> is like a <code>.js</code> file</li>
+<li>Vue keeps them all in one place for quick access</li>
+<li><strong>You will use the same setup for your layout files</strong></li>
+</ul>
+<h4>Activity: Create a simple vue page</h4>
+<ul>
+<li>Create a vue page layout
+<ul>
+<li>use the <code>template</code>, <code>style</code>, <code>script</code> syntax</li>
+<li>add comments to your template to describe content that you want to display</li>
+<li>in your <code>data</code>, add strings and other variables that you want to use.
+<ul>
+<li>examples:
+<ul>
+<li>array for any list or group of content (img urls/files, names)</li>
+<li>objects (can be within arrays)</li>
+<li>branding variables</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Component Uses (a few examples)</h4>
+<ul>
+<li>page sections (header, footer...)</li>
+<li>card layouts</li>
+<li>buttons, links...</li>
+<li>navigation bar</li>
+</ul>
+<h4>Component layering</h4>
+<ul>
+<li>Components can take variables from imports and their parent component (or layout). This allows you to create replicable layouts and pass values into them</li>
+<li>**<a href="https://vuejs.org/v2/guide/single-file-components.html">Read the Docs</a> for more info</li>
+</ul>
+<hr>
+<h2>Common Directives</h2>
+<ul>
+<li>Review <a href="https://gist.github.com/lilyx13/bd6ceed5c3ffd642d01ce670fc8893b1">this gist on vue directives for examples and detailed notes</a></li>
+<li>Basic directives for displaying content:
+<ul>
+<li><code>v-text</code>: add string variables from <code>data</code>. Similar to ``</li>
+<li><code>v-html</code>: add strings that can render html syntax</li>
+</ul>
+</li>
+<li>Directives for more rendering data
+<ul>
+<li><code>v-bind</code>: for accessing properties from parent components. For adding properties to html tags. One way passing of values. It operates sort of like an import script</li>
+</ul>
+</li>
+</ul>
+<h3>Basic Rendering</h3>
+<ul>
+<li>Vue offers a few basic rendering directives</li>
+<li>You can use <code>v-html</code> or mustache syntax `` to add text content from <code>data(){...}</code> to your <code>&lt;template&gt;...&lt;/template&gt;</code></li>
+</ul>
+<pre><code>&lt;p v-text=&quot;var-name&quot;&gt;&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p&gt; &lt;/p&gt;
+</code></pre>
+<ul>
+<li>However you cannot add html tags using v-text or mustache syntax
+<ul>
+<li>for that you can use <code>v-html</code>
+<ul>
+<li>in your data(), you can write html tags and they will render</li>
+</ul>
+<pre><code>data() {
+  return
+    var-name: '&lt;p&gt;text stuff n whatever&lt;/p&gt;'
+}
+</code></pre>
+<ul>
+<li>Use the string in your template. This will add the paragraph object within the div</li>
+</ul>
+<pre><code>&lt;div v-html=&quot;var-name&quot;&gt;&lt;/div&gt;
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Data Binding</h3>
+<ul>
+<li>v-bind is used to bind data to attributes and components</li>
+<li><a href="https://gist.github.com/lilyx13/9e1c1cd6f7f6f3d6d0a9bb7eff9e5652">Check out this gist</a> for examples of how v-bind can be used</li>
+</ul>
+<h3>Activity: Make a component</h3>
+<ul>
+<li>
+<p>Try making any of these:</p>
+<ul>
+<li>a header or footer  (mild)
+<ul>
+<li>render strings from data in the component</li>
+<li>use: <code>v-text</code>, <code>v-html</code>, and/or <code>v-bind</code></li>
+</ul>
+</li>
+<li>A card (medium)
+<ul>
+<li>create a figure that includes text for a figcaption and an image</li>
+<li>use <code>v-bind</code>, moustach syntax, and props</li>
+</ul>
+</li>
+<li>A button (spicy)
+<ul>
+<li>use props to change text on something when the button is clicked</li>
+<li>use <code>v-bind</code>, <code>v-model</code>, and moustache syntax</li>
+<li>use <code>v-on:click</code> or <code>@click</code> syntax to trigger a click event</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Tips for Practicing with Vue Components</h4>
+<ul>
+<li>vue directives provide extensive power and flexiblity, the above use cases are suggestions but you can do lots of different things with them.</li>
+<li>A great way to practice this is to:
+<ul>
+<li>Take one of your layouts from 260.
+<ul>
+<li>redesign a part of it into a vue component</li>
+<li>determine some variables to make into dynamic content
+<ul>
+<li>create a data function in your script
+<ul>
+<li>then add the variables to your data</li>
+<li>use v-text, v-html, and/or mustache syntax to render the variables</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Using imported data (like our cms content), or props called from a parent component is the same process as what's been described above</li>
+</ul>
+</li>
+<li>Take some time to look at other websites and think about what content should be dynamic
+<ul>
+<li>Things to look for:
+<ul>
+<li>Branding and repeated key words</li>
+<li>Terms that could be changed depending on time and state</li>
+<li>Repeated components with different information being displayed
+<ul>
+<li>ie: buttons, banners, cards, articles...</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Prep for Monday</h2>
+<ul>
+<li>Review <a href="https://vuejs.org/v2/guide/">VueJs Documentation: Introduction</a></li>
+<li>Skim <a href="https://medium.com/free-code-camp/a-quick-introduction-to-vue-js-72937ee8880d">A quick intro to vue</a></li>
+<li>Watch <a href="https://www.youtube.com/watch?v=r5rcdqkYAes">Vue Tips</a></li>
+<li>Not required but interesting backstory to vue <a href="https://www.youtube.com/watch?v=OrxmtDw4pVI">The VueJS documentary</a> (34 Minutes)</li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Work on Assignments 1-3</li>
+</ul>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt200/day03/" title="CPNT 200 Day 3 - Integrating CMS with Nuxt Frontend">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt200/day05/" title="CPNT 200 Day 5 - VueJS Dynamic Templating">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

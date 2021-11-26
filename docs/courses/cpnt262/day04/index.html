@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day03/" title="CPNT 262 Day 3 - Strings, string methods and the browser environment">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day05/" title="CPNT 262 Day 5 - classList API and form events">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+
+<article class="post">
+  <time>Tue, October 12</time>
+  <h2>CPNT 262 Day 4 - Function fundamentals</h2>
+  
+  
+        <h2>Housekeeping</h2>
+<h2>Goals of the day</h2>
+<ul>
+<li>Tip Calculator using functions
+<ul>
+<li><a href="https://gist.github.com/acidtone/1e3ddce433eb669f44196180d5119705">Defining and invoking functions</a></li>
+<li><a href="https://gist.github.com/acidtone/e9e291765e7dea1928bd643b46660438">Define and invoke a function with parameters</a></li>
+</ul>
+</li>
+<li><a href="https://gist.github.com/acidtone/37a879d3777bc123483d582248eded90">Eat and Drink click handlers</a></li>
+</ul>
+<hr>
+<h2>1. Spoiler demo: String methods</h2>
+<ul>
+<li><a href="https://gist.github.com/acidtone/d7685ba337620ce4c01e2767211efb95">Strings and Dates in HTML</a></li>
+</ul>
+<hr>
+<h2>2. Defining and invoking functions</h2>
+<p>Knowledge of functions is a key skill in software development, especially in Javascript. An important concept to understand is that code inside a function is not run when a function is defined; only when the function is invoked.</p>
+<h3>Materials</h3>
+<ul>
+<li>MDN:
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">Functions - reusable blocks of code</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function">Build your own function</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function">Function expression</a></li>
+</ul>
+</li>
+<li>Takeaways: <a href="https://sait-wbdv.github.io/fall-2021/takeaways/js/functions/">Function terminology</a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/e3ed5adfcb4f3c02f1b78f78c9c2bf8b">Defining functions</a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/679b1b07dcaad4491e8696c871e36436">Invoking functions</a></li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/1e3ddce433eb669f44196180d5119705">Tip Calculator: Defining and invoking functions</a></li>
+</ul>
+<hr>
+<h2>3. Arguments and parameters</h2>
+<p>A core goal of programming is to write DRY (Do Not Repeat yourself) code. In this session, we will remove repetitive code with the use of functions.</p>
+<h3>Materials</h3>
+<ul>
+<li>MDN:
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function">Build your own function</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">Function return values</a></li>
+</ul>
+</li>
+<li>Gist: <a href="https://gist.github.com/acidtone/977e697e38e389284e839e4b7543ee56">Function arguments and parameters</a></li>
+<li>Gist: <a href="https://gist.github.com/acidtone/6a3cedd619454c4eeb49f87e98a925d2">Function return values</a></li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li><a href="https://gist.github.com/acidtone/e9e291765e7dea1928bd643b46660438">Tip Calculator: Define and invoke a function with parameters</a></li>
+</ul>
+<hr>
+<h2>4. Event listeners</h2>
+<h3>Materials</h3>
+<ul>
+<li>Codepen:<a href="https://codepen.io/acidtone/pen/yLoypzr">A simple click handler</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events">Introduction to events</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"><code>EventTarget.addEventListener()</code></a></li>
+</ul>
+<h3>Activity</h3>
+<ul>
+<li>Codepen: <a href="https://codepen.io/acidtone/pen/yLoypzr">A simple click handler</a></li>
+<li>Activity: <a href="https://gist.github.com/acidtone/37a879d3777bc123483d582248eded90">Eat and Drink click handlers</a></li>
+</ul>
+<hr>
+<h2>Prep</h2>
+<h3>Functions</h3>
+<ul>
+<li>Read: <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">Functions - reusable blocks of code</a></li>
+<li>Read: <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function">Build your own function</a></li>
+<li>Read: <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">Function return values</a></li>
+<li>Read: <a href="https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function">Function expression</a></li>
+<li>Watch (by Steve Griffith):
+<ul>
+<li><a href="https://youtu.be/W6QaDqud66Y">Introduction to Functions in JavaScript</a></li>
+<li><a href="https://youtu.be/dxbsN6_C5PI">JavaScript Function Parameters</a></li>
+<li><a href="https://youtu.be/qed2cjdF-30">JavaScript Function Return Statements</a></li>
+</ul>
+</li>
+</ul>
+<h3>Events and <code>Element.addEventListener()</code></h3>
+<ul>
+<li>Read: <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events">Introduction to events</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"><code>EventTarget.addEventListener()</code></a></li>
+<li>Watch: <a href="https://youtu.be/EaRrmOtPYTM">Introduction to JavaScript Event Listeners</a> by Steve Griffith</li>
+<li>Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/Events">MDN Event Reference</a></li>
+</ul>
+<h3>Free Code Camp Exercises</h3>
+<ul>
+<li>Javascript basics: Exercises 47-55
+<ul>
+<li>Start: <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions">Write Reusable JavaScript with Functions</a></li>
+<li>Stop: <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line">Stand in Line</a></li>
+</ul>
+</li>
+</ul>
+
+  
+</article>
+
+
+<nav class="secondary">
+    <ul>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day03/" title="CPNT 262 Day 3 - Strings, string methods and the browser environment">Previous</a>
+            
+        </li>
+        <li>
+            
+            <a href="/fall-2021/courses/cpnt262/day05/" title="CPNT 262 Day 5 - classList API and form events">Next</a>
+            
+        </li>
+    </ul>
+</nav>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>

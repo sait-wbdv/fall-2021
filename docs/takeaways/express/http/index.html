@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Prism theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark@1.0.0/prism-onedark.css">
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="/fall-2021/assets/css/reset.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/utilities.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/fonts.css">
+    <link rel="stylesheet" href="/fall-2021/assets/fonts/raleway-light_open-sans-light.css">
+    <link rel="stylesheet" href="/fall-2021/assets/css/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/assets/images/SAIT_favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a href="/fall-2021/"><img class="sait-logo" src=/fall-2021/assets/images/sait-logo.png alt="SAIT Logo"></a>
+        <div>
+          <p class="site-name">SAIT Web Developer</p>
+          <p class="tagline">Fast Track - Fall 2021</p>
+        </div>
+        <nav class="primary">
+          <ul>
+            <li>
+              <a href="/fall-2021/schedule">Schedule</a>
+            </li>
+            <li>
+              <a href="/fall-2021/assignments">Assignments</a>
+            </li>
+            <li>
+              <a href="/fall-2021/library">Library</a>
+            </li>
+            <li>
+              <a href="https://sait-ca.zoom.us/j/88509696932?pwd=bjlCYm1IcmhvbFVpM0FUM2pVV1ZjUT09">Zoom</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>HTTP Basics</h1>
+<div class="terms"><h3>Terminology</h3>
+<dl>
+<dt>HTTP Header</dt>
+<dd>A list of name and value pairs that contain information that a client and server send back and forth to each other.</dd>
+<dt>Request Header</dt>
+<dd>The information a client (a browser) sends to a server to request a file or resource.</dd>
+<dt>Response Header</dt>
+<dd>The information that the server sends back to the browser.</dd>
+<dt>Resource</dt>
+<dd>The file or information that the browser is requesting.</dd>
+<dt>Request Endpoint (URL)</dt>
+<dd>The &quot;location&quot; or path of a resource on the server.</dd>
+<dt>HTTP Method</dt>
+<dd>An action that represents what the client would like the server to do with a resource. Common methods: <code>GET</code>, <code>POST</code>, <code>PUT</code> and <code>DELETE</code>.</dd>
+</dl>
+</div><h2>Request/Response Cycle</h2>
+<p>The Request/Response Cycle is the basis for all communication between a browser and a server.</p>
+<ol>
+<li>The browser sends a Request to the server for a file (such as <code>index.html</code> or an action (such as submit a form).</li>
+<li>The Request is magically routed to the server using many Internet protocols, such as DNS (domain names -&gt; IP addresses) and HTTP.</li>
+<li>The server receives the request and decides what to do based on the:
+<ul>
+<li>Endpoint URL - The &quot;location&quot; of a resource (a file or information) on the server.</li>
+<li>HTTP Method - The action that is requested, based on CRUD operations:
+<ul>
+<li>Create a resource: <code>GET</code> Request</li>
+<li>Read a resource: <code>POST</code> Request</li>
+<li>Update a resource: <code>UPDATE</code> Request</li>
+<li>Delete a resource: <code>DELETE</code> Request</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The server performs the requested action based on how we've coded our application.</li>
+<li>The server sends a Response back to the client including a:
+<ul>
+<li>File - either static (<code>index.html</code>) or dynamically generated JSON (<code>customers.json</code>).</li>
+<li>Response code - usually either:
+<ul>
+<li><code>200 OK</code> - Success!</li>
+<li><code>404 Not Found</code> - We've all seen these.</li>
+<li><code>500 Internal Server Error</code> - Usually caused by a problem with our code.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+      </main>
+      <footer>
+        &copy; 2021 MIT License.
+      </footer>
+    </div>
+  </body>
+</html>
