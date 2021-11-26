@@ -6,6 +6,11 @@ date: 2021-11-29
 released: true
 ---
 
+{% comment %}
+## Housekeeping
+- Guest Speaker: Kaje - schedule for Thursday the 9th in the afternoon? Or Wednesday the 8th?
+{% endcomment %}
+
 ## Prep
 ### JAMstack security and connection types
 - [Are your keys secure on the JAMstack?](https://dev.to/shortdiv/are-your-keys-secure-on-the-jamstack-pin)
