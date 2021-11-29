@@ -70,6 +70,7 @@ To be included in the project README. Define instructions as a Task Flow for the
 4. Refresh output page to confirm content has changed.
 
 Further notes:
+- Attempts should be made to extend the functionality beyond any examples covered in class. In other words, don't just copy what your instructor did.
 - Points given for unique use of the tool that goes beyond simply displaying content. For example:
     - Content only displayed when a particular hashtag is present in description.
     - Displaying content that is added to a particular collection.
