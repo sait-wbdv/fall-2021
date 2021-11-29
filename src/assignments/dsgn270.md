@@ -13,6 +13,6 @@ title: DSGN 270 Assignments
 - Weight: 25% of Final Course Mark
 
 ## Social Tools
-### DRAFT - Assignment 3: [Social Media Integration]({{ '/assignments/dsgn270/social/assignment-3/' | url }})
-- Due: TBA
+### Assignment 3: [Social Media Integration]({{ '/assignments/dsgn270/social/assignment-3/' | url }})
+- Due: Friday, December 3 @ 11:59pm
 - Weight: 50% of Final Course Mark
