@@ -17,6 +17,14 @@ released: true
 - vuetify config
 - Group Assignment
 
+### [Passing Information Between Components](https://gist.github.com/lilyx13/acb873e9253fd8e20913acf0b7a1eaf5)
+- This gist shows how to create a form component, pass form field values to it, and then send the user input to another component to render the information
+- Pay particular attention to which variables are named the same
+
+### [Tailwind Configuration](https://gist.github.com/lilyx13/f1c82147032f0b11a1ea8e6c36c681f6)
+- This gist demonstrates a few ways that you can structure your tailwind configuration
+- It covers two different ways to set up your fonts. Choose one and stick with it
+- The `tailwind.config.js` example shows a couple of the settings. running `npx tailwind init --full` will create [this configuration](https://unpkg.com/browse/tailwindcss@2.2.19/stubs/defaultConfig.stub.js)
 ---
 
 ## V-Model Followup
@@ -127,7 +135,6 @@ These two css frameworks take very different approaches. Tailwind is focused on 
 - Review Github Kanban board for project management
   - Extra 2pts on assignment for organizing project with this (must link to the kanban board in your project submission)
 
-### Questions?
 
 ---
 
