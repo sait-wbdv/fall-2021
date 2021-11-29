@@ -1,6 +1,6 @@
 ---
 layout: layouts/assignment.njk
-title: DRAFT - DSGN 270 Assignment 3 - Social Integration Proof-of-Concept
+title: DSGN 270 Assignment 3 - Social Integration Proof-of-Concept
 ---
 Outcome: Integrate social media content into a website.
 
@@ -112,9 +112,9 @@ Further notes:
 In order to receive a grade, you must:
 1. Deploy your integration using a hosting method of your choice (i.e. GH Pages, Heroku, Netlify, etc).
 2. In addition to the requirements of the assignment, include the following in your project `README.md`:
-  - Course title and Team name;
-  - Any comments that may help squeeze marks out of your instructor (maybe give him hints on where to look for the requirements above);
-  - Attributions for any code or assets that are not your own.
+    - Course title and author name;
+    - Any comments that may help squeeze marks out of your instructor (maybe give him hints on where to look for the requirements above);
+    - Attributions for any code or assets that are not your own.
 3. Zip your project (excluding `node_modules` and `.env` file) and submit them to Brightspace.
 4. Include the following as a comment with your Brightspace submission:
     - Relevant GH repo(s);

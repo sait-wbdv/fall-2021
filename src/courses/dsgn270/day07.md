@@ -57,6 +57,10 @@ released: true
 - [APIs and Authentication on the JAMstack ](https://css-tricks.com/apis-and-authentication-on-the-jamstack/)
 - Instagram Tutorial: [Using the Instagram API + Serverless Netlify to display your own Photos in 2021](https://harrisonkolor.medium.com/using-the-instagram-api-serverless-netlify-to-display-your-own-photos-in-2021-7923014522d0)
 
+### Spoilers
+- [Live site](https://laughing-allen-ca1d0d.netlify.app/)
+- [GH repo](https://github.com/sait-wbdv/hello-instagram-netlify)
+
 ---
 
 ## Lab Time
