@@ -5,6 +5,9 @@ description:
 date: 2021-12-01
 ---
 
+## Prep
+
+{% comment %}
 ## Ash Course Topics (for planning)
 - Stripe (ecommerce)
 - Plausible (analytics)
@@ -15,3 +18,4 @@ date: 2021-12-01
 - Contracting
     - GST, taxes and bookkeeping
 
+{% endcomment %}

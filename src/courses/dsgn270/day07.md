@@ -8,7 +8,7 @@ released: true
 
 ## Housekeeping
 - Guest Speaker: Kaje - schedule for Thursday the 9th in the afternoon? Or Wednesday the 8th?
-- Ash will be available this afternoon for questions on the 200 group assignment
+- Ash will be available this afternoon for questions on the [200 group assignment]({{ '/assignments/cpnt200/assignment-5/' | url }})
 - [Assignment 3 Overview]({{ '/assignments/dsgn270/social/assignment-3/' | url }})
     - Due: Friday, December 3 @ 11:59pm
     - 50% of final course mark
