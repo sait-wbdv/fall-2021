@@ -70,17 +70,74 @@
   <h2>DSGN 270 Day 7 - Serverless functions and the Instagram API</h2>
   
   
-        <h2>Prep</h2>
-<h3>JAMstack security and connection types</h3>
+        <h2>Housekeeping</h2>
 <ul>
-<li><a href="https://dev.to/shortdiv/are-your-keys-secure-on-the-jamstack-pin">Are your keys secure on the JAMstack?</a></li>
-<li><a href="https://css-tricks.com/apis-and-authentication-on-the-jamstack/">APIs and Authentication on the JAMstack </a></li>
+<li>Guest Speaker: Kaje - schedule for Thursday the 9th in the afternoon? Or Wednesday the 8th?</li>
+<li>Ash will be available this afternoon for questions on the 200 group assignment</li>
+<li><a href="/fall-2021/assignments/dsgn270/social/assignment-3/">Assignment 3 Overview</a>
+<ul>
+<li>Due: Friday, December 3 @ 11:59pm</li>
+<li>50% of final course mark</li>
 </ul>
-<h3>Netlify serverless functions</h3>
+</li>
+</ul>
+<hr>
+<h2>1. Netlify Serverless Functions</h2>
+<h3>Materials</h3>
 <ul>
 <li>Documentation: <a href="https://docs.netlify.com/functions/overview/">Serverless functions overview</a>
 <ul>
 <li><a href="https://docs.netlify.com/functions/build-with-javascript/">Javascript-specific overiew</a></li>
+<li><a href="https://docs.netlify.com/cli/get-started/#netlify-dev">Netlify Dev - Running a local developer environment</a></li>
+</ul>
+</li>
+<li>Sample code: <a href="https://github.com/acidtone/hello-netlify-functions">hello-netlify-functions</a></li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>
+<p>In a new project, create a <code>hello.js</code> function in a <code>functions</code> directory with this sample code:</p>
+<pre class="language-js"><code class="language-js">exports<span class="token punctuation">.</span><span class="token function-variable function">handler</span> <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">,</span> context</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">return</span> <span class="token punctuation">{</span><br>        statusCode<span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span><br>        body<span class="token operator">:</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span><span class="token punctuation">{</span>message<span class="token operator">:</span> <span class="token string">"Hello World"</span><span class="token punctuation">}</span><span class="token punctuation">)</span><br>    <span class="token punctuation">}</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+</li>
+<li>
+<p>In the root directory, create a <code>netlify.toml</code> file with the following code:</p>
+<pre class="language-js"><code class="language-js"><span class="token punctuation">[</span>functions<span class="token punctuation">]</span><br>  directory <span class="token operator">=</span> <span class="token string">"functions"</span></code></pre>
+<p>This tells Netlify which directory to use to load serverless functions.</p>
+</li>
+<li>
+<p>Push this project to a new GH repo.</p>
+</li>
+<li>
+<p>Create a new App in your Netlify team and deploy the repo you just created.</p>
+</li>
+<li>
+<p>Test your hello world serverless function by navigating to:</p>
+<pre><code>https://[site-name].netlify.app/.netlify/functions/hello
+</code></pre>
+</li>
+</ol>
+<hr>
+<h2>2. Connecting to the Instagram API</h2>
+<h3>Materials</h3>
+<h3>JAMstack security and connection types</h3>
+<ul>
+<li><a href="https://dev.to/shortdiv/are-your-keys-secure-on-the-jamstack-pin">Are your keys secure on the JAMstack?</a></li>
+<li><a href="https://css-tricks.com/apis-and-authentication-on-the-jamstack/">APIs and Authentication on the JAMstack </a></li>
+<li>Instagram Tutorial: <a href="https://harrisonkolor.medium.com/using-the-instagram-api-serverless-netlify-to-display-your-own-photos-in-2021-7923014522d0">Using the Instagram API + Serverless Netlify to display your own Photos in 2021</a></li>
+</ul>
+<hr>
+<h2>Lab Time</h2>
+<ul>
+<li>Assignments</li>
+<li>Final Presentation</li>
+</ul>
+<hr>
+<h2>Prep</h2>
+<h3>Netlify serverless functions</h3>
+<ul>
+<li>Documentation: <a href="https://docs.netlify.com/functions/overview/">Serverless functions overview</a>
+<ul>
+<li><a href="https://docs.netlify.com/functions/build-with-javascript/">Javascript-specific overview</a></li>
 <li><a href="https://docs.netlify.com/cli/get-started/#netlify-dev">Netlify Dev - Running a local developer environment</a></li>
 </ul>
 </li>

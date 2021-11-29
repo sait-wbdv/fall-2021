@@ -49,6 +49,7 @@
       </header>
       <main>
         <h1>DRAFT - DSGN 270 Assignment 3 - Social Integration Proof-of-Concept</h1>
+<p>Outcome: Integrate social media content into a website.</p>
 <p>In this assignment, you will build a small proof-of-concept social media integration that you can promote to a potential market of clients.</p>
 <h2>Potential APIs</h2>
 <ul>
@@ -90,7 +91,131 @@
 <li>Create user documentation describing to the client how to update their content on the Social Media platform so that it updates on their website.</li>
 <li>Create developer documentation outlining the steps taken to set up the API connection in case it needs to be repeated.</li>
 </ol>
-<h2>Example platforms:</h2>
+<hr>
+<h2>Marking Rubric - 50 points</h2>
+<p>Each of the following criteria will be worth 10 points.</p>
+<h3>1. Market and Problem definition - 10 points</h3>
+<ul>
+<li>5 points: Define a User Story for your target client. It should follow the <a href="/fall-2021/courses/dsgn270/day03/">format covered in the first half of this course</a>:
+<ul>
+<li>As a bar owner, I'd like my <code>#daily-special</code> Instagram updates to show up on my website because some of my regulars don't use social media.</li>
+</ul>
+</li>
+<li>5 points: 100-150 word summary of the market and problem that your social media integration solves
+<ul>
+<li>What's the target market for this integration? Who would pay to have this installed on their website?</li>
+<li>What problem/pain does the integration solve?</li>
+<li>How does the choice of social tool contribute to the solution?</li>
+</ul>
+</li>
+</ul>
+<h2>2. Test account with sample content - 10 points</h2>
+<p>Choose a social media tool that solves your market problem and User Story.</p>
+<ul>
+<li>Create a new account; do not use your actual account. You may use one of the following for an email address:
+<ul>
+<li>SAIT email account;</li>
+<li>Email attached to a free <code>.me</code> domain (available with the <a href="https://education.github.com/pack">GitHub Developer Pack</a>);</li>
+<li>Your primary email with <a href="https://will.koffel.org/post/2014/using-email-plus-addressing/">plus addressing</a>.</li>
+</ul>
+</li>
+<li>Account contains at least three non-lorem posts that support the defined market and problem.
+<ul>
+<li>Content does not have to be original and can be based on open source content.</li>
+<li>Content must support the User Story (i.e. a &quot;daily special&quot; post should be an image of food, not a sunset).</li>
+<li>Talk to your instructor if three posts is not appropriate for the social tool you have chosen. For example, you're not expected to edit three separate videos for a YouTube integration.</li>
+</ul>
+</li>
+</ul>
+<h2>3. Operational integration with Task Flow - 10 points</h2>
+<p>Create a public web page that displays social content in a way that supports your User Story.</p>
+<p>To be included in the project README. Define instructions as a Task Flow for the potential client to test the integration. For example:</p>
+<ol>
+<li>Go to web page and take note of the current content.
+<ul>
+<li>content can be displayed using an embed strategy offered by the social tool.</li>
+</ul>
+</li>
+<li>Log into social tool (include creds in brightspace comment).</li>
+<li>Make a change or add a new post in social tool admin.</li>
+<li>Refresh output page to confirm content has changed.</li>
+</ol>
+<p>Further notes:</p>
+<ul>
+<li>Points given for unique use of the tool that goes beyond simply displaying content. For example:
+<ul>
+<li>Content only displayed when a particular hashtag is present in description.</li>
+<li>Displaying content that is added to a particular collection.</li>
+<li>Displaying a list with pagination.</li>
+</ul>
+</li>
+<li>Task can be to create a new post (i.e. new &quot;daily special&quot; OR edit the existing content in some significant way that supports the User Story (i.e. label an existing post as &quot;featured&quot; to change the output of the integration).</li>
+<li>One of the three non-lorem posts may be used as sample content for the client to use to create a new post.</li>
+<li>Include relevant supporting links from the user documentation of the social tool you've chosen (i.e. &quot;How to create an Instagram Post&quot; from the IG website).</li>
+<li>Your instructor will follow these instructions to mark this assignment so be clear and concise.</li>
+</ul>
+<h2>4. Custom Branding using an API endpoint - 10 points</h2>
+<ul>
+<li>5 points: Output content from a Developer API to show that content can be displayed with a custom design and brand colours.</li>
+<li>5 points: In the project README, include relevant links from the Developer API Documentation:
+<ul>
+<li>General Usage</li>
+<li>Rate limits</li>
+<li>Authentication methods</li>
+<li>Creating a token</li>
+<li>Endpoint Reference</li>
+</ul>
+</li>
+</ul>
+<h2>5. Secure API token/key - 10 points</h2>
+<ul>
+<li>Points given for not displaying API key or token in public source code.</li>
+<li>You may use a method of your choice to do this, such as:
+<ul>
+<li>A proxy endpoint created in Node or a serverless function.</li>
+<li>Calling the API during the build process of a framework such as Eleventy or Nuxt.</li>
+</ul>
+</li>
+<li>In your README, include details of how you secured your API, along with links to relevant documentation.</li>
+</ul>
+<hr>
+<h2>General Requirements</h2>
+<ul>
+<li>README should use elements of visual hierarchy to make content readable. For example:
+<ul>
+<li>Use proper headings to label the sections of the Rubric (Market/Problem definition, usage instructions, API documentation, etc)</li>
+<li>Use code blocks when appropriate</li>
+<li>Step-by-step instructions should use numbered lists.</li>
+</ul>
+</li>
+<li>Code should follow proper conventions (indentation, naming, etc);</li>
+<li>README and integration should reflect a real-world solution to a market problem that a client would find valuable.</li>
+</ul>
+<hr>
+<h2>Submitting Your Assignment</h2>
+<p>In order to receive a grade, you must:</p>
+<ol>
+<li>Deploy your integration using a hosting method of your choice (i.e. GH Pages, Heroku, Netlify, etc).</li>
+<li>In addition to the requirements of the assignment, include the following in your project <code>README.md</code>:</li>
+</ol>
+<ul>
+<li>Course title and Team name;</li>
+<li>Any comments that may help squeeze marks out of your instructor (maybe give him hints on where to look for the requirements above);</li>
+<li>Attributions for any code or assets that are not your own.</li>
+</ul>
+<ol start="3">
+<li>Zip your project (excluding <code>node_modules</code> and <code>.env</code> file) and submit them to Brightspace.</li>
+<li>Include the following as a comment with your Brightspace submission:
+<ul>
+<li>Relevant GH repo(s);</li>
+<li>Live integration link;</li>
+<li>Link to the social media test account;</li>
+<li>Login information for the social media test account.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>Appendix Example platforms:</h2>
 <h3>1. JAMstack with proxy</h3>
 <ul>
 <li>No backend server</li>
