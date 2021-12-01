@@ -2,23 +2,14 @@
 layout: layouts/assignment.njk
 title: CPNT 265 Achievements
 ---
-## Final Presentation: Deployed Portfolio Project(s)
-- Due: Friday, April 23 @ 9am
-- Weight: 30%
 
----
-
-[Final Presentation Agenda](schedule.md)
-
----
-
-## Project Achievements
+## Course Achievements
 Points will be awarded for documentation of your final project prior to the Final Presentations.
 
 ### Documentation
 1. Project Proposal: **10 points**
     - Write a professional-level proposal for your final project.
-    - Detailed requirements to be announced on Day 1.
+    - Detailed requirements to be announced on Day 3.
 2. Lean Canvas: **10 points**
     - Document Plan A of your final project using Lean Canvas
     - Detailed requirements to be announced on Day 1.
@@ -40,10 +31,7 @@ Note: A project proposal can be combined with lean canvas documentation for a co
 
 ---
 
-## Extra Achievements
-The following activities can be completed for further marks in CPNT 265.
-
-### Mini-lectures
+## Mini-lectures
 Points to be awarded for mini presentations to your classmates. 
 1. Live-stream
     - Cameras-on
@@ -63,6 +51,12 @@ Points to be awarded for mini presentations to your classmates.
     - Involved a real life project?
     - Book a round-table discussion in the main room if you have information you can share that would be of value to the rest of your classmates.
     - To submit: summarize the points covered in the discussion in your submitted README along with any relevant documentation.
+
+---
+
+## Extra Achievements
+The following activities can be completed for further marks in CPNT 265.
+
 
 ### Friendly Neighbour
 Points to be awarded when submitting making the world a better place for other coders.
