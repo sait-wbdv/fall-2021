@@ -13,7 +13,7 @@ title: CPNT 265 Achievements
 ---
 
 ## Project Achievements
-Points will be awarded for documentation of your final project prior to the Final Presentations.
+Points will be awarded for prep and documentation of your final project prior to the Final Presentations.
 
 ### Documentation
 1. Project Proposal: **10 points**
@@ -81,7 +81,11 @@ Points to be awarded when submitting making the world a better place for other c
         - Chart.js or similar
         - Tone.js
         - ???
-2. Frontend Framework Implementation: **10 points**
+2. Activity/Exercise: **5 points**
+    - Submit a step-by-step activity that other students/learners can follow to complete a nerdy task. For example:
+        - As an addition to another Plugin' Away achievement 
+        - A learning exercise that can be used for future lessons in this program
+3. Frontend Framework Implementation: **10 points**
     - Implement a sample app using one of the following frameworks:
         - ReactJS
         - VueJS components not covered in class
@@ -94,6 +98,11 @@ Points to be awarded when submitting making the world a better place for other c
         - Token-based
         - OAuth
     - Implement a Minimal Viable Product (MPV) implementing the API
+    - Above and Beyond bonus: 5 points
+        - additional achievement for extra tricky APIs
+        - Examples: 
+            - Multiple tokes/keys
+                - Twitter bearer tokens
 
 ### Devops
 1. Custom Domain on HTTPS: **5 points**
