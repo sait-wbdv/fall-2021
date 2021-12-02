@@ -67,10 +67,92 @@
 
 <article class="post">
   <time>Thu, December 2</time>
-  <h2>CPNT 265 Day 2 - Pintrest API with Nuxt</h2>
+  <h2>CPNT 265 Day 2 - Moodboards and Privacy Policy with Pinterest and Netlify</h2>
   
   
-        <h3>Sorry, this lesson hasn't been released.</h3>  
+        <h2>Outline</h2>
+<ul>
+<li>CPNT 200 Group Assignment Questions</li>
+<li>Nuxt and Environment Variables</li>
+<li>Pinterest Api</li>
+<li>Privacy Policies</li>
+<li>Moodboards</li>
+</ul>
+<hr>
+<h2>Nuxt Environment Variables</h2>
+<ul>
+<li><a href="https://nuxtjs.org/tutorials/moving-from-nuxtjs-dotenv-to-runtime-config/">Nuxt Runtime Config</a></li>
+<li>From Nuxt 2.13 onwards, nuxt has built-in dotenv support</li>
+</ul>
+<h3>Configuration File</h3>
+<ul>
+<li>in your <code>nuxt.config.js</code> you will set up your environment variables like this</li>
+</ul>
+<pre><code>export default {
+  publicRuntimeConfig: {
+    baseURL: 'https://nuxtjs.org'
+  },
+  privateRuntimeConfig: {
+    apiSecret: process.env.API_SECRET
+  }
+}
+</code></pre>
+<h3>Important Security Practices for Environment Variables</h3>
+<ul>
+<li>Don't put sensitive information in your git repo</li>
+<li>Don't store senitive information nuxt.config or .env (unless it's gitignored)</li>
+<li>Secret keys <strong>should be stored on your hosting platoform</strong> ie Netlify</li>
+<li>Use camelCase naming conventions in runtimeConfig</li>
+<li>use runtimeConfig instead of env</li>
+</ul>
+<hr>
+<h2>Pinterest API</h2>
+<ul>
+<li><a href="https://policy.pinterest.com/en/developer-guidelines">Developer Guidelines</a></li>
+<li>Create a Pinterest Developer Account</li>
+<li>Create a privacy policy
+<ul>
+<li>Check out <a href="https://digital.com/privacy-policy-generators/">this list of privacy policy generators</a></li>
+<li>In order to use the pinterest api, you will need a privacy policy added to your web page</li>
+</ul>
+</li>
+</ul>
+<h3>Creating a Privacy Policy</h3>
+<ul>
+<li>Add a privacy policy to your website</li>
+<li><a href="https://www.iubenda.com/en/">Demo with iubenda</a></li>
+</ul>
+<hr>
+<h2>Moodboard</h2>
+<ul>
+<li>
+<dl>
+<dt>What is a moodboard</dt>
+<dd>A moodboard is a collection of images and other content that you can use to develop a brand, understand clients better, and creatively brainstorm</dd>
+</dl>
+</li>
+<li>
+<p>Software for moodboards</p>
+<ul>
+<li><a href="https://pinterest.com">pinterest</a></li>
+<li><a href="https://milanote.com">milanote</a></li>
+<li>graphic design software such as:
+<ul>
+<li>gravit, inkscape, photoshop, figma</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>You can submit a moodboard for your final project</p>
+</li>
+</ul>
+<hr>
+<h2>Extra resources</h2>
+<ul>
+<li>If you are interested in learning more about jamstacks, netlify published a free book that you can download <a href="https://www.netlify.com/oreilly-jamstack/">check it out here</a></li>
+</ul>
+
   
 </article>
 
