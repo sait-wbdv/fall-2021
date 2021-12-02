@@ -54,19 +54,41 @@ Points to be awarded for mini presentations to your classmates.
 
 ---
 
-## Extra Achievements
-The following activities can be completed for further marks in CPNT 265.
+## Industry best practices
 
+- Red Tape
+    - Privacy Policies: 5 points
+        - Use case: Privacy policy defined for Pintrest developer account
+
+---
 
 ### Friendly Neighbour
 Points to be awarded when submitting making the world a better place for other coders.
-1. Pull Requests: **5 points**
+- Pull Requests: **5 points**
     - Submit a Pull Request to a public repo
     - Submission must fix a real issue in the repo. No "my first pull request" exercises.
     - Repo must be a legitimate project. IOW, repos belonging to a classmate or the instructor do not qualify.
     - **5 point bonus** for a PR that is accepted and merged.
-2. Contribution - Lean Canvas: **5 points**
+- Contribution - Lean Canvas: **5 points**
     - Take part in (and add value to) a Lean Canvas exercise for another classmate.
+- Technical activity for Winter 2022 semester
+    - 10 points: Authenticated API step-by-step
+        - Pre-requisites
+        - Instructions, from start to finish, linking to official documentation when possible
+        - Starter code
+        - Spoiler code
+        - Attributions
+- Mini-workshop: 10 points
+    - Hosting an activity (see above) for fellow students and instructors
+    - 30 minutes demo max
+    - 5 points available for anyone who attempts the activity and submits feedback for improvement 
+
+--- 
+
+## Extra Achievements
+The following activities can be completed for further marks in CPNT 265.
+
+
 
 ### Plugin' away
 1. 3rd-party plugin/library implementation: **5 points**
