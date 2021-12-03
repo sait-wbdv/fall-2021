@@ -6,7 +6,7 @@ date: 2021-12-03
 ---
 
 ## Housekeeping
-
+- DSGN 270 Assignment 3 pushed to Monday, December 6 @ 11:59pm
 
 ---
 

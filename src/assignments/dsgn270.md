@@ -14,5 +14,5 @@ title: DSGN 270 Assignments
 
 ## Social Tools
 ### Assignment 3: [Social Media Integration]({{ '/assignments/dsgn270/social/assignment-3/' | url }})
-- Due: Friday, December 3 @ 11:59pm
+- Due: Monday, December 6 @ 11:59pm
 - Weight: 50% of Final Course Mark
