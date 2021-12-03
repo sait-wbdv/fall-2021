@@ -19,6 +19,9 @@ released: true
     - [Scrum](https://www.scrum.org/)
     - [Kanban](https://en.wikipedia.org/wiki/Kanban)
     - [Lean](http://theleanstartup.com/principles) 
+- Ash covering this afternoon
+- Overview of last semester's schedule
+- Anyone ready to schedule a mini-presentation/workshop?
 
 ---
 
@@ -46,3 +49,12 @@ released: true
     7. Cost structure: List your fixed and variable costs.
     8. Key Metrics: List the key numbers that tell you how your business is doing.
     9. Unfair Advantage: Something that can't be easily copied or bought.
+
+---
+
+## Lab Time
+- Assignments
+- Achievements
+- Final project
+
+---
