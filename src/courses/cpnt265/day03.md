@@ -8,6 +8,9 @@ released: true
 
 ## Housekeeping
 - DSGN 270 Assignment 3 pushed to Monday, December 6 @ 11:59pm
+- Ash covering this afternoon
+- Overview of last semester's schedule
+- Anyone ready to schedule a mini-presentation/workshop?
 
 ---
 
@@ -19,9 +22,6 @@ released: true
     - [Scrum](https://www.scrum.org/)
     - [Kanban](https://en.wikipedia.org/wiki/Kanban)
     - [Lean](http://theleanstartup.com/principles) 
-- Ash covering this afternoon
-- Overview of last semester's schedule
-- Anyone ready to schedule a mini-presentation/workshop?
 
 ---
 
