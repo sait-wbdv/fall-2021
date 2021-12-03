@@ -79,9 +79,9 @@ Points to be awarded when submitting making the world a better place for other c
         - Spoiler code
         - Attributions
 - Mini-workshop: 10 points
-    - Hosting an activity (see above) for fellow students and instructors
+    - Hosting a technical activity (see above) for fellow students and instructors
     - 30 minutes demo max
-    - 5 points available for anyone who attempts the activity and submits feedback for improvement 
+    - 5 points: available for anyone who attempts the activity and submits feedback for improvement 
 
 --- 
 
