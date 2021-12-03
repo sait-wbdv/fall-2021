@@ -1,8 +1,9 @@
 ---
 layout: layouts/day.njk
-title: CPNT 265 Day 3 - E-commerce Platforms
+title: CPNT 265 Day 3 - Agile Development
 description: 
 date: 2021-12-03
+released: true
 ---
 
 ## Housekeeping

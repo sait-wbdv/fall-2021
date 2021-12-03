@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 265 Day 1 - Agile Development
+title: CPNT 265 Day 1 - Course Overview
 description: 
 date: 2021-12-01
 released: true
