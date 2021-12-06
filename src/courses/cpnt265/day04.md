@@ -10,6 +10,20 @@ released: true
 - Instructor schedule
     - Mornings: Tony
     - Afternoons: Ash
+- New achievement: Pair coding
+    - 15 mins toward a shared goal
+    - Change seats at least twice
+    - Second session paired coding: 5 points
+
+---
+
+## API Troubleshooting
+- Anyone need any help with 270-a3?
+
+---
+
+## 10:30am - Presentations
+- Dave: UX critiques using Figma
 
 ---
 
@@ -41,16 +55,6 @@ released: true
   - [SnipCart](https://snipcart.com/)
     - A shopping cart service for JAMstack websites.
     - There are many competitors and alternatives in the JAMstack E-commerce space so do your research.
-
----
-
-## 10:30am - Presentations
-- Dave: UX critiques using Figma
-
----
-
-## API Troubleshooting
-- Anyone need any help with 270-a3?
 
 ---
 
