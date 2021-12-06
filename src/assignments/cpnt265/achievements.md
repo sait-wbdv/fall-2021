@@ -31,9 +31,9 @@ Note: A project proposal can be combined with lean canvas documentation for a co
 
 ---
 
-## Mini-lectures
+## Stage work
 Points to be awarded for mini presentations to your classmates. 
-1. Live-stream
+1. Mini-lectures
     - Cameras-on
     - Time limit
       - Individual: 5 minutes
@@ -51,12 +51,16 @@ Points to be awarded for mini presentations to your classmates.
     - Involved a real life project?
     - Book a round-table discussion in the main room if you have information you can share that would be of value to the rest of your classmates.
     - To submit: summarize the points covered in the discussion in your submitted README along with any relevant documentation.
+4. Pair coding: **10 points** (per coder)
+    - 15 mins toward a shared goal
+    - Change seats at least twice
+    - Second session paired coding: 5 points
+
 
 ---
 
-## Industry best practices
-
-- Red Tape
+## General Business Best Practices
+- Contracts
     - Privacy Policies: 5 points
         - Use case: Privacy policy defined for Pintrest developer account
 
@@ -106,10 +110,12 @@ The following activities can be completed for further marks in CPNT 265.
         - ReactJS
         - VueJS components not covered in class
         - Svelte
-        - AngularJS
-
-### Data matters
-1. API Authentication: **5 points**
+### Devops
+- Custom Domain on HTTPS: **5 points**
+    - Deploy a web site or app with a custom domain
+    - Must be deployed to a live server such as GH Pages, Heroku or similar
+    - Security certificate must be used to deploy domain on HTTPS
+- API Authentication: **5 points**
     - Create an Authentication key/token
         - Token-based
         - OAuth
@@ -120,12 +126,6 @@ The following activities can be completed for further marks in CPNT 265.
             - Multiple tokes/keys
                 - Twitter bearer tokens
 
-### Devops
-1. Custom Domain on HTTPS: **5 points**
-    - Deploy a web site or app with a custom domain
-    - Must be deployed to a live server such as GH Pages, Heroku or similar
-    - Security certificate must be used to deploy domain on HTTPS
- 
 ### Presentation Day
 1. Personalized Roster Card: **5 points**
     - Create a custom card to replace the default card shown on the Showcase page.
@@ -146,11 +146,13 @@ The following activities can be completed for further marks in CPNT 265.
         - Twitter/IG/etc
         - others?
 
-### Assets and Imagery
-Points to be negotiated.
-1. SVG logo
-2. Image optimization
-3. ???
+### Tool time
+Demonstration of skillz in a specialized software tool, such as:
+- Vector editors
+- Raster image editors
+- Deployment utilities
+- Testing
+- etc
 
 ### Stage Crew
 Points to be negotiated.
