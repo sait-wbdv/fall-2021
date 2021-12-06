@@ -24,6 +24,9 @@ released: true
 
 ## 10:30am - Presentations
 - Dave: UX critiques using Figma
+- Fesal: Final project dry-run
+- Jessica: Battlefield discussion
+    - Scheduling application for client
 
 ---
 

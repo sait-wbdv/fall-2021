@@ -49,8 +49,19 @@ Points to be awarded for mini presentations to your classmates.
     - **5 bonus points** for openly licensed theme song!
 3. Battlefield Discussion: **5 points**
     - Involved a real life project?
+        - Back story:
+            - What's your experience working with clients?
+            - How did you find this client?
+            - What's the project?
+        - Guiding questions:
+            - What would you like to discuss?
+            - What are the goals for the discussion?
+        - Goals
+            - What do you hope to achieve with the client/project
     - Book a round-table discussion in the main room if you have information you can share that would be of value to the rest of your classmates.
+        - 5 point bonuses available for the value added by the audience.
     - To submit: summarize the points covered in the discussion in your submitted README along with any relevant documentation.
+    - 30 mins max
 4. Pair coding: **10 points** (per coder)
     - 15 mins toward a shared goal
     - Change seats at least twice
