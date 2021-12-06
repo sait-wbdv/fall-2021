@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 265 Day 4
+title: CPNT 265 Day 4 - E-commerce and shopping carts
 description: 
 date: 2021-12-06
 released: true

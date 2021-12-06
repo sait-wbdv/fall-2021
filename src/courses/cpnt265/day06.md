@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 265 Day 6
+title: CPNT 265 Day 6 - Flex Day
 description: 
 date: 2021-12-08
 released: true
