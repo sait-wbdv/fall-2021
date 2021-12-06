@@ -6,7 +6,7 @@ title: CPNT 265 Assessments
 ## Final Presentation: Deployed Portfolio Project(s)
 - Due: Friday, December 17 @ 9am
 - Weight: 30%
-- [Presentation Guidelines](({{ '/assignments/cpnt265/presentation-guidelines/' | url }}))
+- [Presentation Guidelines]({{ '/assignments/cpnt265/presentation-guidelines/' | url }})
 
 ### Format
 - Single presenter: 5 minutes
