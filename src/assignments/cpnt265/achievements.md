@@ -6,7 +6,9 @@ title: CPNT 265 Achievements
 ## Course Achievements
 Points will be awarded for documentation of your final project prior to the Final Presentations.
 
-### Documentation
+---
+
+## Documentation
 1. Project Proposal: **10 points**
     - Write a professional-level proposal for your final project.
     - Detailed requirements to be announced on Day 3.
@@ -33,7 +35,7 @@ Note: A project proposal can be combined with lean canvas documentation for a co
 
 ## Stage work
 Points to be awarded for mini presentations to your classmates. 
-1. Mini-lectures
+- Mini-lectures
     - Cameras-on
     - Time limit
       - Individual: 5 minutes
@@ -44,11 +46,11 @@ Points to be awarded for mini presentations to your classmates.
       - Bonus points for Slides (one achievement per person): **5 points**;
       - Additional presentations can be complete but points will not be awarded;
       - Group presentations: points are awarded to each presenter.
-2. Instructional video: **10 points**
+- Instructional video: **10 points**
     - 10 minute time limit
     - Bookends required (title/credit screens)
     - **5 bonus points** for openly licensed theme song!
-3. Battlefield Discussion: **5 points**
+- Battlefield Discussion: **5 points**
     - Involved a real life project?
         - Back story:
             - What's your experience working with clients?
@@ -63,7 +65,7 @@ Points to be awarded for mini presentations to your classmates.
         - 5 point bonuses available for the value added by the audience.
     - To submit: summarize the points covered in the discussion in your submitted README along with any relevant documentation.
     - 30 mins max
-4. Pair coding: **10 points** (per coder)
+- Pair coding: **10 points** (per coder)
     - 15 mins toward a shared goal
     - Change seats at least twice
     - Second session paired coding: 5 points
@@ -104,20 +106,18 @@ Points to be awarded when submitting making the world a better place for other c
 ## Extra Achievements
 The following activities can be completed for further marks in CPNT 265.
 
-
-
 ### Plugin' away
-1. 3rd-party plugin/library implementation: **5 points**
+- 3rd-party plugin/library implementation: **5 points**
     - Show that you've installed and implemented a 3rd party plugin from the following list
         - Greensock, anime.js, etc
         - Chart.js or similar
         - Tone.js
         - ???
-2. Activity/Exercise: **5 points**
+- Activity/Exercise: **5 points**
     - Submit a step-by-step activity that other students/learners can follow to complete a nerdy task. For example:
         - As an addition to another Plugin' Away achievement 
         - A learning exercise that can be used for future lessons in this program
-3. Frontend Framework Implementation: **10 points**
+- Frontend Framework Implementation: **10 points**
     - Implement a sample app using one of the following frameworks:
         - ReactJS
         - VueJS components not covered in class
@@ -139,14 +139,14 @@ The following activities can be completed for further marks in CPNT 265.
                 - Twitter bearer tokens
 
 ### Presentation Day
-1. Personalized Roster Card: **5 points**
+- Personalized Roster Card: **5 points**
     - Create a custom card to replace the default card shown on the Showcase page.
     - Must include the same information:
         - Display Name
         - Tagline
         - Contact links
         - Social Links
-2. Submitted Card information: **5 points**
+- Submitted Card information: **5 points**
     - Name/handle
     - URL to profile pic
         - Please use a proper image service like imgur or host your own using GH Pages. LinkedIn might not like us linking to their profile pics.
@@ -168,6 +168,6 @@ Demonstration of skillz in a specialized software tool, such as:
 
 ### Stage Crew
 Points to be negotiated.
-1. Trophy Icons
-2. Feature Development
-3. OBS Help
+- Trophy Icons
+- Feature Development
+- OBS Help

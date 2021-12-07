@@ -11,7 +11,10 @@ released: true
 - New daily schedule
     - Tony available for one-on-ones and support from 8-9am
     - Breakout rooms open after morning announcements
-- New Achievement: 5 bonus points for presentation slides
+- New Achievements: 
+    - 5 bonus points for presentation slides
+    - Codepen/github portfolio projects?
+    - Bounties?
 - Review Presentation schedule 
 - Still waiting on DSGN 270 submissions
 - Don't forget: You need to make a submission to Brightspace before Tony can enter marks for achievements
