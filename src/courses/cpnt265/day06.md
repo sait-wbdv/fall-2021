@@ -13,7 +13,8 @@ released: true
 ---
 
 ## 10:30am Presentations
-- [Your name here]
+- Lucas: Portfolio walk-through
+- Jess & Icah: React workshop?
 
 ---
 

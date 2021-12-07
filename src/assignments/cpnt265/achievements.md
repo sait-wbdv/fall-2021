@@ -41,7 +41,8 @@ Points to be awarded for mini presentations to your classmates.
     - Points awarded:
       - First presentation: **10 points**;
       - Second presentation: **5 point**;
-      - Additional presentations can be complete but points will not be awarded.
+      - Bonus points for Slides (one achievement per person): **5 points**;
+      - Additional presentations can be complete but points will not be awarded;
       - Group presentations: points are awarded to each presenter.
 2. Instructional video: **10 points**
     - 10 minute time limit
