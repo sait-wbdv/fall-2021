@@ -6,6 +6,10 @@ date: 2021-12-08
 released: true
 ---
 
+## Housekeeping
+- Kaje guest speaking tomorrow @ 1pm
+
+---
 
 ## Flex Lecture
 - What do you want Tony to drone on about, endlessly?
@@ -14,7 +18,7 @@ released: true
 
 ## 10:30am Presentations
 - Lucas: Portfolio walk-through
-- Jess & Icah: React workshop?
+- Jess & Icah: React presentation
 
 ---
 
