@@ -8,6 +8,8 @@ released: true
 
 ## Housekeeping
 - Kaje guest speaking tomorrow @ 1pm
+- Ideas for portfolio websites: Try some CSS Tricks articles
+    - [Like Glassmorphism](https://css-tricks.com/icon-glassmorphism-effect-in-css/)
 
 ---
 
