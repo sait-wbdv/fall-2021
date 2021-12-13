@@ -6,8 +6,13 @@ date: 2021-12-17
 released: true
 ---
 
+Zoom Room: [https://sait-ca.zoom.us/s/88476835369](https://sait-ca.zoom.us/s/88476835369)
+- Feel free to invite potential employers (or anyone else you'd like to join)
+
+---
+
 ## Round 1
-1. 
+1. Fesal
 2. 
 3. 
 4. 
