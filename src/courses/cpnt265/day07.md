@@ -43,8 +43,9 @@ You've worked hard this semester. Friday let's keep Friday fun, although kinda t
 
 ---
 
-## Presentations
+## Final Project Dry-runs
 - Chris
 - Devon
+- Mysia
 
 ---
