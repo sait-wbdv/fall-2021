@@ -6,6 +6,15 @@ date: 2021-12-13
 released: true
 ---
 
+## Housekeeping
+- Trophies announced before 10:30am presentations
+    - 10 points 
+    - Each trophy winner gets two Plus One trophies to give to two classmates of their choice. Each Plus One is 5 points; only one trophy per person.
+- Trophy and Badge icons needed. Any takers?
+- [Friday Schedule]({{ '/courses/cpnt265/day11/' | url }}) is up with placeholders. First come first served.
+
+---
+
 ## Friday Finals Checklist
 1. Profile consistency
     - Decide on the social sites you will be using for your professional work.
@@ -31,3 +40,9 @@ released: true
         - My idea is awesome (with supporting evidence)!
 
 You've worked hard this semester. Friday let's keep Friday fun, although kinda terrifying.
+
+---
+
+## Presentations
+- Chris
+- Devon
