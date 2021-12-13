@@ -14,3 +14,5 @@ released: true
 ## Afternoon guest speaker: [Patrick Bello](https://www.linkedin.com/in/mayorbello/)
 - Fall 2020 WBDV Grad
 - Currently UX Software Engineer at [Kuva Systems](https://www.kuvasystems.com/)
+
+---

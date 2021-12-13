@@ -1,6 +1,6 @@
 ---
 layout: layouts/day.njk
-title: CPNT 265 Day 7
+title: CPNT 265 Day 7 - Flex Day
 description: 
 date: 2021-12-13
 released: true
@@ -46,3 +46,5 @@ You've worked hard this semester. Friday let's keep Friday fun, although kinda t
 ## Presentations
 - Chris
 - Devon
+
+---
