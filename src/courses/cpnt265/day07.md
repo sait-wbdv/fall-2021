@@ -15,6 +15,15 @@ released: true
 
 ---
 
+## Semester Trophies: 10 points!
+- Most Valuable Programmer: Fesal
+- Coach of the Year: Jessica
+- Last to Leave: Mysia
+
+DM your Plus One selections to Tony in Slack.
+
+---
+
 ## Friday Finals Checklist
 1. Profile consistency
     - Decide on the social sites you will be using for your professional work.
