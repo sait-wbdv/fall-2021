@@ -6,8 +6,18 @@ date: 2021-12-14
 released: true
 ---
 
+## Housekeeping
+- Perfect Attendance (5 points)
+    - James, Fesal, Chris, Lucas, David, Hyeju, Raj, Devon, Mysia, Icah, Jessica
+- Plus One Trophies (5 points)
+    - Jessica: Raj and Evan 
+- Potential delay for Patrick's session this afternoon
+- Guest Speaker: Nathan de Graaf - Flipp Advertising
+    - Thursday @ 1pm
+
 ## Mini-Presentations
-- ???
+- Hyeju - Feature plans with coffee
+
 
 ---
 

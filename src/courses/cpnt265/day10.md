@@ -10,3 +10,9 @@ released: true
 - ???
 
 ---
+
+## Afternoon guest speaker: [Nathan de Graff](https://www.linkedin.com/in/nathan-de-graaf-57591a196)
+- Fall 2019 WBDV Grad
+- Currently Developer at [Flipp Advertising](https://thinkflipp.com/)
+
+---

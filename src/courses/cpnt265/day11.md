@@ -14,7 +14,7 @@ Zoom Room: [https://sait-ca.zoom.us/s/88476835369](https://sait-ca.zoom.us/s/884
 ## Round 1
 1. Fesal - Blackjack Game
 2. 
-3. 
+3. Lucas - A modern Web Dev Portfolio
 4. 
 5. 
 
