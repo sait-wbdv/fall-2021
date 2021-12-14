@@ -20,7 +20,7 @@ released: true
 ---
 
 ## Mini-Presentations
-- Hyeju - Feature plans with coffee
+- Hyeju - Future plans with coffee
 
 ---
 
