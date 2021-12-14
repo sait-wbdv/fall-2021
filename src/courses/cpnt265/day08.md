@@ -35,5 +35,6 @@ Fesal needs help testing his Blackjack app!
         - bugs
         - opportunities for improvement
         - code reviews
+- Deadline for testing: 3pm today
 
 ---
