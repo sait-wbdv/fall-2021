@@ -12,6 +12,7 @@ Points will be awarded for documentation of your final project prior to the Fina
 1. Project Proposal: **10 points**
     - Write a professional-level proposal for your final project.
     - Detailed requirements to be announced on Day 3.
+    - [Example proposal]({{ '/assets/files/examples/Example-Website-Proposal.pdf' | url }})
 2. Lean Canvas: **10 points**
     - Document Plan A of your final project using Lean Canvas
     - Detailed requirements to be announced on Day 1.

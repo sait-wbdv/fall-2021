@@ -12,20 +12,25 @@ released: true
 - Plus One Trophies (5 points)
     - Jessica: Raj and Evan 
 - Last call for Trophy/Badge icons
-- Potential delay for Patrick's session this afternoon
-- Guest Speaker: Nathan de Graaf - Flipp Advertising
-    - Thursday @ 1pm
+- Patrick's session delayed
+- Guest Speakers Thursday @ 1pm: 
+    - Nathan de Graaf - Flipp Advertising
+    - Patrick Bello - Kuva Systems
 
 ---
 
 ## Mini-Presentations
 - Hyeju - Feature plans with coffee
 
-
 ---
 
-## Afternoon guest speaker: [Patrick Bello](https://www.linkedin.com/in/mayorbello/)
-- Fall 2020 WBDV Grad
-- Currently UX Software Engineer at [Kuva Systems](https://www.kuvasystems.com/)
+## Afternoon Bug Hunt
+Fesal needs help testing his Blackjack app!
+- 5 points available to testers if you:
+    1. Create an account
+    2. Submit a non-trivial Issue that helps Fesal improve his app. For example:
+        - bugs
+        - opportunities for improvement
+        - code reviews
 
 ---
