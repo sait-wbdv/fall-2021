@@ -16,6 +16,8 @@ released: true
 - Guest Speaker: Nathan de Graaf - Flipp Advertising
     - Thursday @ 1pm
 
+---
+
 ## Mini-Presentations
 - Hyeju - Feature plans with coffee
 
