@@ -26,6 +26,9 @@ released: true
 
 ## Afternoon Bug Hunt
 Fesal needs help testing his Blackjack app!
+- Relevant links
+    - Repo: [https://github.com/FesalBadday/blackjack](https://github.com/FesalBadday/blackjack)
+    - Live App: [https://blackjack265.herokuapp.com/](https://blackjack265.herokuapp.com/)
 - 5 points available to testers if you:
     1. Create an account
     2. Submit a non-trivial Issue that helps Fesal improve his app. For example:
