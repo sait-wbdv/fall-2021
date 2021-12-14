@@ -7,6 +7,6 @@ released: true
 ---
 
 ## Mini-Presentations
-- ???
+- Alex - Super Awesome Something Something About Programming
 
 ---
