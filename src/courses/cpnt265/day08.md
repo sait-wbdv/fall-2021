@@ -11,6 +11,7 @@ released: true
     - James, Fesal, Chris, Lucas, David, Hyeju, Raj, Devon, Mysia, Icah, Jessica
 - Plus One Trophies (5 points)
     - Jessica: Raj and Evan 
+- Last call for Trophy/Badge icons
 - Potential delay for Patrick's session this afternoon
 - Guest Speaker: Nathan de Graaf - Flipp Advertising
     - Thursday @ 1pm
