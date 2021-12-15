@@ -21,7 +21,7 @@ Zoom Room: [https://sait-ca.zoom.us/s/88476835369](https://sait-ca.zoom.us/s/884
 ---
 
 ## Round 2
-1. VaBuWa
+1. VaBuWa - Access App
 2. 
 3. 
 4. 
@@ -31,9 +31,9 @@ Zoom Room: [https://sait-ca.zoom.us/s/88476835369](https://sait-ca.zoom.us/s/884
 
 ## Round 3
 1. David Ha - Portfolio Website
-2. 
+2. Hyeju - Future Plans with Coffee
 3. 
 4. 
-5. 
+5. Chris - Psychological Self Improvement website
 
 ---
