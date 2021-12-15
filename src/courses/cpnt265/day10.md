@@ -7,8 +7,8 @@ released: true
 ---
 
 ## Mini-Presentations
-- Raj - Portfolio website in Figma
-- Filora
+- Raj - Portfolio Website in Figma
+- Filora - Franky App
 
 ---
 
