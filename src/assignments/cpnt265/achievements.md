@@ -140,24 +140,26 @@ The following activities can be completed for further marks in CPNT 265.
                 - Twitter bearer tokens
 
 ### Presentation Day
-- Personalized Roster Card: **5 points**
-    - Create a custom card to replace the default card shown on the Showcase page.
-    - Must include the same information:
-        - Display Name
-        - Tagline
-        - Contact links
-        - Social Links
 - Submitted Card information: **5 points**
-    - Name/handle
-    - URL to profile pic
-        - Please use a proper image service like imgur or host your own using GH Pages. LinkedIn might not like us linking to their profile pics.
-    - Tagline
-    - Social links
-        - Linkedin
-        - GitHub
-        - Codepen
-        - Twitter/IG/etc
-        - others?
+    - Display Name
+        - Does not have to be full name
+        - Can be your nickname/handle
+    - Profile image
+        - aspect ratio: squarish
+        - resolution: 500x500px or smaller
+        - format: jpg, png, gif, webp
+    - Tagline/Title
+        - Examples:
+            - "Nuxt/Node/MongoDB"
+            - "Junior Developer"
+            - "Mother, Knitter, Coder"
+            - "When's Mando Season 3 Coming Out?!?" (this would not be considered a professional tagline)
+    - Contact links (optional)
+        - Homepage url
+        - Email address
+    - Social home page URLs
+        - GitHub (highly recommended)
+        - Optional: Codepen, LinkedIn, Facebook, Instagram, Youtube, etc
 
 ### Tool time
 Demonstration of skillz in a specialized software tool, such as:
