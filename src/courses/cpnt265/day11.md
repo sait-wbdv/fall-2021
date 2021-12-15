@@ -12,7 +12,7 @@ Zoom Room: [https://sait-ca.zoom.us/s/88476835369](https://sait-ca.zoom.us/s/884
 ---
 
 ## Round 1
-1. 
+1. Mysia
 2. 
 3. Lucas - A modern Web Dev Portfolio
 4. 
@@ -21,7 +21,7 @@ Zoom Room: [https://sait-ca.zoom.us/s/88476835369](https://sait-ca.zoom.us/s/884
 ---
 
 ## Round 2
-1. 
+1. VaBuWa
 2. 
 3. 
 4. 
