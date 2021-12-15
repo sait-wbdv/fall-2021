@@ -22,6 +22,9 @@ released: true
         - Tagline: short, sweet and informative
         - GitHub & LinkedIn urls
         - Homepage url, if it's not your GH profile
+- Plus One Trophies
+    - Mysia: Icah, Devon
+    - Fesal: Hyeju, Lucas
 
 ---
 
