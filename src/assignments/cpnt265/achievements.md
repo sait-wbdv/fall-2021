@@ -141,25 +141,28 @@ The following activities can be completed for further marks in CPNT 265.
 
 ### Presentation Day
 - Roster card information: **5 points**
-    - Display Name
-        - Does not have to be full name
-        - Can be your nickname/handle
-    - Profile image
-        - aspect ratio: squarish
-        - resolution: 500x500px or smaller
-        - format: jpg, png, gif, webp
-    - Tagline/Title
-        - Examples:
-            - "Nuxt/Node/MongoDB"
-            - "Junior Developer"
-            - "Mother, Knitter, Coder"
-            - "When's Mando Season 3 Coming Out?!?" (this would not be considered a professional tagline)
-    - Contact links (optional)
-        - Homepage url
-        - Email address
-    - Social home page URLs
-        - GitHub (highly recommended)
-        - Optional: Codepen, LinkedIn, Facebook, Instagram, Youtube, etc
+    - Information items
+        - Display Name
+            - Does not have to be full name
+            - Can be your nickname/handle
+        - Profile image
+            - aspect ratio: squarish
+            - resolution: 500x500px or smaller
+            - format: jpg, png, gif, webp
+        - Tagline/Title
+            - Examples:
+                - "Nuxt/Node/MongoDB"
+                - "Junior Developer"
+                - "Mother, Knitter, Coder"
+                - "When's Mando Season 3 Coming Out?!?" (this would not be considered a professional tagline)
+        - Contact links (optional)
+            - Homepage url
+            - Email address
+        - Social home page URLs
+            - GitHub (highly recommended)
+            - Optional: Codepen, LinkedIn, Facebook, Instagram, Youtube, etc
+    - Submission instructions:
+        - Upload profile image file to Brightspace with other information listed in a Brightspace comment.
 
 ### Tool time
 Demonstration of skillz in a specialized software tool, such as:
