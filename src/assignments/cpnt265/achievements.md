@@ -140,7 +140,7 @@ The following activities can be completed for further marks in CPNT 265.
                 - Twitter bearer tokens
 
 ### Presentation Day
-- Submitted Card information: **5 points**
+- Roster card information: **5 points**
     - Display Name
         - Does not have to be full name
         - Can be your nickname/handle
