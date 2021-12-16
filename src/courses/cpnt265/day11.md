@@ -13,27 +13,20 @@ Zoom Room: [https://sait-ca.zoom.us/s/88476835369](https://sait-ca.zoom.us/s/884
 
 ## Round 1
 1. Mysia - Portfolio Website on WP
-2. 
+2. Devon - My Journey
 3. Lucas - A modern Web Dev Portfolio
-4. 
-5. Fesal - Blackjack Game
+4. Filora - Franky
+5. Alex - Portfolio Website
+6. Fesal - Blackjack Game
 
 ---
 
 ## Round 2
 1. VaBuWa - Access App
-2. 
-3. 
-4. 
-5. 
-
----
-
-## Round 3
-1. David Ha - Portfolio Website
 2. Hyeju - Future Plans with Coffee
-3. 
-4. 
-5. Chris - Psychological Self Improvement website
+3. Raj - Portfolio Website
+4. James - Portfolio Website
+5. David Ha - Portfolio Website
+6. Chris - Psychological Self Improvement website
 
 ---
