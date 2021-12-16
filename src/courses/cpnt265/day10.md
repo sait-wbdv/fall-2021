@@ -21,7 +21,6 @@ released: true
 ## Mini-Presentations
 - Raj - Portfolio Website in Figma
 - Filora - Franky App
-- Jean-Marc
 
 ---
 
